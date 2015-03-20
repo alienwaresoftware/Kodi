@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.Alienware" name="Alienware Kodi Repo" version="0.0.2" provider-name="Alienware">
-	<extension point="xbmc.addon.repository" name="Alienware Kodi Repo">
-		<info compressed="false">C:\Alienware_Backgrounds\Kodi\addons.xml</info>
-		<checksum>C:\Alienware_Backgrounds\Kodi\addons.xml.md5</checksum>
-		<datadir zip="false">C:\Alienware_Backgrounds\Kodi\</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Alienware add-ons to install AlienUI functions</summary>
-		<description>Alienware add-ons to install AlienUI functions</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
-</addon>
-
-<addon id="repository.alienwaretest" name="alienware test" version="0.0.2" provider-name="Alienware">
-        <extension point="xbmc.addon.repository" name="Alienware's Test addons">
+<addon id="repository.alienware" name="Alienware Kodi Repo" version="0.0.2" provider-name="Alienware">
+        <extension point="xbmc.addon.repository" name="Alienware's Kodi addons">
                 <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/addons.xml</info>
                 <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/addons.xml.md5</checksum>
                 <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
-                <summary>alienware's test repo</summary>
-                <description>Addons by Alienware.</description>
+                <summary>Alienware's Kodi Repo</summary>
+                <description>Alienware's Kodi Repo</description>
                 <disclaimer></disclaimer>
                 <platform>all</platform>
         </extension>
