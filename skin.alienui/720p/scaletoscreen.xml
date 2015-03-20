@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="4005">
+  <defaultcontrol always="true">1</defaultcontrol>
+  <allowoverlay>no</allowoverlay>
+  <controls>
+    <control type="group">
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <control type="image">
+        <description>Corner logo</description>
+        <left>0</left>
+        <top>0</top>
+        <width>1280</width>
+        <height>720</height>
+        <texture flipy="true">special://skin/media/alienware/scaletoscreenbg.png</texture>
+      </control>
+      <control type="image">
+        <description>Corner logo</description>
+        <left>0</left>
+        <top>0</top>
+        <width>80</width>
+        <height>80</height>
+        <aspectratio>keep</aspectratio>
+        <texture flipy="true">special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+      </control>
+      <control type="image">
+        <description>Corner logo</description>
+        <left>1200</left>
+        <top>0</top>
+        <width>80</width>
+        <height>80</height>
+        <aspectratio>keep</aspectratio>
+        <texture flipx="true" flipy="true">special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+      </control>
+      <control type="image">
+        <description>Corner logo</description>
+        <left>0</left>
+        <top>640</top>
+        <width>80</width>
+        <height>80</height>
+        <aspectratio>keep</aspectratio>
+        <texture>special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+      </control>
+      <control type="image">
+        <description>Corner logo</description>
+        <left>1200</left>
+        <top>640</top>
+        <width>80</width>
+        <height>80</height>
+        <aspectratio>keep</aspectratio>
+        <texture flipx="true">special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+      </control>
+      <control type="label">
+        <left>250</left>
+        <top>100</top>
+        <width>780</width>
+        <height>500</height>
+        <align>left</align>
+        <textcolor>white</textcolor>
+        <shadowcolor>black</shadowcolor>
+        <label>31620</label>
+        <wrapmultiline>true</wrapmultiline>
+      </control>
+      <control type="button" id="1">
+        <description>Begin Scaling Button</description>
+        <top>330</top>
+        <centerleft>50%</centerleft>
+        <width>250</width>
+        <height>45</height>
+        <align>center</align>
+        <aligny>center</aligny>
+        <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
+        <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+        <textcolor>FFFFFFFF</textcolor>
+        <focusedcolor>FFFFFFFF</focusedcolor>
+        <disabledcolor>80FFFFFF</disabledcolor>
+        <invalidcolor>FFFFFFFF</invalidcolor>
+        <font>font12</font>
+        <label>31621</label>
+      </control>
+      <control type="image">
+        <top>200</top>
+        <width>200</width>
+        <left>540</left>
+        <texture>special://skin/media/alienware/icon_tv.png</texture>
+        <visible>true</visible>
+        <aspectratio align="bottom">keep</aspectratio>
+      </control>
+      <control type="image">
+        <top>187</top>
+        <left>625</left>
+        <texture>special://skin/media/alienware/icon_remote.png</texture>
+        <visible>true</visible>
+        <width>30</width>
+        <aspectratio align="bottom">keep</aspectratio>
+      </control>
+      <control type="group">
+        <top>670</top>
+        <control type="image">
+          <description>Select button</description>
+          <left>750</left>
+          <height>40</height>
+          <aspectratio>keep</aspectratio>
+          <texture>special://skin/media/alienware/A_button.png</texture>
+        </control>
+        <control type="label">
+          <left>1040</left>
+          <width>150</width>
+          <height>40</height>
+          <align>left</align>
+          <aligny>center</aligny>
+          <textcolor>0xfffef5f5</textcolor>
+          <shadowcolor>0xff790000</shadowcolor>
+          <font>font12</font>
+          <label>31621</label>
+        </control>
+      </control>
+
+    </control>
+  </controls>
+</window>

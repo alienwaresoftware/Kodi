@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.geforce.launcher" name="Geforce Experience" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_geforce.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">GeForce Experience</summary>
+        <language></language>
+        <description lang="en">GeForce Experience</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
