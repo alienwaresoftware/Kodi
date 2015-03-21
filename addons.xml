@@ -34,7 +34,7 @@
     </extension>
 </addon>
 
-<addon id="script.aw.background.installer" name="AlienUI Background Installer" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.background.installer" name="Alien UI Background Images" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -43,9 +43,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Installs Alienware background images into your Kodi Home/Media directory.</summary>
+        <summary lang="en">Alien UI Background Images</summary>
         <language></language>
-        <description lang="en">AlienUI Background Installer</description>
+        <description lang="en">Silently installs our Alienware Background images to Home/Media/Alienware. To change your background in Kodi: System > Settings > Appearance > Skin >Settings > Background > Background Path.</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
