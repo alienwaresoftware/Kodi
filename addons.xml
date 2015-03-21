@@ -251,9 +251,7 @@
     <import addon="script.aw.background.installer" version="0.0.1"/>
     <import addon="script.aw.uplay.launcher" version="0.0.1"/>
     <import addon="script.aw.youtube.launcher" version="0.0.1"/>
-    <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.python.script" library="background_installer.py"></extension>
   <extension
     point="xbmc.gui.skin"
     defaultthemename="Textures.xbt"
