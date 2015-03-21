@@ -1,22 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.alienui"
-  version="0.0.3"
+  version="0.0.4"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.steambigpicture.launcher" version="0.0.1"/>
-    <import addon="script.amazonprime.launcher" version="0.0.1"/>
-    <import addon="script.battlenet.launcher" version="0.0.1"/>
-    <import addon="script.geforce.launcher" version="0.0.1"/>
-    <import addon="script.hulu.launcher" version="0.0.1"/>
-    <import addon="script.netflix.launcher" version="0.0.1"/>
-    <import addon="script.origin.launcher" version="0.0.1"/>
-    <import addon="script.steambigpicture.launcher" version="0.0.1"/>
-    <import addon="script.tencent.launcher" version="0.0.1"/>
-    <import addon="script.uplay.launcher" version="0.0.1"/>
-    <import addon="script.youtube.launcher" version="0.0.1"/>
+    <import addon="script.aw.steam.launcher" version="0.0.1"/>
+    <import addon="script.aw.amazonprime.launcher" version="0.0.1"/>
+    <import addon="script.aw.battlenet.launcher" version="0.0.1"/>
+    <import addon="script.aw.geforce.launcher" version="0.0.1"/>
+    <import addon="script.aw.hulu.launcher" version="0.0.1"/>
+    <import addon="script.aw.netflix.launcher" version="0.0.1"/>
+    <import addon="script.aw.origin.launcher" version="0.0.1"/>
+    <import addon="script.aw.background.installer" version="0.0.1"/>
+    <import addon="script.aw.uplay.launcher" version="0.0.1"/>
+    <import addon="script.aw.youtube.launcher" version="0.0.1"/>
   </requires>
   <extension
     point="xbmc.gui.skin"

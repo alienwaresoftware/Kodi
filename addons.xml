@@ -14,7 +14,7 @@
         </extension>
 </addon>
 
-<addon id="script.amazonprime.launcher" name="Amazon Prime" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.amazonprime.launcher" name="Amazon Prime" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -34,7 +34,27 @@
     </extension>
 </addon>
 
-<addon id="script.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.background.installer" name="AlienUI Background Installer" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="background_installer.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Installs Alienware background images into your Kodi Home/Media directory.</summary>
+        <language></language>
+        <description lang="en">AlienUI Background Installer</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -54,7 +74,7 @@
     </extension>
 </addon>
 
-<addon id="script.geforce.launcher" name="Geforce Experience" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.geforce.launcher" name="Geforce Experience" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -74,7 +94,7 @@
     </extension>
 </addon>
 
-<addon id="script.hulu.launcher" name="Hulu" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.hulu.launcher" name="Hulu" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -94,7 +114,7 @@
     </extension>
 </addon>
 
-<addon id="script.netflix.launcher" name="Netflix" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.netflix.launcher" name="Netflix" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -114,7 +134,7 @@
     </extension>
 </addon>
 
-<addon id="script.origin.launcher" name="Origin" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.origin.launcher" name="Origin" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -134,7 +154,7 @@
     </extension>
 </addon>
 
-<addon id="script.steambigpicture.launcher" name="Steam" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.steam.launcher" name="Steam" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -154,7 +174,7 @@
     </extension>
 </addon>
 
-<addon id="script.tencent.launcher" name="Tencent" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.tencent.launcher" name="Tencent" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -174,7 +194,7 @@
     </extension>
 </addon>
 
-<addon id="script.uplay.launcher" name="Uplay" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.uplay.launcher" name="Uplay" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -194,7 +214,7 @@
     </extension>
 </addon>
 
-<addon id="script.youtube.launcher" name="YouTube" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.youtube.launcher" name="YouTube" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -216,22 +236,21 @@
 
 <addon
   id="skin.alienui"
-  version="0.0.3"
+  version="0.0.4"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.steambigpicture.launcher" version="0.0.1"/>
-    <import addon="script.amazonprime.launcher" version="0.0.1"/>
-    <import addon="script.battlenet.launcher" version="0.0.1"/>
-    <import addon="script.geforce.launcher" version="0.0.1"/>
-    <import addon="script.hulu.launcher" version="0.0.1"/>
-    <import addon="script.netflix.launcher" version="0.0.1"/>
-    <import addon="script.origin.launcher" version="0.0.1"/>
-    <import addon="script.steambigpicture.launcher" version="0.0.1"/>
-    <import addon="script.tencent.launcher" version="0.0.1"/>
-    <import addon="script.uplay.launcher" version="0.0.1"/>
-    <import addon="script.youtube.launcher" version="0.0.1"/>
+    <import addon="script.aw.steam.launcher" version="0.0.1"/>
+    <import addon="script.aw.amazonprime.launcher" version="0.0.1"/>
+    <import addon="script.aw.battlenet.launcher" version="0.0.1"/>
+    <import addon="script.aw.geforce.launcher" version="0.0.1"/>
+    <import addon="script.aw.hulu.launcher" version="0.0.1"/>
+    <import addon="script.aw.netflix.launcher" version="0.0.1"/>
+    <import addon="script.aw.origin.launcher" version="0.0.1"/>
+    <import addon="script.aw.background.installer" version="0.0.1"/>
+    <import addon="script.aw.uplay.launcher" version="0.0.1"/>
+    <import addon="script.aw.youtube.launcher" version="0.0.1"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
