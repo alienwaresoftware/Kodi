@@ -1,3 +1,7 @@
 import zipfile
-zfile = zipfile.ZipFile('http://raw.github.com/alienwaresoftware/Kodi/master/Backgrounds.zip')
-zfile.extractall("C:\Alienware)
+import os
+background_path = '%s\\Kodi\\Media\\' % os.environ['APPDATA'] 
+dir_path = '%s\\Kodi\\addons\\script.aw.background.installer\\' % os.environ['APPDATA'] 
+file_path = '%sBackgrounds.zip' % dir_path
+zfile = zipfile.ZipFile(file_path)
+zfile.extractall(background_path)
