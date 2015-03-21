@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.alienware" name="Alienware Kodi Repo" version="0.0.3" provider-name="Alienware">
+<addon id="repository.alienware" name="Alienware Kodi Repo" version="0.0.4" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Kodi addons">
                 <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/addons.xml</info>
                 <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/addons.xml.md5</checksum>
