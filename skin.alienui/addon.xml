@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.alienui"
-  version="0.0.5"
+  version="0.0.6"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
     <import addon="script.aw.steam.launcher" version="0.0.1"/>
+    <import addon="script.aw.customizations" version="0.0.1"/>
     <import addon="script.aw.amazonprime.launcher" version="0.0.1"/>
     <import addon="script.aw.battlenet.launcher" version="0.0.1"/>
     <import addon="script.aw.geforce.launcher" version="0.0.1"/>
     <import addon="script.aw.hulu.launcher" version="0.0.1"/>
     <import addon="script.aw.netflix.launcher" version="0.0.1"/>
     <import addon="script.aw.origin.launcher" version="0.0.1"/>
-    <import addon="script.aw.background.installer" version="0.0.1"/>
     <import addon="script.aw.uplay.launcher" version="0.0.1"/>
     <import addon="script.aw.youtube.launcher" version="0.0.1"/>
   </requires>

@@ -74,6 +74,26 @@
     </extension>
 </addon>
 
+<addon id="script.aw.customizations" name="Alien UI Console Customizations" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="customizations_installer.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Alien UI Console Customizations</summary>
+        <language></language>
+        <description lang="en">Silently installs our controller keymap for improve controller compatibility. Silently Alienware Background images to Home/Media/Alienware. To change your background in Kodi: System > Settings > Appearance > Skin >Settings > Background > Background Path. Requires restart after installation.</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
 <addon id="script.aw.geforce.launcher" name="Geforce Experience" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -236,19 +256,19 @@
 
 <addon
   id="skin.alienui"
-  version="0.0.5"
+  version="0.0.6"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
     <import addon="script.aw.steam.launcher" version="0.0.1"/>
+    <import addon="script.aw.customizations" version="0.0.1"/>
     <import addon="script.aw.amazonprime.launcher" version="0.0.1"/>
     <import addon="script.aw.battlenet.launcher" version="0.0.1"/>
     <import addon="script.aw.geforce.launcher" version="0.0.1"/>
     <import addon="script.aw.hulu.launcher" version="0.0.1"/>
     <import addon="script.aw.netflix.launcher" version="0.0.1"/>
     <import addon="script.aw.origin.launcher" version="0.0.1"/>
-    <import addon="script.aw.background.installer" version="0.0.1"/>
     <import addon="script.aw.uplay.launcher" version="0.0.1"/>
     <import addon="script.aw.youtube.launcher" version="0.0.1"/>
   </requires>
