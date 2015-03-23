@@ -1158,7 +1158,7 @@
 				<height>45</height>
 				<label>10043</label>
 				<font>-</font>
-                <onclick>XBMC.RunScript("special://skin\scripts\help.py")</onclick> 
+                <onclick>ActivateWindow(1100)</onclick> 
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
 				<texturenofocus border="5">floor_button.png</texturenofocus>
 				<onleft>20</onleft>
