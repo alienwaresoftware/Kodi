@@ -536,6 +536,433 @@ msgctxt "#31511"
 msgid "Channel Options"
 msgstr "Channel Options"
 
+#START Alienware skin
+#Power menu
+
+msgctxt "#31600"
+msgid "WELCOME TO ALPHA UI"
+msgstr ""
+
+
+msgctxt "#31601"
+msgid "SHUT DOWN CONSOLE"
+msgstr ""
+
+msgctxt "#31602"
+msgid "RESTART CONSOLE"
+msgstr ""
+
+msgctxt "#31603"
+msgid "SLEEP"
+msgstr ""
+
+# Home menu
+
+msgctxt "#31604"
+msgid "Power"
+msgstr ""
+
+msgctxt "#31605"
+msgid "Launch[CR]Steam"
+msgstr ""
+
+msgctxt "#31606"
+msgid "Settings"
+msgstr ""
+
+msgctxt "#31607"
+msgid "GO TO DESKTOP"
+msgstr ""
+
+msgctxt "#31608"
+msgid "HELP"
+msgstr ""
+
+msgctxt "#31609"
+msgid "Launch System Menu at anytime by pressing LT + LB + RT + RB + Guide button."
+msgstr ""
+
+
+# Settings screen - Video
+msgctxt "#31610"
+msgid "Video"
+msgstr ""
+
+msgctxt "#31611"
+msgid "Display"
+msgstr ""
+
+msgctxt "#31612"
+msgid "Scale to Screen"
+msgstr ""
+
+msgctxt "#31613"
+msgid "Display Resolution"
+msgstr ""
+
+msgctxt "#31614"
+msgid "Refresh Rate"
+msgstr ""
+
+msgctxt "#31615"
+msgid "For an optimal gaming experience, please adjust your television's picture setting to properly fit the Alpha's video output.\n\nTo do this you will need to use your television's remote control."
+msgstr ""
+
+msgctxt "#31616"
+msgid "Display Settings"
+msgstr ""
+
+msgctxt "#31617"
+msgid "Do you want to keep this display settings?"
+msgstr ""
+
+msgctxt "#31618"
+msgid "Apply"
+msgstr ""
+
+msgctxt "#31619"
+msgid "Begin Scaling"
+msgstr ""
+
+msgctxt "#31620"
+msgid "On most televisions, you can access the scaling tool under Menu > Settings > Picture.\n\nFrequently this option called: scale, view mode, scan, aspect ration, screen fit, or smart fit.\n\nThe goal is to ensure the tip of each triangle is in the very corner of your elevision's screen.\nFor specific instructions on screen scaling for your television, plese consult your TV's manual."
+msgstr ""
+
+msgctxt "#31621"
+msgid "Confirm"
+msgstr ""
+
+
+# Settings screen - Audio
+msgctxt "#31635"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#31636"
+msgid "Output"
+msgstr ""
+
+msgctxt "#31637"
+msgid "Volume"
+msgstr ""
+
+msgctxt "#31638"
+msgid "Source"
+msgstr ""
+
+msgctxt "#31639"
+msgid "Adjust"
+msgstr ""
+
+msgctxt "#31640"
+msgid "Audio output has been changed successfully. For changes to take effect you must restart Alpha."
+msgstr ""
+
+msgctxt "#31641"
+msgid "Unable to change audio setting. Please check audio cable is connected properly."
+msgstr ""
+
+
+# Settings screen - Backgrounds
+msgctxt "#31660"
+msgid "Backgrounds"
+msgstr ""
+
+# Settings screen - Console
+msgctxt "#31685"
+msgid "Customization"
+msgstr ""
+
+msgctxt "#31686"
+msgid "AlienFX"
+msgstr ""
+
+msgctxt "#31687"
+msgid "Updates"
+msgstr ""
+
+msgctxt "#31688"
+msgid "Boot Options"
+msgstr ""
+
+# Settings screen - network
+msgctxt "#31710"
+msgid "Network"
+msgstr ""
+
+msgctxt "#31711"
+msgid "Wifi"
+msgstr ""
+
+msgctxt "#31712"
+msgid "Information"
+msgstr ""
+
+msgctxt "#31713"
+msgid "Choose a wireless network"
+msgstr ""
+
+msgctxt "#31714"
+msgid "Enter network password for {0}"
+msgstr ""
+
+msgctxt "#31715"
+msgid "Error"
+msgstr ""
+
+msgctxt "#31716"
+msgid "Unable to connect. Please check your password and try again."
+msgstr ""
+
+msgctxt "#31717"
+msgid "Disconnect Wifi Network"
+msgstr ""
+
+msgctxt "#31718"
+msgid "Do you want to disconnect {0} ?"
+msgstr ""
+
+msgctxt "#31719"
+msgid "Unable to disconnect. Please try again."
+msgstr ""
+
+msgctxt "#31720"
+msgid "Network information"
+msgstr ""
+
+msgctxt "#31721"
+msgid "Not ready"
+msgstr ""
+
+msgctxt "#31722"
+msgid "Connected"
+msgstr ""
+
+msgctxt "#31723"
+msgid "Ad hoc network formed"
+msgstr ""
+
+msgctxt "#31724"
+msgid "Disconnecting"
+msgstr ""
+
+msgctxt "#31725"
+msgid "Disconnected"
+msgstr ""
+
+msgctxt "#31726"
+msgid "Associating"
+msgstr ""
+
+msgctxt "#31727"
+msgid "Discovering"
+msgstr ""
+
+msgctxt "#31728"
+msgid "Authenticating"
+msgstr ""
+
+msgctxt "#31729"
+msgid "Connection Status : "
+msgstr ""
+
+# Settings screen - Controller
+msgctxt "#31735"
+msgid "Controller"
+msgstr ""
+
+# Settings screen - HDMI In
+msgctxt "#31760"
+msgid "HDMI in"
+msgstr ""
+
+msgctxt "#31761"
+msgid "Activate"
+msgstr ""
+
+msgctxt "#31762"
+msgid "Turn Off"
+msgstr ""
+
+msgctxt "#31763"
+msgid "Turn On"
+msgstr ""
+
+msgctxt "#31764"
+msgid "In order to activate HDMI In, plug in HDMI cable."
+msgstr ""
+
+msgctxt "#31766"
+msgid "To return to Alpha UI from HDMI In, select the Guide Menu."
+msgstr ""
+
+# Confirm Dialog
+msgctxt "#31781"
+msgid "Yes"
+msgstr ""
+
+msgctxt "#31782"
+msgid "No"
+msgstr ""
+
+msgctxt "#31783"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#31784"
+msgid "Restart"
+msgstr ""
+
+msgctxt "#31785"
+msgid "OK"
+msgstr ""
+
+
+# Help
+msgctxt "#31800"
+msgid "Hotkeys"
+msgstr ""
+
+
+msgctxt "#31810"
+msgid "Systems Menu"
+msgstr ""
+
+msgctxt "#31811"
+msgid "Shifting Focus"
+msgstr ""
+
+msgctxt "#31812"
+msgid "Full Screen"
+msgstr ""
+
+msgctxt "#31813"
+msgid "Controller Mouse"
+msgstr ""
+
+msgctxt "#31814"
+msgid "Guide"
+msgstr ""
+
+msgctxt "#31815"
+msgid "Dpad Left"
+msgstr ""
+
+msgctxt "#31816"
+msgid "Dpad Right"
+msgstr ""
+
+msgctxt "#31817"
+msgid "Dpad Up"
+msgstr ""
+
+msgctxt "#31818"
+msgid "L3"
+msgstr ""
+
+msgctxt "#31820"
+msgid "Hotkey Combination LT + LB + RT + RB + Guide button"
+msgstr ""
+
+msgctxt "#31821"
+msgid "Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu."
+msgstr ""
+
+msgctxt "#31822"
+msgid "Hotkey Combination LT + LB + RT + RB + Left or Right"
+msgstr ""
+
+msgctxt "#31823"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."
+msgstr ""
+
+msgctxt "#31824"
+msgid "Hotkey Combination LT + LB + RT + RB + Dpad Up"
+msgstr ""
+
+msgctxt "#31825"
+msgid "Hotkey Combination plus Dpad Up enables full screen mode. This function can also be accessed via keyboard with Alt + Enter."
+msgstr ""
+
+msgctxt "#31826"
+msgid "Hotkey Combination LT + LB + RT + RB + L3"
+msgstr ""
+
+msgctxt "#31827"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr ""
+
+msgctxt "#31828"
+msgid "System software update failed. Shutdown console in order to begin software update."
+msgstr ""
+
+msgctxt "#31829"
+msgid "New update available - shut down console to begin download"
+msgstr ""
+
+
+# Miscellaneous
+msgctxt "#31840"
+msgid "Connect mouse to enable desktop mode"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+# New items for AlienUI
+
+msgctxt "#31842"
+msgid "GAMES"
+msgstr ""
+
+msgctxt "#31843"
+msgid "Device Video"
+msgstr ""
+
+msgctxt "#31844"
+msgid "Device Audio"
+msgstr ""
+
+msgctxt "#31845"
+msgid "Bluetooth"
+msgstr ""
+
+msgctxt "#31846"
+msgid "Controller Layouts"
+msgstr ""
+
+msgctxt "#31847"
+msgid "Controller Hotkeys"
+msgstr ""
+
+msgctxt "#31848"
+msgid "Support Videos"
+msgstr ""
+
+msgctxt "#31849"
+msgid "Support Wiki"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+
+#END Alienware skin
+
 msgctxt "#31901"
 msgid "36 Hour Forecast"
 msgstr "36 Hour Forecast"
