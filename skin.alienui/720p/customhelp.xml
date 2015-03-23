@@ -426,7 +426,7 @@
 							<item id="10">
 								<label>X360 Keyboard Controls</label>
 								<onclick>noop</onclick>
-								<icon>E:\backup\theme\Red\alienware\X360_keyboard.png</icon>
+								<icon>alienware/X360_keyboard.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
