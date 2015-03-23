@@ -910,6 +910,57 @@ msgctxt "#31841"
 msgid "INITIALIZING STEAM"
 msgstr ""
 
+# New items for AlienUI
+
+msgctxt "#31842"
+msgid "GAMES"
+msgstr ""
+
+msgctxt "#31843"
+msgid "Device Video"
+msgstr ""
+
+msgctxt "#31844"
+msgid "Device Audio"
+msgstr ""
+
+msgctxt "#31845"
+msgid "Bluetooth"
+msgstr ""
+
+msgctxt "#31846"
+msgid "Controller Layouts"
+msgstr ""
+
+msgctxt "#31847"
+msgid "Controller Hotkeys"
+msgstr ""
+
+msgctxt "#31848"
+msgid "Support Videos"
+msgstr ""
+
+msgctxt "#31849"
+msgid "Support Wiki"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr ""
+
+
 #END Alienware skin
 
 msgctxt "#31901"

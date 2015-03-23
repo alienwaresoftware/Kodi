@@ -972,7 +972,7 @@
 						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
 					<item id="91">
-                        <label>15016</label> <!-- Games -->
+                        <label>31842</label> <!-- Games -->
                         <onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
 						<onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
                         <!--onclick>XBMC.RunScript("special://skin\scripts\launch_steam.py")</onclick-->

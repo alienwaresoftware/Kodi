@@ -118,22 +118,22 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<label>Controller Layouts</label>
+						<label>31846</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>
 					<item id="2">
-						<label>Controller Hotkeys</label>
+						<label>31847</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>
 					<item id="3">
-						<label>Support Videos</label>
+						<label>31848</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>
 					<item id="4">
-						<label>Support Wiki</label>
+						<label>31849</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>

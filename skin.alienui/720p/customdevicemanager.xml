@@ -118,12 +118,12 @@
 				</focusedlayout>
 				<content>
 					<item id="1">
-						<label>Device Video</label>
+						<label>31843</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>
 					<item id="2">
-						<label>Device Audio</label>
+						<label>31844</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>
@@ -133,7 +133,7 @@
 						<icon>-</icon>
 					</item>
 					<item id="4">
-						<label>Bluetooth</label>
+						<label>31845</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>
