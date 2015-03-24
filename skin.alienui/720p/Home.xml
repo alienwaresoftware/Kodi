@@ -808,20 +808,6 @@
 					<!--<include>HomeSubMenuGames</include> <!-- Buttons for the grouplist -->
 				</control>
 			</control>
-			<!--control type="image">
-				<left>-100</left>
-				<top>0</top>
-				<width>1480</width>
-				<height>75</height>
-				<texture border="0,6,0,6">HomeBack.png</texture>
-			</control-->
-			<!--control type="image">
-				<left>0</left>
-				<top>5</top>
-				<width>1280</width>
-				<height>6</height>
-				<texture>HomeOverlay1.png</texture>
-			</control-->
 			<control type="wraplist" id="9000">
             	<left>50</left>
             	<right>50</right>
@@ -1050,24 +1036,11 @@
 					</item>
 				</content>
 			</control>
-			<!--control type="image">
-				<left>0</left>
-				<top>6</top>
-				<width>128</width>
-				<height>63</height>
-				<texture>SideFade.png</texture>
-			</control>
-			<control type="image">
-				<left>128r</left>
-				<top>6</top>
-				<width>128</width>
-				<height>63</height>
-				<texture flipx="true">SideFade.png</texture>
-			</control-->
 		</control>
 		<control type="group" id="9002">
 			<onup>9001</onup>
 			<ondown>20</ondown>
+			<bottom>0</bottom>
 			<control type="fixedlist" id="700">
 				<animation effect="slide" start="0,0" end="-91,0" time="0" condition="StringCompare(Container(700).NumItems,2) | StringCompare(Container(700).NumItems,4)">conditional</animation>
 				<visible>Container(9000).HasFocus(2) | Container(9000).HasFocus(10) | Container(9000).HasFocus(11)</visible>
