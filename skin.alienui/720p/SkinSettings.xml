@@ -539,6 +539,19 @@
 						<texturefocus>MenuItemFO.png</texturefocus>
 						<texturenofocus>MenuItemNF.png</texturenofocus>
 					</control>
+					<control type="radiobutton" id="1000">
+						<description>Hide Games Button</description>
+						<width>750</width>
+						<height>40</height>
+						<font>font13</font>
+						<textcolor>grey2</textcolor>
+						<focusedcolor>white</focusedcolor>
+						<label>$LOCALIZE[31111] - $LOCALIZE[15016]</label>
+						<onclick>Skin.ToggleSetting(HomeMenuNoGamesButton)</onclick>
+						<selected>Skin.HasSetting(HomeMenuNoGamesButton)</selected>
+						<texturefocus>MenuItemFO.png</texturefocus>
+						<texturenofocus>MenuItemNF.png</texturenofocus>
+					</control>
 					<control type="radiobutton" id="228">
 						<description>Hide Weather Button</description>
 						<width>750</width>
@@ -688,6 +701,148 @@
 						<onright>61</onright>
 						<onup>9004</onup>
 						<ondown>9004</ondown>
+						<control type="label" id="470">
+							<width>750</width>
+							<height>45</height>
+							<font>font13_title</font>
+							<label>Home Page Menu Addons</label>
+							<textcolor>blue</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>left</align>
+							<aligny>center</aligny>
+						</control>
+						<control type="button" id="471">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]1[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeMenuButton1))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeMenuButton1,xbmc.addon.executable,xbmc.addon.game,xbmc.addon.audio,xbmc.addon.video)</onclick>
+						</control>
+						<control type="button" id="472">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]2[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeMenuButton2))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeMenuButton2,xbmc.addon.executable,xbmc.addon.game,xbmc.addon.audio,xbmc.addon.video)</onclick>
+						</control>
+						<control type="button" id="473">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]3[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeMenuButton3))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeMenuButton3,xbmc.addon.executable,xbmc.addon.game,xbmc.addon.audio,xbmc.addon.video)</onclick>
+						</control>
+						<control type="button" id="474">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]4[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeMenuButton4))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeMenuButton4,xbmc.addon.executable,xbmc.addon.game,xbmc.addon.audio,xbmc.addon.video)</onclick>
+						</control>
+						<control type="button" id="475">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]5[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeMenuButton5))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeMenuButton5,xbmc.addon.executable,xbmc.addon.game,xbmc.addon.audio,xbmc.addon.video)</onclick>
+						</control>
+
+						<control type="label" id="460">
+							<width>750</width>
+							<height>45</height>
+							<font>font13_title</font>
+							<label>15016</label>
+							<textcolor>blue</textcolor>
+							<shadowcolor>black</shadowcolor>
+							<align>left</align>
+							<aligny>center</aligny>
+						</control>
+						<control type="button" id="461">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]1[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton1))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeGameButton1,xbmc.addon.executable,xbmc.addon.game)</onclick>
+						</control>
+						<control type="button" id="462">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]2[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton2))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeGameButton2,xbmc.addon.executable,xbmc.addon.game)</onclick>
+						</control>
+						<control type="button" id="463">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]3[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton3))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeGameButton3,xbmc.addon.executable,xbmc.addon.game)</onclick>
+						</control>
+						<control type="button" id="464">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]4[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton4))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeGameButton4,xbmc.addon.executable,xbmc.addon.game)</onclick>
+						</control>
+						<control type="button" id="465">
+							<width>750</width>
+							<height>40</height>
+							<font>font13</font>
+							<label>$LOCALIZE[24000] [B]5[/B]</label>
+							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton5))][/COLOR]</label2>
+							<textcolor>grey2</textcolor>
+							<focusedcolor>white</focusedcolor>
+							<texturefocus>MenuItemFO.png</texturefocus>
+							<texturenofocus>MenuItemNF.png</texturenofocus>
+							<onclick>Skin.SetAddon(HomeGameButton5,xbmc.addon.executable,xbmc.addon.game)</onclick>
+						</control>
+
 						<control type="label" id="453">
 							<width>750</width>
 							<height>45</height>
@@ -1019,76 +1174,7 @@
 							<onclick>Skin.SetAddon(HomeProgramButton6,xbmc.addon.executable)</onclick>
 						</control>
 
-						<control type="label" id="460">
-							<width>750</width>
-							<height>45</height>
-							<font>font13_title</font>
-							<label>15016</label>
-							<textcolor>blue</textcolor>
-							<shadowcolor>black</shadowcolor>
-							<align>left</align>
-							<aligny>center</aligny>
-						</control>
-						<control type="button" id="461">
-							<width>750</width>
-							<height>40</height>
-							<font>font13</font>
-							<label>$LOCALIZE[24000] [B]1[/B]</label>
-							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton1))][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>MenuItemFO.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetAddon(HomeGameButton1,xbmc.addon.executable,xbmc.addon.game)</onclick>
-						</control>
-						<control type="button" id="462">
-							<width>750</width>
-							<height>40</height>
-							<font>font13</font>
-							<label>$LOCALIZE[24000] [B]2[/B]</label>
-							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton2))][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>MenuItemFO.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetAddon(HomeGameButton2,xbmc.addon.executable,xbmc.addon.game)</onclick>
-						</control>
-						<control type="button" id="463">
-							<width>750</width>
-							<height>40</height>
-							<font>font13</font>
-							<label>$LOCALIZE[24000] [B]3[/B]</label>
-							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton3))][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>MenuItemFO.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetAddon(HomeGameButton3,xbmc.addon.executable,xbmc.addon.game)</onclick>
-						</control>
-						<control type="button" id="464">
-							<width>750</width>
-							<height>40</height>
-							<font>font13</font>
-							<label>$LOCALIZE[24000] [B]4[/B]</label>
-							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton4))][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>MenuItemFO.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetAddon(HomeGameButton4,xbmc.addon.executable,xbmc.addon.game)</onclick>
-						</control>
-						<control type="button" id="465">
-							<width>750</width>
-							<height>40</height>
-							<font>font13</font>
-							<label>$LOCALIZE[24000] [B]5[/B]</label>
-							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeGameButton5))][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>MenuItemFO.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetAddon(HomeGameButton5,xbmc.addon.executable,xbmc.addon.game)</onclick>
-						</control>
+
 					</control>
 				</control>
 				<control type="scrollbar" id="61">

@@ -975,10 +975,44 @@
                         <label>31842</label> <!-- Games -->
                         <onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
 						<onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
-                        <!--onclick>XBMC.RunScript("special://skin\scripts\launch_steam.py")</onclick-->
                         <icon>alienware/icon_Helpcontroller.png</icon>
                         <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
                     </item>
+                    <item id="92">
+						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton1))]</label>
+						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton1)])</onclick>
+						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton1))]</icon>
+						<thumb>-</thumb>
+						<visible>!IsEmpty(Skin.String(HomeMenuButton1))</visible>
+					</item>
+					<item id="93">
+						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton2))]</label>
+						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton2)])</onclick>
+						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton2))]</icon>
+						<thumb>-</thumb>
+						<visible>!IsEmpty(Skin.String(HomeMenuButton2))</visible>
+					</item>
+					<item id="94">
+						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton3))]</label>
+						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton3)])</onclick>
+						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton3))]</icon>
+						<thumb>-</thumb>
+						<visible>!IsEmpty(Skin.String(HomeMenuButton3))</visible>
+					</item>
+					<item id="95">
+						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton1))]</label>
+						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton1)])</onclick>
+						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton1))]</icon>
+						<thumb>-</thumb>
+						<visible>!IsEmpty(Skin.String(HomeMenuButton1))</visible>
+					</item>
+					<item id="96">
+						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton1))]</label>
+						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton1)])</onclick>
+						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton1))]</icon>
+						<thumb>-</thumb>
+						<visible>!IsEmpty(Skin.String(HomeMenuButton1))</visible>
+					</item>
 					<item id="3">
 						<label>31956</label>
 						<onclick>ActivateWindow(Music)</onclick>
