@@ -936,14 +936,14 @@
 						<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
 					</item>
 					<item id="13">
-						<label>31960</label>
+						<label>[UPPERCASE]$LOCALIZE[31960][/UPPERCASE]</label>
 						<onclick>ActivateWindow(RadioChannels)</onclick>
 						<icon>icon_player.png</icon>
 						<thumb>-</thumb>
 						<visible>PVR.HasRadioChannels</visible>
 					</item>
 					<item id="12">
-						<label>31952</label>
+						<label>[UPPERCASE]$LOCALIZE[31952][/UPPERCASE]</label>
 						<onclick>ActivateWindow(TVChannels)</onclick>
 						<icon>icon_tv.png</icon>
 						<thumb>-</thumb>
@@ -965,53 +965,53 @@
 						<visible>!Skin.HasSetting(HomeMenuNoMovieButton) + Library.HasContent(Movies)</visible>
 					</item>
 					<item id="11">
-						<label>31955</label>
+						<label>[UPPERCASE]$LOCALIZE[31955][/UPPERCASE]</label>
 						<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
 					<item id="91">
-                        <label>31842</label> <!-- Games -->
+                        <label>[UPPERCASE]$LOCALIZE[15016][/UPPERCASE]</label> <!-- Games -->
                         <onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
 						<onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
                         <icon>alienware/icon_Helpcontroller.png</icon>
                         <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
                     </item>
                     <item id="92">
-						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton1))]</label>
+						<label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton1))][/UPPERCASE]</label>
 						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton1)])</onclick>
 						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton1))]</icon>
 						<thumb>-</thumb>
 						<visible>!IsEmpty(Skin.String(HomeMenuButton1))</visible>
 					</item>
 					<item id="93">
-						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton2))]</label>
+						<label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton2))][/UPPERCASE]</label>
 						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton2)])</onclick>
 						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton2))]</icon>
 						<thumb>-</thumb>
 						<visible>!IsEmpty(Skin.String(HomeMenuButton2))</visible>
 					</item>
 					<item id="94">
-						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton3))]</label>
+						<label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton3))][/UPPERCASE]</label>
 						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton3)])</onclick>
 						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton3))]</icon>
 						<thumb>-</thumb>
 						<visible>!IsEmpty(Skin.String(HomeMenuButton3))</visible>
 					</item>
 					<item id="95">
-						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton1))]</label>
-						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton1)])</onclick>
-						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton1))]</icon>
+						<label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton4))][/UPPERCASE]</label>
+						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton4)])</onclick>
+						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton4))]</icon>
 						<thumb>-</thumb>
-						<visible>!IsEmpty(Skin.String(HomeMenuButton1))</visible>
+						<visible>!IsEmpty(Skin.String(HomeMenuButton4))</visible>
 					</item>
 					<item id="96">
-						<label>$INFO[system.addontitle(Skin.String(HomeMenuButton1))]</label>
-						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton1)])</onclick>
-						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton1))]</icon>
+						<label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton5))][/UPPERCASE]</label>
+						<onclick>RunAddon($INFO[Skin.String(HomeMenuButton5)])</onclick>
+						<icon>$INFO[system.addonicon(Skin.String(HomeMenuButton5))]</icon>
 						<thumb>-</thumb>
-						<visible>!IsEmpty(Skin.String(HomeMenuButton1))</visible>
+						<visible>!IsEmpty(Skin.String(HomeMenuButton5))</visible>
 					</item>
 					<item id="3">
 						<label>31956</label>
@@ -1029,7 +1029,7 @@
 						<visible>!Skin.HasSetting(HomeMenuNoProgramsButton)</visible>
 					</item>
 					<item id="6">
-						<label>31958</label>
+						<label>[UPPERCASE]$LOCALIZE[31958][/UPPERCASE]</label>
 						<onclick>PlayDVD()</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>
@@ -1042,7 +1042,7 @@
 						<thumb>-</thumb>
 					</item>
 					<item id="7">
-						<label>31950</label>
+						<label>[UPPERCASE]$LOCALIZE[31950][/UPPERCASE]</label>
 						<onclick>ActivateWindow(Weather)</onclick>
 						<icon>icon_weather.png</icon>
 						<thumb>-</thumb>
