@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 # Addon Name: Confluence
 # Addon id: skin.confluence
 # Addon Provider: Jezz_X, Team Kodi
@@ -942,6 +942,10 @@ msgstr ""
 
 msgctxt "#31849"
 msgid "Support Wiki"
+msgstr ""
+
+msgctxt "#31850"
+msgid "PLEX"
 msgstr ""
 
 msgctxt "#31841"

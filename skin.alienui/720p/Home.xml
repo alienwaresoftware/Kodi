@@ -957,6 +957,13 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
 					</item>
+					<item id="92">
+						<label>31850</label>
+						<onclick>ActivateWindow(10025,&quot;plugin://plugin.video.plexbmc/?content_type=video&quot;,return)</onclick>
+						<icon>icon_video.png</icon>
+						<thumb>-</thumb>
+						<visible>System.HasAddon(plugin.video.plexbmc)</visible>
+					</item>
 					<item id="10">
 						<label>31954</label>
 						<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
@@ -972,13 +979,13 @@
 						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
 					<item id="91">
-                        <label>31842</label> <!-- Games -->
-                        <onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
+                        			<label>31842</label> <!-- Games -->
+                        			<onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
 						<onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
-                        <!--onclick>XBMC.RunScript("special://skin\scripts\launch_steam.py")</onclick-->
-                        <icon>alienware/icon_Helpcontroller.png</icon>
-                        <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
-                    </item>
+                        			<!--onclick>XBMC.RunScript("special://skin\scripts\launch_steam.py")</onclick-->
+                        			<icon>alienware/icon_Helpcontroller.png</icon>
+			                        <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
+                			</item>
 					<item id="3">
 						<label>31956</label>
 						<onclick>ActivateWindow(Music)</onclick>
