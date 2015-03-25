@@ -1025,22 +1025,45 @@ msgctxt "#31849"
 msgid "Support Wiki"
 msgstr ""
 
-msgctxt "#31841"
-msgid "INITIALIZING STEAM"
+msgctxt "#31850"
+msgid "Device Settings"
 msgstr ""
 
-msgctxt "#31841"
-msgid "INITIALIZING STEAM"
+msgctxt "#31851"
+msgid "Kodi Settings"
 msgstr ""
 
-msgctxt "#31841"
-msgid "INITIALIZING STEAM"
+msgctxt "#31852"
+msgid "X360 Keyboard Controls"
 msgstr ""
 
-msgctxt "#31841"
-msgid "INITIALIZING STEAM"
+msgctxt "#31853"
+msgid "X360 Video Controls"
 msgstr ""
 
+msgctxt "#31854"
+msgid "X360 Menu Controls"
+msgstr ""
+
+msgctxt "#31855"
+msgid "Quick Start Guide"
+msgstr ""
+
+msgctxt "#31856"
+msgid "Basic Controls"
+msgstr ""
+
+msgctxt "#31857"
+msgid "Adding music to the library"
+msgstr ""
+
+msgctxt "#31858"
+msgid "Adding video to the library"
+msgstr ""
+
+msgctxt "#31859"
+msgid "Add-ons Manager"
+msgstr ""
 
 #END Alienware skin
 
