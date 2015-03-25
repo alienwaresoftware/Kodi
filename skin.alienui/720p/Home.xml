@@ -914,26 +914,11 @@
                     </control>
 				</focusedlayout>
 				<content>
-					<item id="4">
-						<label>31951</label>
-						<onclick>ActivateWindow(Pictures)</onclick>
-						<icon>icon_pictures.png</icon>
+					<item id="5">
+						<label>[UPPERCASE]$LOCALIZE[5][/UPPERCASE]</label>
+						<onclick>ActivateWindow(Settings)</onclick>
+                        <icon>alienware/icon_settings.png</icon>
 						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
-					</item>
-					<item id="13">
-						<label>[UPPERCASE]$LOCALIZE[31960][/UPPERCASE]</label>
-						<onclick>ActivateWindow(RadioChannels)</onclick>
-						<icon>icon_player.png</icon>
-						<thumb>-</thumb>
-						<visible>PVR.HasRadioChannels</visible>
-					</item>
-					<item id="12">
-						<label>[UPPERCASE]$LOCALIZE[31952][/UPPERCASE]</label>
-						<onclick>ActivateWindow(TVChannels)</onclick>
-						<icon>icon_tv.png</icon>
-						<thumb>-</thumb>
-						<visible>PVR.HasTVChannels</visible>
 					</item>
 					<item id="2">
 						<label>31953</label>
@@ -942,20 +927,6 @@
 						<icon>icon_video.png</icon>
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoVideosButton)</visible>
-					</item>
-					<item id="10">
-						<label>31954</label>
-						<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
-						<icon>-</icon>
-						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoMovieButton) + Library.HasContent(Movies)</visible>
-					</item>
-					<item id="11">
-						<label>[UPPERCASE]$LOCALIZE[31955][/UPPERCASE]</label>
-						<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
-						<icon>-</icon>
-						<thumb>-</thumb>
-						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
 					<item id="91">
                         <label>[UPPERCASE]$LOCALIZE[15016][/UPPERCASE]</label> <!-- Games -->
@@ -1021,18 +992,47 @@
 						<thumb>-</thumb>
 						<visible>System.HasMediaDVD</visible>
 					</item>
-					<item id="5">
-						<label>31959</label>
-						<onclick>ActivateWindow(Settings)</onclick>
-                        <icon>alienware/icon_settings.png</icon>
-						<thumb>-</thumb>
-					</item>
 					<item id="7">
 						<label>[UPPERCASE]$LOCALIZE[31950][/UPPERCASE]</label>
 						<onclick>ActivateWindow(Weather)</onclick>
 						<icon>icon_weather.png</icon>
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoWeatherButton) + !IsEmpty(Weather.Plugin)</visible>
+					</item>
+					<item id="4">
+						<label>31951</label>
+						<onclick>ActivateWindow(Pictures)</onclick>
+						<icon>icon_pictures.png</icon>
+						<thumb>-</thumb>
+						<visible>!Skin.HasSetting(HomeMenuNoPicturesButton)</visible>
+					</item>
+					<item id="13">
+						<label>[UPPERCASE]$LOCALIZE[31960][/UPPERCASE]</label>
+						<onclick>ActivateWindow(RadioChannels)</onclick>
+						<icon>icon_player.png</icon>
+						<thumb>-</thumb>
+						<visible>PVR.HasRadioChannels</visible>
+					</item>
+					<item id="12">
+						<label>[UPPERCASE]$LOCALIZE[31952][/UPPERCASE]</label>
+						<onclick>ActivateWindow(TVChannels)</onclick>
+						<icon>icon_tv.png</icon>
+						<thumb>-</thumb>
+						<visible>PVR.HasTVChannels</visible>
+					</item>
+					<item id="10">
+						<label>31954</label>
+						<onclick>ActivateWindow(Videos,MovieTitles,return)</onclick>
+						<icon>-</icon>
+						<thumb>-</thumb>
+						<visible>!Skin.HasSetting(HomeMenuNoMovieButton) + Library.HasContent(Movies)</visible>
+					</item>
+					<item id="11">
+						<label>[UPPERCASE]$LOCALIZE[31955][/UPPERCASE]</label>
+						<onclick>ActivateWindow(Videos,TVShowTitles,return)</onclick>
+						<icon>-</icon>
+						<thumb>-</thumb>
+						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
 				</content>
 			</control>

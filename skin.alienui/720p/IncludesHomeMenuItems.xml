@@ -187,12 +187,12 @@
 		</control>
 		<control type="button" id="90122">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>5</label>
+			<label>31851</label>
 			<onclick>ActivateWindow(Settings)</onclick>
 		</control>
 		<control type="button" id="90500">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>Device Manager</label>
+			<label>31850</label>
 			<onclick>XBMC.RunScript("special://skin\scripts\settings.py")</onclick>
 		</control>
 		<control type="button" id="90123">

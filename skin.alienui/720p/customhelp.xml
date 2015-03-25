@@ -425,21 +425,21 @@
 						</focusedlayout>
 						<content>
 							<item id="10">
-								<label>X360 Keyboard Controls</label>
+								<label>31852</label>
 								<onclick>noop</onclick>
 								<icon>alienware/X360_keyboard.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="11">
-								<label>X360 Video Controls</label>
+								<label>31853</label>
 								<onclick>noop</onclick>
 								<icon>alienware/Controller_MouseDriver.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="12">
-								<label>X360 Menu Controls</label>
+								<label>31854</label>
 								<onclick>noop</onclick>
 								<icon>alienware/Controller_ShiftingFocus.png</icon>
 								<thumb>-</thumb>
@@ -595,28 +595,28 @@
 						</focusedlayout>
 						<content>
 							<item id="13">
-								<label>Quick Start Guide</label>
+								<label>31855</label>
 								<onclick>noop</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="14">
-								<label>Settings</label>
+								<label>5</label>
 								<onclick>noop</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="15">
-								<label>Addons</label>
+								<label>24001</label>
 								<onclick>noop</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="16">
-								<label>Advance</label>
+								<label>10038</label>
 								<onclick>noop</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
@@ -772,28 +772,28 @@
 						</focusedlayout>
 						<content>
 							<item id="17">
-								<label>Quick Start Guide</label>
+								<label>31855</label>
 								<onclick>subprocess.Popen('cmd /c start http://kodi.wiki/view/Quick_start_guide')</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="18">
-								<label>Basic Controls</label>
+								<label>31856</label>
 								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_basic_controls.py")</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="19">
-								<label>Adding music to the library</label>
+								<label>31857</label>
 								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_music.py")</onclick>
 								<icon>DefaultPlaylist.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="20">
-								<label>Add-on Manager</label>
+								<label>31859</label>
 								<onclick>subprocess.Popen('cmd /c start http://kodi.wiki/view/Add-on_manager')</onclick>
 								<icon>DefaultMusicPlugins.png</icon>
 								<thumb>-</thumb>
