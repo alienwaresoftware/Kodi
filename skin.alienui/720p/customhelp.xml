@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id='1100'>
-	import subprocess
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<controls>
@@ -168,7 +167,235 @@
 				<shadowcolor>black</shadowcolor>
 			</control>
 			<control type="group" id="9010">
+				<control type="group">
+					<left>290</left>
+					<top>500</top>
+					<width>750</width>
+					<height>40</height>
+					<control type="image">
+						<description>separator image</description>
+						<left>0</left>
+						<top>25</top>
+						<width>750</width>
+						<height>2</height>
+						<texture>separator2.png</texture>
+						<colordiffuse>40FFFFFF</colordiffuse>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>31821</label> <!--Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu.-->
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(1)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>31827</label><!--Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver.-->
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(2)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>31823</label> <!--"Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."-->
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(3)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>31825</label><!--Hotkey Combination plus Dpad Up enables full screen mode. This function can also be accessed via keyboard with Alt + Enter.-->
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(4)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>Coming Soon</label>
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(5)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>Place Holder 1</label> 
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(1)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>Place Holder 2</label>
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(2)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>Place Holder 3</label>
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(3)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>Place Holder 4</label>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(4)</visible>
+					</control>
+					<control type="textbox">
+						<description>description area</description>
+						<left>7</left>
+						<top>30</top>
+						<width>736</width>
+						<height>85</height>
+						<font>font12</font>
+						<label>Place Holder 5</label>
+						<align>justify</align>
+						<textcolor>white</textcolor>
+						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(5)</visible>
+					</control>
+				</control>
 				<control type="grouplist" id="9001">
+					<visible>Container(9000).Hasfocus(1)</visible>
+					<left>290</left>
+					<top>60</top>
+					<width>750</width>
+					<height>440</height>
+					<itemgap>-1</itemgap>
+					<pagecontrol>60</pagecontrol>
+					<onleft>9102</onleft>
+					<onright>9102</onright>
+					<onup>9000</onup>
+					<ondown>9000</ondown>
+					<control type="wraplist" id="9101">
+		     			<width>750</width>
+						<height>440</height>
+						<scrolltime>300</scrolltime>
+						<focusposition>0</focusposition>
+						<movement>1</movement>
+						<orientation>Horizontal</orientation>
+		 				<itemlayout height="440" width="750">
+		                    <control type="image">
+		                        <left>0</left>
+		                        <width>750</width>
+		                        <height>750</height>
+		                    </control>
+		                    <control type="image">
+		                        <top>60</top>
+		                        <height>350</height>
+		                        <alignx>center</alignx>
+		                        <width>750</width>
+		                        <aspectratio>keep</aspectratio>
+		                        <description>The icon</description>
+		                        <texture>$INFO[ListItem.icon]</texture>
+		                    </control>
+		                    <control type="label">
+		                        <bottom>-45</bottom>
+		                        <alignx>right</alignx>
+		                        <width>230</width>
+		                        <height>70</height>
+		                        <font>goodtime14</font>
+		                        <align>center</align>
+		                        <aligny>top</aligny>
+		                        <label>$INFO[ListItem.Label]</label>
+		                    </control>
+						</itemlayout>
+						<focusedlayout height="440" width="750">
+							<control type="image">
+		                        <top>60</top>
+		                        <alignx>center</alignx>
+		                        <height>350</height>
+		                        <width>750</width>
+		                        <align>center</align>
+								<aligny>center</aligny>
+		                        <aspectratio>keep</aspectratio>
+		                        <description>The icon</description>
+		                        <texture>$INFO[ListItem.icon]</texture>
+		                    </control>
+		                    <control type="label">
+		                        <bottom>-45</bottom>
+		                        <alignx>right</alignx>
+		                        <width>230</width>
+		                        <height>70</height>
+		                        <font>goodtime14</font>
+		                        <textcolor>white</textcolor>
+		                        <align>center</align>
+		                        <aligny>top</aligny>
+		                        <label>$INFO[ListItem.Label]</label>
+		                    </control>
+						</focusedlayout>
+						<content>
+							<item id="1">
+								<label>31852</label>
+								<onclick>noop</onclick>
+								<icon>alienware/X360_keyboard.png</icon>
+								<thumb>-</thumb>
+								<visible>yes</visible>
+							</item>
+							<item id="2">
+								<label>31853</label>
+								<onclick>noop</onclick>
+								<icon>alienware/Controller_MouseDriver.png</icon>
+								<thumb>-</thumb>
+								<visible>yes</visible>
+							</item>
+							<item id="3">
+								<label>31854</label>
+								<onclick>noop</onclick>
+								<icon>alienware/Controller_ShiftingFocus.png</icon>
+								<thumb>-</thumb>
+								<visible>yes</visible>
+							</item>
+						</content>
+					</control>
+				</control>
+				<control type="grouplist" id="9002">
 					<visible>Container(9000).Hasfocus(2)</visible>
 					<left>290</left>
 					<top>60</top>
@@ -180,7 +407,7 @@
 					<onright>9000</onright>
 					<onup>9000</onup>
 					<ondown>9000</ondown>
-					<control type="wraplist" id="9101">
+					<control type="wraplist" id="9102">
 		     			<width>750</width>
 						<height>440</height>
 						<onleft>9101</onleft>
@@ -240,35 +467,35 @@
 		                    </control>
 						</focusedlayout>
 						<content>
-							<item id="5">
+							<item id="1">
 								<label>31810</label>
 								<onclick>noop</onclick>
 								<icon>alienware/Controller_GuideMenu.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="6">
+							<item id="2">
 								<label>31813</label>
 								<onclick>noop</onclick>
 								<icon>alienware/Controller_MouseDriver.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="7">
+							<item id="3">
 								<label>31811</label>
 								<onclick>noop</onclick>
 								<icon>alienware/Controller_ShiftingFocus.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="8">
+							<item id="4">
 								<label>31812</label>
 								<onclick>noop</onclick>
 								<icon>alienware/Controller_FullScreen.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="9">
+							<item id="5">
 								<label>Coming Soon</label>
 								<onclick>noop</onclick>
 								<icon>alienware/icon_help.png</icon>
@@ -276,252 +503,6 @@
 								<visible>yes</visible>
 							</item>
 						</content>
-					</control>
-				</control>
-				<control type="group">
-					<visible>Container(9000).Hasfocus(2)</visible>
-					<left>290</left>
-					<top>500</top>
-					<width>750</width>
-					<height>40</height>
-					<control type="image">
-						<description>separator image</description>
-						<left>0</left>
-						<top>25</top>
-						<width>750</width>
-						<height>2</height>
-						<texture>separator2.png</texture>
-						<colordiffuse>40FFFFFF</colordiffuse>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31821</label> <!--Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(7)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31827</label><!--Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(8)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31823</label> <!--"Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(9)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31825</label><!--Hotkey Combination plus Dpad Up enables full screen mode. This function can also be accessed via keyboard with Alt + Enter.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(10)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>Coming Soon</label>
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(11)</visible>
-					</control>
-				</control>
-				<control type="grouplist" id="9002">
-					<visible>Container(9000).Hasfocus(1)</visible>
-					<left>290</left>
-					<top>60</top>
-					<width>750</width>
-					<height>440</height>
-					<itemgap>-1</itemgap>
-					<pagecontrol>60</pagecontrol>
-					<onleft>9102</onleft>
-					<onright>9102</onright>
-					<onup>9000</onup>
-					<ondown>9000</ondown>
-					<control type="wraplist" id="9102">
-		     			<width>750</width>
-						<height>440</height>
-						<scrolltime>300</scrolltime>
-						<focusposition>2</focusposition>
-						<movement>1</movement>
-						<orientation>Horizontal</orientation>
-		 				<itemlayout height="440" width="750">
-		                    <control type="image">
-		                        <left>0</left>
-		                        <width>750</width>
-		                        <height>750</height>
-		                    </control>
-		                    <control type="image">
-		                        <top>60</top>
-		                        <height>350</height>
-		                        <alignx>center</alignx>
-		                        <width>750</width>
-		                        <aspectratio>keep</aspectratio>
-		                        <description>The icon</description>
-		                        <texture>$INFO[ListItem.icon]</texture>
-		                    </control>
-		                    <control type="label">
-		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
-		                        <font>goodtime14</font>
-		                        <align>center</align>
-		                        <aligny>top</aligny>
-		                        <label>$INFO[ListItem.Label]</label>
-		                    </control>
-						</itemlayout>
-						<focusedlayout height="440" width="750">
-							<control type="image">
-		                        <top>60</top>
-		                        <alignx>center</alignx>
-		                        <height>350</height>
-		                        <width>750</width>
-		                        <align>center</align>
-								<aligny>center</aligny>
-		                        <aspectratio>keep</aspectratio>
-		                        <description>The icon</description>
-		                        <texture>$INFO[ListItem.icon]</texture>
-		                    </control>
-		                    <control type="label">
-		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
-		                        <font>goodtime14</font>
-		                        <textcolor>white</textcolor>
-		                        <align>center</align>
-		                        <aligny>top</aligny>
-		                        <label>$INFO[ListItem.Label]</label>
-		                    </control>
-						</focusedlayout>
-						<content>
-							<item id="10">
-								<label>31852</label>
-								<onclick>noop</onclick>
-								<icon>alienware/X360_keyboard.png</icon>
-								<thumb>-</thumb>
-								<visible>yes</visible>
-							</item>
-							<item id="11">
-								<label>31853</label>
-								<onclick>noop</onclick>
-								<icon>alienware/Controller_MouseDriver.png</icon>
-								<thumb>-</thumb>
-								<visible>yes</visible>
-							</item>
-							<item id="12">
-								<label>31854</label>
-								<onclick>noop</onclick>
-								<icon>alienware/Controller_ShiftingFocus.png</icon>
-								<thumb>-</thumb>
-								<visible>yes</visible>
-							</item>
-						</content>
-					</control>
-				</control>
-				<control type="group">
-					<visible>Container(9000).Hasfocus(1)</visible>
-					<left>290</left>
-					<top>500</top>
-					<width>750</width>
-					<height>40</height>
-					<control type="image">
-						<description>separator image</description>
-						<left>0</left>
-						<top>25</top>
-						<width>750</width>
-						<height>2</height>
-						<texture>separator2.png</texture>
-						<colordiffuse>40FFFFFF</colordiffuse>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>Place Holder</label> 
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(7)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31827</label><!--Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(8)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31823</label> <!--"Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(9)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31825</label><!--Hotkey Combination plus Dpad Up enables full screen mode. This function can also be accessed via keyboard with Alt + Enter.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(10)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>Coming Soon</label>
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(11)</visible>
 					</control>
 				</control>
 				<control type="grouplist" id="9003">
@@ -536,11 +517,11 @@
 					<onright>9102</onright>
 					<onup>9000</onup>
 					<ondown>9000</ondown>
-					<control type="wraplist" id="9102">
+					<control type="wraplist" id="9103">
 		     			<width>750</width>
 						<height>440</height>
 						<scrolltime>300</scrolltime>
-						<focusposition>2</focusposition>
+						<focusposition>0</focusposition>
 						<movement>1</movement>
 						<orientation>Horizontal</orientation>
 		 				<itemlayout height="440" width="750">
@@ -594,28 +575,28 @@
 		                    </control>
 						</focusedlayout>
 						<content>
-							<item id="13">
+							<item id="1">
 								<label>31855</label>
 								<onclick>noop</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="14">
+							<item id="2">
 								<label>5</label>
 								<onclick>noop</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="15">
+							<item id="3">
 								<label>24001</label>
 								<onclick>noop</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="16">
+							<item id="4">
 								<label>10038</label>
 								<onclick>noop</onclick>
 								<icon></icon>
@@ -623,82 +604,6 @@
 								<visible>yes</visible>
 							</item>
 						</content>
-					</control>
-				</control>
-				<control type="group">
-					<visible>Container(9000).Hasfocus(3)</visible>
-					<left>290</left>
-					<top>500</top>
-					<width>750</width>
-					<height>40</height>
-					<control type="image">
-						<description>separator image</description>
-						<left>0</left>
-						<top>25</top>
-						<width>750</width>
-						<height>2</height>
-						<texture>separator2.png</texture>
-						<colordiffuse>40FFFFFF</colordiffuse>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>Place Holder</label> 
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(7)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31827</label><!--Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(8)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31823</label> <!--"Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(9)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31825</label><!--Hotkey Combination plus Dpad Up enables full screen mode. This function can also be accessed via keyboard with Alt + Enter.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(10)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>Coming Soon</label>
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(11)</visible>
 					</control>
 				</control>
 				<control type="grouplist" id="9004">
@@ -713,11 +618,11 @@
 					<onright>9102</onright>
 					<onup>9000</onup>
 					<ondown>9000</ondown>
-					<control type="wraplist" id="9102">
+					<control type="wraplist" id="9104">
 		     			<width>750</width>
 						<height>440</height>
 						<scrolltime>300</scrolltime>
-						<focusposition>2</focusposition>
+						<focusposition>0</focusposition>
 						<movement>1</movement>
 						<orientation>Horizontal</orientation>
 		 				<itemlayout height="440" width="750">
@@ -771,111 +676,35 @@
 		                    </control>
 						</focusedlayout>
 						<content>
-							<item id="17">
+							<item id="1">
 								<label>31855</label>
-								<onclick>subprocess.Popen('cmd /c start http://kodi.wiki/view/Quick_start_guide')</onclick>
+								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_wiki_quick_start.py")</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="18">
+							<item id="2">
 								<label>31856</label>
-								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_basic_controls.py")</onclick>
+								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_wiki_basic_controls.py")</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="19">
+							<item id="3">
 								<label>31857</label>
-								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_music.py")</onclick>
+								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_wiki_music.py")</onclick>
 								<icon>DefaultPlaylist.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
-							<item id="20">
+							<item id="4">
 								<label>31859</label>
-								<onclick>subprocess.Popen('cmd /c start http://kodi.wiki/view/Add-on_manager')</onclick>
+								<onclick>XBMC.RunScript("special://skin\scripts\Help_Scripts\launch_wiki_addons.py")</onclick>
 								<icon>DefaultMusicPlugins.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 						</content>
-					</control>
-				</control>
-				<control type="group">
-					<visible>Container(9000).Hasfocus(4)</visible>
-					<left>290</left>
-					<top>500</top>
-					<width>750</width>
-					<height>40</height>
-					<control type="image">
-						<description>separator image</description>
-						<left>0</left>
-						<top>25</top>
-						<width>750</width>
-						<height>2</height>
-						<texture>separator2.png</texture>
-						<colordiffuse>40FFFFFF</colordiffuse>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>Place Holder</label> 
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(7)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31827</label><!--Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(8)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31823</label> <!--"Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(9)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>31825</label><!--Hotkey Combination plus Dpad Up enables full screen mode. This function can also be accessed via keyboard with Alt + Enter.-->
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(10)</visible>
-					</control>
-					<control type="textbox">
-						<description>description area</description>
-						<left>7</left>
-						<top>30</top>
-						<width>736</width>
-						<height>85</height>
-						<font>font12</font>
-						<label>Coming Soon</label>
-						<align>justify</align>
-						<textcolor>white</textcolor>
-						<visible>Container(9101).Hasfocus(11)</visible>
 					</control>
 				</control>
 				<control type="scrollbar" id="60">
