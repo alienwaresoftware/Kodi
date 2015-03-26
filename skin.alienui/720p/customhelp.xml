@@ -577,28 +577,35 @@
 						<content>
 							<item id="1">
 								<label>31855</label>
-								<onclick>noop</onclick>
+								<onclick>playmedia("special://skin\scripts\Help_Scripts\Quick_Start_Guide.strm")</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="2">
-								<label>5</label>
-								<onclick>noop</onclick>
+								<label>31800</label>
+								<onclick>playmedia("special://skin\scripts\Help_Scripts\Hotkeys.strm")</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="3">
-								<label>24001</label>
-								<onclick>noop</onclick>
+								<label>5</label>
+								<onclick>playmedia("special://skin\scripts\Help_Scripts\Settings.strm")</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="4">
+								<label>24001</label>
+								<onclick>playmedia("special://skin\scripts\Help_Scripts\Addons.strm")</onclick>
+								<icon></icon>
+								<thumb>-</thumb>
+								<visible>yes</visible>
+							</item>
+							<item id="5">
 								<label>10038</label>
-								<onclick>noop</onclick>
+								<onclick>playmedia("special://skin\scripts\Help_Scripts\Advanced.strm")</onclick>
 								<icon></icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>

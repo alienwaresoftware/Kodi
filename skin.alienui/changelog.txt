@@ -1,3 +1,8 @@
+[B]0.0.14[/B]
+- Help menu now has placeholder videos
+- Help menu now launches wiki pages in default browser. 
+- Fixed issues with focus/alignment in help video. 
+
 [B]0.0.11[/B]
 - Modified Text Colors
 - Modified Home Menu to allow Addons directly on the menu
