@@ -413,7 +413,7 @@
 						<onleft>9101</onleft>
 						<onright>9101</onright>
 						<scrolltime>300</scrolltime>
-						<focusposition>2</focusposition>
+						<focusposition>0</focusposition>
 						<movement>1</movement>
 						<orientation>Horizontal</orientation>
 		 				<itemlayout height="440" width="750">
