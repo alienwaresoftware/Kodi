@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.alienui"
-  version="0.0.12"
+  version="0.0.13"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
