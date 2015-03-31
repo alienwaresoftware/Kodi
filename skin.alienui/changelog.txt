@@ -1,3 +1,6 @@
+[B]0.0.15[/B]
+- Fixed AlphaUILauncher Crash at boot
+
 [B]0.0.14[/B]
 - Help menu now has placeholder videos
 - Help menu now launches wiki pages in default browser. 
