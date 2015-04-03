@@ -34,26 +34,6 @@
     </extension>
 </addon>
 
-<addon id="script.aw.background.installer" name="Alien UI Background Images" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="background_installer.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Alien UI Background Images</summary>
-        <language></language>
-        <description lang="en">Silently installs our Alienware Background images to Home/Media/Alienware. To change your background in Kodi: System > Settings > Appearance > Skin >Settings > Background > Background Path.</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="script.aw.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
