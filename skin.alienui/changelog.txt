@@ -1,3 +1,6 @@
+[B]0.0.17[/B]
+- Automated Customization Installer
+
 [B]0.0.15[/B]
 - Fixed AlphaUILauncher Crash at boot
 
