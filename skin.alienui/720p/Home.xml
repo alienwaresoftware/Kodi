@@ -442,7 +442,7 @@
 		<control type="button" id="9003">
 			<description>Hidden Button to pass through navigation when recently added is disabled</description>
 			<left>-20</left>
-			<top>-20</top>
+			<top>400</top>
 			<width>1</width>
 			<height>1</height>
 			<label>-</label>
@@ -458,7 +458,7 @@
 		<control type="group">
 			<description>Controls for currently playing media</description>
 			<left>545r</left>
-			<top>164</top>
+			<top>210</top>
 			<animation effect="slide" start="0,0" end="365,0" time="300" condition="!Player.HasMedia">conditional</animation>
 			<animation type="WindowOpen" reversible="false">
 				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
@@ -735,7 +735,7 @@
 			</animation>
 			<control type="group" id="9001">
 				<left>0</left>
-				<top>70</top>
+				<top>113</top>
 				<onup>9000</onup>
 				<ondown>9002</ondown>
 				<control type="grouplist" id="9010">
@@ -812,7 +812,7 @@
 			<control type="wraplist" id="9000">
             	<left>50</left>
             	<right>50</right>
-				<bottom>118</bottom>
+				<bottom>75</bottom>
 				<width>1175</width>
 				<height>400</height>
 				<onleft>9000</onleft>
