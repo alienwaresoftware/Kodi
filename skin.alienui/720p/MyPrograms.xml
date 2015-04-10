@@ -3,7 +3,7 @@
 	<defaultcontrol always="true">50</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
 	<onload condition="!Skin.HasSetting(FirstTimeRun)">ActivateWindow(1112)</onload>
-	<views>500,51,50,550,551</views>
+	<views>50,51,500,550,551</views>
 	<controls>
 		<include>CommonBackground</include>
 		<include>ContentPanelBackgrounds</include>

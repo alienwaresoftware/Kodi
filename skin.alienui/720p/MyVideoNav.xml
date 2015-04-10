@@ -2,7 +2,7 @@
 <window>
 	<defaultcontrol always="true">500</defaultcontrol>
 	<allowoverlay>no</allowoverlay>
-	<views>500,51,50,550,551,560,501,508,504,503,515,505,511</views>
+	<views>50,51,550,551,560,500,501,508,504,503,515,505,511</views>
 	<onload condition="!Skin.HasSetting(FirstTimeRun)">ActivateWindow(1112)</onload>
 	<onload condition="Skin.HasSetting(ActivateTvTunes) + System.HasAddon(script.tvtunes)">RunScript(script.tvtunes,backend=True)</onload>
 	<controls>

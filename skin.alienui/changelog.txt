@@ -1,4 +1,4 @@
-[B]0.0.20[/B]
+[B]0.0.21[/B]
 - Adjusted menu alignment to fit recently added videos and music
 
 [B]0.0.17[/B]
