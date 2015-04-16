@@ -837,7 +837,7 @@
                         <left>0</left>
                         <width>230</width>
                         <height>265</height>
-                        <texture>alienware/Power_box.png</texture>
+                        <!--texture>alienware/Power_box.png</texture-->
                     </control>
                     <control type="image">
                         <top>60</top>
@@ -864,26 +864,26 @@
                         <left>0</left>
                         <height>265</height>
                         <width>2</width>
-                        <texture>alienware/white_border.png</texture>
+                        <!--texture>alienware/white_border.png</texture-->
                     </control>
                     <control type="image">
                         <left>0</left>
                         <height>2</height>
                         <width>230</width>
-                        <texture>alienware/white_border.png</texture>
+                        <!--texture>alienware/white_border.png</texture-->
                     </control>
                     <control type="image">
                         <left>230</left>
                         <height>265</height>
                         <width>2</width>
-                        <texture>alienware/white_border.png</texture>
+                        <!--texture>alienware/white_border.png</texture-->
                     </control>
                     <control type="image">
                         <top>265</top>
                         <left>0</left>
                         <height>2</height>
                         <width>230</width>
-                        <texture>alienware/white_border.png</texture>
+                        <!--texture>alienware/white_border.png</texture-->
                     </control>
                     <control type="image">
                         <left>0</left>
