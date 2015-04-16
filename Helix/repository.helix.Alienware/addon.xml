@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.helix.alienware" name="Alienware Helix Repo" version="0.0.16" provider-name="Alienware">
+        <extension point="xbmc.addon.repository" name="Alienware's Kodi addons">
+                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/helix/addons.xml</info>
+                <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/helix/addons.xml.md5</checksum>
+                <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/helix</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Alienware's Kodi Repo</summary>
+                <description>Alienware's Kodi Repo</description>
+                <disclaimer></disclaimer>
+                <platform>all</platform>
+        </extension>
+</addon>
+
+
