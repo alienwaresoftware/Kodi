@@ -975,7 +975,7 @@
 				<width>180</width>
 				<height>120</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">button-nofocus.png</bordertexture>
+				<bordertexture border="5">button-nofocus.pn</bordertexture>
 				<bordersize>3</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 			</control>
