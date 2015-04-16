@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="4006">
+  <defaultcontrol always="true">4101</defaultcontrol>
+  <allowoverlay>no</allowoverlay>
+  <controls>
+    <control type="group">
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <control type="image">
+        <description>Corner logo</description>
+        <left>0</left>
+        <top>0</top>
+        <width>1280</width>
+        <height>720</height>
+        <texture flipy="true">special://skin/media/alienware/scaletoscreenbg.png</texture>
+      </control>
+      <control type="image">
+        <description>Corner logo</description>
+        <left>0</left>
+        <top>230</top>
+        <width>1280</width>
+        <height>260</height>
+        <texture>special://skin/media/alienware/confirmdialogbox.png</texture>
+      </control>
+      <control type="label" id="4110">
+        <left>300</left>
+        <top>260</top>
+        <width>680</width>
+        <height>500</height>
+        <align>center</align>
+        <textcolor>white</textcolor>
+        <shadowcolor>black</shadowcolor>
+        <font>font12</font>
+        <wrapmultiline>true</wrapmultiline>
+        <label></label>
+      </control>
+      <control type="label" id="4111">
+        <left>300</left>
+        <top>310</top>
+        <width>680</width>
+        <height>500</height>
+        <align>center</align>
+        <textcolor>white</textcolor>
+        <shadowcolor>black</shadowcolor>
+        <font>font12</font>
+        <wrapmultiline>true</wrapmultiline>        
+        <label></label>
+      </control>
+      <control type="group" id="4101">
+        <defaultcontrol always="true">4102</defaultcontrol>
+        <left>0</left>
+        <top>300</top>
+        <control type="button" id="4102">
+          <description>Begin Scaling Button</description>
+          <top>110</top>
+          <left>530</left>
+          <width>100</width>
+          <height>45</height>
+          <align>center</align>
+          <aligny>center</aligny>
+          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
+          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <textcolor>FFFFFFFF</textcolor>
+          <focusedcolor>FFFFFFFF</focusedcolor>
+          <disabledcolor>80FFFFFF</disabledcolor>
+          <invalidcolor>FFFFFFFF</invalidcolor>
+          <onleft>4103</onleft>
+          <onright>4103</onright>
+          <font>font12</font>
+          <label>31781</label>
+        </control>
+        <control type="button" id="4103">
+          <description>Begin Scaling Button</description>
+          <top>110</top>
+          <left>650</left>
+          <width>100</width>
+          <height>45</height>
+          <align>center</align>
+          <aligny>center</aligny>
+          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
+          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <textcolor>FFFFFFFF</textcolor>
+          <focusedcolor>FFFFFFFF</focusedcolor>
+          <disabledcolor>80FFFFFF</disabledcolor>
+          <invalidcolor>FFFFFFFF</invalidcolor>
+          <onleft>4102</onleft>
+          <onright>4102</onright>
+          <font>font12</font>
+          <label>31782</label>
+        </control>
+      </control>
+      <control type="group" id="4104">
+        <defaultcontrol always="true">4105</defaultcontrol>
+        <left>0</left>
+        <top>300</top>
+        <control type="button" id="4105">
+          <description>Begin Scaling Button</description>
+          <top>110</top>
+          <left>480</left>
+          <width>150</width>
+          <height>45</height>
+          <align>center</align>
+          <aligny>center</aligny>
+          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
+          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <textcolor>FFFFFFFF</textcolor>
+          <focusedcolor>FFFFFFFF</focusedcolor>
+          <disabledcolor>80FFFFFF</disabledcolor>
+          <invalidcolor>FFFFFFFF</invalidcolor>
+          <onleft>4106</onleft>
+          <onright>4106</onright>
+          <font>font12</font>
+          <label>31783</label>
+        </control>
+        <control type="button" id="4106">
+          <description>Begin Scaling Button</description>
+          <top>110</top>
+          <left>650</left>
+          <width>150</width>
+          <height>45</height>
+          <align>center</align>
+          <aligny>center</aligny>
+          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
+          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <textcolor>FFFFFFFF</textcolor>
+          <focusedcolor>FFFFFFFF</focusedcolor>
+          <disabledcolor>80FFFFFF</disabledcolor>
+          <invalidcolor>FFFFFFFF</invalidcolor>
+          <onleft>4105</onleft>
+          <onright>4105</onright>
+          <font>font12</font>
+          <label>31784</label>
+        </control>
+      </control>
+      <control type="group" id="4107">
+        <defaultcontrol always="true">4108</defaultcontrol>
+        <left>0</left>
+        <top>300</top>
+        <control type="button" id="4108">
+          <description>Okay Button</description>
+          <top>110</top>
+          <left>590</left>
+          <width>100</width>
+          <height>45</height>
+          <align>center</align>
+          <aligny>center</aligny>
+          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
+          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <textcolor>FFFFFFFF</textcolor>
+          <focusedcolor>FFFFFFFF</focusedcolor>
+          <disabledcolor>80FFFFFF</disabledcolor>
+          <invalidcolor>FFFFFFFF</invalidcolor>
+          <onleft>4106</onleft>
+          <onright>4106</onright>
+          <font>font12</font>
+          <label>31785</label>
+        </control>
+      </control>
+    </control>
+  </controls>
+</window>

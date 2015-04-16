@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+    <include name="HelpBreadcrumb">
+        <control type="group">
+            <top>10</top>
+            <left>55</left>
+            <width>800</width>
+            <height>60</height>
+            <!-- TODO: See if we can just update the label using onfocus...but it doesn't look like we can -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>31608</label> <!-- Help -->
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31608] > $LOCALIZE[31800]</label> <!-- Help > Hotkeys -->
+                <visible>Container(9000).HasFocus(1)</visible>
+            </control>
+
+            <!-- Hotkeys -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31608] > $LOCALIZE[31800] > $LOCALIZE[31810]</label> <!-- Help > Hotkeys > Systems Menu -->
+                <visible>Control.HasFocus(9011) + Container(9011).Position(0)</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31608] > $LOCALIZE[31800] > $LOCALIZE[31811]</label> <!-- Help > Hotkeys > Shifting Focus -->
+                <visible>Control.HasFocus(9011) + Container(9011).Position(1)</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31608] > $LOCALIZE[31800] > $LOCALIZE[31812]</label> <!-- Help > Hotkeys > Full Screen -->
+                <visible>Control.HasFocus(9011) + Container(9011).Position(2)</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31608] > $LOCALIZE[31800] > $LOCALIZE[31813]</label> <!-- Help > Hotkeys > Controller Mouse -->
+                <visible>Control.HasFocus(9011) + Container(9011).Position(3)</visible>
+            </control>
+        </control>
+    </include>
+</includes>

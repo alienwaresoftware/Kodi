@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+  <defaultcontrol always="true">9000</defaultcontrol>
+  <allowoverlay>no</allowoverlay>
+  <controls>
+    <include>CommonBackground</include>
+    <!-- Breadcrumbs for the help menu -->
+    <control type="group">
+      <left>215</left>
+      <top>80</top>
+      <width>850</width>
+      <height>550</height>
+      <include>HelpBreadcrumb</include>
+      <control type="image">
+        <description>Help logo</description>
+        <width>53</width>
+        <height>40</height>
+        <aspectratio>keep</aspectratio>
+        <texture>alienware/icon_help.png</texture>
+      </control>
+      <control type="image">
+        <description>background for left hand side list</description>
+        <top>45</top>
+        <texture>alienware/Power_box.png</texture>
+      </control>
+
+      <!-- Divider lines for the lists -->
+      <control type="image">
+        <top>45</top>
+        <left>210</left>
+        <width>1</width>
+        <texture>settings_dividerline.png</texture>
+      </control>
+      <control type="image">
+        <top>45</top>
+        <left>410</left>
+        <width>1</width>
+        <texture>settings_dividerline.png</texture>
+      </control>
+
+      <!-- the actual help images -->
+      <control type="group">
+        <left>410</left>
+
+        <control type="group">
+          <!-- System menu help images and text -->
+          <visible>Control.HasFocus(9011) + Container(9011).Position(0)</visible>
+          <control type="label">
+            <top>70</top>
+            <left>10</left>
+            <width>420</width>
+            <align>center</align>
+            <wrapmultiline>true</wrapmultiline>
+            <font>small_item</font>
+            <label>31820</label>
+            <!-- Hotkey Combination [CR] LT + LR + RT + RB + Guide button-->
+          </control>
+          <control type="image">
+            <top>-50</top>
+            <left>20</left>
+            <width>400</width>
+            <aspectratio>keep</aspectratio>
+            <texture>alienware/Controller_GuideMenu.png</texture>
+          </control>
+          <control type="label">
+            <top>380</top>
+            <align>center</align>
+            <font>small_item</font>
+            <label>31814</label>
+            <!-- Guide -->
+          </control>
+          <control type="label">
+            <left>10</left>
+            <top>420</top>
+            <align>left</align>
+            <font>small_item</font>
+            <label>31821</label>
+            <!-- Pressing LT + LB + RT + RB on the controller plus the Guide button [CR] will launch the Systems Menu. -->
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+        </control>
+
+        <control type="group">
+          <!-- Shifting Focus help images and text -->
+          <visible>Control.HasFocus(9011) + Container(9011).Position(1)</visible>
+          <control type="label">
+            <top>70</top>
+            <left>10</left>
+            <width>420</width>
+            <align>center</align>
+            <wrapmultiline>true</wrapmultiline>
+            <font>small_item</font>
+            <label>31822</label>
+            <!-- Hotkey Combination [CR] LT + LB + RT + RB + Dpad Left or Right-->
+          </control>
+          <control type="image">
+            <top>-50</top>
+            <left>20</left>
+            <width>400</width>
+            <aspectratio>keep</aspectratio>
+            <texture>alienware/Controller_ShiftingFocus.png</texture>
+          </control>
+          <control type="label">
+            <top>380</top>
+            <left>70</left>
+            <font>small_item</font>
+            <label>31815</label>
+            <!-- Dpad Left -->
+          </control>
+          <control type="label">
+            <top>380</top>
+            <left>200</left>
+            <font>small_item</font>
+            <label>31816</label>
+            <!-- Dpad Right -->
+          </control>
+          <control type="label">
+            <left>10</left>
+            <top>440</top>
+            <align>left</align>
+            <font>small_item</font>
+            <label>31823</label>
+            <!-- Pressing LT + LB + RT + RB on the controller plus the Guide button [CR] will launch the Systems Menu. -->
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+        </control>
+
+        <control type="group">
+          <!-- Full Screen help images and text -->
+          <visible>Control.HasFocus(9011) + Container(9011).Position(2)</visible>
+          <control type="label">
+            <top>70</top>
+            <left>10</left>
+            <width>420</width>
+            <align>center</align>
+            <wrapmultiline>true</wrapmultiline>
+            <font>small_item</font>
+            <label>31824</label>
+            <!-- Hotkey Combination [CR] LT + LB + RT + RB + Dpad Up-->
+          </control>
+          <control type="image">
+            <top>-50</top>
+            <left>20</left>
+            <width>400</width>
+            <aspectratio>keep</aspectratio>
+            <texture>alienware/Controller_FullScreen.png</texture>
+          </control>
+          <control type="label">
+            <top>380</top>
+            <left>135</left>
+            <font>small_item</font>
+            <label>31817</label>
+            <!-- Dpad Up -->
+          </control>
+          <control type="label">
+            <left>10</left>
+            <top>420</top>
+            <align>left</align>
+            <font>small_item</font>
+            <label>31825</label>
+            <!-- Hotkey Combination plus Dpad Up enables full screen mode. [CR] This function can also be accessed via kyboard with Alt + Enter. -->
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+        </control>
+
+        <control type="group">
+          <!-- Full Screen help images and text -->
+          <visible>Control.HasFocus(9011) + Container(9011).Position(3)</visible>
+          <control type="label">
+            <top>70</top>
+            <left>10</left>
+            <width>420</width>
+            <align>center</align>
+            <wrapmultiline>true</wrapmultiline>
+            <font>small_item</font>
+            <label>31826</label>
+            <!-- Hotkey Combination [CR] LT + LB + RT + RB + L3-->
+          </control>
+          <control type="image">
+            <top>-50</top>
+            <left>20</left>
+            <width>400</width>
+            <aspectratio>keep</aspectratio>
+            <texture>alienware/Controller_MouseDriver.png</texture>
+          </control>
+          <control type="label">
+            <top>390</top>
+            <left>92</left>
+            <font>small_item</font>
+            <label>31818</label>
+            <!-- L3 -->
+          </control>
+          <control type="label">
+            <left>10</left>
+            <top>420</top>
+            <align>left</align>
+            <font>small_item</font>
+            <label>31827</label>
+            <!-- Hotkey Combination plus Dpad Up enables full screen mode. [CR] This function can also be accessed via kyboard with Alt + Enter. -->
+            <wrapmultiline>true</wrapmultiline>
+          </control>
+        </control>
+
+
+      </control>
+
+      <!-- Group for all the lists -->
+      <control type="group">
+        <top>85</top>
+        <control type="list" id="9000">
+          <height>400</height>
+          <itemlayout height="45" width="210">
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <height>45</height>
+            </control>
+            <control type="label">
+              <left>15</left>
+              <top>0</top>
+              <height>45</height>
+              <align>left</align>
+              <aligny>center</aligny>
+              <label>$INFO[ListItem.Label]</label>
+            </control>
+          </itemlayout>
+          <focusedlayout height="45" width="210">
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <height>45</height>
+              <texture border="2">alienware/selected.png</texture>
+            </control>
+            <control type="label">
+              <left>15</left>
+              <top>0</top>
+              <height>45</height>
+              <align>left</align>
+              <aligny>center</aligny>
+              <label>$INFO[ListItem.Label]</label>
+            </control>
+          </focusedlayout>
+          <content>
+            <item id="1">
+              <label>31800</label>
+              <!-- Hotkeys -->
+              <onclick>Control.SetFocus(9011,0)</onclick>
+              <icon>-</icon>
+            </item>
+          </content>
+        </control>
+
+        <control type="group" id="9001">
+          <left>210</left>
+          <height>515</height>
+          <!--#################################         Hokeys Group      ################################-->
+          <control type="group" id="9010">
+            <defaultcontrol>9011</defaultcontrol>
+            <description>Hotkeys Group</description>
+            <visible>Container(9000).HasFocus(1)</visible>
+            <control type="list" id="9011">
+              <description>Hotkeys list group</description>
+              <width>210</width>
+              <height>480</height>
+              <orientation>vertical</orientation>
+              <itemlayout height="45" width="200">
+                <control type="label">
+                  <left>15</left>
+                  <top>0</top>
+                  <height>45</height>
+                  <align>left</align>
+                  <aligny>center</aligny>
+                  <label>$INFO[ListItem.Label]</label>
+                </control>
+              </itemlayout>
+              <focusedlayout height="45" width="200">
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <height>45</height>
+                  <visible>Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)</visible>
+                  <texture border="2">alienware/selected.png</texture>
+                </control>
+                <control type="label">
+                  <visible>![Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)]</visible>
+                  <left>15</left>
+                  <top>0</top>
+                  <height>45</height>
+                  <align>left</align>
+                  <aligny>center</aligny>
+                  <label>$INFO[ListItem.Label]</label>
+                </control>
+                <control type="label">
+                  <visible>Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)</visible>
+                  <left>15</left>
+                  <top>0</top>
+                  <height>45</height>
+                  <align>left</align>
+                  <aligny>center</aligny>
+                  <label>$INFO[ListItem.Label]</label>
+                </control>
+              </focusedlayout>
+              <content>
+                <item id="1">
+                  <label>31810</label>
+                  <!-- Systems Menu -->
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item id="2">
+                  <label>31811</label>
+                  <!-- Shifting Focus -->
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item id="3">
+                  <label>31812</label>
+                  <!-- Full Screen -->
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item id="4">
+                  <label>31813</label>
+                  <!-- Controller Mouse -->
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+              </content>
+            </control>
+          </control>
+        </control>
+      </control>
+    </control>
+  </controls>
+</window>
