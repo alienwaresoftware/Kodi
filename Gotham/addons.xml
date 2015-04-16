@@ -2,9 +2,9 @@
 <addons>
 <addon id="repository.gotham.alienware" name="Alienware Gotham Repo" version="0.0.16" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Gotham addons">
-                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/tree/master/Gotham/addons.xml</info>
-                <checksum>http://raw.github.com/alienwaresoftware/Kodi/tree/master/Gotham/addons.xml.md5</checksum>
-                <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/tree/master/Gotham</datadir>
+                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Gotham/addons.xml</info>
+                <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Gotham/addons.xml.md5</checksum>
+                <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Gotham</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
                 <summary>Alienware's Gotham Repo</summary>
