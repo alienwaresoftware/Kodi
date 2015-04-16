@@ -13,7 +13,7 @@
 			<top>90r</top>
 			<width>1280</width>
 			<height>90</height>
-			<texture>floor.png</texture>
+			<texture>None</texture>
 			<animation effect="fade" time="250" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
 		</control>

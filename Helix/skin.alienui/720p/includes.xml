@@ -1017,7 +1017,7 @@
 				<width>180</width>
 				<height>120</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">folder-focus.png</bordertexture>
+				<bordertexture border="5">none</bordertexture>
 				<bordersize>3</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>ControlGroup(9002).HasFocus</visible>
