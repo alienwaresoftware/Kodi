@@ -10,7 +10,7 @@
 			<top>100r</top>
 			<width>1280</width>
 			<height>100</height>
-			<texture>floor.png</texture>
+			<!--texture>floor.png</texture-->
 			<animation effect="fade" time="250" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
 		</control>

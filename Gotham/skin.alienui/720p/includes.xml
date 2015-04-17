@@ -959,9 +959,9 @@
 			<effect type="fade" start="100" end="0" time="300"/>
 		</animation>
 		<hitrect x="0" y="530" w="1280" h="120"/>
-		<left>0</left>
-		<top>190r</top>
-		<width>1280</width>
+		<left>35</left>
+		<top>150r</top>
+		<width>1175</width>
 		<height>200</height>
 		<pagecontrol>-</pagecontrol>
 		<scrolltime>300</scrolltime>
@@ -972,20 +972,10 @@
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>180</width>
-				<height>120</height>
+				<width>120</width>
+				<height>60</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">button-nofocus.png</bordertexture>
-				<bordersize>3</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="image">
-				<left>5</left>
-				<top>120</top>
-				<width>170</width>
-				<height>110</height>
-				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
 			</control>
 			<control type="label">
 				<left>1</left>
@@ -1003,33 +993,29 @@
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>180</width>
-				<height>120</height>
+				<width>120</width>
+				<height>60</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">button-nofocus.png</bordertexture>
-				<bordersize>3</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>!ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
-				<left>0</left>
+				<left>-15</left>
 				<top>0</top>
-				<width>180</width>
-				<height>120</height>
+				<width>150</width>
+				<height>90</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">folder-focus.png</bordertexture>
-				<bordersize>3</bordersize>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
-				<left>5</left>
-				<top>120</top>
-				<width>170</width>
-				<height>110</height>
-				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
-			</control>
+                <left>10</left>
+                <width>100</width>
+                <height>5</height>
+                <top>90</top>
+                <texture>OSDProgressMid.png</texture>
+                <visible>ControlGroup(9002).HasFocus</visible>
+            </control>
 			<control type="label">
 				<left>1</left>
 				<top>125</top>

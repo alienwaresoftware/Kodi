@@ -8,7 +8,7 @@
 			<top>100r</top>
 			<width>1280</width>
 			<height>100</height>
-			<texture>floor.png</texture>
+			<!--texture>floor.png</texture-->
 			<include>VisibleFadeEffect</include>
 		</control>
 		<control type="image">
@@ -1161,20 +1161,6 @@
 							<texturenofocus>MenuItemNF.png</texturenofocus>
 							<onclick>Skin.SetAddon(HomeProgramButton5,xbmc.addon.executable)</onclick>
 						</control>
-						<control type="button" id="446">
-							<width>750</width>
-							<height>40</height>
-							<font>font13</font>
-							<label>$LOCALIZE[24000] [B]6[/B]</label>
-							<label2>[COLOR=selected]$INFO[system.addontitle(Skin.String(HomeProgramButton6))][/COLOR]</label2>
-							<textcolor>grey2</textcolor>
-							<focusedcolor>white</focusedcolor>
-							<texturefocus>MenuItemFO.png</texturefocus>
-							<texturenofocus>MenuItemNF.png</texturenofocus>
-							<onclick>Skin.SetAddon(HomeProgramButton6,xbmc.addon.executable)</onclick>
-						</control>
-
-
 					</control>
 				</control>
 				<control type="scrollbar" id="61">

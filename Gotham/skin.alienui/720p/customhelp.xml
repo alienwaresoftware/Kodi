@@ -9,7 +9,7 @@
 			<top>100r</top>
 			<width>1280</width>
 			<height>100</height>
-			<texture>floor.png</texture>
+			<!--texture>floor.png</texture-->
 			<animation effect="slide" start="0,10" end="0,0" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
 			<animation effect="slide" start="0,0" end="0,10" time="200" condition="Window.Next(Home)">WindowClose</animation>
 		</control>
@@ -142,14 +142,14 @@
 			<control type="image">
 				<left>268</left>
 				<top>10</top>
-				<width>790</width>
+				<width>800</width>
 				<height>618</height>
 				<texture border="5">black-back2.png</texture>
 			</control>
 			<control type="image">
 				<left>268</left>
 				<top>10</top>
-				<width>790</width>
+				<width>800</width>
 				<height>52</height>
 				<texture>dialogheader.png</texture>
 			</control>
@@ -168,6 +168,7 @@
 			</control>
 			<control type="group" id="9010">
 				<control type="group">
+					<description>Text boxes below images</description>
 					<left>290</left>
 					<top>500</top>
 					<width>750</width>
@@ -728,6 +729,24 @@
 					<onright>9000</onright>
 					<showonepage>false</showonepage>
 					<orientation>vertical</orientation>
+				</control>
+				<control type="button">
+					<description>left Arrow</description>
+					<left>265</left>
+					<top>505</top>
+					<width>30</width>
+					<height>40</height>
+					<texturefocus>arrow-big-left.png</texturefocus>
+					<texturenofocus>arrow-big-left.png</texturenofocus>
+				</control>
+				<control type="button">
+					<description>right Arrow</description>
+					<left>1035</left>
+					<top>505</top>
+					<width>30</width>
+					<height>40</height>
+					<texturefocus>arrow-big-right.png</texturefocus>
+					<texturenofocus>arrow-big-right.png</texturenofocus>
 				</control>
 			</control>
 		</control>

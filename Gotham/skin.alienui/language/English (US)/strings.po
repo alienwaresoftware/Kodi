@@ -984,6 +984,35 @@ msgctxt "#31859"
 msgid "Add-ons Manager"
 msgstr ""
 
+msgctxt "#31860"
+msgid "Confluence"
+msgstr ""
+
+msgctxt "#31861"
+msgid "AlienUI"
+msgstr ""
+
+msgctxt "#31862"
+msgid ""
+msgstr ""
+
+msgctxt "#31863"
+msgid ""
+msgstr ""
+
+msgctxt "#31864"
+msgid ""
+msgstr ""
+
+msgctxt "#31865"
+msgid ""
+msgstr ""
+
+msgctxt "#31866"
+msgid ""
+msgstr ""
+
+
 #END Alienware skin
 
 msgctxt "#31901"
