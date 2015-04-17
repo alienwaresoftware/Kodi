@@ -32,7 +32,7 @@
 		<!-- Music Info -->
 		<control type="group">
 			<left>0</left>
-			<top>-150</top>
+			<top>-75</top>
 			<visible>Player.HasAudio + !Skin.HasSetting(homepageMusicinfo)</visible>
 			<include>VisibleFadeEffect</include>
 			<include>Window_OpenClose_Animation</include>
@@ -90,7 +90,7 @@
 		<!-- LiveTV Info -->
 		<control type="group">
 			<left>490r</left>
-			<top>-150</top>
+			<top>-75</top>
 			<visible>Container(9000).HasFocus(12) + [PVR.IsRecording | PVR.HasNonRecordingTimer]</visible>
 			<include>VisibleFadeEffect</include>
 			<include>Window_OpenClose_Animation</include>
@@ -234,7 +234,7 @@
 		<!-- Video Info -->
 		<control type="group">
 			<left>0</left>
-			<top>-150</top>
+			<top>-75</top>
 			<visible>Player.HasVideo + !Skin.HasSetting(homepageVideoinfo)</visible>
 			<include>VisibleFadeEffect</include>
 			<include>Window_OpenClose_Animation</include>
@@ -458,7 +458,7 @@
 		<control type="group">
 			<description>Controls for currently playing media</description>
 			<left>545r</left>
-			<top>210</top>
+			<top>225</top>
 			<animation effect="slide" start="0,0" end="365,0" time="300" condition="!Player.HasMedia">conditional</animation>
 			<animation type="WindowOpen" reversible="false">
 				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
@@ -812,7 +812,7 @@
 			<control type="wraplist" id="9000">
             	<left>50</left>
             	<right>50</right>
-				<bottom>75</bottom>
+				<bottom>0</bottom>
 				<width>1175</width>
 				<height>400</height>
 				<onleft>9000</onleft>
@@ -825,7 +825,7 @@
 				<focusposition>2</focusposition>
 				<movement>1</movement>
 				<orientation>Horizontal</orientation>
- 				<itemlayout height="280" width="235">
+ 				<itemlayout height="150" width="235">
 					<!--control type="image">
 						<left>0</left>
 						<top>4</top>
@@ -833,23 +833,22 @@
 						<height>52</height>
 						<texture>HomeSeperator.png</texture>
 					</control-->
-                    <control type="image">
+                    <!--control type="image">
                         <left>0</left>
                         <width>230</width>
                         <height>265</height>
-                        <!--texture>alienware/Power_box.png</texture-->
-                    </control>
+                        <texture>alienware/Power_box.png</texture>
+                    </control-->
                     <control type="image">
                         <top>60</top>
                         <height>80</height>
-                        <alignx>center</alignx>
                         <width>230</width>
                         <aspectratio>keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>
                     </control>
-                    <control type="label">
-                        <top>180</top>
+                    <!--control type="label">
+                        <top>140</top>
                         <alignx>center</alignx>
                         <width>230</width>
                         <height>70</height>
@@ -857,52 +856,63 @@
                         <align>center</align>
                         <aligny>top</aligny>
                         <label>$INFO[ListItem.Label]</label>
-                    </control>
+                    </control-->
 				</itemlayout>
-				<focusedlayout height="280" width="235">
-					<control type="image">
+				<focusedlayout height="150" width="235">
+					<!--control type="image">
                         <left>0</left>
                         <height>265</height>
                         <width>2</width>
-                        <!--texture>alienware/white_border.png</texture-->
+                        <!--texture>alienware/white_border.png</texture>
                     </control>
                     <control type="image">
                         <left>0</left>
                         <height>2</height>
                         <width>230</width>
-                        <!--texture>alienware/white_border.png</texture-->
+                        <!--texture>alienware/white_border.png</texture>
                     </control>
                     <control type="image">
                         <left>230</left>
                         <height>265</height>
                         <width>2</width>
-                        <!--texture>alienware/white_border.png</texture-->
+                        <!--texture>alienware/white_border.png</texture>
                     </control>
                     <control type="image">
                         <top>265</top>
                         <left>0</left>
                         <height>2</height>
                         <width>230</width>
-                        <!--texture>alienware/white_border.png</texture-->
-                    </control>
+                        <!--texture>alienware/white_border.png</texture>
+                    </control-->
                     <control type="image">
-                        <left>0</left>
-                        <width>230</width>
-                        <height>265</height>
-                        <texture>alienware/power_selected.png</texture>
+                        <left>20</left>
+                        <width>200</width>
+                        <height>5</height>
+                        <top>175</top>
+                        <texture>OSDProgressMid.png</texture>
+                        <visible>Control.HasFocus(9000)</visible>
                     </control>
 					<control type="image">
-                        <top>60</top>
-                        <alignx>center</alignx>
-                        <height>80</height>
-                        <width>230</width>
-                        <align>center</align>
-						<aligny>center</aligny>
+                        <top>35</top>
+                        <left>-25</left>
+                        <height>140</height>
+                        <width>290</width>
                         <aspectratio>keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>
+                        <texture>OSDProgressMid.png</texture>
+                        <visible>Control.HasFocus(9000)</visible>
                     </control>
-                    <control type="label">
+                    <control type="image">
+                        <top>60</top>
+                        <height>80</height>
+                        <width>230</width>
+                        <aspectratio>keep</aspectratio>
+                        <description>The icon</description>
+                        <texture>$INFO[ListItem.icon]</texture>
+						<visible>!Control.HasFocus(9000)</visible>
+                    </control>
+                    <!--control type="label">
                         <top>180</top>
                         <alignx>center</alignx>
                         <width>230</width>
@@ -912,7 +922,7 @@
                         <align>center</align>
                         <aligny>top</aligny>
                         <label>$INFO[ListItem.Label]</label>
-                    </control>
+                    </control-->
 				</focusedlayout>
 				<content>
 					<item id="5">

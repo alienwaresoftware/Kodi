@@ -11,7 +11,7 @@
 			<animation effect="fade" time="200">WindowClose</animation>
 			<control type="group">
 				<left>190</left>
-				<top>-5</top>
+				<top>5</top>
 				<visible>Library.HasContent(Movies)</visible>
 				<visible>Container(9000).Hasfocus(10) + !Skin.HasSetting(HomepageHideRecentlyAddedVideo)</visible>
 				<include>VisibleFadeEffect</include>
@@ -247,7 +247,7 @@
 			</control>
 			<control type="group">
 				<left>160</left>
-				<top>-5</top>
+				<top>5</top>
 				<visible>Library.HasContent(TVShows)</visible>
 				<visible>Container(9000).Hasfocus(11) + !Skin.HasSetting(HomepageHideRecentlyAddedVideo)</visible>
 				<include>VisibleFadeEffect</include>
@@ -510,7 +510,7 @@
 			</control>
 			<control type="group">
 				<left>240</left>
-				<top>-5</top>
+				<top>5</top>
 				<visible>Library.HasContent(Music)</visible>
 				<visible>Container(9000).Hasfocus(3) + !Skin.HasSetting(HomepageHideRecentlyAddedAlbums)</visible>
 				<include>VisibleFadeEffect</include>
