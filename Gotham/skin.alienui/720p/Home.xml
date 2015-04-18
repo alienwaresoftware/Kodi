@@ -888,7 +888,7 @@
                         <left>0</left>
                         <width>235</width>
                         <height>5</height>
-                        <top>180</top>
+                        <top>185</top>
                         <texture>OSDProgressMid.png</texture>
                         <visible>Control.HasFocus(9000)</visible>
                     </control>
