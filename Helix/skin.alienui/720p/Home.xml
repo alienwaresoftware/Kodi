@@ -842,7 +842,7 @@
                     <control type="image">
                         <top>60</top>
                         <height>80</height>
-                        <width>230</width>
+                        <width>235</width>
                         <aspectratio>keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>
@@ -885,28 +885,27 @@
                         <!--texture>alienware/white_border.png</texture>
                     </control-->
                     <control type="image">
-                        <left>20</left>
-                        <width>200</width>
+                        <left>0</left>
+                        <width>235</width>
                         <height>5</height>
-                        <top>175</top>
+                        <top>180</top>
                         <texture>OSDProgressMid.png</texture>
                         <visible>Control.HasFocus(9000)</visible>
                     </control>
 					<control type="image">
                         <top>35</top>
-                        <left>-25</left>
-                        <height>140</height>
-                        <width>290</width>
+                        <left>0</left>
+                        <height>150</height>
+                        <width>235</width>
                         <aspectratio>keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>
-                        <texture>OSDProgressMid.png</texture>
                         <visible>Control.HasFocus(9000)</visible>
                     </control>
                     <control type="image">
                         <top>60</top>
                         <height>80</height>
-                        <width>230</width>
+                        <width>235</width>
                         <aspectratio>keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>

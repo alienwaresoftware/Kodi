@@ -972,8 +972,8 @@
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>120</width>
-				<height>60</height>
+				<width>130</width>
+				<height>75</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 			</control>
@@ -993,24 +993,24 @@
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>120</width>
-				<height>60</height>
+				<width>130</width>
+				<height>75</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>!ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
-				<left>-15</left>
+				<left>0</left>
 				<top>0</top>
-				<width>150</width>
-				<height>90</height>
+				<width>130</width>
+				<height>75</height>
 				<aspectratio aligny="bottom">keep</aspectratio>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
-                <left>10</left>
-                <width>100</width>
+                <left>0</left>
+                <width>130</width>
                 <height>5</height>
                 <top>90</top>
                 <texture>OSDProgressMid.png</texture>
