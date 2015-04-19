@@ -263,9 +263,9 @@
     <import addon="xbmc.gui" version="5.3.0"/>
     <import addon="script.aw.steam.launcher"/>
     <import addon="script.aw.origin.launcher"/>
-    <import addon="scrip.aw.customizations"/>
-    <import addon="scrip.aw.themes"/>
-    <import addon="scrip.aw.backgrounds"/>
+    <import addon="script.aw.customizations"/>
+    <import addon="script.aw.themes"/>
+    <import addon="script.aw.backgrounds"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
