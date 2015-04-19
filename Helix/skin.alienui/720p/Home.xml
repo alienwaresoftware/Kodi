@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(skin.alienui))]">RunScript("special://skin\scripts\Customizations\customizations_installer.py")</onload>
+	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.customzations))]">RunScript("special://addons\script.aw.customizations\install_customizations.py")</onload>
+	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.backgrounds))]">RunScript("special://addons\script.aw.customizations\install_backgrounds.py")</onload>
+	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.themes))]">RunScript("special://addons\script.aw.customizations\install_themess.py")</onload>
 	<onload condition="!Skin.HasSetting(RssStatus)">RunScript("special://skin\scripts\Customizations\clear_rss.py")</onload>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>	
@@ -725,47 +727,11 @@
 		</control>
 		<control type="group">
 			<top>400</top>
-			<animation type="WindowOpen" reversible="false">
-				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
-				<effect type="fade" start="0" end="100" time="300"/>
-			</animation>
-			<animation type="WindowClose" reversible="false">
-				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
-				<effect type="fade" start="100" end="0" time="300"/>
-			</animation>
 			<control type="group" id="9001">
 				<left>0</left>
-				<top>113</top>
+				<top>140</top>
 				<onup>9000</onup>
 				<ondown>9002</ondown>
-				<control type="grouplist" id="9010">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9010</onleft>
-					<onright>9010</onright>
-					<visible>Container(9000).HasFocus(2)</visible>
-					<!--<include>HomeSubMenuVideos</include> <!-- Buttons for the grouplist -->
-				</control>
-				<control type="grouplist" id="9016">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9016</onleft>
-					<onright>9016</onright>
-					<visible>Container(9000).HasFocus(10)</visible>
-					<!--<include>HomeSubMenuMovies</include> <!-- Buttons for the grouplist -->
-				</control>
-				<control type="grouplist" id="9017">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9017</onleft>
-					<onright>9017</onright>
-					<visible>Container(9000).HasFocus(11)</visible>
-					<!--<include>HomeSubMenuTVShows</include> <!-- Buttons for the grouplist -->
-				</control>
-				<control type="grouplist" id="9011">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9011</onleft>
-					<onright>9011</onright>
-					<visible>Container(9000).HasFocus(3)</visible>
-					<!--<include>HomeSubMenuMusic</include> <!-- Buttons for the grouplist -->
-				</control>
 				<control type="grouplist" id="9012">
 					<include>HomeSubMenuCommonValues</include>
 					<onleft>9012</onleft>
@@ -773,46 +739,11 @@
 					<visible>Container(9000).HasFocus(5)</visible>
 					<include>HomeSubMenuSystem</include> <!-- Buttons for the grouplist -->
 				</control>
-				<control type="grouplist" id="9013">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9013</onleft>
-					<onright>9013</onright>
-					<visible>Container(9000).HasFocus(6)</visible>
-					<!--<include>HomeSubMenuPlayDisc</include> <!-- Buttons for the grouplist -->
-				</control>
-				<control type="grouplist" id="9014">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9014</onleft>
-					<onright>9014</onright>
-					<visible>Container(9000).HasFocus(12)</visible>
-					<!--<include>HomeSubMenuTV</include> <!-- Buttons for the grouplist -->
-				</control>
-				<control type="grouplist" id="9015">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9013</onleft>
-					<onright>9013</onright>
-					<visible>Container(9000).HasFocus(4)</visible>
-					<!--<include>HomeSubMenuPictures</include> <!-- Buttons for the grouplist -->
-				</control>
-				<control type="grouplist" id="9016">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9014</onleft>
-					<onright>9014</onright>
-					<visible>Container(9000).HasFocus(13)</visible>
-					<!--<include>HomeSubMenuRadio</include> <!-- Buttons for the grouplist -->
-				</control>
-				<control type="grouplist" id="9018">
-					<include>HomeSubMenuCommonValues</include>
-					<onleft>9018</onleft>
-					<onright>9018</onright>
-					<visible>Container(9000).HasFocus(91)</visible>
-					<!--<include>HomeSubMenuGames</include> <!-- Buttons for the grouplist -->
-				</control>
 			</control>
 			<control type="wraplist" id="9000">
             	<left>50</left>
             	<right>50</right>
-				<bottom>0</bottom>
+				<bottom>-25</bottom>
 				<width>1175</width>
 				<height>400</height>
 				<onleft>9000</onleft>
@@ -826,70 +757,23 @@
 				<movement>1</movement>
 				<orientation>Horizontal</orientation>
  				<itemlayout height="150" width="235">
-					<!--control type="image">
-						<left>0</left>
-						<top>4</top>
-						<width>1</width>
-						<height>52</height>
-						<texture>HomeSeperator.png</texture>
-					</control-->
-                    <!--control type="image">
-                        <left>0</left>
-                        <width>230</width>
-                        <height>265</height>
-                        <texture>alienware/Power_box.png</texture>
-                    </control-->
                     <control type="image">
                         <top>60</top>
-                        <height>80</height>
+                        <height>100</height>
                         <width>235</width>
-                        <aspectratio>keep</aspectratio>
+                        <aspectratio aligny="center" alignx="center">keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>
                     </control>
-                    <!--control type="label">
-                        <top>140</top>
-                        <alignx>center</alignx>
-                        <width>230</width>
-                        <height>70</height>
-                        <font>goodtime14</font>
-                        <align>center</align>
-                        <aligny>top</aligny>
-                        <label>$INFO[ListItem.Label]</label>
-                    </control-->
 				</itemlayout>
 				<focusedlayout height="150" width="235">
-					<!--control type="image">
-                        <left>0</left>
-                        <height>265</height>
-                        <width>2</width>
-                        <!--texture>alienware/white_border.png</texture>
-                    </control>
-                    <control type="image">
-                        <left>0</left>
-                        <height>2</height>
-                        <width>230</width>
-                        <!--texture>alienware/white_border.png</texture>
-                    </control>
-                    <control type="image">
-                        <left>230</left>
-                        <height>265</height>
-                        <width>2</width>
-                        <!--texture>alienware/white_border.png</texture>
-                    </control>
-                    <control type="image">
-                        <top>265</top>
-                        <left>0</left>
-                        <height>2</height>
-                        <width>230</width>
-                        <!--texture>alienware/white_border.png</texture>
-                    </control-->
                     <control type="image">
                         <left>0</left>
                         <width>235</width>
-                        <height>5</height>
-                        <top>185</top>
-                        <texture>OSDProgressMid.png</texture>
+                        <height>30</height>
+                        <top>162</top>
+                        <aspectratio aligny="center" alignx="center">stretch</aspectratio>
+                        <texture>CalibrateSubtitles.png</texture>
                         <visible>Control.HasFocus(9000)</visible>
                     </control>
 					<control type="image">
@@ -897,31 +781,20 @@
                         <left>0</left>
                         <height>150</height>
                         <width>235</width>
-                        <aspectratio>keep</aspectratio>
+                        <aspectratio aligny="center" alignx="center">keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>
                         <visible>Control.HasFocus(9000)</visible>
                     </control>
                     <control type="image">
                         <top>60</top>
-                        <height>80</height>
+                        <height>100</height>
                         <width>235</width>
-                        <aspectratio>keep</aspectratio>
+                        <aspectratio aligny="center" alignx="center">keep</aspectratio>
                         <description>The icon</description>
                         <texture>$INFO[ListItem.icon]</texture>
 						<visible>!Control.HasFocus(9000)</visible>
                     </control>
-                    <!--control type="label">
-                        <top>180</top>
-                        <alignx>center</alignx>
-                        <width>230</width>
-                        <height>70</height>
-                        <font>goodtime14</font>
-                        <textcolor>white</textcolor>
-                        <align>center</align>
-                        <aligny>top</aligny>
-                        <label>$INFO[ListItem.Label]</label>
-                    </control-->
 				</focusedlayout>
 				<content>
 					<item id="5">

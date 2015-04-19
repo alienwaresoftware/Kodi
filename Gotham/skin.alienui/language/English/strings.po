@@ -1010,19 +1010,19 @@ msgid "Bluetooth"
 msgstr ""
 
 msgctxt "#31846"
-msgid "Controller Layouts"
+msgid "Layouts"
 msgstr ""
 
 msgctxt "#31847"
-msgid "Controller Hotkeys"
+msgid "Hotkeys"
 msgstr ""
 
 msgctxt "#31848"
-msgid "Support Videos"
+msgid "Videos"
 msgstr ""
 
 msgctxt "#31849"
-msgid "Support Wiki"
+msgid "Wikis"
 msgstr ""
 
 msgctxt "#31850"
@@ -1074,7 +1074,7 @@ msgid "AlienUI"
 msgstr ""
 
 msgctxt "#31862"
-msgid ""
+msgid "Home Page Games Sub-menu"
 msgstr ""
 
 msgctxt "#31863"

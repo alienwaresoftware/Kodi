@@ -1,3 +1,18 @@
+[B]0.0.25[/B]
+- Changed fixed settings to variable.
+- Added new backgrounds.
+- Changed icon indicator
+- Changed arrows in help menu.
+
+[B]0.0.23[/B]
+- Added highlight to icons
+- Added grown to main menu
+- Repositioned items to fit
+
+[B]0.0.22[/B]
+- Removed boxes on main menu
+- Added arrows in help menu.
+
 [B]0.0.21[/B]
 - Adjusted menu alignment to fit recently added videos and music
 

@@ -736,8 +736,8 @@
 					<top>505</top>
 					<width>30</width>
 					<height>40</height>
-					<texturefocus>arrow-big-left.png</texturefocus>
-					<texturenofocus>arrow-big-left.png</texturenofocus>
+					<texturefocus>scroll-left-focus.png</texturefocus>
+					<texturenofocus>scroll-left-focus.png</texturenofocus>
 				</control>
 				<control type="button">
 					<description>right Arrow</description>
@@ -745,8 +745,8 @@
 					<top>505</top>
 					<width>30</width>
 					<height>40</height>
-					<texturefocus>arrow-big-right.png</texturefocus>
-					<texturenofocus>arrow-big-right.png</texturenofocus>
+					<texturefocus>scroll-right-focus.png</texturefocus>
+					<texturenofocus>scroll-right-focus.png</texturenofocus>
 				</control>
 			</control>
 		</control>

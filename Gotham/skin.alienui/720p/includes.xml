@@ -92,10 +92,10 @@
 		<align>center</align>
 		<aligny>center</aligny>
 		<font>font12</font>
-		<textcolor>grey2</textcolor>
+		<textcolor>white</textcolor>
 		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">HomeSubFO.png</texturefocus>
-		<texturenofocus border="5">HomeSubNF.png</texturenofocus>
+		<texturenofocus border="5"></texturenofocus>
+		<texturefocus border="5">CalibrateSubtitles.png</texturefocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="HomeSubMenuCommonValues">
@@ -108,8 +108,6 @@
 		<ondown>9002</ondown>
 		<itemgap>0</itemgap>
 		<orientation>Horizontal</orientation>
-		<animation effect="slide" start="0,-40" end="0,0" delay="200" time="200" tween="quadratic" easing="out">Visible</animation>
-		<animation effect="slide" start="0,0" end="0,-40" time="200" tween="quadratic" easing="out">Hidden</animation>
 	</include>
 	<include name="ButtonInfoDialogsCommonValues">
 		<height>40</height>
@@ -959,7 +957,7 @@
 			<effect type="fade" start="100" end="0" time="300"/>
 		</animation>
 		<hitrect x="0" y="530" w="1280" h="120"/>
-		<left>35</left>
+		<centerleft>50%r</centerleft>
 		<top>150r</top>
 		<width>1175</width>
 		<height>200</height>
@@ -972,74 +970,40 @@
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>130</width>
+				<width>75</width>
 				<height>75</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
+				<aspectratio aligny="center" alignx="center">keep</aspectratio>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="label">
-				<left>1</left>
-				<top>125</top>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey2</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
 			</control>
 		</itemlayout>
 		<focusedlayout height="200" width="182">
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>130</width>
+				<width>75</width>
 				<height>75</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
+				<aspectratio aligny="center" alignx="center">keep</aspectratio>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>!ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>130</width>
+				<width>75</width>
 				<height>75</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
+				<aspectratio aligny="center" alignx="center">keep</aspectratio>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
-                <left>0</left>
-                <width>130</width>
-                <height>5</height>
-                <top>90</top>
-                <texture>OSDProgressMid.png</texture>
+                <left>-12</left>
+                <width>100</width>
+                <height>30</height>
+                <top>50</top>
+                <aspectratio aligny="center" alignx="center">stretch</aspectratio>
+                <texture>CalibrateSubtitles.png</texture>
                 <visible>ControlGroup(9002).HasFocus</visible>
             </control>
-			<control type="label">
-				<left>1</left>
-				<top>125</top>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>white</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
-				<visible>Control.HasFocus(9002)</visible>
-			</control>
-			<control type="label">
-				<left>1</left>
-				<top>125</top>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey2</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
-				<visible>!Control.HasFocus(9002)</visible>
-			</control>
 		</focusedlayout>
 	</include>
 	<include name="TVNextAiredListCommonLayout">

@@ -18,7 +18,7 @@
             <top>0</top>
             <width>1280</width>
             <height>720</height>
-            <aspectratio>scale</aspectratio>
+            <aspectratio alignx="center">scale</aspectratio>
             <texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
             <visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
             <include>VisibleFadeEffect</include>

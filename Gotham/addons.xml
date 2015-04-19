@@ -34,6 +34,26 @@
     </extension>
 </addon>
 
+<addon id="script.aw.backgrounds" name="AlienUI Backgrounds" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="install_Backgrounds.py">
+        <provides></provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">AlienUI Backgrounds</summary>
+        <language></language>
+        <description lang="en">AlienUI Backgrounds</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
 <addon id="script.aw.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -54,18 +74,18 @@
     </extension>
 </addon>
 
-<addon id="script.aw.customizations" name="Alien UI Console Customizations" version="0.0.4" provider-name="Alienware">
+<addon id="script.aw.customizations" name="AlienUI Customizations" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="customizations_installer.py">
-        <provides>executable</provides>
+    <extension point="xbmc.python.script" library="install_customizations.py">
+        <provides></provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Alien UI Console Customizations</summary>
+        <summary lang="en">AlienUI Customizations</summary>
         <language></language>
-        <description lang="en">Silently installs our controller keymap for improve controller compatibility. Silently Alienware Background images to Home/Media/Alienware. To change your background in Kodi: System > Settings > Appearance > Skin >Settings > Background > Background Path. Requires restart after installation.</description>
+        <description lang="en">AlienUI Customizations</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -174,18 +194,18 @@
     </extension>
 </addon>
 
-<addon id="script.aw.tencent.launcher" name="Tencent" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.themes" name="AlienUI Themes" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="launch_steam.py">
-        <provides>game executable</provides>
+    <extension point="xbmc.python.script" library="install_themes.py">
+        <provides></provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Tencent</summary>
+        <summary lang="en">AlienUI Themes</summary>
         <language></language>
-        <description lang="en">Tencent</description>
+        <description lang="en">AlienUI Themes</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -236,13 +256,16 @@
 
 <addon
   id="skin.alienui"
-  version="0.0.23"
+  version="0.0.26"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.aw.steam.launcher" version="0.0.1"/>
-    <import addon="script.aw.origin.launcher" version="0.0.1"/>
+    <import addon="script.aw.steam.launcher"/>
+    <import addon="script.aw.origin.launcher"/>
+    <import addon="scrip.aw.customizations"/>
+    <import addon="scrip.aw.themes"/>
+    <import addon="scrip.aw.backgrounds"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
