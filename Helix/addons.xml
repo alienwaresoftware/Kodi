@@ -264,8 +264,6 @@
     <import addon="script.aw.steam.launcher"/>
     <import addon="script.aw.origin.launcher"/>
     <import addon="script.aw.customizations"/>
-    <import addon="script.aw.themes"/>
-    <import addon="script.aw.backgrounds"/>
   </requires>
   <extension
     point="xbmc.gui.skin"

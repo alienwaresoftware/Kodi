@@ -4,5 +4,5 @@ dir_path = '%s\\Kodi\\addons\\script.aw.themes\\' % os.environ['APPDATA']
 zip_file_path = '%sthemes.zip' % dir_path
 zfile = zipfile.ZipFile(zip_file_path)
 zfile.extractall(kodi_path)
-themesversion = xbmc.getInfoLabel("System.AddonVersion(script.aw.themes)")
-xbmc.executebuiltin("Skin.SetString(ThemesVersion,"+str(themesversion)+")")
+SkinVersion = xbmc.getInfoLabel("System.AddonVersion(Skin.AlienUI)")
+xbmc.executebuiltin("Skin.SetString(SkinVersion,"+str(SkinVersion)+")")
