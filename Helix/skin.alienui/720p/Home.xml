@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.customzations))]">RunScript("special://addons\script.aw.customizations\install_customizations.py")</onload>
-	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.backgrounds))]">RunScript("special://addons\script.aw.customizations\install_backgrounds.py")</onload>
-	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.themes))]">RunScript("special://addons\script.aw.customizations\install_themess.py")</onload>
+	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.customizations))]">RunScript("special://home\addons\script.aw.customizations\install_customizations.py")</onload>
+	<onload condition="![stringcompare(Skin.String(BackgroundsVersion),System.AddonVersion(script.aw.backgrounds))]">RunScript("special://home\addons\script.aw.backgrounds\install_backgrounds.py")</onload>
+	<onload condition="![stringcompare(Skin.String(ThemesVersion),System.AddonVersion(script.aw.themes))]">RunScript("special://home\addons\script.aw.themes\install_themes.py")</onload>
 	<onload condition="!Skin.HasSetting(RssStatus)">RunScript("special://skin\scripts\Customizations\clear_rss.py")</onload>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>	
