@@ -3,7 +3,6 @@
 	<onload condition="![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.customizations))]">RunScript("special://home\addons\script.aw.customizations\install_customizations.py")</onload>
 	<onload condition="![stringcompare(Skin.String(BackgroundsVersion),System.AddonVersion(script.aw.backgrounds))]">RunScript("special://home\addons\script.aw.backgrounds\install_backgrounds.py")</onload>
 	<onload condition="![stringcompare(Skin.String(ThemesVersion),System.AddonVersion(script.aw.themes))]">RunScript("special://home\addons\script.aw.themes\install_themes.py")</onload>
-	<onload condition="!Skin.HasSetting(RssStatus)">RunScript("special://skin\scripts\Customizations\clear_rss.py")</onload>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>	
 	<onunload condition="Container(9000).Hasfocus(10) | Container(9000).Hasfocus(11) | ControlGroup(9010).HasFocus | ControlGroup(9016).HasFocus | ControlGroup(9017).HasFocus">SetProperty(VideosDirectLink,True)</onunload>
