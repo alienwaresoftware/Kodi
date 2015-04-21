@@ -16,7 +16,7 @@
         <width>40</width>
         <height>40</height>
         <aspectratio>keep</aspectratio>
-        <texture>alienware/icon_settings.png</texture>
+        <texture>alienware/icons/icon_settings.png</texture>
       </control>
       <control type="image">
         <description>background for left hand side list</description>
@@ -444,14 +444,14 @@
                   <top>150</top>
                   <width>200</width>
                   <left>120</left>
-                  <texture>alienware/icon_tv.png</texture>
+                  <texture>alienware/icons/icon_tv.png</texture>
                   <visible>true</visible>
                   <aspectratio align="bottom">keep</aspectratio>
                 </control>
                 <control type="image">
                   <top>125</top>
                   <left>204</left>
-                  <texture>alienware/icon_remote.png</texture>
+                  <texture>alienware/icons/icon_remote.png</texture>
                   <visible>true</visible>
                   <width>30</width>
                   <aspectratio align="bottom">keep</aspectratio>

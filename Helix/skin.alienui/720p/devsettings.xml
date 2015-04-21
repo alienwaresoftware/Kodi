@@ -23,7 +23,7 @@
           <width>60</width>
           <height>60</height>
           <aspectratio>keep</aspectratio>
-          <texture>alienware/icon_settings.png</texture>
+          <texture>alienware/icons/icon_settings.png</texture>
         </control>
         <include>SettingsBreadcrumb</include>
         <!-- Breadcrumbs for the settings menu -->
@@ -335,7 +335,7 @@
                 <width>200</width>
                 <centerleft>50%</centerleft>
                 <aligny>center</aligny>
-                <texture>alienware/icon_tv.png</texture>
+                <texture>alienware/icons/icon_tv.png</texture>
                 <visible>true</visible>
                 <aspectratio align="bottom">keep</aspectratio>
               </control>
@@ -343,7 +343,7 @@
                 <top>300</top>
                 <centerleft>50%</centerleft>
                 <aligny>center</aligny>
-                <texture>alienware/icon_remote.png</texture>
+                <texture>alienware/icons/icon_remote.png</texture>
                 <visible>true</visible>
                 <width>30</width>
                 <aspectratio align="bottom">keep</aspectratio>

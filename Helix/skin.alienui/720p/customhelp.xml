@@ -375,21 +375,21 @@
 							<item id="1">
 								<label>31852</label>
 								<onclick>noop</onclick>
-								<icon>alienware/X360_keyboard.png</icon>
+								<icon>Alienware/X360/Layout/Controller_Keyboard.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="2">
 								<label>31853</label>
 								<onclick>noop</onclick>
-								<icon>alienware/Controller_MouseDriver.png</icon>
+								<icon>Alienware/X360/Layout/Controller_Keyboard.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="3">
 								<label>31854</label>
 								<onclick>noop</onclick>
-								<icon>alienware/Controller_ShiftingFocus.png</icon>
+								<icon>Alienware/X360/Layout/Controller_Keyboard.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
@@ -471,35 +471,35 @@
 							<item id="1">
 								<label>31810</label>
 								<onclick>noop</onclick>
-								<icon>alienware/Controller_GuideMenu.png</icon>
+								<icon>Alienware/X360/Hotkeys/Controller_GuideMenu.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="2">
 								<label>31813</label>
 								<onclick>noop</onclick>
-								<icon>alienware/Controller_MouseDriver.png</icon>
+								<icon>Alienware/X360/Hotkeys/Controller_MouseDriver.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="3">
 								<label>31811</label>
 								<onclick>noop</onclick>
-								<icon>alienware/Controller_ShiftingFocus.png</icon>
+								<icon>Alienware/X360/Hotkeys/Controller_ShiftingFocus.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="4">
 								<label>31812</label>
 								<onclick>noop</onclick>
-								<icon>alienware/Controller_FullScreen.png</icon>
+								<icon>Alienware/X360/Hotkeys/Controller_FullScreen.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="5">
 								<label>Coming Soon</label>
 								<onclick>noop</onclick>
-								<icon>alienware/Controller_CloseApp.png</icon>
+								<icon>Alienware/X360/Hotkeys/Controller_CloseApp.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
@@ -760,7 +760,7 @@
 			<width>35</width>
 			<height>35</height>
 			<aspectratio>keep</aspectratio>
-			<texture>alienware/icon_help.png</texture>
+			<texture>Alienware/icons/icon_help.png</texture>
 		</control>
 		<include>Clock</include>
 	</controls>
