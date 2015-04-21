@@ -34,7 +34,7 @@
     </extension>
 </addon>
 
-<addon id="script.aw.backgrounds" name="AlienUI Backgrounds" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.backgrounds" name="AlienUI Backgrounds" version="0.0.2" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -256,13 +256,11 @@
 
 <addon
   id="skin.alienui"
-  version="0.0.26"
+  version="0.0.27"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.aw.steam.launcher"/>
-    <import addon="script.aw.origin.launcher"/>
     <import addon="script.aw.customizations"/>
   </requires>
   <extension
