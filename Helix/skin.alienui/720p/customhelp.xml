@@ -499,7 +499,7 @@
 							<item id="5">
 								<label>Coming Soon</label>
 								<onclick>noop</onclick>
-								<icon>alienware/icon_help.png</icon>
+								<icon>alienware/Controller_CloseApp.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
