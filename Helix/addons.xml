@@ -74,6 +74,26 @@
     </extension>
 </addon>
 
+<addon id="script.aw.bluestacks.launcher" name="BlueStacks" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_BlueStacks.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">BlueStacks</summary>
+        <language></language>
+        <description lang="en">BlueStacks</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
 <addon id="script.aw.customizations" name="AlienUI Customizations" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -126,6 +146,26 @@
         <summary lang="en">Hulu</summary>
         <language></language>
         <description lang="en">Hulu</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.msstore.launcher" name="Microsoft Store" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_msstore.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Microsoft Store</summary>
+        <language></language>
+        <description lang="en">Microsoft Store</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -194,7 +234,7 @@
     </extension>
 </addon>
 
-<addon id="script.aw.themes" name="AlienUI Themes" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.themes" name="AlienUI Themes" version="0.0.2" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -226,6 +266,26 @@
         <summary lang="en">Uplay</summary>
         <language></language>
         <description lang="en">Uplay</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.xbox.launcher" name="Xbox Live" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_xbox.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Xbox Live</summary>
+        <language></language>
+        <description lang="en">Xbox Live</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
