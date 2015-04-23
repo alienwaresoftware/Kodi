@@ -34,26 +34,6 @@
     </extension>
 </addon>
 
-<addon id="script.aw.backgrounds" name="AlienUI Backgrounds" version="0.0.2" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="install_Backgrounds.py">
-        <provides></provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">AlienUI Backgrounds</summary>
-        <language></language>
-        <description lang="en">AlienUI Backgrounds</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="script.aw.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -94,26 +74,6 @@
     </extension>
 </addon>
 
-<addon id="script.aw.customizations" name="AlienUI Customizations" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="install_customizations.py">
-        <provides></provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">AlienUI Customizations</summary>
-        <language></language>
-        <description lang="en">AlienUI Customizations</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="script.aw.geforce.launcher" name="Geforce Experience" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -146,6 +106,26 @@
         <summary lang="en">Hulu</summary>
         <language></language>
         <description lang="en">Hulu</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.ie.launcher" name="Microsoft Internet Explorer" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_ie.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Internet Explorer</summary>
+        <language></language>
+        <description lang="en">Internet Explorer</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -234,26 +214,6 @@
     </extension>
 </addon>
 
-<addon id="script.aw.themes" name="AlienUI Themes" version="0.0.2" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="install_themes.py">
-        <provides></provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">AlienUI Themes</summary>
-        <language></language>
-        <description lang="en">AlienUI Themes</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="script.aw.uplay.launcher" name="Uplay" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -314,14 +274,86 @@
     </extension>
 </addon>
 
+<addon  id="script.aw.alienui.launcher"
+        name="AlienUI Console Mode"
+        version="0.0.1"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="AlienUIlauncher.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">AlienUI Console Mode</summary>
+    <description lang="en">AlienUI Console Mode</description>
+  </extension>
+</addon>
+
+<addon  id="script.aw.backgrounds"
+        name="AlienUI Backgrounds"
+        version="0.0.3"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="install_backgrounds.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">AlienUI Backgrounds</summary>
+    <description lang="en">AlienUI Backgrounds</description>
+  </extension>
+</addon>
+
+<addon  id="service.aw.customizations"
+        name="AlienUI Customizations"
+        version="0.0.2"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="install_customizations.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">AlienUI Customizations</summary>
+    <description lang="en">AlienUI Customizations</description>
+  </extension>
+</addon>
+
+<addon  id="script.aw.themes"
+        name="AlienUI Themes"
+        version="0.0.3"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="install_themes.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">AlienUI Themes</summary>
+    <description lang="en">AlienUI Themes</description>
+  </extension>
+</addon>
+
 <addon
   id="skin.alienui"
-  version="0.0.28"
+  version="0.0.29"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="script.aw.customizations"/>
+    <import addon="service.aw.customizations"/>
   </requires>
   <extension
     point="xbmc.gui.skin"

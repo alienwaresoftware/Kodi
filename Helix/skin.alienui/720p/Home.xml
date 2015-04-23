@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<onload condition="System.HasAddon(script.aw.themes)+![[stringcompare(Skin.String(SkinVersion),System.AddonVersion(Skin.AlienUI))]+[stringcompare(Skin.String(ThemeVersion),System.AddonVersion(Skin.AlienUI))]]">RunScript("special://home\addons\script.aw.themes\install_themes.py")</onload>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>	
 	<onunload condition="Container(9000).Hasfocus(10) | Container(9000).Hasfocus(11) | ControlGroup(9010).HasFocus | ControlGroup(9016).HasFocus | ControlGroup(9017).HasFocus">SetProperty(VideosDirectLink,True)</onunload>
