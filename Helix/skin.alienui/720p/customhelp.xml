@@ -338,9 +338,9 @@
 		                    </control>
 		                    <control type="label">
 		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
+		                        <alignx>Left</alignx>
+		                        <width>300</width>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <align>center</align>
 		                        <aligny>top</aligny>
@@ -361,9 +361,9 @@
 		                    </control>
 		                    <control type="label">
 		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
+		                        <alignx>Left</alignx>
+		                        <width>300</width>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <textcolor>white</textcolor>
 		                        <align>center</align>
@@ -436,7 +436,7 @@
 		                        <bottom>-45</bottom>
 		                        <alignx>right</alignx>
 		                        <width>230</width>
-		                        <height>70</height>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <align>center</align>
 		                        <aligny>top</aligny>
@@ -459,7 +459,7 @@
 		                        <bottom>-45</bottom>
 		                        <alignx>right</alignx>
 		                        <width>230</width>
-		                        <height>70</height>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <textcolor>white</textcolor>
 		                        <align>center</align>
@@ -542,9 +542,9 @@
 		                    </control>
 		                    <control type="label">
 		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
+		                        <alignx>Left</alignx>
+		                        <width>300</width>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <align>center</align>
 		                        <aligny>top</aligny>
@@ -565,9 +565,9 @@
 		                    </control>
 		                    <control type="label">
 		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
+		                        <alignx>Left</alignx>
+		                        <width>300</width>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <textcolor>white</textcolor>
 		                        <align>center</align>
@@ -579,35 +579,35 @@
 							<item id="1">
 								<label>31855</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Quick_Start_Guide.strm")</onclick>
-								<icon>special://skin\media\help_images\help_quick_start_guide.png</icon>
+								<icon>alienware\help_images\help_quick_start_guide.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="2">
 								<label>31800</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Hotkeys.strm")</onclick>
-								<icon>special://skin\media\help_images\help_hotkeys.png</icon>
+								<icon>alienware\help_images\help_hotkeys.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="3">
 								<label>5</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Settings.strm")</onclick>
-								<icon>special://skin\media\help_images\help_settings.png</icon>
+								<icon>alienware\help_images\help_settings.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="4">
 								<label>24001</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Addons.strm")</onclick>
-								<icon>special://skin\media\help_images\help_addons.png</icon>
+								<icon>alienware\help_images\help_addons.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="5">
 								<label>10038</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Advanced.strm")</onclick>
-								<icon>special://skin\media\help_images\help_advanced.png</icon>
+								<icon>alienware\help_images\help_advanced.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
@@ -650,9 +650,9 @@
 		                    </control>
 		                    <control type="label">
 		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
+		                        <alignx>Left</alignx>
+		                        <width>300</width>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <align>center</align>
 		                        <aligny>top</aligny>
@@ -673,9 +673,9 @@
 		                    </control>
 		                    <control type="label">
 		                        <bottom>-45</bottom>
-		                        <alignx>right</alignx>
-		                        <width>230</width>
-		                        <height>70</height>
+		                        <alignx>Left</alignx>
+		                        <width>300</width>
+		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <textcolor>white</textcolor>
 		                        <align>center</align>
