@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<onload condition="System.HasAddon(script.aw.customizations)+![stringcompare(Skin.String(CustomizationsVersion),System.AddonVersion(script.aw.customizations))]">RunScript("special://home\addons\script.aw.customizations\install_customizations.py")</onload>
-	<onload condition="System.HasAddon(script.aw.backgrounds)+![stringcompare(Skin.String(BackgroundsVersion),System.AddonVersion(script.aw.backgrounds))]">RunScript("special://home\addons\script.aw.backgrounds\install_backgrounds.py")</onload>
 	<onload condition="System.HasAddon(script.aw.themes)+![[stringcompare(Skin.String(SkinVersion),System.AddonVersion(Skin.AlienUI))]+[stringcompare(Skin.String(ThemeVersion),System.AddonVersion(Skin.AlienUI))]]">RunScript("special://home\addons\script.aw.themes\install_themes.py")</onload>
 	<defaultcontrol always="true">9000</defaultcontrol>
 	<allowoverlay>no</allowoverlay>	

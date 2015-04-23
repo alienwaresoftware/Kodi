@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.aw.backgrounds" name="AlienUI Backgrounds" version="0.0.2" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="install_Backgrounds.py">
-        <provides></provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">AlienUI Backgrounds</summary>
-        <language></language>
-        <description lang="en">AlienUI Backgrounds</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
+<addon  id="script.aw.backgrounds" 
+        name="AlienUI Backgrounds" 
+        version="0.0.3" 
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="install_backgrounds.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">AlienUI Backgrounds</summary>
+    <description lang="en">AlienUI Backgrounds</description>
+  </extension>
 </addon>
