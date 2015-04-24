@@ -106,7 +106,7 @@
 		<align>center</align>
 		<onup>9000</onup>
 		<ondown>9002</ondown>
-		<itemgap>0</itemgap>
+		<itemgap>50</itemgap>
 		<orientation>Horizontal</orientation>
 	</include>
 	<include name="ButtonInfoDialogsCommonValues">
