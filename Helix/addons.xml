@@ -294,7 +294,7 @@
 
 <addon  id="service.aw.backgrounds"
         name="AlienUI Backgrounds"
-        version="0.0.3"
+        version="0.0.4"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
