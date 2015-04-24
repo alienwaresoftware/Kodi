@@ -1,4 +1,4 @@
-import AlphaUIUtils
+from resources.lib import AlphaUIUtils
 
 class HDMIInHelper(object):
     def __init__(self):

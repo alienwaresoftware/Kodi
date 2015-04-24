@@ -1,4 +1,3 @@
-import xbmc
-import subprocess
+from ctypes import windll
 
-subprocess.call(['shutdown', '-l'])
+windll.user32.ExitWindowsEx(0, 1)

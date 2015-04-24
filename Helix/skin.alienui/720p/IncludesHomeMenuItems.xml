@@ -193,7 +193,7 @@
 		<control type="button" id="90500">
 			<include>ButtonHomeSubCommonValues</include>
 			<label>31850</label>
-			<onclick>XBMC.RunScript("special://skin\scripts\settings.py")</onclick>
+			<onclick>RunAddon(script.module.aw.devicesettings)</onclick>
 		</control>
 		<control type="button" id="90123">
 			<include>ButtonHomeSubCommonValues</include>

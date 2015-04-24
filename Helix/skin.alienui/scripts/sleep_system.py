@@ -1,4 +1,4 @@
 import xbmc
-import AlphaUIUtils
+from resources.lib import AlphaUIUtils
 
 AlphaUIUtils.SleepSystem()

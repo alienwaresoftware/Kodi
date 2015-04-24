@@ -1,3 +1,3 @@
-import AlphaUIUtils
+from resources.lib import AlphaUIUtils
 
 AlphaUIUtils.CloseLauncher()

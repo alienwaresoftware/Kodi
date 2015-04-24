@@ -1,6 +1,6 @@
 import xbmc
 import xbmcgui
-import AlphaUINetworkUtils
+from resources.lib import AlphaUINetworkUtils
 from confirmdialog import ConfirmDialog
 from confirmdialog import ConfirmDialogType
 
