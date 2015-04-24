@@ -365,7 +365,7 @@
 
 <addon
   id="skin.alienui"
-  version="0.0.29"
+  version="0.0.30"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
