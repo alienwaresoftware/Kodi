@@ -91,7 +91,7 @@
 		<textwidth>195</textwidth>
 		<align>center</align>
 		<aligny>center</aligny>
-		<font>font12</font>
+		<font>font16</font>
 		<textcolor>white</textcolor>
 		<focusedcolor>white</focusedcolor>
 		<texturenofocus border="5"></texturenofocus>
