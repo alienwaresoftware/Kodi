@@ -79,7 +79,7 @@
 		<width>221</width>
 		<textoffsetx>20</textoffsetx>
 		<textwidth>195</textwidth>
-		<aligny>center</aligny>
+		<aligny>bottom</aligny>
 		<font>font12_title</font>
 		<texturefocus border="5">button-focus.png</texturefocus>
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
