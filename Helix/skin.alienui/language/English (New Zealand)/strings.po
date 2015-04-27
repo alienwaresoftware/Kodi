@@ -997,7 +997,7 @@ msgid "Home Page Games Sub-menu"
 msgstr ""
 
 msgctxt "#31863"
-msgid ""
+msgid "File Manager"
 msgstr ""
 
 msgctxt "#31864"

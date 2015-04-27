@@ -197,7 +197,7 @@
 		</control>
 		<control type="button" id="90123">
 			<include>ButtonHomeSubCommonValues</include>
-			<label>7</label>
+			<label>31863</label>
 			<onclick>ActivateWindow(FileManager)</onclick>
 		</control>
 		<control type="button" id="90124">

@@ -93,20 +93,20 @@
 		<aligny>center</aligny>
 		<font>font16</font>
 		<textcolor>white</textcolor>
-		<focusedcolor>white</focusedcolor>
+		<focusedcolor>blue</focusedcolor>
 		<texturenofocus border="5"></texturenofocus>
-		<texturefocus border="5">CalibrateSubtitles.png</texturefocus>
+		<texturefocus border="5"></texturefocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="HomeSubMenuCommonValues">
-		<left>0</left>
+		<left>-125</left>
 		<top>0</top>
-		<width>1280</width>
+		<width>1500</width>
 		<height>35</height>
 		<align>center</align>
 		<onup>9000</onup>
 		<ondown>9002</ondown>
-		<itemgap>50</itemgap>
+		<itemgap>80</itemgap>
 		<orientation>Horizontal</orientation>
 	</include>
 	<include name="ButtonInfoDialogsCommonValues">
