@@ -764,7 +764,7 @@
 				</itemlayout>
 				<focusedlayout height="150" width="235">
                     <control type="image">
-                        <left>0</left>
+                        <left>4</left>
                         <width>235</width>
                         <height>30</height>
                         <top>162</top>
@@ -774,7 +774,7 @@
                     </control>
 					<control type="image">
                         <top>35</top>
-                        <left>0</left>
+                        <left>4</left>
                         <height>150</height>
                         <width>235</width>
                         <aspectratio aligny="center" alignx="center">keep</aspectratio>
