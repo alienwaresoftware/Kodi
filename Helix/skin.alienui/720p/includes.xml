@@ -86,7 +86,7 @@
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="ButtonHomeSubCommonValues">
-		<height>35</height>
+		<height>40</height>
 		<width>180</width>
 		<textwidth>195</textwidth>
 		<align>center</align>
