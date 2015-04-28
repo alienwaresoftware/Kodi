@@ -291,6 +291,23 @@
   </extension>
 </addon>
 
+<addon  id="script.module.aw.gameslauncher"
+        name="Alienware Game Launcher"
+        version="0.0.1"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">Alienware Game Launcher</summary>
+    <description lang="en">Alienware Game Launcher</description>
+  </extension>
+</addon>
+
 <addon  id="script.aw.alienui.launcher"
         name="AlienUI Console Mode"
         version="0.0.1"
