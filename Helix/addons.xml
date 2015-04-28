@@ -274,6 +274,23 @@
     </extension>
 </addon>
 
+<addon  id="script.module.aw.devicesettings"
+        name="AlienUI Device Settings Service"
+        version="0.0.1"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">AlienUI Device Settings Service</summary>
+    <description lang="en">AlienUI Device Settings Service</description>
+  </extension>
+</addon>
+
 <addon  id="script.aw.alienui.launcher"
         name="AlienUI Console Mode"
         version="0.0.1"
@@ -325,23 +342,6 @@
     <minversion>1</minversion>
     <summary lang="en">AlienUI Customizations</summary>
     <description lang="en">AlienUI Customizations</description>
-  </extension>
-</addon>
-
-<addon  id="service.aw.devicesettings"
-        name="AlienUI Device Settings Service"
-        version="0.0.1"
-        provider-name="Alienware">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion>1</minversion>
-    <summary lang="en">AlienUI Device Settings Service</summary>
-    <description lang="en">AlienUI Device Settings Service</description>
   </extension>
 </addon>
 
