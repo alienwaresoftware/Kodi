@@ -796,7 +796,7 @@
 						<top>170</top>
 						<width>290</width>
 						<height>60</height>
-						<font>font14</font>
+						<font>font_MainMenu</font>
 						<textcolor>blue</textcolor>
 						<align>center</align>
 						<aligny>center</aligny>
@@ -821,7 +821,7 @@
 					</item>
 					<item id="91">
                         <label>[UPPERCASE]$LOCALIZE[15016][/UPPERCASE]</label> <!-- Games -->
-                        <onclick>RunAddon(script.module.aw.gameslauncher)</onclick>
+                        <onclick>ActivateWindow(Programs,Addons,return)</onclick>
                         <icon>alienware/icons/icon_games.png</icon>
                         <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
                     </item>

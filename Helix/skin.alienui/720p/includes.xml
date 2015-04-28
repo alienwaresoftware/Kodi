@@ -99,7 +99,7 @@
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="HomeSubMenuCommonValues">
-		<left>-125</left>
+		<left>-110</left>
 		<top>0</top>
 		<width>1500</width>
 		<height>35</height>
