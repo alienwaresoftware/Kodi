@@ -402,7 +402,7 @@
 
 <addon
   id="skin.alienui"
-  version="0.0.34"
+  version="0.0.35"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
