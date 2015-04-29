@@ -723,7 +723,7 @@
 		</control>
 		<control type="group">
 			<top>400</top>
-			<!--control type="group" id="9001">
+			<control type="group" id="9001">
 				<left>0</left>
 				<top>175</top>
 				<onup>9000</onup>
@@ -733,9 +733,9 @@
 					<onleft>9012</onleft>
 					<onright>9012</onright>
 					<visible>Container(9000).HasFocus(5)</visible>
-					<include>HomeSubMenuSystem</include> <!-- Buttons for the grouplist >
+					<!--include>HomeSubMenuSystem</include> < Buttons for the grouplist -->
 				</control>
-			</control-->
+			</control>
 			<control type="wraplist" id="9000">
             	<left>50</left>
             	<right>50</right>
@@ -792,9 +792,9 @@
 						<visible>!Control.HasFocus(9000)</visible>
                     </control>
 					<control type="label">
-						<left>-23</left>
+						<left>-75</left>
 						<top>170</top>
-						<width>290</width>
+						<width>400</width>
 						<height>60</height>
 						<font>font_MainMenu</font>
 						<textcolor>blue</textcolor>
