@@ -904,7 +904,7 @@
 						<visible>PVR.HasRadioChannels</visible>
 					</item>
 					<item id="12">
-						<label>[UPPERCASE]$LOCALIZE[31952][/UPPERCASE]</label>
+						<label>[UPPERCASE]$LOCALIZE[31502][/UPPERCASE]</label>
 						<onclick>ActivateWindow(TVChannels)</onclick>
 						<icon>alienware/icons/icon_livetv.png</icon>
 						<thumb>-</thumb>
@@ -925,7 +925,7 @@
 						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
 		            <item id="97">
-			            <label>HDMI</label>
+			            <label>HDMI-IN</label>
 			            <onclick>XBMC.RunScript("special://skin\scripts\togglehdmisource.py")</onclick>
 			            <icon>alienware/icons/icon_hdmi.png</icon>
 			            <thumb>-</thumb>
