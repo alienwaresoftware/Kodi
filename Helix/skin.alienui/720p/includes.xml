@@ -180,7 +180,7 @@
 				<font>-</font>
 				<onclick>back</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<texturenofocus border="5"></texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
 				<onup>50</onup>
@@ -205,7 +205,7 @@
 				<font>-</font>
 				<onclick>ActivateWindow(home)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<texturenofocus border="5"></texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
 				<onup>50</onup>
@@ -238,7 +238,7 @@
 				<font>-</font>
 				<onclick>ActivateWindow(PlayerControls)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<texturenofocus border="5"></texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
 				<onup>50</onup>
