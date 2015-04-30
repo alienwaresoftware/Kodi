@@ -924,13 +924,13 @@
 						<thumb>-</thumb>
 						<visible>!Skin.HasSetting(HomeMenuNoTVShowButton) + Library.HasContent(TVShows)</visible>
 					</item>
-          <item id="97">
-            <label>[UPPERCASE]$LOCALIZE[31955][/UPPERCASE]</label>
-            <onclick>XBMC.RunScript("special://skin\scripts\togglehdmisource.py")</onclick>
-            <icon>alienware/icons/icon_hdmi.png</icon>
-            <thumb>-</thumb>
-            <visible>SubString(Window(Home).Property(IsHDMIInCableConnected),True)</visible>
-          </item>
+		            <item id="97">
+			            <label>HDMI</label>
+			            <onclick>XBMC.RunScript("special://skin\scripts\togglehdmisource.py")</onclick>
+			            <icon>alienware/icons/icon_hdmi.png</icon>
+			            <thumb>-</thumb>
+			            <visible>SubString(Window(Home).Property(IsHDMIInCableConnected),True)</visible>
+			        </item>
         </content>
 			</control>
 		</control>

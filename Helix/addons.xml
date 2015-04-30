@@ -295,19 +295,19 @@
 </addon>
 
 <addon  id="script.module.aw.devicesettings"
-        name="AlienUI Device Settings Service"
+        name="AlienUI Device Settings"
         version="0.0.1"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
-  <extension point="xbmc.service" library="service.py" start="startup">
+  <extension point="xbmc.python.script" library="devicesettings.py">
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">AlienUI Device Settings Service</summary>
-    <description lang="en">AlienUI Device Settings Service</description>
+    <summary lang="en">AlienUI Device Settings</summary>
+    <description lang="en">AlienUI Device Settings</description>
   </extension>
 </addon>
 
@@ -402,7 +402,7 @@
 
 <addon
   id="skin.alienui"
-  version="0.1.0"
+  version="0.1.1"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
