@@ -134,6 +134,26 @@
     </extension>
 </addon>
 
+<addon id="script.aw.ie.launcher" name="Microsoft Internet Explorer" version="0.0.1" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_ie.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Internet Explorer</summary>
+        <language></language>
+        <description lang="en">Internet Explorer</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
 <addon id="script.aw.msstore.launcher" name="Microsoft Store" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -328,6 +348,23 @@
   </extension>
 </addon>
 
+<addon  id="script.service.aw.devicesettings"
+        name="AlienUI Device Settings Service"
+        version="0.0.1"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">AlienUI Device Settings Service</summary>
+    <description lang="en">AlienUI Device Settings Service</description>
+  </extension>
+</addon>
+
 <addon  id="script.aw.alienui.launcher"
         name="AlienUI Console Mode"
         version="0.0.1"
@@ -366,7 +403,7 @@
 
 <addon  id="service.aw.customizations"
         name="AlienUI Customizations"
-        version="0.0.3"
+        version="0.0.4"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -384,7 +421,7 @@
 
 <addon  id="script.aw.themes"
         name="AlienUI Themes"
-        version="0.1.0"
+        version="0.1.1"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -402,7 +439,7 @@
 
 <addon
   id="skin.alienui"
-  version="0.1.3"
+  version="0.1.4"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
