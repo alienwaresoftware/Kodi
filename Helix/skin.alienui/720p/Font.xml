@@ -95,7 +95,12 @@
 			<size>80</size>
 			<style>bold</style>
 		</font>
-	</fontset>	
+      <font>
+        <name>fontawesome</name>
+        <filename>fontawesome.ttf</filename>
+        <size>20</size>
+      </font>
+    </fontset>	
 
 	<fontset id="AlienUI" idloc="31861" unicode="false"> 
 		<!-- Normal Fonts -->
@@ -247,7 +252,12 @@
 	      <filename>pillgothic300mg-regular.ttf</filename>
 	      <size>10</size>
 	    </font>
-    </fontset>
+    <font>
+      <name>fontawesome</name>
+      <filename>fontawesome.ttf</filename>
+      <size>20</size>
+    </font>
+  </fontset>
 
     <fontset id="Confluence" idloc="31860" unicode="false"> 
 		<!-- Normal Fonts -->

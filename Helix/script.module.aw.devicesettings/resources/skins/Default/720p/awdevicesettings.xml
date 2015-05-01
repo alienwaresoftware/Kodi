@@ -125,7 +125,7 @@
 					<item id="2">
             <label>$ADDON[script.module.aw.devicesettings 33002]</label>
             <label2>$ADDON[script.module.aw.devicesettings 33012]</label2>
-            <onclick>ActivateWindow(VideosSettings)</onclick>
+            <onclick>XBMC.RunScript("special://home\addons\script.module.aw.devicesettings\alienfxsettings.py")</onclick>
             <icon>-</icon>
 					</item>
 					<item id="3">
