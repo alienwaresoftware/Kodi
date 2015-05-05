@@ -85,7 +85,6 @@ class SpinControl(object):
     
     def forwardInput(self, actionid, controlId):
         if actionid == ACTION_SELECT_ITEM:
-            print "Select Button"
             length = self.options.__len__();
             if controlId == 0:
                 focusedItem = self.window.getFocus();

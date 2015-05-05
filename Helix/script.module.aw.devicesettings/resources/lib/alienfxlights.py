@@ -10,12 +10,12 @@ MAX_NUMBER_OF_COLORS = 20
 CONTROL_SIZE = 16
 CONTROL_SELECTED_SIZE = 24
 
-_imagePath = 'alienware/alienfx/{0}'
-_imageAlienheadPath = 'alienware/alienfx/alien.png'
-_imageCornerPath = 'alienware/alienfx/corner.png'
-_imageBrightnessPath = 'alienware/alienfx/brightness.png'
-_imageSelectedPath = 'alienware/alienfx/selected.png'
-_imageBlackPath = 'alienware/alienfx/blank.png'
+_imagePath = 'special://home/addons/script.module.aw.devicesettings/resources/skins/Default/media/alienware/alienfx/{0}'
+_imageAlienheadPath = 'special://home/addons/script.module.aw.devicesettings/resources/skins/Default/media/alienware/alienfx/alien.png'
+_imageCornerPath = 'special://home/addons/script.module.aw.devicesettings/resources/skins/Default/media/alienware/alienfx/corner.png'
+_imageBrightnessPath = 'special://home/addons/script.module.aw.devicesettings/resources/skins/Default/media/alienware/alienfx/brightness.png'
+_imageSelectedPath = 'special://home/addons/script.module.aw.devicesettings/resources/skins/Default/media/alienware/alienfx/selected.png'
+_imageBlackPath = 'special://home/addons/script.module.aw.devicesettings/resources/skins/Default/media/alienware/alienfx/blank.png'
 
 class AlienFXLights(object):
 
@@ -40,16 +40,21 @@ class AlienFXLights(object):
         startingX = 463
         startingY = 105
 
+        visibilityCondition = 'Container(101).Position(1)'
+
         imageHead = xbmcgui.ControlImage(-100, 100, 28, 33, _imageAlienheadPath)
         self._win.addControl(imageHead)
+        imageHead.setVisibleCondition(visibilityCondition,False)
         imageHead.setPosition(startingX - 70, startingY)
 
         imageCorner = xbmcgui.ControlImage(-100, 100, 35, 31, _imageCornerPath)
         self._win.addControl(imageCorner)
+        imageCorner.setVisibleCondition(visibilityCondition,False)
         imageCorner.setPosition(startingX - 72, startingY + 52)
 
         imageBrightness = xbmcgui.ControlImage(-100, 100, 35, 35, _imageBrightnessPath)
         self._win.addControl(imageBrightness)
+        imageBrightness.setVisibleCondition(visibilityCondition,False)
         imageBrightness.setPosition(startingX - 71, startingY + 96)
 
         # zones controls
@@ -63,6 +68,7 @@ class AlienFXLights(object):
             zone1Button.setVisible(False)
             self.__zone1Buttons.append(zone1Button)
             self._win.addControl(self.__zone1Buttons[-1])
+            zone1Button.setVisibleCondition(visibilityCondition,False)
             zone1Button.setPosition(zoneButtonX,zone1ButtonY)
 
             zone2ButtonY = startingY + 58
@@ -70,6 +76,7 @@ class AlienFXLights(object):
             zone2Button.setVisible(False)
             self.__zone2Buttons.append(zone2Button)
             self._win.addControl(self.__zone2Buttons[-1])
+            zone2Button.setVisibleCondition(visibilityCondition,False)
             zone2Button.setPosition(zoneButtonX,zone2ButtonY)
 
             index += 1
@@ -105,11 +112,8 @@ class AlienFXLights(object):
         selectedFileName = hex(self.colors[selectedIndex]).replace('0x', '').upper().replace('L', '') + 's.png'
         selectedFilePath = _imagePath.format(selectedFileName)
 
-        print "Selected Color File name -> {0}, Selected Color -> {1}, Previous Color -> {2}".format(selectedFileName, hex(self.colors[selectedIndex]).replace('0x', ''), hex(self.colors[previousIndex]).replace('0x', ''))
-
         normalFileName = hex(self.colors[previousIndex]).replace('0x', '').upper().replace('L', '') + '.png'
         normalFilePath = _imagePath.format(normalFileName)
-
 
         if (selectedIndex > previousIndex):
             zoneButton[previousIndex].setImage(normalFilePath);
@@ -171,7 +175,7 @@ class AlienFXLights(object):
                     self.__setButtonHighlight(2,index)
                     #print "zone 2 color {0}, index {1}".format(zoneResult[1].Color,index)
         except:
-            print "addon.py::__initializeControls:", sys.exc_info()[0]
+            print "alienfxlights.py::__initializeControls:", sys.exc_info()[0]
             pass
 
     def __initController(self):
@@ -180,7 +184,7 @@ class AlienFXLights(object):
             self.__ctrl.Initialize()
             self.__initializeControls(False)        
         except:
-            print "addon.py::__initController:", sys.exc_info()[0]
+            print "alienfxlights.py::__initController:", sys.exc_info()[0]
             pass
 
     def setFocus(self):
@@ -190,7 +194,7 @@ class AlienFXLights(object):
         try:
             self.__ctrl.Release()
         except:
-            print "addon.py::release:", sys.exc_info()[0]
+            print "alienfxlights.py::release:", sys.exc_info()[0]
             pass
 
     def setBrightness(self, brightness):
@@ -199,7 +203,7 @@ class AlienFXLights(object):
             self.__ctrl.SetBrightness(pct)
             self.brightnessSpinIndex = brightness
         except:
-            print "addon.py::setBrightness:", sys.exc_info()[0]
+            print "alienfxlights.py::setBrightness:", sys.exc_info()[0]
             pass
 
     def setColor(self, zoneId, selectedIndex):
@@ -218,5 +222,5 @@ class AlienFXLights(object):
             self.__adjustButtonHighlight(zoneId,previousIndex,selectedIndex);
 
         except:
-            print "addon.py::setColor:", sys.exc_info()[0]
+            print "alienfxlights.py::setColor:", sys.exc_info()[0]
             pass

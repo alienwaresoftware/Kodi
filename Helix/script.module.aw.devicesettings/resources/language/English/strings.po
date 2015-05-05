@@ -59,7 +59,7 @@ msgid "Select Audio Source"
 msgstr ""
 
 msgctxt "#33016"
-msgid "Number of channels"
+msgid "Speaker Configuration"
 msgstr ""
 
 msgctxt "#33017"
@@ -79,7 +79,7 @@ msgid "Success"
 msgstr ""
 
 msgctxt "#33021"
-msgid "Audio output has been changed successfully. For changes to take effect you must restart system."
+msgid "Audio output has been changed successfully."
 msgstr ""
 
 msgctxt "#33022"
@@ -140,6 +140,14 @@ msgstr ""
 
 msgctxt "#33037"
 msgid "Connection Status : "
+msgstr ""
+
+msgctxt "#33038"
+msgid "Not Available"
+msgstr ""
+
+msgctxt "#33039"
+msgid "Select Speaker Configuration"
 msgstr ""
 
 

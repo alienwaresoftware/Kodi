@@ -25,7 +25,6 @@ class AudioHelper(object):
         #print(self.outputs[selectedIndex].Name)
         try:
             self.outputs[selectedIndex].SetDefault()
-            self.outputs = self.audio.GetOutputs()        
             return True;
         except:
             print "audiohelper.py::setOutput:", sys.exc_info()[0]
@@ -52,4 +51,58 @@ class AudioHelper(object):
         except:
             print "audiohelper.py::getSelectedOutput:", sys.exc_info()[0]
         return "HDMI"
+    
+    def getOutputNameFromIndex(self,selectedIndex):       
+        try:
+            index = 0
+            for output in self.outputs:
+                if (index == selectedIndex):
+                    return output.Name
+                index += 1
+        except:
+            print "audiohelper.py::getOutputNameFromIndex:", sys.exc_info()[0]
+        return "HDMI"
+    
+    def getSelectedIndex(self):       
+        try:
+            i = 0
+            for output in self.outputs:
+                if output.IsDefault:
+                    return i
+                i += 1
+        except:
+            print "audiohelper.py::getSelectedIndex:", sys.exc_info()[0]
+        return 0
+    
+    def getSpeakerConfigs(self, selectedIndex):       
+        speakerConfigList = []
+        try:
+            speakerConfigs = self.outputs[selectedIndex].GetSpeakerConfigs()
+            for config in speakerConfigs:
+                speakerConfigList.append(config.Name)
+        except:
+            print "audiohelper.py::getSpeakerConfigs:", sys.exc_info()[0]
+        return speakerConfigList
+    
+    def getSelectedSpeakerConfig(self, selectedIndex):       
+        try:
+            speakerConfigs = self.outputs[selectedIndex].GetSpeakerConfigs()
+            for config in speakerConfigs:
+                if config.IsDefault:
+                    return config.Name
+        except:
+            print "audiohelper.py::getSelectedSpeakerConfig:", sys.exc_info()[0]
+        return None
+        
+    def setSpeakerConfig(self, audioSelectedIndex, selectedIndex):
+        #print(selectedIndex)
+        #print(self.outputs[selectedIndex].Name)
+        try:
+            speakerConfigs = self.outputs[audioSelectedIndex].GetSpeakerConfigs()
+            for config in speakerConfigs:
+                if (config.Index == selectedIndex):
+                    return config.SetDefault()
+        except:
+            print "audiohelper.py::setSpeakerConfig:", sys.exc_info()[0]
+        return False
 
