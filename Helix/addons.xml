@@ -421,7 +421,7 @@
 
 <addon  id="script.aw.themes"
         name="AlienUI Themes"
-        version="0.1.1"
+        version="0.1.2"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -439,7 +439,7 @@
 
 <addon
   id="skin.alienui"
-  version="0.1.4"
+  version="0.1.6"
   name="Alien UI"
   provider-name="Alienware">
   <requires>
