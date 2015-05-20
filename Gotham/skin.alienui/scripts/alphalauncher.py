@@ -1,3 +1,0 @@
-import AlphaUIUtils
-
-AlphaUIUtils.CloseLauncher()
