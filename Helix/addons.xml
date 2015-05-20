@@ -139,7 +139,7 @@
 
 <addon
   id="skin.alienui"
-  version="0.1.6"
+  version="0.1.17"
   name="Alien UI"
   provider-name="Alienware">
   <requires>

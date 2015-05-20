@@ -132,11 +132,11 @@
 						<onclick>noop</onclick>
 						<icon>-</icon>
 					</item>
-					<item id="4">
+					<!--item id="4">
 						<label>31849</label>
 						<onclick>noop</onclick>
 						<icon>-</icon>
-					</item>
+					</item-->
 				</content>
 			</control>
 			<control type="image">
