@@ -9,7 +9,7 @@ import _winreg
 import tempfile
 import io
 
-from resources.lib import AlphaUIUtils
+import AlphaUIUtils
 
 class AUTO_UPDATE_DATA(Structure):
     _fields_ = [

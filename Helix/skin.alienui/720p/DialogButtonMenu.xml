@@ -2,7 +2,8 @@
 <window type="buttonMenu">
 	<defaultcontrol>9001</defaultcontrol>
 	<include>dialogeffect</include>
-	<coordinates>
+  <onload>XBMC.RunScript("special://skin\scripts\dialogbuttonmenu.py")</onload>	
+  <coordinates>
 		<system>1</system>
 		<left>0</left>
 		<top>0</top>
@@ -71,24 +72,25 @@
 					<visible>system.getbool(input.enablemouse)</visible>
 				</control>
 			</control>
-			<control type="button" id="2">
-				<description>Logout button</description>
-				<width>340</width>
-				<height>40</height>
-				<textcolor>grey2</textcolor>
-				<focusedcolor>white</focusedcolor>
-				<align>center</align>
-				<textwidth>290</textwidth>
-				<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
-				<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-				<onclick>XBMC.RunScript("special://skin\scripts\logout.py")</onclick>
-				<pulseonselect>no</pulseonselect>
-				<font>font13</font>
-				<label>31607</label> <!-- Go To Desktop -->
-				<visible>System.ShowExitButton</visible>
-			</control>
-			<control type="button" id="6">
-				<description>Suspend button</description>
+      <control type="button" id="2">
+        <description>Go To Desktop button</description>
+        <width>340</width>
+        <height>40</height>
+        <textcolor>grey2</textcolor>
+        <focusedcolor>white</focusedcolor>
+        <align>center</align>
+        <textwidth>290</textwidth>
+        <texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
+        <texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),True)">XBMC.RunScript("special://skin\scripts\logout.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),False)">Quit()</onclick>
+        <pulseonselect>no</pulseonselect>
+        <font>font13</font>
+        <label>$VAR[ExitConsole]</label>
+        <visible>System.ShowExitButton</visible>
+      </control>
+      <control type="button" id="6">
+				<description>Sleep System button</description>
 				<width>340</width>
 				<height>40</height>
 				<textcolor>grey2</textcolor>
@@ -116,7 +118,7 @@
 				<visible>System.CanReboot</visible>
 				<pulseonselect>no</pulseonselect>
 				<font>font13</font>
-				<label>[UPPERCASE]$LOCALIZE[31602][/UPPERCASE]</label> <!-- Resetart Console -->
+				<label>$VAR[RestartConsole]</label> <!-- Resetart Console -->
 			</control>
 			<!--<control type="button" id="3">
 				<description>Shutdown button</description>
@@ -147,7 +149,7 @@
 				<onclick>XBMC.RunScript("special://skin\scripts\shutdown_system.py")</onclick>
 				<pulseonselect>no</pulseonselect>
 				<font>font13</font>
-				<label>31601</label> <!-- Shut Down Console -->
+				<label>$VAR[ShutdownConsole]</label> <!-- Shut Down Console -->
 			</control>
 			<control type="button" id="4">
 				<description>Custom Shutdown Timer</description>

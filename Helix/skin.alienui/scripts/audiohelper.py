@@ -1,4 +1,4 @@
-from resources.lib import AlphaUIUtils
+import AlphaUIUtils
 import sys
 
 class AudioHelper(object):

@@ -1,5 +1,6 @@
 import xbmc
 import xbmcgui
+import sys
 import AlphaUINetworkUtils
 
 class WirelessNetwork(object):
@@ -39,29 +40,33 @@ class WiFiHelper(object):
 
     def FillList(self):
         self.wifilistcontrol.reset()
-        wifis = AlphaUINetworkUtils.WiFis()
-        self.allnetworks = []
 
-        for wifi in wifis:
-            networks = wifi.Networks()
-            for network in networks:
-                if network.SSID != "":
-                    if network.ProfileName != "":
-                        self.allnetworks.append(WirelessNetwork(network, wifi.UUID))
-            for network in networks:
-                if network.SSID != "":
-                    existingNetwork = [obj for obj in self.allnetworks if obj.ssid == network.SSID]
-                    if not existingNetwork:
-                        self.allnetworks.append(WirelessNetwork(network, wifi.UUID))
-            wifi.Scan()
+        try:
+            wifis = AlphaUINetworkUtils.WiFis()
+            self.allnetworks = []
 
-        for i,network in enumerate(self.allnetworks):
-            li = xbmcgui.ListItem(network.ssid,"",network.signalimage)
-            li.setProperty('Connected',str(network.connected))            
-            li.setProperty('SecurityEnabled',str(network.securityenabled))
-            li.setProperty('index',str(i))
+            for wifi in wifis:
+                networks = wifi.Networks()
+                for network in networks:
+                    if network.SSID != "":
+                        if network.ProfileName != "":
+                            self.allnetworks.append(WirelessNetwork(network, wifi.UUID))
+                for network in networks:
+                    if network.SSID != "":
+                        existingNetwork = [obj for obj in self.allnetworks if obj.ssid == network.SSID]
+                        if not existingNetwork:
+                            self.allnetworks.append(WirelessNetwork(network, wifi.UUID))
+                wifi.Scan()
 
-            self.wifilistcontrol.addItem(li)
+            for i,network in enumerate(self.allnetworks):
+                li = xbmcgui.ListItem(network.ssid,"",network.signalimage)
+                li.setProperty('Connected',str(network.connected))            
+                li.setProperty('SecurityEnabled',str(network.securityenabled))
+                li.setProperty('index',str(i))
+
+                self.wifilistcontrol.addItem(li)
+        except:
+            print "wirelessnetwork.py::WiFiHelper.FillList:", sys.exc_info()[0]
 
     def TakeAction(self, item):
         dialog = xbmcgui.Dialog()

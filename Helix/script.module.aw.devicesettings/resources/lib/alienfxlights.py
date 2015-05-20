@@ -28,9 +28,14 @@ class AlienFXLights(object):
         self.brightnessSpinIndex = 0
         self.zone1SelectedColor = 0xFF0000F0
         self.zone2SelectedColor = 0xFF0000F0
-        self._win = win        
-        self.__createControls()
-        self.__initController()
+        self._win = win     
+        
+        try:
+            self.__createControls()
+            self.__initController()
+        except:
+            print "alienfxlights.py::__init__:", sys.exc_info()[0]
+        pass
 
     def __createControls(self):
       

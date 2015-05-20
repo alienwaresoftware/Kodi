@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.helix.Alienware.development" name="Alienware Helix Development Repo" version="0.1.0" provider-name="Alienware">
+        <extension point="xbmc.addon.repository" name="Alienware's Helix Development Addons">
+                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Development/addons.xml</info>
+                <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Development/addons.xml.md5</checksum>
+                <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Development</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Alienware's Helix Development Repo</summary>
+                <description>Alienware's Helix Development Repo</description>
+                <disclaimer></disclaimer>
+                <platform>all</platform>
+        </extension>
+</addon>
+
+

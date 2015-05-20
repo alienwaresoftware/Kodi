@@ -1,4 +1,4 @@
-from resources.lib import AlphaUIUtils
+import AlphaUIUtils
 import xbmc
 import xbmcgui
 import sys

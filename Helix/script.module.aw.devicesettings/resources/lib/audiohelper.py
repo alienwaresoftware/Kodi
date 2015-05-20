@@ -1,4 +1,4 @@
-from resources.lib import AlphaUIUtils
+import AlphaUIUtils
 import sys
 
 class AudioHelper(object):
@@ -106,3 +106,18 @@ class AudioHelper(object):
             print "audiohelper.py::setSpeakerConfig:", sys.exc_info()[0]
         return False
 
+    def isMute(self):
+        try:
+            return (self.audio.GetMute() == 1)
+        except:
+            print "audiohelper.py::isMute:", sys.exc_info()[0]
+        return False
+
+    def setMute(self, mute):
+        try:
+            if (mute):
+                self.audio.SetMute(1)
+            else:
+                self.audio.SetMute(0)
+        except:
+            print "audiohelper.py::setMute:", sys.exc_info()[0]

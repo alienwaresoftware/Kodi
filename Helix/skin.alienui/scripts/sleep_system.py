@@ -1,4 +1,8 @@
 import xbmc
-from resources.lib import AlphaUIUtils
 
-AlphaUIUtils.SleepSystem()
+try:
+    import AlphaUIUtils
+
+    AlphaUIUtils.SleepSystem()
+except:
+    xbmc.executebuiltin('Suspend')

@@ -1,4 +1,9 @@
 import xbmc
-from resources.lib import AlphaUIUtils
 
-AlphaUIUtils.ShutdownSystem()
+try:
+    import AlphaUIUtils
+
+    AlphaUIUtils.ShutdownSystem()
+except:
+    xbmc.executebuiltin('ShutDown')
+

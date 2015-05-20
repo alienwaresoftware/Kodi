@@ -39,7 +39,25 @@
 		<value condition="Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">DialogBack2.png</value>
 	</variable>
 
-	<include name="BehindDialogFadeOut">
+  <variable name="RestartConsole">
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),True)">[UPPERCASE]$LOCALIZE[31602][/UPPERCASE]</value>
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),False)">[UPPERCASE]$LOCALIZE[31622][/UPPERCASE]</value>
+    <value>[UPPERCASE]$LOCALIZE[31602][/UPPERCASE]</value>
+  </variable>
+
+  <variable name="ShutdownConsole">
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),True)">[UPPERCASE]$LOCALIZE[31601][/UPPERCASE]</value>
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),False)">[UPPERCASE]$LOCALIZE[31623][/UPPERCASE]</value>
+    <value>[UPPERCASE]$LOCALIZE[31601][/UPPERCASE]</value>
+  </variable>
+
+  <variable name="ExitConsole">
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),True)">[UPPERCASE]$LOCALIZE[31607][/UPPERCASE]</value>
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),False)">[UPPERCASE]$LOCALIZE[13012][/UPPERCASE]</value>
+    <value>[UPPERCASE]$LOCALIZE[31607][/UPPERCASE]</value>
+  </variable>
+
+  <include name="BehindDialogFadeOut">
 		<control type="image">
 			<left>0</left>
 			<top>0</top>

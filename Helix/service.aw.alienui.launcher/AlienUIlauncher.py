@@ -1,3 +1,6 @@
-from resources.lib import AlphaUIUtils
+try:
+    import AlphaUIUtils
 
-AlphaUIUtils.CloseLauncher()
+    AlphaUIUtils.CloseLauncher()
+except:
+    pass

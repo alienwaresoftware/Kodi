@@ -1,140 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
-	<defaultcontrol always="true">101</defaultcontrol>
-	<allowoverlay>no</allowoverlay>
-	<controls>
-		<include>CommonBackground</include>
-		<control type="image">
-			<left>0</left>
-			<top>100r</top>
-			<width>1280</width>
-			<height>100</height>
-			<!--texture>floor.png</texture-->
-			<animation effect="slide" start="0,10" end="0,0" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
-			<animation effect="slide" start="0,0" end="0,10" time="200" condition="Window.Next(Home)">WindowClose</animation>
-		</control>
-		<control type="group">
-			<left>90</left>
-			<top>30</top>
-			<animation type="WindowOpen" reversible="false">
-				<effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
-				<effect type="fade" start="0" end="100" time="300"/>
-			</animation>
-			<animation type="WindowClose" reversible="false">
-				<effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
-				<effect type="fade" start="100" end="0" time="300"/>
-			</animation>
-			<control type="image">
-				<left>5</left>
-				<top>5</top>
-				<width>1090</width>
-				<height>630</height>
-				<texture border="15">ContentPanel.png</texture>
-			</control>
-			<control type="image">
-				<left>5</left>
-				<top>625</top>
-				<width>1090</width>
-				<height>64</height>
-				<texture border="15">ContentPanelMirror.png</texture>
-			</control>
-			<control type="button">
-				<description>Close Window button</description>
-				<left>980</left>
-				<top>11</top>
-				<width>64</width>
-				<height>32</height>
-				<label>-</label>
-				<font>-</font>
-				<onclick>PreviousMenu</onclick>
-				<texturefocus>DialogCloseButton-focus.png</texturefocus>
-				<texturenofocus>DialogCloseButton.png</texturenofocus>
-				<onleft>1</onleft>
-				<onright>1</onright>
-				<onup>1</onup>
-				<ondown>1</ondown>
-				<visible>system.getbool(input.enablemouse)</visible>
-			</control>
-			<control type="image">
-				<description>LOGO</description>
-				<left>30</left>
-				<top>15</top>
-				<width>220</width>
-				<height>80</height>
-				<aspectratio>keep</aspectratio>
-				<texture>alienware/alienware-logo.png</texture>
-			</control>
-			<control type="list" id="101">
-				<left>10</left>
-				<top>82</top>
-				<width>260</width>
-				<height>541</height>
-				<onleft>9000</onleft>
-				<onright>102</onright>
-				<onup>101</onup>
-				<ondown>101</ondown>
-				<pagecontrol>-</pagecontrol>
-				<scrolltime>300</scrolltime>
-				<itemlayout height="54" width="260">
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>260</width>
-						<height>55</height>
-						<texture border="5">MenuItemNF.png</texture>
-					</control>
-					<control type="label">
-						<left>10</left>
-						<top>0</top>
-						<width>240</width>
-						<height>55</height>
-						<font>font24_title</font>
-						<textcolor>grey3</textcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
-					</control>
-				</itemlayout>
-				<focusedlayout height="54" width="260">
-					<control type="image">
-						<left>0</left>
-						<top>0</top>
-						<width>260</width>
-						<height>55</height>
-						<texture border="5">MenuItemFO.png</texture>
-					</control>
-					<control type="label">
-						<left>10</left>
-						<top>0</top>
-						<width>240</width>
-						<height>55</height>
-						<font>font24_title</font>
-						<textcolor>white</textcolor>
-						<align>right</align>
-						<aligny>center</aligny>
-						<label>$INFO[ListItem.Label]</label>
-					</control>
-				</focusedlayout>
-				<content>
-					<item id="1">
+  <defaultcontrol always="true">101</defaultcontrol>
+  <allowoverlay>no</allowoverlay>
+  <controls>
+    <include>CommonBackground</include>
+    <control type="image">
+      <left>0</left>
+      <top>100r</top>
+      <width>1280</width>
+      <height>100</height>
+      <!--texture>floor.png</texture-->
+      <animation effect="slide" start="0,10" end="0,0" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
+      <animation effect="slide" start="0,0" end="0,10" time="200" condition="Window.Next(Home)">WindowClose</animation>
+    </control>
+    <control type="group">
+      <left>90</left>
+      <top>30</top>
+      <animation type="WindowOpen" reversible="false">
+        <effect type="zoom" start="80" end="100" center="640,360" easing="out" tween="back" time="300"/>
+        <effect type="fade" start="0" end="100" time="300"/>
+      </animation>
+      <animation type="WindowClose" reversible="false">
+        <effect type="zoom" start="100" end="80" center="640,360" easing="in" tween="back" time="300"/>
+        <effect type="fade" start="100" end="0" time="300"/>
+      </animation>
+      <control type="image">
+        <left>5</left>
+        <top>5</top>
+        <width>1090</width>
+        <height>630</height>
+        <texture border="15">ContentPanel.png</texture>
+      </control>
+      <control type="image">
+        <left>5</left>
+        <top>625</top>
+        <width>1090</width>
+        <height>64</height>
+        <texture border="15">ContentPanelMirror.png</texture>
+      </control>
+      <control type="button">
+        <description>Close Window button</description>
+        <left>980</left>
+        <top>11</top>
+        <width>64</width>
+        <height>32</height>
+        <label>-</label>
+        <font>-</font>
+        <onclick>PreviousMenu</onclick>
+        <texturefocus>DialogCloseButton-focus.png</texturefocus>
+        <texturenofocus>DialogCloseButton.png</texturenofocus>
+        <onleft>1</onleft>
+        <onright>1</onright>
+        <onup>1</onup>
+        <ondown>1</ondown>
+        <visible>system.getbool(input.enablemouse)</visible>
+      </control>
+      <control type="image">
+        <description>LOGO</description>
+        <left>30</left>
+        <top>15</top>
+        <width>220</width>
+        <height>80</height>
+        <aspectratio>keep</aspectratio>
+        <texture>alienware/alienware-logo.png</texture>
+      </control>
+      <control type="list" id="101">
+        <left>10</left>
+        <top>82</top>
+        <width>260</width>
+        <height>541</height>
+        <onleft>9000</onleft>
+        <onright>102</onright>
+        <onup>101</onup>
+        <ondown>101</ondown>
+        <pagecontrol>-</pagecontrol>
+        <scrolltime>300</scrolltime>
+        <itemlayout height="54" width="260">
+          <control type="image">
+            <left>0</left>
+            <top>0</top>
+            <width>260</width>
+            <height>55</height>
+            <texture border="5">MenuItemNF.png</texture>
+          </control>
+          <control type="label">
+            <left>10</left>
+            <top>0</top>
+            <width>240</width>
+            <height>55</height>
+            <font>font24_title</font>
+            <textcolor>grey3</textcolor>
+            <align>right</align>
+            <aligny>center</aligny>
+            <label>$INFO[ListItem.Label]</label>
+          </control>
+        </itemlayout>
+        <focusedlayout height="54" width="260">
+          <control type="image">
+            <left>0</left>
+            <top>0</top>
+            <width>260</width>
+            <height>55</height>
+            <texture border="5">MenuItemFO.png</texture>
+          </control>
+          <control type="label">
+            <left>10</left>
+            <top>0</top>
+            <width>240</width>
+            <height>55</height>
+            <font>font24_title</font>
+            <textcolor>white</textcolor>
+            <align>right</align>
+            <aligny>center</aligny>
+            <label>$INFO[ListItem.Label]</label>
+          </control>
+        </focusedlayout>
+        <content>
+          <item id="1">
             <label>$ADDON[script.module.aw.devicesettings 33001]</label>
             <label2>$ADDON[script.module.aw.devicesettings 33011]</label2>
-						<onclick>-</onclick>
-						<icon>-</icon>
-					</item>
-					<item id="2">
+            <onclick>-</onclick>
+            <icon>-</icon>
+          </item>
+          <item id="2">
             <label>$ADDON[script.module.aw.devicesettings 33002]</label>
             <label2>$ADDON[script.module.aw.devicesettings 33012]</label2>
             <onclick>-</onclick>
             <icon>-</icon>
-					</item>
-					<item id="3">
+          </item>
+          <item id="3">
             <label>$ADDON[script.module.aw.devicesettings 33003]</label>
             <label2>$ADDON[script.module.aw.devicesettings 33013]</label2>
             <onclick>-</onclick>
-					</item>
-				</content>
-			</control>
+          </item>
+          <item id="4">
+            <label>$ADDON[script.module.aw.devicesettings 33004]</label>
+            <label2>$ADDON[script.module.aw.devicesettings 33040]</label2>
+            <onclick>-</onclick>
+          </item>
+        </content>
+      </control>
       <control type="image">
         <left>268</left>
         <top>10</top>
@@ -143,25 +148,25 @@
         <texture border="5">black-back2.png</texture>
       </control>
       <control type="image">
-				<left>268</left>
-				<top>10</top>
-				<width>804</width>
-				<height>54</height>
-				<texture>dialogheader.png</texture>
-			</control>
-			<control type="label">
-				<description>header label</description>
-				<left>300</left>
-				<top>20</top>
-				<width>740</width>
-				<height>30</height>
-				<font>font16</font>
-				<label>$ADDON[script.module.aw.devicesettings 33010]</label>
-				<align>center</align>
-				<aligny>center</aligny>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-			</control>
+        <left>268</left>
+        <top>10</top>
+        <width>804</width>
+        <height>54</height>
+        <texture>dialogheader.png</texture>
+      </control>
+      <control type="label">
+        <description>header label</description>
+        <left>300</left>
+        <top>20</top>
+        <width>740</width>
+        <height>30</height>
+        <font>font16</font>
+        <label>$ADDON[script.module.aw.devicesettings 33010]</label>
+        <align>center</align>
+        <aligny>center</aligny>
+        <textcolor>white</textcolor>
+        <shadowcolor>black</shadowcolor>
+      </control>
       <control type="group" id="102">
         <left>290</left>
         <top>70</top>
@@ -227,8 +232,7 @@
               <height>50</height>
               <onright>101</onright>
               <onleft>101</onleft>
-              <onup condition="Control.IsEnabled(112)">112</onup>
-              <onup condition="!Control.IsEnabled(112)">113</onup>
+              <onup>114</onup>
               <ondown>109</ondown>
               <texturenofocus>blank.png</texturenofocus>
               <texturefocus>blank.png</texturefocus>
@@ -335,7 +339,7 @@
               <height>30</height>
               <width>30</width>
               <onup>109</onup>
-              <ondown>107</ondown>
+              <ondown>114</ondown>
               <onright>113</onright>
               <onleft>101</onleft>
               <label>[B]-[/B]</label>
@@ -360,7 +364,7 @@
               <width>200</width>
               <height>20</height>
               <onup>109</onup>
-              <ondown>107</ondown>
+              <ondown>114</ondown>
               <onright>101</onright>
               <onleft>101</onleft>
               <enable>false</enable>
@@ -377,19 +381,59 @@
               <label>Test</label>
             </control>
             <control type="button" id="113">
-              <description>Slider Minus Button</description>
+              <description>Slider Plus Button</description>
               <top>5</top>
               <right>20</right>
               <height>30</height>
               <width>30</width>
               <onup>109</onup>
-              <ondown>107</ondown>
+              <ondown>114</ondown>
               <onright>101</onright>
               <onleft>112</onleft>
               <label>[B]+[/B]</label>
               <align>center</align>
               <aligny>center</aligny>
               <visible>system.getbool(input.enablemouse)</visible>
+            </control>
+          </control>
+          <control type="group">
+            <description>control area</description>
+            <orientation>vertical</orientation>
+            <width>740</width>
+            <height>42</height>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>40</height>
+              <texture border="5">MenuItemNF.png</texture>
+              <visible>!Control.HasFocus(114)</visible>
+            </control>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>40</height>
+              <texture border="5">MenuItemFO.png</texture>
+              <visible>Control.HasFocus(114)</visible>
+            </control>
+            <control type="radiobutton" id="114">
+              <description>Audio Mute Radio Button</description>
+              <type>radiobutton</type>
+              <left>12</left>
+              <top>0</top>
+              <width>740</width>
+              <label>$ADDON[script.module.aw.devicesettings 33059]</label>
+              <visible>true</visible>
+              <aligny>center</aligny>
+              <texturefocus>blank.png</texturefocus>
+              <texturenofocus>blank.png</texturenofocus>
+              <radioposx>680</radioposx>
+              <onleft>101</onleft>
+              <onright>101</onright>
+              <onup condition="Control.IsEnabled(112)">112</onup>
+              <onup condition="!Control.IsEnabled(112)">113</onup>
+              <ondown>107</ondown>
             </control>
           </control>
         </control>
@@ -687,9 +731,55 @@
           <width>750</width>
           <height>435</height>
           <itemgap>3</itemgap>
+          <control type="label">
+            <left>10</left>
+            <height>30</height>
+            <width>700</width>
+            <aligny>center</aligny>
+            <label>$ADDON[script.module.aw.devicesettings 33058]</label>
+          </control>
+          <control type="image">
+            <description>separator image</description>
+            <left>10</left>
+            <width>750</width>
+            <height>2</height>
+            <texture>separator2.png</texture>
+            <colordiffuse>40FFFFFF</colordiffuse>
+          </control>
+          <control type="label">
+            <left>20</left>
+            <height>30</height>
+            <width>700</width>
+            <aligny>center</aligny>
+            <label>  $LOCALIZE[13295] $INFO[System.InternetState]</label>
+          </control>
+          <control type="label" id="147">
+            <left>20</left>
+            <height>30</height>
+            <width>700</width>
+            <aligny>center</aligny>
+            <label>  $INFO[Network.LinkState]</label>
+          </control>
+          <control type="image">
+            <description>separator image</description>
+            <left>10</left>
+            <top>525</top>
+            <width>750</width>
+            <height>2</height>
+            <texture>separator2.png</texture>
+            <colordiffuse>40FFFFFF</colordiffuse>
+          </control>
+          <control type="label">
+            <left>10</left>
+            <height>30</height>
+            <width>700</width>
+            <aligny>center</aligny>
+            <label>$ADDON[script.module.aw.devicesettings 33022]</label>
+          </control>
           <control type="list" id="146">
             <description>Wireless list</description>
-            <height>400</height>
+            <left>10</left>
+            <height>270</height>
             <viewtype label="3D list">list</viewtype>
             <focusposition>2</focusposition>
             <orientation>vertical</orientation>
@@ -703,24 +793,16 @@
                 <height>45</height>
                 <texture border="5">MenuItemNF.png</texture>
               </control>
-              <control type="image">
-                <width>15</width>
-                <height>15</height>
-                <left>10</left>
-                <top>15</top>
-                <texture>checkmark.png</texture>
-                <visible>SubString(ListItem.Property(Connected),True)</visible>
-              </control>
               <control type="label">
-                <left>40</left>
-                <width>550</width>
+                <left>10</left>
+                <width>500</width>
                 <aligny>center</aligny>
                 <info>ListItem.Label</info>
               </control>
               <control type="image">
                 <width>15</width>
                 <height>15</height>
-                <left>570</left>
+                <left>520</left>
                 <top>15</top>
                 <texture>whitelock.png</texture>
                 <visible>SubString(ListItem.Property(SecurityEnabled),True)</visible>
@@ -728,9 +810,19 @@
               <control type="image">
                 <height>15</height>
                 <aspectratio>keep</aspectratio>
-                <left>595</left>
+                <left>675</left>
                 <top>15</top>
                 <info>ListItem.Icon</info>
+                <visible>SubString(ListItem.Property(Connected),False)</visible>
+              </control>
+              <control type="label">
+                <left>540</left>
+                <width>170</width>
+                <aligny>center</aligny>
+                <align>right</align>
+                <scroll>true</scroll>
+                <label>$ADDON[script.module.aw.devicesettings 33030]</label>
+                <visible>SubString(ListItem.Property(Connected),True)</visible>
               </control>
             </itemlayout>
             <focusedlayout width="740" height="45">
@@ -742,24 +834,16 @@
                 <texture border="5">MenuItemFO.png</texture>
                 <visible>Control.HasFocus(146)</visible>
               </control>
-              <control type="image">
-                <width>15</width>
-                <height>15</height>
-                <left>10</left>
-                <top>15</top>
-                <texture>checkmark.png</texture>
-                <visible>SubString(ListItem.Property(Connected),True)</visible>
-              </control>
               <control type="label">
-                <left>40</left>
-                <width>550</width>
+                <left>10</left>
+                <width>500</width>
                 <aligny>center</aligny>
                 <info>ListItem.Label</info>
               </control>
               <control type="image">
                 <width>15</width>
                 <height>15</height>
-                <left>570</left>
+                <left>520</left>
                 <top>15</top>
                 <texture>whitelock.png</texture>
                 <visible>SubString(ListItem.Property(SecurityEnabled),True)</visible>
@@ -767,11 +851,244 @@
               <control type="image">
                 <height>15</height>
                 <aspectratio>keep</aspectratio>
-                <left>595</left>
+                <left>675</left>
                 <top>15</top>
                 <info>ListItem.Icon</info>
+                <visible>SubString(ListItem.Property(Connected),False)</visible>
+              </control>
+              <control type="label">
+                <left>540</left>
+                <width>170</width>
+                <aligny>center</aligny>
+                <align>right</align>
+                <scroll>true</scroll>
+                <label>$ADDON[script.module.aw.devicesettings 33030]</label>
+                <visible>SubString(ListItem.Property(Connected),True)</visible>
               </control>
             </focusedlayout>
+          </control>
+        </control>
+        <control type="grouplist" id="150">
+          <description>control area</description>
+          <defaultcontrol>154</defaultcontrol>
+          <orientation>vertical</orientation>
+          <visible>Container(101).Position(3)</visible>
+          <width>750</width>
+          <height>435</height>
+          <itemgap>3</itemgap>
+          <control type="group">
+            <description>control area</description>
+            <orientation>vertical</orientation>
+            <width>740</width>
+            <height>42</height>
+            <visible>false</visible>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>40</height>
+              <texture border="5">MenuItemNF.png</texture>
+              <visible>!Control.HasFocus(151)</visible>
+            </control>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>40</height>
+              <texture border="5">MenuItemFO.png</texture>
+              <visible>Control.HasFocus(151)</visible>
+            </control>
+            <control type="radiobutton" id="151">
+              <description>Turn On Bluetooth Radio Button</description>
+              <type>radiobutton</type>
+              <left>12</left>
+              <top>0</top>
+              <width>740</width>
+              <label>$ADDON[script.module.aw.devicesettings 33041]</label>
+              <visible>true</visible>
+              <aligny>center</aligny>
+              <texturefocus>blank.png</texturefocus>
+              <texturenofocus>blank.png</texturenofocus>
+              <radioposx>680</radioposx>
+              <onleft>101</onleft>
+              <onright>101</onright>
+            </control>
+          </control>
+          <control type="group">
+            <description>control area</description>
+            <orientation>vertical</orientation>
+            <width>740</width>
+            <height>42</height>
+            <visible>false</visible>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>40</height>
+              <texture border="5">MenuItemNF.png</texture>
+              <visible>!Control.HasFocus(152)</visible>
+            </control>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>40</height>
+              <texture border="5">MenuItemFO.png</texture>
+              <visible>Control.HasFocus(152)</visible>
+            </control>
+            <control type="radiobutton" id="152">
+              <description>Turn On Discoverability Radio Button</description>
+              <type>radiobutton</type>
+              <left>12</left>
+              <top>0</top>
+              <width>740</width>
+              <label>$ADDON[script.module.aw.devicesettings 33042]</label>
+              <visible>true</visible>
+              <aligny>center</aligny>
+              <texturefocus>blank.png</texturefocus>
+              <texturenofocus>blank.png</texturenofocus>
+              <onleft>101</onleft>
+              <onright>101</onright>
+              <radioposx>680</radioposx>
+              <enable>SubString(Control.GetLabel(151),*)</enable>
+            </control>
+          </control>
+          <control type="grouplist">
+            <description>Bluetooth Devices Controls</description>
+            <orientation>vertical</orientation>
+            <visible>SubString(Control.GetLabel(151),*)</visible>
+            <usecontrolcoords>true</usecontrolcoords>
+            <width>750</width>
+            <height>430</height>
+            <itemgap>3</itemgap>
+            <control type="image" id="153">
+              <description>discovering status image</description>
+              <left>280</left>
+              <width>190</width>
+              <height>28</height>
+              <top>15</top>
+              <texture>alienware/bluetooth/animated_loading.gif</texture>
+              <align>center</align>
+            </control>
+            <control type="image">
+              <description>separator image</description>
+              <width>750</width>
+              <height>2</height>
+              <texture>separator2.png</texture>
+              <colordiffuse>40FFFFFF</colordiffuse>
+            </control>
+            <control type="list" id="154">
+              <description>Bluetooth Device list</description>
+              <height>270</height>
+              <onleft>101</onleft>
+              <onright>101</onright>
+              <itemlayout width="750" height="45">
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <width>740</width>
+                  <height>45</height>
+                  <texture border="5">MenuItemNF.png</texture>
+                </control>
+                <control type="image">
+                  <width>33</width>
+                  <height>20</height>
+                  <left>20</left>
+                  <top>12</top>
+                  <texture>alienware/bluetooth/paired.png</texture>
+                  <visible>SubString(ListItem.Property(Paired),True)</visible>
+                </control>
+                <control type="image">
+                  <width>33</width>
+                  <height>20</height>
+                  <left>20</left>
+                  <top>12</top>
+                  <texture>alienware/bluetooth/connected.png</texture>
+                  <visible>SubString(ListItem.Property(Connected),True)</visible>
+                </control>
+                <control type="label">
+                  <left>70</left>
+                  <width>450</width>
+                  <aligny>center</aligny>
+                  <info>ListItem.Label</info>
+                </control>
+                <control type="label">
+                  <right>30</right>
+                  <width>150</width>
+                  <align>right</align>
+                  <aligny>center</aligny>
+                  <info>ListItem.Label2</info>
+                </control>
+                <control type="image">
+                  <width>33</width>
+                  <height>20</height>
+                  <left>680</left>
+                  <top>12</top>
+                  <texture>alienware/bluetooth/notpaired.png</texture>
+                  <visible>SubString(ListItem.Property(NotPaired),True)</visible>
+                </control>
+              </itemlayout>
+              <focusedlayout width="750" height="45">
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <width>740</width>
+                  <height>45</height>
+                  <visible>!Control.HasFocus(154)</visible>
+                  <texture border="5">MenuItemNF.png</texture>
+                </control>
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <width>740</width>
+                  <height>45</height>
+                  <visible>Control.HasFocus(154)</visible>
+                  <texture border="5">MenuItemFO.png</texture>
+                </control>
+                <control type="image">
+                  <width>33</width>
+                  <height>20</height>
+                  <left>20</left>
+                  <top>12</top>
+                  <texture>alienware/bluetooth/paired.png</texture>
+                  <visible>SubString(ListItem.Property(Paired),True)</visible>
+                </control>
+                <control type="image">
+                  <width>33</width>
+                  <height>20</height>
+                  <left>20</left>
+                  <top>12</top>
+                  <texture>alienware/bluetooth/connected.png</texture>
+                  <visible>SubString(ListItem.Property(Connected),True)</visible>
+                </control>
+                <control type="label">
+                  <left>70</left>
+                  <width>450</width>
+                  <aligny>center</aligny>
+                  <info>ListItem.Label</info>
+                </control>
+                <control type="label">
+                  <right>30</right>
+                  <width>150</width>
+                  <align>right</align>
+                  <aligny>center</aligny>
+                  <info>ListItem.Label2</info>
+                </control>
+                <control type="image">
+                  <width>33</width>
+                  <height>20</height>
+                  <left>680</left>
+                  <top>12</top>
+                  <texture>alienware/bluetooth/notpaired.png</texture>
+                  <visible>SubString(ListItem.Property(NotPaired),True)</visible>
+                </control>
+              </focusedlayout>
+            </control>
+            <control type="image">
+              <description>separator image</description>
+              <height>1</height>
+              <texture>blank.png</texture>
+            </control>
           </control>
         </control>
       </control>
@@ -785,41 +1102,42 @@
         <colordiffuse>40FFFFFF</colordiffuse>
       </control>
       <control type="textbox">
-				<description>Appearance Description</description>
-				<left>300</left>
-				<top>530</top>
-				<width>740</width>
-				<height>100</height>
-				<font>font12</font>
-				<label>$INFO[Container(9000).ListItem.Label2]</label>
-				<align>left</align>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
-			</control>
-		</control>
-		<include>BehindDialogFadeOut</include>
-		<control type="image">
-			<description>Section header image</description>
-			<left>20</left>
-			<top>3</top>
-			<width>35</width>
-			<height>35</height>
-			<aspectratio>keep</aspectratio>
-			<texture>icon_system.png</texture>
-		</control>
-		<control type="grouplist">
-			<left>65</left>
-			<top>5</top>
-			<width>1000</width>
-			<height>30</height>
-			<orientation>horizontal</orientation>
-			<align>left</align>
-			<itemgap>5</itemgap>
-			<control type="label">
-				<include>WindowTitleCommons</include>
-				<label>$ADDON[script.module.aw.devicesettings 33000]</label>
-			</control>
-		</control>
-		<include>Clock</include>
-	</controls>
+        <description>Appearance Description</description>
+        <left>300</left>
+        <top>530</top>
+        <width>740</width>
+        <height>100</height>
+        <font>font12</font>
+        <label>$INFO[Container(9000).ListItem.Label2]</label>
+        <align>left</align>
+        <textcolor>white</textcolor>
+        <shadowcolor>black</shadowcolor>
+      </control>
+    </control>
+    <include>BehindDialogFadeOut</include>
+    <include>MainWindowMouseButtons</include>
+    <control type="image">
+      <description>Section header image</description>
+      <left>20</left>
+      <top>3</top>
+      <width>35</width>
+      <height>35</height>
+      <aspectratio>keep</aspectratio>
+      <texture>icon_system.png</texture>
+    </control>
+    <control type="grouplist">
+      <left>65</left>
+      <top>5</top>
+      <width>1000</width>
+      <height>30</height>
+      <orientation>horizontal</orientation>
+      <align>left</align>
+      <itemgap>5</itemgap>
+      <control type="label">
+        <include>WindowTitleCommons</include>
+        <label>$ADDON[script.module.aw.devicesettings 33000]</label>
+      </control>
+    </control>
+    <include>Clock</include>
+  </controls>
 </window>

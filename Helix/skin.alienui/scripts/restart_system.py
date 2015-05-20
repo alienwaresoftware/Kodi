@@ -1,4 +1,8 @@
 import xbmc
-from resources.lib import AlphaUIUtils
 
-AlphaUIUtils.RestartSystem()
+try:
+    import AlphaUIUtils
+
+    AlphaUIUtils.RestartSystem()
+except:
+    xbmc.executebuiltin('Reboot')

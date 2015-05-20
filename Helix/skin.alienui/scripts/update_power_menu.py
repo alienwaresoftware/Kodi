@@ -1,7 +1,7 @@
 import time
 import random
 import xbmc
-from resources.lib import AlphaUIUtils
+import AlphaUIUtils
 
 original_state = False
 original_state = AlphaUIUtils.IsMouseConnected()

@@ -11,7 +11,7 @@ from addon import AlienFXLights
 from confirmdialog import ConfirmDialog
 from confirmdialog import ConfirmDialogType
 from threading import Timer
-from resources.lib import AlphaUIUtils
+import AlphaUIUtils
 
 SPIN_ARROW_LEFT_TEXURE_NORMAL = "special://skin/media/alienware/spinarrow.png"
 SPIN_ARROW_LEFT_TEXURE_DISABLE = "special://skin/media/alienware/spinarrowdisable.png"

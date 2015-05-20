@@ -633,6 +633,14 @@ msgctxt "#31602"
 msgid "RESTART CONSOLE"
 msgstr ""
 
+msgctxt "#31622"
+msgid "RESTART SYSTEM"
+msgstr ""
+
+msgctxt "#31623"
+msgid "SHUT DOWN SYSTEM"
+msgstr ""
+
 msgctxt "#31603"
 msgid "SLEEP"
 msgstr ""

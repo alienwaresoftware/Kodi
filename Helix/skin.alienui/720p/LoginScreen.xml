@@ -163,12 +163,12 @@
 			</control>
 			<control type="image">
 				<description>LOGO</description>
-				<left>265</left>
-				<top>580</top>
-				<width>220</width>
-				<height>80</height>
+				<left>285</left>
+				<top>600</top>
+				<width>33</width>
+				<height>47</height>
 				<aspectratio>keep</aspectratio>
-				<texture>Confluence_Logo.png</texture>
+				<texture>alienware/icons/icon_smallalienhead.png</texture>
 			</control>
 			<control type="group">
 				<left>940</left>
@@ -208,7 +208,7 @@
 					<width>35</width>
 					<height>35</height>
 					<aspectratio>keep</aspectratio>
-					<texture>icon_power.png</texture>
+					<texture>alienware/icons/icon_power.png</texture>
 				</control>
 			</control>
 		</control>
