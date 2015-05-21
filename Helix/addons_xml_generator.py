@@ -24,6 +24,9 @@
  
 import os
 import sys
+import zipfile
+import shutil
+import xml.etree.ElementTree as ET
  
 # Compatibility with 3.0, 3.1 and 3.2 not supporting u"" literals
 if sys.version < '3':
@@ -33,6 +36,30 @@ if sys.version < '3':
 else:
     def u(x):
         return x
+
+def zipdir(path, zip, zipfileName):
+    for root, dirs, files in os.walk(path):
+        for file in files:
+            if (file == zipfileName): continue
+            zip.write(os.path.join(root, file))
+
+def copyrecursively(source_folder, destination_folder):
+    if not os.path.exists(destination_folder):
+        os.makedirs(destination_folder)
+    for root, dirs, files in os.walk(source_folder):
+        for item in files:
+            src_path = os.path.join(root, item)
+            dst_path = os.path.join(destination_folder, src_path.replace(source_folder, ""))
+            if os.path.exists(dst_path):
+                if os.stat(src_path).st_mtime > os.stat(dst_path).st_mtime:
+                    shutil.copy2(src_path, dst_path)
+            else:
+                shutil.copy2(src_path, dst_path)
+        for item in dirs:
+            src_path = os.path.join(root, item)
+            dst_path = os.path.join(destination_folder, src_path.replace(source_folder, ""))
+            if not os.path.exists(dst_path):
+                os.mkdir(dst_path)
  
 class Generator:
     """
@@ -59,8 +86,13 @@ class Generator:
                 if ( not os.path.isdir( addon ) or addon == ".svn" or addon == ".git" ): continue
                 # create path
                 _path = os.path.join( addon, "addon.xml" )
+                tree = ET.parse(_path)
+                root = tree.getroot()
+                _version = root.attrib['version']
                 # split lines for stripping
-                xml_lines = open( _path, "r" , encoding="UTF-8").read().splitlines()
+                xmlfile = open(_path, "r")
+                xml_lines = xmlfile.read().splitlines()
+                xmlfile.close()
                 # new addon
                 addon_xml = ""
                 # loop thru cleaning each line
@@ -74,6 +106,15 @@ class Generator:
                         addon_xml += line.rstrip() + "\n"
                 # we succeeded so add to our final addons.xml text
                 addons_xml += addon_xml.rstrip() + "\n\n"
+                # Create zip fie in each addons	
+                _zipfilename = '%s-%s.zip' % (addon,_version)
+                _zipfilepath = os.path.join( addon, _zipfilename )
+                zipf = zipfile.ZipFile(_zipfilepath, 'w')
+                zipdir(addon, zipf, _zipfilename)
+                zipf.close()
+                sourcepath = '%s\\%s\\' % (os.getcwd(),addon)
+                destpath = '%s\\repository\\%s\\' % (os.path.dirname(os.getcwd()),addon)
+                #copyrecursively(sourcepath,destpath)
             except Exception as e:
                 # missing or poorly formatted addon.xml
                 print("Excluding %s for %s" % ( _path, e ))
@@ -81,6 +122,7 @@ class Generator:
         addons_xml = addons_xml.strip() + u("\n</addons>\n")
         # save file
         self._save_file( addons_xml.encode( "UTF-8" ), file="addons.xml" )
+        #shutil.copy2('%s\\addons.xml' % os.getcwd(), '%s\\repository\\addons.xml' % os.path.dirname(os.getcwd()))
  
     def _generate_md5_file( self ):
         # create a new md5 hash
@@ -94,6 +136,7 @@ class Generator:
         # save file
         try:
             self._save_file( m.encode( "UTF-8" ), file="addons.xml.md5" )
+            #shutil.copy2('%s\\addons.xml.md5' % os.getcwd(), '%s\\repository\\addons.xml.md5' % os.path.dirname(os.getcwd()))
         except Exception as e:
             # oops
             print("An error occurred creating addons.xml.md5 file!\n%s" % e)

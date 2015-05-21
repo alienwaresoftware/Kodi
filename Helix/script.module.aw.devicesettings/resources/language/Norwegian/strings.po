@@ -1,0 +1,232 @@
+# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Norwegian (http://www.transifex.com/projects/p/xbmc-main/language/no/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: no\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#Device Settings
+
+msgctxt "#33000"
+msgid "Device Settings"
+msgstr ""
+
+msgctxt "#33001"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#33002"
+msgid "AlienFX"
+msgstr ""
+
+msgctxt "#33003"
+msgid "Network"
+msgstr ""
+
+msgctxt "#33004"
+msgid "Bluetooth"
+msgstr ""
+
+msgctxt "#33010"
+msgid "Change Your Device Settings"
+msgstr ""
+
+msgctxt "#33011"
+msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
+msgstr ""
+
+msgctxt "#33012"
+msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
+msgstr ""
+
+msgctxt "#33013"
+msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
+msgstr ""
+
+msgctxt "#33014"
+msgid "Audio Source"
+msgstr ""
+
+msgctxt "#33015"
+msgid "Select Audio Source"
+msgstr ""
+
+msgctxt "#33016"
+msgid "Speaker Configuration"
+msgstr ""
+
+msgctxt "#33017"
+msgid "Volume"
+msgstr ""
+
+msgctxt "#33018"
+msgid "Error"
+msgstr ""
+
+msgctxt "#33019"
+msgid "Unable to change audio setting. Please check audio cable is connected properly."
+msgstr ""
+
+msgctxt "#33020"
+msgid "Success"
+msgstr ""
+
+msgctxt "#33021"
+msgid "Audio output has been changed successfully."
+msgstr ""
+
+msgctxt "#33022"
+msgid "Wi-Fi"
+msgstr ""
+
+msgctxt "#33023"
+msgid "Enter network password for {0}"
+msgstr ""
+
+msgctxt "#33025"
+msgid "Unable to connect. Please check your password and try again."
+msgstr ""
+
+msgctxt "#33026"
+msgid "Disconnect Wifi Network"
+msgstr ""
+
+msgctxt "#33027"
+msgid "Do you want to disconnect {0} ?"
+msgstr ""
+
+msgctxt "#33028"
+msgid "Unable to disconnect. Please try again."
+msgstr ""
+
+msgctxt "#33029"
+msgid "Not ready"
+msgstr ""
+
+msgctxt "#33030"
+msgid "Connected"
+msgstr ""
+
+msgctxt "#33031"
+msgid "Ad hoc network formed"
+msgstr ""
+
+msgctxt "#33032"
+msgid "Disconnecting"
+msgstr ""
+
+msgctxt "#33033"
+msgid "Disconnected"
+msgstr ""
+
+msgctxt "#33034"
+msgid "Associating"
+msgstr ""
+
+msgctxt "#33035"
+msgid "Discovering"
+msgstr ""
+
+msgctxt "#33036"
+msgid "Authenticating"
+msgstr ""
+
+msgctxt "#33037"
+msgid "Connection Status : "
+msgstr ""
+
+msgctxt "#33038"
+msgid "Not Available"
+msgstr ""
+
+msgctxt "#33039"
+msgid "Select Speaker Configuration"
+msgstr ""
+
+msgctxt "#33040"
+msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
+msgstr ""
+
+msgctxt "#33041"
+msgid "Turn ON Bluetooth"
+msgstr ""
+
+msgctxt "#33042"
+msgid "Turn ON Discoverability"
+msgstr ""
+
+msgctxt "#33043"
+msgid "Connected"
+msgstr ""
+
+msgctxt "#33044"
+msgid "Paired"
+msgstr ""
+
+msgctxt "#33045"
+msgid "Speaker configuration has been changed successfully."
+msgstr ""
+
+msgctxt "#33046"
+msgid "Unable to change speaker configuration."
+msgstr ""
+
+msgctxt "#33047"
+msgid "Unable to pair the device."
+msgstr ""
+
+msgctxt "#33048"
+msgid "Device has been paired successfully."
+msgstr ""
+
+msgctxt "#33049"
+msgid "Compare the passcodes."
+msgstr ""
+
+msgctxt "#33050"
+msgid "Does this password on {0} match this one?"
+msgstr ""
+
+msgctxt "#33051"
+msgid "Remove device"
+msgstr ""
+
+msgctxt "#33052"
+msgid "Do you want to remove {0}?"
+msgstr ""
+
+msgctxt "#33053"
+msgid "Unable to remove {0}"
+msgstr ""
+
+msgctxt "#33054"
+msgid "{0} has been removed successfully"
+msgstr ""
+
+msgctxt "#33055"
+msgid "Please wait..."
+msgstr ""
+
+msgctxt "#33056"
+msgid "Please wait while pairing {0}..."
+msgstr ""
+
+msgctxt "#33057"
+msgid "Please wait while installing services for {0}..."
+msgstr ""
+
+msgctxt "#33058"
+msgid "Status"
+msgstr ""
+
+msgctxt "#33059"
+msgid "Mute Volume"
+msgstr ""
