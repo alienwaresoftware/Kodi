@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+    <include name="SettingsBreadcrumb">
+        <control type="group">
+            <top>10</top>
+            <left>55</left>
+            <width>800</width>
+            <height>60</height>
+            <!-- TODO: See if we can just update the label using onfocus...but it doesn't look like we can -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>31606</label> <!-- Settings -->
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31610]</label> <!-- Settings > Video -->
+                <visible>Container(9000).HasFocus(1)</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31635]</label> <!-- Settings > Audio -->
+                <visible>Container(9000).HasFocus(2)</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31685]</label> <!-- Settings > Customization -->
+                <visible>Container(9000).HasFocus(3)</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31710]</label> <!-- Settings > Network -->
+                <visible>Container(9000).HasFocus(4)</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31760]</label> <!-- Settings > HDMI in -->
+                <visible>Container(9000).HasFocus(5)</visible>
+            </control>
+
+
+            <!-- Video -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31610] > $LOCALIZE[31611]</label> <!-- Settings > Video > Display -->
+                <!-- <visible>Control.HasFocus(9011) + Container(9011).Position(0) | ControlGroup(9024).HasFocus()</visible>-->
+                <visible>[Container(9000).Position(0)] + [Control.HasFocus(9011) | Control.HasFocus(9029) | ControlGroup(9024).HasFocus()] + [Container(9011).Position(0)]</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31610] > $LOCALIZE[31612]</label> <!-- Settings > Video > Scale to screen -->
+                <!-- <visible>Control.HasFocus(9011) + Container(9011).Position(1) | Control.HasFocus(9029)</visible>-->
+                <visible>[Container(9000).Position(0)] + [Control.HasFocus(9011) | Control.HasFocus(9029) | ControlGroup(9024).HasFocus()] + [Container(9011).Position(1)]</visible>
+            </control>
+ 
+
+            <!-- Audio -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31635] > $LOCALIZE[31638]</label> <!-- Settings > Audio > Source -->
+                <!-- <visible>Control.HasFocus(9031) + Container(9031).Position(0) | ControlGroup(9033).HasFocus()</visible>-->
+                <visible>[Container(9000).Position(1)] + [Control.HasFocus(9031) | ControlGroup(9032).HasFocus() | ControlGroup(9041).HasFocus()] + [Container(9031).Position(0)]</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31635] > $LOCALIZE[31637]</label> <!-- Settings > Audio > Volume -->
+                <!--<visible>Control.HasFocus(9031) + Container(9031).Position(1) | ControlGroup(9041).HasFocus()</visible>-->
+                <visible>[Container(9000).Position(1)] + [Control.HasFocus(9031) | ControlGroup(9032).HasFocus() | ControlGroup(9041).HasFocus()] + [Container(9031).Position(1)]</visible>
+            </control>
+
+
+            <!-- Customization -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31685] > $LOCALIZE[31686]</label> <!-- Settings > Customization > AlienFX -->
+                <!--<visible>Control.HasFocus(9081) + Container(9081).Position(0) | ControlGroup(9082).HasFocus()</visible>-->
+                <visible>[Container(9000).Position(2)] + [Control.HasFocus(9081) | ControlGroup(9082).HasFocus()] + [Container(9081).Position(0)]</visible>
+            </control>
+
+            
+            <!-- Network -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31710] > $LOCALIZE[31711]</label> <!-- Settings > Network > Wifi -->
+                <!--<visible>Control.HasFocus(9051) + Container(9051).Position(0) | Control.HasFocus(9055)</visible>-->
+                <visible>[Container(9000).Position(3)] + [Control.HasFocus(9051) | ControlGroup(9054).HasFocus()] + [Container(9051).Position(0)]</visible>
+            </control>
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31710] > $LOCALIZE[31712]</label> <!-- Settings > Network > Information -->
+                <!--<visible>Control.HasFocus(9051) + Container(9051).Position(1)</visible>-->
+                <visible>[Container(9000).Position(3)] + [Control.HasFocus(9051) | ControlGroup(9054).HasFocus()] + [Container(9051).Position(1)]</visible>
+            </control>
+
+
+            <!-- HDMI in -->
+            <control type="label">
+                <font>goodtime12</font>
+                <label>$LOCALIZE[31606] > $LOCALIZE[31760] > $LOCALIZE[31761]</label> <!-- Settings > HDMI in > Activate -->
+                <!--<visible>Control.HasFocus(9071) + Container(9071).Position(0) | ControlGroup(9073).HasFocus()</visible>-->
+                <visible>[Container(9000).Position(4)] + [Control.HasFocus(9071) | ControlGroup(9073).HasFocus()] + [Container(9071).Position(0)]</visible>
+            </control>
+
+
+
+        </control>
+
+ </include>
+</includes>
