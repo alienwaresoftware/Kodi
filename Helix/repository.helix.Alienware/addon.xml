@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.helix.alienware" name="Alienware Helix Repo" version="0.0.16" provider-name="Alienware">
+<addon id="repository.helix.alienware" name="Alienware's Hive Repo (Helix)" version="1.0.0" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Helix addons">
                 <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml</info>
                 <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml.md5</checksum>
                 <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Helix</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
-                <summary>Alienware's Helix Repo</summary>
-                <description>Alienware's Helix Repo</description>
+                <summary>Alienware's Hive Repo (Helix)</summary>
+                <description>Alienware's Hive Repo (Helix)</description>
                 <disclaimer></disclaimer>
                 <platform>all</platform>
         </extension>

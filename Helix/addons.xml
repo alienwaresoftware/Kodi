@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.helix.alienware" name="Alienware Helix Repo" version="0.0.16" provider-name="Alienware">
+<addon id="repository.helix.alienware" name="Alienware's Hive Repo (Helix)" version="1.0.0" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Helix addons">
                 <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml</info>
                 <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml.md5</checksum>
                 <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Helix</datadir>
         </extension>
         <extension point="xbmc.addon.metadata">
-                <summary>Alienware's Helix Repo</summary>
-                <description>Alienware's Helix Repo</description>
+                <summary>Alienware's Hive Repo (Helix)</summary>
+                <description>Alienware's Hive Repo (Helix)</description>
                 <disclaimer></disclaimer>
                 <platform>all</platform>
         </extension>
 </addon>
 
 <addon  id="script.module.aw.devicesettings"
-        name="AlienUI Device Settings"
-        version="0.0.1"
+        name="Hive Device Settings"
+        version="0.9.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -26,14 +26,14 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">AlienUI Device Settings</summary>
-    <description lang="en">AlienUI Device Settings</description>
+    <summary lang="en">Hive Device Settings</summary>
+    <description lang="en">Hive Device Settings</description>
   </extension>
 </addon>
 
 <addon  id="script.module.aw.gameslauncher"
-        name="Alienware Game Launcher"
-        version="0.0.1"
+        name="Hive Game Launcher"
+        version="0.9.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -43,14 +43,14 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Alienware Game Launcher</summary>
-    <description lang="en">Alienware Game Launcher</description>
+    <summary lang="en">Hive Game Launcher</summary>
+    <description lang="en">Hive Game Launcher</description>
   </extension>
 </addon>
 
 <addon  id="script.service.aw.devicesettings"
-        name="AlienUI Device Settings Service"
-        version="0.0.1"
+        name="Hive Device Settings Service"
+        version="0.9.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -60,13 +60,13 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">AlienUI Device Settings Service</summary>
-    <description lang="en">AlienUI Device Settings Service</description>
+    <summary lang="en">Hive Device Settings Service</summary>
+    <description lang="en">Hive Device Settings Service</description>
   </extension>
 </addon>
 
 <addon  id="script.aw.alienui.launcher"
-        name="AlienUI Console Mode"
+        name="Hive Console Mode"
         version="0.0.1"
         provider-name="Alienware">
   <requires>
@@ -78,14 +78,14 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">AlienUI Console Mode</summary>
-    <description lang="en">AlienUI Console Mode</description>
+    <summary lang="en">Hive Console Mode</summary>
+    <description lang="en">Hive Console Mode</description>
   </extension>
 </addon>
 
 <addon  id="service.aw.backgrounds"
         name="Hive Backgrounds"
-        version="0.1.0"
+        version="0.9.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -102,8 +102,8 @@
 </addon>
 
 <addon  id="service.aw.customizations"
-        name="AlienUI Customizations"
-        version="0.0.4"
+        name="Hive Customizations"
+        version="0.9.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -114,14 +114,14 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">AlienUI Customizations</summary>
-    <description lang="en">AlienUI Customizations</description>
+    <summary lang="en">Hive Customizations</summary>
+    <description lang="en">Hive Customizations</description>
   </extension>
 </addon>
 
 <addon  id="script.aw.themes"
         name="Hive Themes"
-        version="0.1.3"
+        version="0.9.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
