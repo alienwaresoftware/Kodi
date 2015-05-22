@@ -953,15 +953,15 @@ msgid "Kodi Settings"
 msgstr ""
 
 msgctxt "#31852"
-msgid "X360 Keyboard Controls"
+msgid "Controller Layout for Menus"
 msgstr ""
 
 msgctxt "#31853"
-msgid "X360 Video Controls"
+msgid "Controller Layout for Keyboard"
 msgstr ""
 
 msgctxt "#31854"
-msgid "X360 Menu Controls"
+msgid "Controller Layout for Video Playback"
 msgstr ""
 
 msgctxt "#31855"
@@ -1001,6 +1001,83 @@ msgid "File Manager"
 msgstr ""
 
 msgctxt "#31864"
+msgid "Controller Layout for Music Playback"
+msgstr ""
+
+msgctxt "#31865"
+msgid "Controller Layout for Slideshows"
+msgstr ""
+
+msgctxt "#31866"
+msgid "The menu layout is used to perform basic navigation in the menu and interface. These are the default controls."
+msgstr ""
+
+
+msgctxt "#31867"
+msgid "The keyboard layout is used whenever the onscreen keyboard appears."
+msgstr ""
+
+msgctxt "#31868"
+msgid "The video playback layout is used when you are watching a video, tv show, or movie."
+msgstr ""
+
+msgctxt "#31869"
+msgid "The music playback layout is used when you are listening to music or radio."
+msgstr ""
+
+
+msgctxt "#31870"
+msgid "The slideshow layout is used when you view picture slideshows. "
+msgstr ""
+
+msgctxt "#31871"
+msgid "How to setup your Hive Interface."
+msgstr ""
+
+msgctxt "#31872"
+msgid "How to use Add-ons in the Hive Interface."
+msgstr ""
+
+
+msgctxt "#31873"
+msgid "How to use the advance settings in the Hive Interface."
+msgstr ""
+
+msgctxt "#31874"
+msgid "How to use the Controller Hot Keys."
+msgstr ""
+
+msgctxt "#31875"
+msgid "Welcome to the Hive!"
+msgstr ""
+
+msgctxt "#31876"
+msgid "The Hive Interface is a combination of the power and flexibility found in the Kodi Media Center and special customizations from Alienware. To find out more about this interface click A on the Quick Start Guide below or the ? icon on the main menu. [CR][CR]Click \"Ok\" or \"Quick Start Guide\" to close this dialogue. It will not appear again."
+msgstr "The Hive Interface is a combination of the power and flexibility found in the Kodi Media Center and special customizations from Alienware. To find out more about this interface click A on the Quick Start Guide below or the ? icon on the main menu. [CR][CR]Click \"Ok\" or \"Quick Start Guide\" to close this dialogue. It will not appear again."
+
+msgctxt "#31877"
+msgid ""
+msgstr ""
+
+msgctxt "#31878"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31879"
+msgid ""
+msgstr ""
+
+msgctxt "#31880"
+msgid ""
+msgstr ""
+
+msgctxt "#31866"
+msgid ""
+msgstr ""
+
+
+msgctxt "#31864"
 msgid ""
 msgstr ""
 
@@ -1011,7 +1088,6 @@ msgstr ""
 msgctxt "#31866"
 msgid ""
 msgstr ""
-
 
 #END Alienware skin
 

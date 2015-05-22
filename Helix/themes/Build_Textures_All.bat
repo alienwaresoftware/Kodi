@@ -1,6 +1,6 @@
 Title Building Texture Files
 
-TexturePacker.exe -input Red -output ..\skin.alienui\media\Textures.xbt
+TexturePacker.exe -input Red -output ..\skin.hive\media\Textures.xbt
 TexturePacker.exe -input Blue -output themes\Blue.xbt
 TexturePacker.exe -input Green -output themes\Green.xbt
 TexturePacker.exe -input Orange -output themes\Orange.xbt

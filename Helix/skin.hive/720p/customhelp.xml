@@ -249,7 +249,7 @@
 						<width>736</width>
 						<height>85</height>
 						<font>font12</font>
-						<label>Place Holder 1</label> 
+						<label>31866</label> 
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(1)</visible>
@@ -261,7 +261,7 @@
 						<width>736</width>
 						<height>85</height>
 						<font>font12</font>
-						<label>Place Holder 2</label>
+						<label>31867</label>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(2)</visible>
@@ -273,7 +273,7 @@
 						<width>736</width>
 						<height>85</height>
 						<font>font12</font>
-						<label>Place Holder 3</label>
+						<label>31868</label>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(3)</visible>
@@ -285,7 +285,7 @@
 						<width>736</width>
 						<height>85</height>
 						<font>font12</font>
-						<label>Place Holder 4</label>
+						<label>31869</label>
 						<textcolor>white</textcolor>
 						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(4)</visible>
 					</control>
@@ -296,7 +296,7 @@
 						<width>736</width>
 						<height>85</height>
 						<font>font12</font>
-						<label>Place Holder 5</label>
+						<label>31870</label>
 						<align>justify</align>
 						<textcolor>white</textcolor>
 						<visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(5)</visible>
@@ -339,10 +339,10 @@
 		                    <control type="label">
 		                        <bottom>-45</bottom>
 		                        <alignx>Left</alignx>
-		                        <width>300</width>
+		                        <width>450</width>
 		                        <height>80</height>
 		                        <font>goodtime14</font>
-		                        <align>center</align>
+		                        <align>left</align>
 		                        <aligny>top</aligny>
 		                        <label>$INFO[ListItem.Label]</label>
 		                    </control>
@@ -362,11 +362,11 @@
 		                    <control type="label">
 		                        <bottom>-45</bottom>
 		                        <alignx>Left</alignx>
-		                        <width>300</width>
+		                        <width>450</width>
 		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <textcolor>white</textcolor>
-		                        <align>center</align>
+		                        <align>left</align>
 		                        <aligny>top</aligny>
 		                        <label>$INFO[ListItem.Label]</label>
 		                    </control>
@@ -388,6 +388,20 @@
 							</item>
 							<item id="3">
 								<label>31854</label>
+								<onclick>noop</onclick>
+								<icon>Alienware/X360/Layout/Controller_Keyboard.png</icon>
+								<thumb>-</thumb>
+								<visible>yes</visible>
+							</item>
+							<item id="4">
+								<label>31864</label>
+								<onclick>noop</onclick>
+								<icon>Alienware/X360/Layout/Controller_Keyboard.png</icon>
+								<thumb>-</thumb>
+								<visible>yes</visible>
+							</item>
+							<item id="5">
+								<label>31865</label>
 								<onclick>noop</onclick>
 								<icon>Alienware/X360/Layout/Controller_Keyboard.png</icon>
 								<thumb>-</thumb>
@@ -543,10 +557,10 @@
 		                    <control type="label">
 		                        <bottom>-45</bottom>
 		                        <alignx>Left</alignx>
-		                        <width>300</width>
+		                        <width>500</width>
 		                        <height>80</height>
 		                        <font>goodtime14</font>
-		                        <align>center</align>
+		                        <align>left</align>
 		                        <aligny>top</aligny>
 		                        <label>$INFO[ListItem.Label]</label>
 		                    </control>
@@ -566,11 +580,11 @@
 		                    <control type="label">
 		                        <bottom>-45</bottom>
 		                        <alignx>Left</alignx>
-		                        <width>300</width>
+		                        <width>500</width>
 		                        <height>80</height>
 		                        <font>goodtime14</font>
 		                        <textcolor>white</textcolor>
-		                        <align>center</align>
+		                        <align>left</align>
 		                        <aligny>top</aligny>
 		                        <label>$INFO[ListItem.Label]</label>
 		                    </control>
@@ -584,28 +598,28 @@
 								<visible>yes</visible>
 							</item>
 							<item id="2">
-								<label>31800</label>
+								<label>31874</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Hotkeys.strm")</onclick>
 								<icon>alienware\help_images\help_hotkeys.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="3">
-								<label>5</label>
+								<label>31871</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Settings.strm")</onclick>
 								<icon>alienware\help_images\help_settings.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="4">
-								<label>24001</label>
+								<label>31872</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Addons.strm")</onclick>
 								<icon>alienware\help_images\help_addons.png</icon>
 								<thumb>-</thumb>
 								<visible>yes</visible>
 							</item>
 							<item id="5">
-								<label>10038</label>
+								<label>31873</label>
 								<onclick>playmedia("special://skin\scripts\Help_Scripts\Advanced.strm")</onclick>
 								<icon>alienware\help_images\help_advanced.png</icon>
 								<thumb>-</thumb>
