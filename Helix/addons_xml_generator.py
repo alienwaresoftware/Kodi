@@ -26,6 +26,7 @@ import os
 import sys
 import zipfile
 import shutil
+import time
 import xml.etree.ElementTree as ET
  
 # Compatibility with 3.0, 3.1 and 3.2 not supporting u"" literals
@@ -118,6 +119,7 @@ class Generator:
             except Exception as e:
                 # missing or poorly formatted addon.xml
                 print("Excluding %s for %s" % ( _path, e ))
+                time.sleep(5)
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u("\n</addons>\n")
         # save file

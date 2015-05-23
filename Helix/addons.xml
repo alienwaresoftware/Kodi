@@ -136,4 +136,34 @@
     <description lang="en">Hive Themes</description>
   </extension>
 </addon>
+
+<addon
+  id="skin.hive"
+  version="0.9.0"
+  name="The Hive Interface"
+  provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.gui" version="5.3.0"/>
+    <import addon="service.aw.customizations"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="Textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hive by Alienware, Inc.</summary>
+    <summary lang="en_AU">Hive by Alienware, Inc.</summary>
+    <summary lang="en_NZ">Hive by Alienware, Inc.</summary>
+    <summary lang="en_US">Hive by Alienware, Inc.</summary>
+    <description lang="en">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
+    <description lang="en_AU">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
+    <description lang="en_NZ">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
+    <description lang="en_US">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
 </addons>
