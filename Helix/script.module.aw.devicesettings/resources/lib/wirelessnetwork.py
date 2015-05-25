@@ -13,15 +13,15 @@ class WirelessNetwork(object):
         self.uuid = uuid
 
         if self.signal <= 20:
-            self.signalimage = "wireless1.png"
+            self.signalimage = "alienware/wifi/wireless1.png"
         elif self.signal <= 40:
-            self.signalimage = "wireless2.png"
+            self.signalimage = "alienware/wifi/wireless2.png"
         elif self.signal <= 60:
-            self.signalimage = "wireless3.png"
+            self.signalimage = "alienware/wifi/wireless3.png"
         elif self.signal <= 80:
-            self.signalimage = "wireless4.png"
+            self.signalimage = "alienware/wifi/wireless4.png"
         else:
-            self.signalimage = "wireless5.png"
+            self.signalimage = "alienware/wifi/wireless5.png"
 
     def connect(self, passwd):
         self.wifinetworkobj.Connect(unicode(passwd))

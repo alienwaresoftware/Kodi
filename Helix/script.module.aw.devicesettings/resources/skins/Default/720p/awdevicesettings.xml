@@ -3,13 +3,35 @@
   <defaultcontrol always="true">101</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <controls>
-    <include>CommonBackground</include>
+    <control type="image">
+      <description>Normal Default Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture>alienware/background.png</texture>
+      <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
+      <animation effect="fade" time="300">Visible</animation>
+      <animation effect="fade" time="300">Hidden</animation>
+    </control>
+    <control type="image">
+      <description>User Set Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio alignx="center">scale</aspectratio>
+      <texture>$INFO[Skin.String(CustomBackgroundPath)]</texture>
+      <visible>Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))</visible>
+      <animation effect="fade" time="300">Visible</animation>
+      <animation effect="fade" time="300">Hidden</animation>
+    </control>
     <control type="image">
       <left>0</left>
       <top>100r</top>
       <width>1280</width>
       <height>100</height>
-      <!--texture>floor.png</texture-->
       <animation effect="slide" start="0,10" end="0,0" time="200" condition="Window.Previous(Home)">WindowOpen</animation>
       <animation effect="slide" start="0,0" end="0,10" time="200" condition="Window.Next(Home)">WindowClose</animation>
     </control>
@@ -29,14 +51,14 @@
         <top>5</top>
         <width>1090</width>
         <height>630</height>
-        <texture border="15">ContentPanel.png</texture>
+        <texture border="15">alienware/ContentPanel.png</texture>
       </control>
       <control type="image">
         <left>5</left>
         <top>625</top>
         <width>1090</width>
         <height>64</height>
-        <texture border="15">ContentPanelMirror.png</texture>
+        <texture border="15">alienware/ContentPanelMirror.png</texture>
       </control>
       <control type="button">
         <description>Close Window button</description>
@@ -47,8 +69,8 @@
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
-        <texturefocus>DialogCloseButton-focus.png</texturefocus>
-        <texturenofocus>DialogCloseButton.png</texturenofocus>
+        <texturefocus>alienware/DialogCloseButton-focus.png</texturefocus>
+        <texturenofocus>alienware/DialogCloseButton.png</texturenofocus>
         <onleft>1</onleft>
         <onright>1</onright>
         <onup>1</onup>
@@ -81,7 +103,7 @@
             <top>0</top>
             <width>260</width>
             <height>55</height>
-            <texture border="5">MenuItemNF.png</texture>
+            <texture border="5">alienware/MenuItemNF.png</texture>
           </control>
           <control type="label">
             <left>10</left>
@@ -101,7 +123,7 @@
             <top>0</top>
             <width>260</width>
             <height>55</height>
-            <texture border="5">MenuItemFO.png</texture>
+            <texture border="5">alienware/MenuItemFO.png</texture>
           </control>
           <control type="label">
             <left>10</left>
@@ -138,6 +160,11 @@
             <label2>$ADDON[script.module.aw.devicesettings 33040]</label2>
             <onclick>-</onclick>
           </item>
+          <item id="5">
+            <label>$ADDON[script.module.aw.devicesettings 33060]</label>
+            <label2>$ADDON[script.module.aw.devicesettings 33061]</label2>
+            <onclick>-</onclick>
+          </item>
         </content>
       </control>
       <control type="image">
@@ -145,14 +172,14 @@
         <top>10</top>
         <width>800</width>
         <height>618</height>
-        <texture border="5">black-back2.png</texture>
+        <texture border="5">alienware/black-back2.png</texture>
       </control>
       <control type="image">
         <left>268</left>
         <top>10</top>
         <width>804</width>
         <height>54</height>
-        <texture>dialogheader.png</texture>
+        <texture>alienware/dialogheader.png</texture>
       </control>
       <control type="label">
         <description>header label</description>
@@ -190,7 +217,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(107)</visible>
             </control>
             <control type="image">
@@ -198,7 +225,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(107)</visible>
             </control>
             <control type="label">
@@ -214,9 +241,9 @@
               <label>$ADDON[script.module.aw.devicesettings 33014]</label>
             </control>
             <control type="label" id="106">
-              <right>20</right>
+              <left>330</left>
               <top>0</top>
-              <width>450</width>
+              <width>400</width>
               <height>40</height>
               <font>font13</font>
               <textcolor>white</textcolor>
@@ -234,8 +261,8 @@
               <onleft>101</onleft>
               <onup>114</onup>
               <ondown>109</ondown>
-              <texturenofocus>blank.png</texturenofocus>
-              <texturefocus>blank.png</texturefocus>
+              <texturenofocus>alienware/blank.png</texturenofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
               <visible>true</visible>
             </control>
           </control>
@@ -250,7 +277,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(109)</visible>
             </control>
             <control type="image">
@@ -258,7 +285,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(109)</visible>
             </control>
             <control type="label">
@@ -275,9 +302,10 @@
               <label>$ADDON[script.module.aw.devicesettings 33016]</label>
             </control>
             <control type="label" id="108">
+              <left>330</left>
               <right>20</right>
               <top>0</top>
-              <width>300</width>
+              <width>400</width>
               <height>40</height>
               <font>font13</font>
               <scroll>true</scroll>
@@ -295,8 +323,8 @@
               <ondown condition="!Control.IsEnabled(112)">113</ondown>
               <onright>101</onright>
               <onleft>101</onleft>
-              <texturenofocus>blank.png</texturenofocus>
-              <texturefocus>blank.png</texturefocus>
+              <texturenofocus>alienware/blank.png</texturenofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
               <visible>true</visible>
             </control>
           </control>
@@ -310,7 +338,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(112) | !Control.HasFocus(113)</visible>
             </control>
             <control type="image">
@@ -318,7 +346,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(112) | Control.HasFocus(113)</visible>
             </control>
             <control type="label">
@@ -335,9 +363,9 @@
             <control type="button" id="112">
               <description>Slider Minus Button</description>
               <top>5</top>
-              <right>330</right>
+              <left>335</left>
               <height>30</height>
-              <width>30</width>
+              <width>45</width>
               <onup>109</onup>
               <ondown>114</ondown>
               <onright>113</onright>
@@ -345,11 +373,15 @@
               <label>[B]-[/B]</label>
               <align>center</align>
               <aligny>center</aligny>
+              <font>font13</font>
+              <texturefocus border="5">alienware/button-focus.png</texturefocus>
+              <texturenofocus border="5">alienware/button-nofocus.png</texturenofocus>
               <visible>system.getbool(input.enablemouse)</visible>
             </control>
             <control type="label" id="110">
-              <description>slider percentage lable</description>
-              <right>270</right>
+              <description>slider percentage label</description>
+              <left>380</left>
+              <width>60</width>
               <top>0</top>
               <height>40</height>
               <font>font13</font>
@@ -359,7 +391,7 @@
             </control>
             <control type="slider" id="111">
               <description>Volume slider control</description>
-              <right>60</right>
+              <left>455</left>
               <top>11</top>
               <width>200</width>
               <height>20</height>
@@ -368,24 +400,24 @@
               <onright>101</onright>
               <onleft>101</onleft>
               <enable>false</enable>
-              <texturefocus border="5">blank.png</texturefocus>
-              <texturenofocus border="5">blank.png</texturenofocus>
-              <texturesliderbar>osd_slider_bg.png</texturesliderbar>
-              <textureslidernib>osd_slider_nibNF.png</textureslidernib>
-              <textureslidernibfocus>osd_slider_nib.png</textureslidernibfocus>
+              <texturefocus border="5">alienware/blank.png</texturefocus>
+              <texturenofocus border="5">alienware/blank.png</texturenofocus>
+              <texturesliderbar>alienware/osd_slider_bg.png</texturesliderbar>
+              <textureslidernib>alienware/osd_slider_nibNF.png</textureslidernib>
+              <textureslidernibfocus>alienware/osd_slider_nib.png</textureslidernibfocus>
               <font>font13</font>
               <textcolor>white</textcolor>
               <disabledcolor>80FFFFFF</disabledcolor>
               <align>right</align>
               <aligny>center</aligny>
-              <label>Test</label>
+              <label>-</label>
             </control>
             <control type="button" id="113">
               <description>Slider Plus Button</description>
               <top>5</top>
-              <right>20</right>
+              <left>675</left>
               <height>30</height>
-              <width>30</width>
+              <width>45</width>
               <onup>109</onup>
               <ondown>114</ondown>
               <onright>101</onright>
@@ -393,6 +425,9 @@
               <label>[B]+[/B]</label>
               <align>center</align>
               <aligny>center</aligny>
+              <font>font13</font>
+              <texturefocus border="5">alienware/button-focus.png</texturefocus>
+              <texturenofocus border="5">alienware/button-nofocus.png</texturenofocus>
               <visible>system.getbool(input.enablemouse)</visible>
             </control>
           </control>
@@ -406,7 +441,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(114)</visible>
             </control>
             <control type="image">
@@ -414,7 +449,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(114)</visible>
             </control>
             <control type="radiobutton" id="114">
@@ -426,14 +461,25 @@
               <label>$ADDON[script.module.aw.devicesettings 33059]</label>
               <visible>true</visible>
               <aligny>center</aligny>
-              <texturefocus>blank.png</texturefocus>
-              <texturenofocus>blank.png</texturenofocus>
+              <radiowidth>24</radiowidth>
+              <radioheight>24</radioheight>
+              <textureradioonfocus>alienware/radiobutton-focus.png</textureradioonfocus>
+              <textureradioonnofocus>alienware/radiobutton-focus.png</textureradioonnofocus>
+              <textureradioofffocus>alienware/radiobutton-nofocus.png</textureradioofffocus>
+              <textureradiooffnofocus>alienware/radiobutton-nofocus.png</textureradiooffnofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
+              <texturenofocus>alienware/blank.png</texturenofocus>
               <radioposx>680</radioposx>
               <onleft>101</onleft>
               <onright>101</onright>
               <onup condition="Control.IsEnabled(112)">112</onup>
               <onup condition="!Control.IsEnabled(112)">113</onup>
               <ondown>107</ondown>
+              <textoffsetx>10</textoffsetx>
+              <height>40</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <focusedcolor>white</focusedcolor>
             </control>
           </control>
         </control>
@@ -453,39 +499,31 @@
             <visible>true</visible>
             <control type="button" id="117">
               <description>Left Button</description>
+              <top>0</top>
               <left>50</left>
               <width>30</width>
               <height>45</height>
               <align>left</align>
               <textoffsetx>7</textoffsetx>
               <aligny>center</aligny>
-              <texturenofocus>alienware/blank.png</texturenofocus>
-              <texturefocus>alienware/circle.png</texturefocus>
-              <textcolor>FFFFFFFF</textcolor>
-              <focusedcolor>FFFFFFFF</focusedcolor>
-              <disabledcolor>80FFFFFF</disabledcolor>
-              <invalidcolor>FFFFFFFF</invalidcolor>
-              <label>&#61523;</label>
-              <font>fontawesome</font>
+              <texturenofocus flipx="true">alienware/arrow.png</texturenofocus>
+              <texturefocus flipx="true">alienware/circlearrow.png</texturefocus>
+              <label>-</label>
               <onright>119</onright>
               <onleft>101</onleft>
             </control>
             <control type="button" id="119">
               <description>Right Button</description>
+              <top>0</top>
               <left>415</left>
               <width>30</width>
               <height>45</height>
               <align>right</align>
               <textoffsetx>6</textoffsetx>
               <aligny>center</aligny>
-              <texturenofocus>alienware/blank.png</texturenofocus>
-              <texturefocus>alienware/circle.png</texturefocus>
-              <textcolor>FFFFFFFF</textcolor>
-              <focusedcolor>FFFFFFFF</focusedcolor>
-              <disabledcolor>80FFFFFF</disabledcolor>
-              <invalidcolor>FFFFFFFF</invalidcolor>
-              <label>&#61524;</label>
-              <font>fontawesome</font>
+              <texturenofocus>alienware/arrow.png</texturenofocus>
+              <texturefocus>alienware/circlearrow.png</texturefocus>
+              <label>-</label>
               <onright>101</onright>
               <onleft>117</onleft>
             </control>
@@ -515,14 +553,14 @@
               <top>0</top>
               <height>45</height>
               <visible>ControlGroup(116).HasFocus()</visible>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
             </control>
             <control type="image">
               <left>0</left>
               <top>0</top>
               <height>45</height>
               <visible>!ControlGroup(116).HasFocus()</visible>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
             </control>
             <control type="label" id="118">
               <left>0</left>
@@ -542,39 +580,31 @@
             <visible>true</visible>
             <control type="button" id="125">
               <description>Left Button</description>
+              <top>0</top>
               <left>50</left>
               <width>30</width>
               <height>45</height>
               <align>left</align>
               <textoffsetx>7</textoffsetx>
               <aligny>center</aligny>
-              <texturenofocus>alienware/blank.png</texturenofocus>
-              <texturefocus>alienware/circle.png</texturefocus>
-              <textcolor>FFFFFFFF</textcolor>
-              <focusedcolor>FFFFFFFF</focusedcolor>
-              <disabledcolor>80FFFFFF</disabledcolor>
-              <invalidcolor>FFFFFFFF</invalidcolor>
-              <label>&#61523;</label>
-              <font>fontawesome</font>
+              <texturenofocus flipx="true">alienware/arrow.png</texturenofocus>
+              <texturefocus flipx="true">alienware/circlearrow.png</texturefocus>
+              <label>-</label>
               <onright>127</onright>
               <onleft>101</onleft>
             </control>
             <control type="button" id="127">
               <description>Right Button</description>
+              <top>0</top>
               <left>415</left>
               <width>30</width>
               <height>45</height>
               <align>right</align>
               <textoffsetx>6</textoffsetx>
               <aligny>center</aligny>
-              <texturenofocus>alienware/blank.png</texturenofocus>
-              <texturefocus>alienware/circle.png</texturefocus>
-              <textcolor>FFFFFFFF</textcolor>
-              <focusedcolor>FFFFFFFF</focusedcolor>
-              <disabledcolor>80FFFFFF</disabledcolor>
-              <invalidcolor>FFFFFFFF</invalidcolor>
-              <label>&#61524;</label>
-              <font>fontawesome</font>
+              <texturenofocus>alienware/arrow.png</texturenofocus>
+              <texturefocus>alienware/circlearrow.png</texturefocus>
+              <label>-</label>
               <onright>101</onright>
               <onleft>125</onleft>
             </control>
@@ -604,14 +634,14 @@
               <top>0</top>
               <height>45</height>
               <visible>ControlGroup(124).HasFocus()</visible>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
             </control>
             <control type="image">
               <left>0</left>
               <top>0</top>
               <height>45</height>
               <visible>!ControlGroup(124).HasFocus()</visible>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
             </control>
             <control type="label" id="126">
               <left>0</left>
@@ -631,20 +661,16 @@
             <visible>true</visible>
             <control type="button" id="135">
               <description>Left Button</description>
+              <top>0</top>
               <left>50</left>
               <width>30</width>
               <height>45</height>
               <align>left</align>
               <textoffsetx>7</textoffsetx>
               <aligny>center</aligny>
-              <texturenofocus>alienware/blank.png</texturenofocus>
-              <texturefocus>alienware/circle.png</texturefocus>
-              <textcolor>FFFFFFFF</textcolor>
-              <focusedcolor>FFFFFFFF</focusedcolor>
-              <disabledcolor>80FFFFFF</disabledcolor>
-              <invalidcolor>FFFFFFFF</invalidcolor>
-              <label>&#61523;</label>
-              <font>fontawesome</font>
+              <texturenofocus flipx="true">alienware/arrow.png</texturenofocus>
+              <texturefocus flipx="true">alienware/circlearrow.png</texturefocus>
+              <label>-</label>
               <onright>138</onright>
               <onleft>101</onleft>
             </control>
@@ -659,6 +685,7 @@
             </control>
             <control type="label" id="137">
               <description>Value</description>
+              <top>0</top>
               <left>355</left>
               <width>60</width>
               <height>45</height>
@@ -669,20 +696,16 @@
             </control>
             <control type="button" id="138">
               <description>Right Button</description>
+              <top>0</top>
               <left>415</left>
               <width>30</width>
               <height>45</height>
               <align>right</align>
               <textoffsetx>6</textoffsetx>
               <aligny>center</aligny>
-              <texturenofocus>alienware/blank.png</texturenofocus>
-              <texturefocus>alienware/circle.png</texturefocus>
-              <textcolor>FFFFFFFF</textcolor>
-              <focusedcolor>FFFFFFFF</focusedcolor>
-              <disabledcolor>80FFFFFF</disabledcolor>
-              <invalidcolor>FFFFFFFF</invalidcolor>
-              <label>&#61524;</label>
-              <font>fontawesome</font>
+              <texturenofocus>alienware/arrow.png</texturenofocus>
+              <texturefocus>alienware/circlearrow.png</texturefocus>
+              <label>-</label>
               <onright>101</onright>
               <onleft>135</onleft>
             </control>
@@ -712,14 +735,14 @@
               <top>0</top>
               <height>45</height>
               <visible>ControlGroup(134).HasFocus()</visible>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
             </control>
             <control type="image">
               <left>0</left>
               <top>0</top>
               <height>45</height>
               <visible>!ControlGroup(134).HasFocus()</visible>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
             </control>
           </control>
         </control>
@@ -736,6 +759,7 @@
             <height>30</height>
             <width>700</width>
             <aligny>center</aligny>
+            <font>font13</font>
             <label>$ADDON[script.module.aw.devicesettings 33058]</label>
           </control>
           <control type="image">
@@ -743,7 +767,7 @@
             <left>10</left>
             <width>750</width>
             <height>2</height>
-            <texture>separator2.png</texture>
+            <texture>alienware/separator2.png</texture>
             <colordiffuse>40FFFFFF</colordiffuse>
           </control>
           <control type="label">
@@ -751,6 +775,7 @@
             <height>30</height>
             <width>700</width>
             <aligny>center</aligny>
+            <font>font13</font>
             <label>  $LOCALIZE[13295] $INFO[System.InternetState]</label>
           </control>
           <control type="label" id="147">
@@ -758,6 +783,7 @@
             <height>30</height>
             <width>700</width>
             <aligny>center</aligny>
+            <font>font13</font>
             <label>  $INFO[Network.LinkState]</label>
           </control>
           <control type="image">
@@ -766,7 +792,7 @@
             <top>525</top>
             <width>750</width>
             <height>2</height>
-            <texture>separator2.png</texture>
+            <texture>alienware/separator2.png</texture>
             <colordiffuse>40FFFFFF</colordiffuse>
           </control>
           <control type="label">
@@ -774,6 +800,7 @@
             <height>30</height>
             <width>700</width>
             <aligny>center</aligny>
+            <font>font13</font>
             <label>$ADDON[script.module.aw.devicesettings 33022]</label>
           </control>
           <control type="list" id="146">
@@ -791,11 +818,14 @@
                 <top>0</top>
                 <width>740</width>
                 <height>45</height>
-                <texture border="5">MenuItemNF.png</texture>
+                <texture border="5">alienware/MenuItemNF.png</texture>
               </control>
               <control type="label">
+                <top>0</top>
                 <left>10</left>
                 <width>500</width>
+                <height>45</height>
+                <font>font13</font>
                 <aligny>center</aligny>
                 <info>ListItem.Label</info>
               </control>
@@ -804,10 +834,11 @@
                 <height>15</height>
                 <left>520</left>
                 <top>15</top>
-                <texture>whitelock.png</texture>
+                <texture>alienware/wifi/whitelock.png</texture>
                 <visible>SubString(ListItem.Property(SecurityEnabled),True)</visible>
               </control>
               <control type="image">
+                <width>22</width>
                 <height>15</height>
                 <aspectratio>keep</aspectratio>
                 <left>675</left>
@@ -816,11 +847,14 @@
                 <visible>SubString(ListItem.Property(Connected),False)</visible>
               </control>
               <control type="label">
+                <top>0</top>
+                <height>45</height>
                 <left>540</left>
                 <width>170</width>
                 <aligny>center</aligny>
                 <align>right</align>
                 <scroll>true</scroll>
+                <font>font13</font>
                 <label>$ADDON[script.module.aw.devicesettings 33030]</label>
                 <visible>SubString(ListItem.Property(Connected),True)</visible>
               </control>
@@ -831,12 +865,15 @@
                 <top>0</top>
                 <width>740</width>
                 <height>45</height>
-                <texture border="5">MenuItemFO.png</texture>
+                <texture border="5">alienware/MenuItemFO.png</texture>
                 <visible>Control.HasFocus(146)</visible>
               </control>
               <control type="label">
+                <top>0</top>
                 <left>10</left>
                 <width>500</width>
+                <height>45</height>
+                <font>font13</font>
                 <aligny>center</aligny>
                 <info>ListItem.Label</info>
               </control>
@@ -845,10 +882,11 @@
                 <height>15</height>
                 <left>520</left>
                 <top>15</top>
-                <texture>whitelock.png</texture>
+                <texture>alienware/wifi/whitelock.png</texture>
                 <visible>SubString(ListItem.Property(SecurityEnabled),True)</visible>
               </control>
               <control type="image">
+                <width>22</width>
                 <height>15</height>
                 <aspectratio>keep</aspectratio>
                 <left>675</left>
@@ -857,11 +895,14 @@
                 <visible>SubString(ListItem.Property(Connected),False)</visible>
               </control>
               <control type="label">
+                <top>0</top>
+                <height>45</height>
                 <left>540</left>
                 <width>170</width>
                 <aligny>center</aligny>
                 <align>right</align>
                 <scroll>true</scroll>
+                <font>font13</font>
                 <label>$ADDON[script.module.aw.devicesettings 33030]</label>
                 <visible>SubString(ListItem.Property(Connected),True)</visible>
               </control>
@@ -887,7 +928,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(151)</visible>
             </control>
             <control type="image">
@@ -895,7 +936,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(151)</visible>
             </control>
             <control type="radiobutton" id="151">
@@ -907,11 +948,21 @@
               <label>$ADDON[script.module.aw.devicesettings 33041]</label>
               <visible>true</visible>
               <aligny>center</aligny>
-              <texturefocus>blank.png</texturefocus>
-              <texturenofocus>blank.png</texturenofocus>
+              <radiowidth>24</radiowidth>
+              <radioheight>24</radioheight>
+              <textureradioonfocus>alienware/radiobutton-focus.png</textureradioonfocus>
+              <textureradioonnofocus>alienware/radiobutton-focus.png</textureradioonnofocus>
+              <textureradioofffocus>alienware/radiobutton-nofocus.png</textureradioofffocus>
+              <textureradiooffnofocus>alienware/radiobutton-nofocus.png</textureradiooffnofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
+              <texturenofocus>alienware/blank.png</texturenofocus>
               <radioposx>680</radioposx>
               <onleft>101</onleft>
               <onright>101</onright>
+              <height>40</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <focusedcolor>white</focusedcolor>
             </control>
           </control>
           <control type="group">
@@ -925,7 +976,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemNF.png</texture>
+              <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(152)</visible>
             </control>
             <control type="image">
@@ -933,7 +984,7 @@
               <top>0</top>
               <width>740</width>
               <height>40</height>
-              <texture border="5">MenuItemFO.png</texture>
+              <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(152)</visible>
             </control>
             <control type="radiobutton" id="152">
@@ -945,12 +996,22 @@
               <label>$ADDON[script.module.aw.devicesettings 33042]</label>
               <visible>true</visible>
               <aligny>center</aligny>
-              <texturefocus>blank.png</texturefocus>
-              <texturenofocus>blank.png</texturenofocus>
+              <radiowidth>24</radiowidth>
+              <radioheight>24</radioheight>
+              <textureradioonfocus>alienware/radiobutton-focus.png</textureradioonfocus>
+              <textureradioonnofocus>alienware/radiobutton-focus.png</textureradioonnofocus>
+              <textureradioofffocus>alienware/radiobutton-nofocus.png</textureradioofffocus>
+              <textureradiooffnofocus>alienware/radiobutton-nofocus.png</textureradiooffnofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
+              <texturenofocus>alienware/blank.png</texturenofocus>
               <onleft>101</onleft>
               <onright>101</onright>
               <radioposx>680</radioposx>
               <enable>SubString(Control.GetLabel(151),*)</enable>
+              <height>40</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <focusedcolor>white</focusedcolor>
             </control>
           </control>
           <control type="grouplist">
@@ -974,7 +1035,7 @@
               <description>separator image</description>
               <width>750</width>
               <height>2</height>
-              <texture>separator2.png</texture>
+              <texture>alienware/separator2.png</texture>
               <colordiffuse>40FFFFFF</colordiffuse>
             </control>
             <control type="list" id="154">
@@ -988,35 +1049,25 @@
                   <top>0</top>
                   <width>740</width>
                   <height>45</height>
-                  <texture border="5">MenuItemNF.png</texture>
-                </control>
-                <control type="image">
-                  <width>33</width>
-                  <height>20</height>
-                  <left>20</left>
-                  <top>12</top>
-                  <texture>alienware/bluetooth/paired.png</texture>
-                  <visible>SubString(ListItem.Property(Paired),True)</visible>
-                </control>
-                <control type="image">
-                  <width>33</width>
-                  <height>20</height>
-                  <left>20</left>
-                  <top>12</top>
-                  <texture>alienware/bluetooth/connected.png</texture>
-                  <visible>SubString(ListItem.Property(Connected),True)</visible>
+                  <texture border="5">alienware/MenuItemNF.png</texture>
                 </control>
                 <control type="label">
-                  <left>70</left>
+                  <top>0</top>
+                  <height>45</height>
+                  <left>20</left>
                   <width>450</width>
                   <aligny>center</aligny>
+                  <font>font13</font>
                   <info>ListItem.Label</info>
                 </control>
                 <control type="label">
-                  <right>30</right>
-                  <width>150</width>
+                  <top>0</top>
+                  <height>45</height>
+                  <left>530</left>
+                  <width>200</width>
                   <align>right</align>
                   <aligny>center</aligny>
+                  <font>font13</font>
                   <info>ListItem.Label2</info>
                 </control>
                 <control type="image">
@@ -1035,7 +1086,7 @@
                   <width>740</width>
                   <height>45</height>
                   <visible>!Control.HasFocus(154)</visible>
-                  <texture border="5">MenuItemNF.png</texture>
+                  <texture border="5">alienware/MenuItemNF.png</texture>
                 </control>
                 <control type="image">
                   <left>0</left>
@@ -1043,35 +1094,25 @@
                   <width>740</width>
                   <height>45</height>
                   <visible>Control.HasFocus(154)</visible>
-                  <texture border="5">MenuItemFO.png</texture>
-                </control>
-                <control type="image">
-                  <width>33</width>
-                  <height>20</height>
-                  <left>20</left>
-                  <top>12</top>
-                  <texture>alienware/bluetooth/paired.png</texture>
-                  <visible>SubString(ListItem.Property(Paired),True)</visible>
-                </control>
-                <control type="image">
-                  <width>33</width>
-                  <height>20</height>
-                  <left>20</left>
-                  <top>12</top>
-                  <texture>alienware/bluetooth/connected.png</texture>
-                  <visible>SubString(ListItem.Property(Connected),True)</visible>
+                  <texture border="5">alienware/MenuItemFO.png</texture>
                 </control>
                 <control type="label">
-                  <left>70</left>
+                  <top>0</top>
+                  <height>45</height>
+                  <left>20</left>
                   <width>450</width>
                   <aligny>center</aligny>
+                  <font>font13</font>
                   <info>ListItem.Label</info>
                 </control>
                 <control type="label">
-                  <right>30</right>
-                  <width>150</width>
+                  <top>0</top>
+                  <height>45</height>
+                  <left>530</left>
+                  <width>200</width>
                   <align>right</align>
                   <aligny>center</aligny>
+                  <font>font13</font>
                   <info>ListItem.Label2</info>
                 </control>
                 <control type="image">
@@ -1087,7 +1128,220 @@
             <control type="image">
               <description>separator image</description>
               <height>1</height>
-              <texture>blank.png</texture>
+              <texture>alienware/blank.png</texture>
+            </control>
+          </control>
+        </control>
+        <control type="grouplist" id="160">
+          <description>control area</description>
+          <defaultcontrol>162</defaultcontrol>
+          <orientation>vertical</orientation>
+          <visible>Container(101).Position(4)</visible>
+          <width>750</width>
+          <height>435</height>
+          <itemgap>3</itemgap>
+          <control type="group">
+            <description>control area</description>
+            <orientation>vertical</orientation>
+            <width>740</width>
+            <height>72</height>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <texture border="5">alienware/MenuItemNF.png</texture>
+              <visible>!Control.HasFocus(162)</visible>
+            </control>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <texture border="5">alienware/MenuItemFO.png</texture>
+              <visible>Control.HasFocus(162)</visible>
+            </control>
+            <control type="image">
+              <left>20</left>
+              <top>5</top>
+              <width>60</width>
+              <height>60</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <texture>alienware/updates/windows.png</texture>
+            </control>
+            <control type="label">
+              <left>90</left>
+              <top>0</top>
+              <width>300</width>
+              <height>70</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+              <scroll>true</scroll>
+              <label>$ADDON[script.module.aw.devicesettings 33062]</label>
+            </control>
+            <control type="label" id="161">
+              <right>20</right>
+              <top>0</top>
+              <width>450</width>
+              <height>70</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <align>right</align>
+              <aligny>center</aligny>
+              <scroll>true</scroll>
+              <label>-</label>
+            </control>
+            <control type="button" id="162">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <onright>101</onright>
+              <onleft>101</onleft>
+              <onup>166</onup>
+              <ondown>164</ondown>
+              <texturenofocus>alienware/blank.png</texturenofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
+              <visible>true</visible>
+            </control>
+          </control>
+          <control type="group">
+            <description>control area</description>
+            <orientation>vertical</orientation>
+            <width>740</width>
+            <height>72</height>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <texture border="5">alienware/MenuItemNF.png</texture>
+              <visible>!Control.HasFocus(164)</visible>
+            </control>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <texture border="5">alienware/MenuItemFO.png</texture>
+              <visible>Control.HasFocus(164)</visible>
+            </control>
+            <control type="image">
+              <left>20</left>
+              <top>5</top>
+              <width>60</width>
+              <height>60</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <texture>alienware/updates/nvidia.png</texture>
+            </control>
+            <control type="label">
+              <left>90</left>
+              <top>0</top>
+              <width>300</width>
+              <height>70</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+              <scroll>true</scroll>
+              <label>$ADDON[script.module.aw.devicesettings 33063]</label>
+            </control>
+            <control type="label" id="163">
+              <right>20</right>
+              <top>0</top>
+              <width>450</width>
+              <height>70</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <align>right</align>
+              <aligny>center</aligny>
+              <scroll>true</scroll>
+              <label>-</label>
+            </control>
+            <control type="button" id="164">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <onright>101</onright>
+              <onleft>101</onleft>
+              <onup>162</onup>
+              <ondown>166</ondown>
+              <texturenofocus>alienware/blank.png</texturenofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
+              <visible>true</visible>
+            </control>
+          </control>
+          <control type="group">
+            <description>control area</description>
+            <orientation>vertical</orientation>
+            <width>740</width>
+            <height>72</height>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <texture border="5">alienware/MenuItemNF.png</texture>
+              <visible>!Control.HasFocus(166)</visible>
+            </control>
+            <control type="image">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <texture border="5">alienware/MenuItemFO.png</texture>
+              <visible>Control.HasFocus(166)</visible>
+            </control>
+            <control type="image">
+              <left>20</left>
+              <top>5</top>
+              <width>60</width>
+              <height>60</height>
+              <align>center</align>
+              <aligny>center</aligny>
+              <texture>alienware/updates/alienwarehead.png</texture>
+            </control>
+            <control type="label">
+              <left>90</left>
+              <top>0</top>
+              <width>300</width>
+              <height>70</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <align>left</align>
+              <aligny>center</aligny>
+              <scroll>true</scroll>
+              <label>$ADDON[script.module.aw.devicesettings 33064]</label>
+            </control>
+            <control type="label" id="165">
+              <right>20</right>
+              <top>0</top>
+              <width>450</width>
+              <height>70</height>
+              <font>font13</font>
+              <textcolor>white</textcolor>
+              <align>right</align>
+              <aligny>center</aligny>
+              <scroll>true</scroll>
+              <label>-</label>
+            </control>
+            <control type="button" id="166">
+              <left>0</left>
+              <top>0</top>
+              <width>740</width>
+              <height>70</height>
+              <onright>101</onright>
+              <onleft>101</onleft>
+              <onup>164</onup>
+              <ondown>162</ondown>
+              <texturenofocus>alienware/blank.png</texturenofocus>
+              <texturefocus>alienware/blank.png</texturefocus>
+              <visible>true</visible>
             </control>
           </control>
         </control>
@@ -1098,7 +1352,7 @@
         <top>525</top>
         <width>750</width>
         <height>2</height>
-        <texture>separator2.png</texture>
+        <texture>alienware/separator2.png</texture>
         <colordiffuse>40FFFFFF</colordiffuse>
       </control>
       <control type="textbox">
@@ -1114,8 +1368,63 @@
         <shadowcolor>black</shadowcolor>
       </control>
     </control>
-    <include>BehindDialogFadeOut</include>
-    <include>MainWindowMouseButtons</include>
+    <control type="group">
+      <left>120r</left>
+      <top>55r</top>
+      <animation effect="fade" time="250" condition="Window.Previous(Home)">WindowOpen</animation>
+      <animation effect="fade" time="250" condition="Window.Next(Home)">WindowClose</animation>
+      <visible>system.getbool(input.enablemouse)</visible>
+      <control type="button">
+        <description>Back push button</description>
+        <left>0</left>
+        <top>0</top>
+        <width>45</width>
+        <height>45</height>
+        <label>1036</label>
+        <font>-</font>
+        <onclick>back</onclick>
+        <texturefocus border="5">alienware/floor_buttonFO.png</texturefocus>
+        <texturenofocus border="5"></texturenofocus>
+        <onleft>50</onleft>
+        <onright>50</onright>
+        <onup>50</onup>
+        <ondown>50</ondown>
+      </control>
+      <control type="image">
+        <description>Back Icon</description>
+        <left>5</left>
+        <top>5</top>
+        <width>35</width>
+        <height>35</height>
+        <aspectratio>keep</aspectratio>
+        <texture>alienware/icon_back.png</texture>
+      </control>
+      <control type="button">
+        <description>Home push button</description>
+        <left>55</left>
+        <top>0</top>
+        <width>45</width>
+        <height>45</height>
+        <label>31003</label>
+        <font>-</font>
+        <onclick>ActivateWindow(home)</onclick>
+        <texturefocus border="5">alienware/floor_buttonFO.png</texturefocus>
+        <texturenofocus border="5"></texturenofocus>
+        <onleft>50</onleft>
+        <onright>50</onright>
+        <onup>50</onup>
+        <ondown>50</ondown>
+      </control>
+      <control type="image">
+        <description>Home Icon</description>
+        <left>60</left>
+        <top>5</top>
+        <width>35</width>
+        <height>35</height>
+        <aspectratio>keep</aspectratio>
+        <texture>alienware/icon_home.png</texture>
+      </control>
+    </control>
     <control type="image">
       <description>Section header image</description>
       <left>20</left>
@@ -1123,7 +1432,7 @@
       <width>35</width>
       <height>35</height>
       <aspectratio>keep</aspectratio>
-      <texture>icon_system.png</texture>
+      <texture>alienware/icon_system.png</texture>
     </control>
     <control type="grouplist">
       <left>65</left>
@@ -1134,10 +1443,32 @@
       <align>left</align>
       <itemgap>5</itemgap>
       <control type="label">
-        <include>WindowTitleCommons</include>
+        <left>0</left>
+        <top>0</top>
+        <width min="0" max="800">auto</width>
+        <height>30</height>
+        <font>font14</font>
+        <textcolor>white</textcolor>
+        <shadowcolor>black</shadowcolor>
+        <scroll>false</scroll>
+        <align>left</align>
+        <aligny>center</aligny>
         <label>$ADDON[script.module.aw.devicesettings 33000]</label>
       </control>
     </control>
-    <include>Clock</include>
+    <control type="label">
+      <description>time label</description>
+      <left>1040</left>
+      <top>5</top>
+      <width>200</width>
+      <height>30</height>
+      <align>right</align>
+      <aligny>center</aligny>
+      <font>font28_title</font>
+      <textcolor>white</textcolor>
+      <shadowcolor>black</shadowcolor>
+      <label>$INFO[System.Time]</label>
+      <animation effect="slide" start="0,0" end="-40,0" time="100" condition="Window.IsVisible(Mutebug)">conditional</animation>
+    </control>
   </controls>
 </window>

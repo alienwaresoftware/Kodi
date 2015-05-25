@@ -19,7 +19,7 @@
 				<top>0</top>
         <width>400</width>
         <height>150</height>
-				<texture border="20">OverlayDialogBackground.png</texture>
+				<texture border="20">alieware/OverlayDialogBackground.png</texture>
 			</control>
 			<control type="image">
 				<description>Busy animation</description>
@@ -27,7 +27,7 @@
 				<top>59</top>
 				<width>32</width>
 				<height>32</height>
-				<texture>busy.png</texture>
+				<texture>alienware/busy.png</texture>
 				<aspectratio>keep</aspectratio>
 				<animation effect="rotate" start="0" end="360" center="36,75" time="1200" loop="true" condition="true">conditional</animation>
 			</control>

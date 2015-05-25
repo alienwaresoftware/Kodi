@@ -234,6 +234,57 @@ msgctxt "#33059"
 msgid "Mute Volume"
 msgstr ""
 
+msgctxt "#33060"
+msgid "Updates"
+msgstr ""
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr ""
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr ""
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr ""
+
+msgctxt "#33064"
+msgid "Alienware Update"
+msgstr ""
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr ""
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr ""
+
+msgctxt "#33067"
+msgid "Alienware Update Settings"
+msgstr ""
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr ""
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr ""
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr ""
+
+msgctxt "#33071"
+msgid "Update at close"
+msgstr ""
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr ""
 
 
 

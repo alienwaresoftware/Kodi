@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.helix.alienware" name="Alienware's Hive Repo (Helix)" version="1.0.0" provider-name="Alienware">
+<addon id="repository.helix.alienware" name="Alienware's Hive Repo (Helix)" version="1.1.0" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Helix addons">
                 <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml</info>
                 <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml.md5</checksum>
@@ -36,7 +36,7 @@
 
 <addon  id="script.module.aw.devicesettings"
         name="Hive Device Settings"
-        version="0.9.0"
+        version="0.10.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -85,24 +85,6 @@
   </extension>
 </addon>
 
-<addon  id="script.aw.alienui.launcher"
-        name="Hive Console Mode"
-        version="0.0.1"
-        provider-name="Alienware">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.service"
-             library="AlienUIlauncher.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <minversion>1</minversion>
-    <summary lang="en">Hive Console Mode</summary>
-    <description lang="en">Hive Console Mode</description>
-  </extension>
-</addon>
-
 <addon  id="service.aw.backgrounds"
         name="Hive Backgrounds"
         version="0.9.0"
@@ -123,7 +105,7 @@
 
 <addon  id="service.aw.customizations"
         name="Hive Customizations"
-        version="0.9.0"
+        version="0.10.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -139,9 +121,27 @@
   </extension>
 </addon>
 
+<addon  id="script.aw.launcher"
+        name="Hive Console Mode"
+        version="0.0.1"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="hivelauncher.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">Hive Console Mode</summary>
+    <description lang="en">Hive Console Mode</description>
+  </extension>
+</addon>
+
 <addon  id="service.aw.themes"
         name="Hive Themes"
-        version="0.9.0"
+        version="0.10.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -159,14 +159,16 @@
 
 <addon
   id="skin.hive"
-  version="0.9.0"
+  version="0.10.0"
   name="The Hive Interface"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
     <import addon="service.aw.customizations"/>
+    <import addon="script.aw.launcher"/>
+    <import addon="script.module.aw.devicesettings"/>
     <import addon="plugin.video.youtube"/>
-  </requires>
+      </requires>
   <extension
     point="xbmc.gui.skin"
     defaultthemename="Textures.xbt"

@@ -16,19 +16,19 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install AlienUI core components?"
+msgid "Do you want to install Hive core components?"
 msgstr ""
 
 msgctxt "#33001"
-msgid "This components required to function AlienUI correctly."
+msgid "This components required to function Hive correctly."
 msgstr ""
 
 msgctxt "#33002"
-msgid "Please wait while installing AlienUI core components"
+msgid "Please wait while installing Hive core components"
 msgstr ""
 
 msgctxt "#33003"
-msgid "Unable to install AlienUI core components"
+msgid "Unable to install Hive core components"
 msgstr ""
 
 msgctxt "#33004"
@@ -44,7 +44,7 @@ msgid "Do you want to restart the system?"
 msgstr ""
 
 msgctxt "#33007"
-msgid "A new version of AlienUI core components is available."
+msgid "A new version of Hive core components is available."
 msgstr ""
 
 msgctxt "#33008"

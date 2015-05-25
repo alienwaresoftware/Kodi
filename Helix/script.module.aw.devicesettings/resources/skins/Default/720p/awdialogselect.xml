@@ -16,7 +16,17 @@
         <top>0</top>
         <width>610</width>
         <height>630</height>
-        <texture border="40">$VAR[SelectBack]</texture>
+        <texture border="40">alienware/DialogBack.png</texture>
+        <visible>![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]</visible>
+      </control>
+      <control type="image">
+        <description>background image</description>
+        <left>0</left>
+        <top>0</top>
+        <width>610</width>
+        <height>630</height>
+        <texture border="40">alienware/DialogBack2.png</texture>
+        <visible>Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)</visible>
       </control>
       <control type="image">
         <description>Dialog Header image</description>
@@ -24,7 +34,7 @@
         <top>16</top>
         <width>530</width>
         <height>40</height>
-        <texture>dialogheader.png</texture>
+        <texture>alienware/dialogheader.png</texture>
       </control>
       <control type="label" id="101">
         <description>header label</description>
@@ -48,8 +58,8 @@
       <label>-</label>
       <font>-</font>
       <onclick>PreviousMenu</onclick>
-      <texturefocus>DialogCloseButton-focus.png</texturefocus>
-      <texturenofocus>DialogCloseButton.png</texturenofocus>
+      <texturefocus>alienware/DialogCloseButton-focus.png</texturefocus>
+      <texturenofocus>alienware/DialogCloseButton.png</texturenofocus>
       <onleft>10</onleft>
       <onright>10</onright>
       <onup>10</onup>
@@ -68,7 +78,7 @@
           <top>0</top>
           <width>550</width>
           <height>40</height>
-          <texture border="5">button-nofocus.png</texture>
+          <texture border="5">alienware/button-nofocus.png</texture>
         </control>
         <control type="label">
           <left>20</left>
@@ -89,7 +99,7 @@
           <top>0</top>
           <height>40</height>
           <width>550</width>
-          <texture border="2">button-focus2.png</texture>
+          <texture border="2">alienware/button-focus2.png</texture>
         </control>
         <control type="label">
           <left>20</left>

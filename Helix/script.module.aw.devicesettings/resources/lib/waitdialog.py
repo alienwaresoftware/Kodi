@@ -35,7 +35,7 @@ class WaitDialogHelper():
         pass
         
     def create(self):
-        waitDialog = WaitDialog("waitdialog.xml",__addon__.getAddonInfo('path'), "Default")
+        waitDialog = WaitDialog("awwaitdialog.xml",__addon__.getAddonInfo('path'), "Default")
         waitDialog.show()
         while(not waitDialog.isInitDone):
             xbmc.sleep(5)

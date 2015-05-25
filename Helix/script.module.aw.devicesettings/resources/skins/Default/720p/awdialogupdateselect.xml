@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window type="dialog">
+  <zorder>1</zorder>
+  <coordinates>
+    <system>1</system>
+    <left>215</left>
+    <top>35</top>
+  </coordinates>
+  <controls>
+    <control type="group">
+      <left>120</left>
+      <visible>true</visible>
+      <control type="image">
+        <description>background image</description>
+        <left>0</left>
+        <top>0</top>
+        <width>610</width>
+        <height>630</height>
+        <texture border="40">alienware/DialogBack.png</texture>
+        <visible>![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]</visible>
+      </control>
+      <control type="image">
+        <description>background image</description>
+        <left>0</left>
+        <top>0</top>
+        <width>610</width>
+        <height>630</height>
+        <texture border="40">alienware/DialogBack2.png</texture>
+        <visible>Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)</visible>
+      </control>
+      <control type="image">
+        <description>Dialog Header image</description>
+        <left>40</left>
+        <top>16</top>
+        <width>530</width>
+        <height>40</height>
+        <texture>alienware/dialogheader.png</texture>
+      </control>
+      <control type="label" id="101">
+        <description>header label</description>
+        <left>40</left>
+        <top>20</top>
+        <width>530</width>
+        <height>30</height>
+        <font>font13_title</font>
+        <align>center</align>
+        <aligny>center</aligny>
+        <textcolor>selected</textcolor>
+        <shadowcolor>black</shadowcolor>
+      </control>
+    </control>
+    <control type="button">
+      <description>Close Window button</description>
+      <left>620</left>
+      <top>5</top>
+      <width>64</width>
+      <height>32</height>
+      <label>-</label>
+      <font>-</font>
+      <onclick>PreviousMenu</onclick>
+      <texturefocus>alienware/DialogCloseButton-focus.png</texturefocus>
+      <texturenofocus>alienware/DialogCloseButton.png</texturenofocus>
+      <onleft>10</onleft>
+      <onright>10</onright>
+      <onup>10</onup>
+      <ondown>10</ondown>
+      <visible>system.getbool(input.enablemouse)</visible>
+    </control>
+    <control type="grouplist" id="102">
+      <description>control area</description>
+      <defaultcontrol>103</defaultcontrol>
+      <orientation>vertical</orientation>
+      <left>150</left>
+      <top>67</top>
+      <width>550</width>
+      <height>150</height>
+      <itemgap>3</itemgap>
+      <control type="group">
+        <description>control area</description>
+        <orientation>vertical</orientation>
+        <width>550</width>
+        <height>42</height>
+        <control type="button" id="103">
+          <left>0</left>
+          <top>0</top>
+          <width>550</width>
+          <height>40</height>
+          <onup>107</onup>
+          <ondown>105</ondown>
+          <align>center</align>
+          <aligny>center</aligny>
+          <texturenofocus border="5">alienware/button-nofocus.png</texturenofocus>
+          <texturefocus border="5">alienware/button-focus2.png</texturefocus>
+          <visible>true</visible>
+          <label>$ADDON[script.module.aw.devicesettings 33068]</label>
+        </control>
+      </control>
+    </control>
+    <control type="grouplist" id="104">
+      <description>control area</description>
+      <defaultcontrol>105</defaultcontrol>
+      <orientation>vertical</orientation>
+      <left>150</left>
+      <top>217</top>
+      <width>550</width>
+      <height>300</height>
+      <itemgap>3</itemgap>
+      <control type="group">
+        <description>control area</description>
+        <orientation>vertical</orientation>
+        <width>550</width>
+        <height>42</height>
+        <control type="label">
+          <left>20</left>
+          <top>0</top>
+          <width>510</width>
+          <height>40</height>
+          <font>font13_title</font>
+          <align>center</align>
+          <aligny>center</aligny>
+          <textcolor>selected</textcolor>
+          <shadowcolor>black</shadowcolor>
+          <scroll>true</scroll>
+          <label>$ADDON[script.module.aw.devicesettings 33069]</label>
+        </control>
+      </control>
+      <control type="group">
+        <description>control area</description>
+        <orientation>vertical</orientation>
+        <width>550</width>
+        <height>42</height>
+        <visible>Control.IsVisible(105)</visible>
+        <control type="radiobutton" id="105">
+          <description>Automatic Update Radio Button</description>
+          <type>radiobutton</type>
+          <left>0</left>
+          <top>0</top>
+          <height>40</height>
+          <width>550</width>
+          <label>$ADDON[script.module.aw.devicesettings 33070]</label>
+          <visible>true</visible>
+          <aligny>center</aligny>
+          <onup>103</onup>
+          <ondown>106</ondown>
+          <radiowidth>24</radiowidth>
+          <radioheight>24</radioheight>
+          <textureradioonfocus>alienware/radiobutton-focus.png</textureradioonfocus>
+          <textureradioonnofocus>alienware/radiobutton-focus.png</textureradioonnofocus>
+          <textureradioofffocus>alienware/radiobutton-nofocus.png</textureradioofffocus>
+          <textureradiooffnofocus>alienware/radiobutton-nofocus.png</textureradiooffnofocus>
+          <texturefocus border="5">alienware/button-focus2.png</texturefocus>
+          <texturenofocus border="5">alienware/button-nofocus.png</texturenofocus>
+          <textoffsetx>10</textoffsetx>
+          <radioposx>490</radioposx>
+          <font>font13</font>
+          <textcolor>white</textcolor>
+          <focusedcolor>white</focusedcolor>
+        </control>
+      </control>
+      <control type="group">
+        <description>control area</description>
+        <orientation>vertical</orientation>
+        <width>550</width>
+        <height>42</height>
+        <visible>Control.IsVisible(106)</visible>
+        <control type="radiobutton" id="106">
+          <description>Update at close Radio Button</description>
+          <type>radiobutton</type>
+          <left>0</left>
+          <top>0</top>
+          <height>40</height>
+          <width>550</width>
+          <label>$ADDON[script.module.aw.devicesettings 33071]</label>
+          <visible>true</visible>
+          <aligny>center</aligny>
+          <onup>105</onup>
+          <ondown>107</ondown>
+          <radiowidth>24</radiowidth>
+          <radioheight>24</radioheight>
+          <textureradioonfocus>alienware/radiobutton-focus.png</textureradioonfocus>
+          <textureradioonnofocus>alienware/radiobutton-focus.png</textureradioonnofocus>
+          <textureradioofffocus>alienware/radiobutton-nofocus.png</textureradioofffocus>
+          <textureradiooffnofocus>alienware/radiobutton-nofocus.png</textureradiooffnofocus>
+          <texturefocus border="5">alienware/button-focus2.png</texturefocus>
+          <texturenofocus border="5">alienware/button-nofocus.png</texturenofocus>
+          <textoffsetx>10</textoffsetx>
+          <radioposx>490</radioposx>
+          <font>font13</font>
+          <textcolor>white</textcolor>
+          <focusedcolor>white</focusedcolor>
+        </control>
+      </control>
+      <control type="group">
+        <description>control area</description>
+        <orientation>vertical</orientation>
+        <width>550</width>
+        <height>42</height>
+        <visible>Control.IsVisible(107)</visible>
+        <control type="radiobutton" id="107">
+          <description>Manual Update Radio Button</description>
+          <type>radiobutton</type>
+          <left>0</left>
+          <top>0</top>
+          <height>40</height>
+          <width>550</width>
+          <label>$ADDON[script.module.aw.devicesettings 33072]</label>
+          <visible>true</visible>
+          <aligny>center</aligny>
+          <onup>106</onup>
+          <ondown>103</ondown>
+          <radiowidth>24</radiowidth>
+          <radioheight>24</radioheight>
+          <textureradioonfocus>alienware/radiobutton-focus.png</textureradioonfocus>
+          <textureradioonnofocus>alienware/radiobutton-focus.png</textureradioonnofocus>
+          <textureradioofffocus>alienware/radiobutton-nofocus.png</textureradioofffocus>
+          <textureradiooffnofocus>alienware/radiobutton-nofocus.png</textureradiooffnofocus>
+          <texturefocus border="5">alienware/button-focus2.png</texturefocus>
+          <texturenofocus border="5">alienware/button-nofocus.png</texturenofocus>
+          <textoffsetx>10</textoffsetx>
+          <radioposx>490</radioposx>
+          <font>font13</font>
+          <textcolor>white</textcolor>
+          <focusedcolor>white</focusedcolor>
+        </control>
+      </control>
+    </control>
+  </controls>
+</window>

@@ -60,7 +60,7 @@
 - We've included standard launchers for Origin, UPlay, and Steam.
 
 [B]0.0.1[/B]
-- Set the default Kodi skin from skin.alienware to skin.alienui
+- Set the default Kodi skin from skin.alienware to skin.hive
 - Modified the existing Confluence code to include the Alpha UI theme/menu options.
 - Added Launch Steam as main menu item.
 - Modified the default font to be Ariel based. 

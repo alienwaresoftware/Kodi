@@ -4,6 +4,7 @@ import xbmcaddon
 import thread
 import sys
 from resources.lib.dialogselect import SelectDialog
+from resources.lib.dialogupdateselect import UpdateSelectDialog
 
 from resources.lib.audiohelper import AudioHelper
 from resources.lib.spincontrol import SpinControl
@@ -50,6 +51,13 @@ BLUETOOTH_DEVICES_LIST_CONTROL = 154
 WIFI_LIST_CONTROL = 146
 WIFI_NETWORK_LABEL_CONTROL = 147
 
+UPDATE_WINDOWS_LABEL_CONTROL = 161
+UPDATE_WINDOWS_BUTTON_CONTROL = 162
+UPDATE_NVIDIA_LABEL_CONTROL = 163
+UPDATE_NVIDIA_BUTTON_CONTROL = 164
+UPDATE_ALIENWARE_LABEL_CONTROL = 165
+UPDATE_ALIENWARE_BUTTON_CONTROL = 166
+
 ACTION_MOVE_LEFT = 1
 ACTION_MOVE_RIGHT = 2
 ACTION_MOVE_UP = 3
@@ -73,6 +81,9 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
         # Idea to initialize your variables here
         self.IsInitDone = False
         self.isClosed = False
+        self.updateWindowSetting = None
+        self.updateNvidiaSetting = None
+        self.updateAlienwareSetting = None
 
     def onInit(self):
         self.audioSourceLabelControl = self.getControl(AUDIO_SOURCE_LABLE_CONTROL)
@@ -131,6 +142,9 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
         self.bluetoothHelper = BluetoothHelper(self.bluetoothDevicesListControl,__addon__,__language__)
         self.bluetoothOnRadioButton.setSelected(self.bluetoothHelper.isBluetoothOn())
 
+        self.updateWindowLabelControl = self.getControl(UPDATE_WINDOWS_LABEL_CONTROL)
+        self.updateNvidiaLabelControl = self.getControl(UPDATE_NVIDIA_LABEL_CONTROL)
+        self.updateAlienwareLabelControl = self.getControl(UPDATE_ALIENWARE_LABEL_CONTROL)
 
         self.refreshMute()
 
@@ -216,7 +230,33 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
                 self.audioHelper.setMute(self.audioVolumeMuteRadioControl.isSelected())
             elif (self.getFocusId() == BLUETOOTH_DEVICES_LIST_CONTROL):
                 self.bluetoothHelper.authenticateOrRemoveDevice(self.bluetoothDevicesListControl.getSelectedItem().getProperty('Address'))
-    
+            elif (self.getFocusId() == UPDATE_WINDOWS_BUTTON_CONTROL):
+                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", selectedUpdateOption = self.updateWindowSetting)
+                updateDialog._title = __language__(33065)
+                updateDialog.doModal()
+                if (updateDialog.getSelectedRadionButton() is not None):
+                    self.updateWindowSetting = updateDialog.getSelectedRadionButton()
+                    self.updateWindowLabelControl.setLabel(__language__(33069 + self.updateWindowSetting))
+                del updateDialog 
+
+            elif (self.getFocusId() == UPDATE_NVIDIA_BUTTON_CONTROL):
+                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", selectedUpdateOption = self.updateNvidiaSetting)
+                updateDialog._title = __language__(33065)
+                updateDialog.doModal()
+                if (updateDialog.getSelectedRadionButton() is not None):
+                    self.updateNvidiaSetting = updateDialog.getSelectedRadionButton()
+                    self.updateNvidiaLabelControl.setLabel(__language__(33069 + self.updateNvidiaSetting))
+                del updateDialog 
+
+            elif (self.getFocusId() == UPDATE_ALIENWARE_BUTTON_CONTROL):
+                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", selectedUpdateOption = self.updateAlienwareSetting)
+                updateDialog._title = __language__(33065)
+                updateDialog.doModal()
+                if (updateDialog.getSelectedRadionButton() is not None):
+                    self.updateAlienwareSetting = updateDialog.getSelectedRadionButton()
+                    self.updateAlienwareLabelControl.setLabel(__language__(33069 + self.updateAlienwareSetting))
+                del updateDialog 
+
     def onClick(self, controlID):
         #print "onClick {0}".format(controlID)
         for control in self.spinControls:

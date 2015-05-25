@@ -1,5 +1,5 @@
 import zipfile, os, xbmc
-from resources.lib.alienui import AlienUI
+from resources.lib.hiveinstaller import HiveInstaller
 
 if (__name__ == "__main__"):
     kodi_path = '%s\\Kodi\\' % os.environ['APPDATA'] 
@@ -13,4 +13,4 @@ if (__name__ == "__main__"):
         xbmc.executebuiltin("Skin.SetString(CustomizationsVersion,"+str(CustomizationsVersion)+")")
     else: pass
     
-    AlienUI()
+    HiveInstaller()

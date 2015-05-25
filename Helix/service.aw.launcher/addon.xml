@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon  id="script.aw.launcher" 
+        name="Hive Console Mode" 
+        version="0.0.1" 
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.service"
+             library="hivelauncher.py" start="startup">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">Hive Console Mode</summary>
+    <description lang="en">Hive Console Mode</description>
+  </extension>
+</addon>
