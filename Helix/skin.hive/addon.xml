@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.hive"
-  version="0.10.0"
+  version="0.11.0"
   name="The Hive Interface"
   provider-name="Alienware">
   <requires>
@@ -9,8 +9,9 @@
     <import addon="service.aw.customizations"/>
     <import addon="script.aw.launcher"/>	
     <import addon="script.module.aw.devicesettings"/>
+    <import addon="plugin.program.aw.gamelauncher"/>
     <import addon="plugin.video.youtube"/>
-      </requires>
+  </requires>
   <extension
     point="xbmc.gui.skin"
     defaultthemename="Textures.xbt"

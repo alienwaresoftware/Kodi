@@ -822,7 +822,7 @@
 					</item>
 					<item id="91">
                         <label>[UPPERCASE]$LOCALIZE[15016][/UPPERCASE]</label> <!-- Games -->
-                        <onclick>ActivateWindow(Programs,Addons,return)</onclick>
+                        <onclick>RunAddon(plugin.program.aw.gamelauncher)</onclick>
                         <icon>alienware/icons/icon_games.png</icon>
                         <visible>!Skin.HasSetting(HomeMenuNoGamesButton)</visible>
                     </item>
