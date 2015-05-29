@@ -10,7 +10,7 @@
       <width>1280</width>
       <height>720</height>
       <aspectratio>scale</aspectratio>
-      <texture>alienware/background.png</texture>
+      <texture>alienware/background.jpg</texture>
       <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
       <animation effect="fade" time="300">Visible</animation>
       <animation effect="fade" time="300">Hidden</animation>

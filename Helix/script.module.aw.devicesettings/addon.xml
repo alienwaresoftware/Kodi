@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon  id="script.module.aw.devicesettings" 
         name="Hive Device Settings" 
-        version="0.11.0" 
+        version="0.12.0" 
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

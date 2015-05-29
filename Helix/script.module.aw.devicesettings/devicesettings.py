@@ -373,15 +373,15 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
 
     #############################################################################################
 
+if (__name__ == "__main__"):
+    deviceSettingsWindow = DeviceSettingsWindow("awdevicesettings.xml",__addon__.getAddonInfo('path'), "Default")
+    deviceSettingsWindow.show()
+    monitor = xbmc.Monitor()
+    while not deviceSettingsWindow.isComplete(): 
+        if monitor.waitForAbort(2):
+            # Abort was requested while waiting. We should exit
+            break
+        if (xbmcgui.getCurrentWindowId() == 10000):
+            break
 
-deviceSettingsWindow = DeviceSettingsWindow("awdevicesettings.xml",__addon__.getAddonInfo('path'), "Default")
-deviceSettingsWindow.show()
-monitor = xbmc.Monitor()
-while not deviceSettingsWindow.isComplete(): 
-    if monitor.waitForAbort(2):
-        # Abort was requested while waiting. We should exit
-        break
-    if (xbmcgui.getCurrentWindowId() == 10000):
-        break
-
-del deviceSettingsWindow
+    del deviceSettingsWindow

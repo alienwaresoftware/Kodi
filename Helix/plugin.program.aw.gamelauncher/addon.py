@@ -112,8 +112,18 @@ def findGames():
 
     games = {}
 
+    files = glob('{0}/*.acf'.format(steamAppPath))
+    numFiles = len(files)
+    log(numFiles)
+    counter = 0
+
+    pDialog = xbmcgui.DialogProgress()
+    pDialog.create("Game Finder", "Finding Games....")
+    pDialog.update(0, "Finding Games....")
+
     for filePath in glob('{0}/*.acf'.format(steamAppPath)):
         gameDict = parse_acf(filePath)
+        log(gameDict)
         if (gameDict['AppState']['BytesToDownload'] != '0' and gameDict['AppState']['BytesToDownload'] == gameDict['AppState']['BytesDownloaded']):
             gameFiles = downloadGameImage(gameDict['AppState']['appid'])
             games[gameDict['AppState']['appid']] = {}
@@ -121,10 +131,13 @@ def findGames():
             games[gameDict['AppState']['appid']]['type'] = 1
             games[gameDict['AppState']['appid']]['thumbImage'] = gameFiles[0]
             games[gameDict['AppState']['appid']]['fanartImage'] = gameFiles[1]
+            counter = counter + 1
+            pDialog.update(int((float(counter)/float(numFiles))*100), "Finding Games")
 
     gamesDbObj = open(GAMES_DB_PATH, 'w')
     gamesDbObj.write(json.dumps(games))
     gamesDbObj.close()
+    pDialog.close()
     
 def getGames():
     games = []
@@ -143,16 +156,17 @@ def getGames():
     return games    
 
 mode = args.get('mode', None)
+log("Starting")
 
 if mode is None:
     imageFilePath = os.path.join(CURRENT_ADDON_PATH, 'resources','skins','Default','media','alienware')
 
     url = build_url({'mode': 'folder', 'action': 'games'})
-    print "url -> {0}".format(url)
+    #print "url -> {0}".format(url)
     li = xbmcgui.ListItem('Games', iconImage=os.path.join(imageFilePath, 'games.png'))
-    log(os.path.join(imageFilePath, 'games.png'))
+    #log(os.path.join(imageFilePath, 'games.png'))
     li.setProperty('Fanart_Image', os.path.join(CURRENT_ADDON_PATH, 'fanart.jpg'))
-    log(os.path.join(CURRENT_ADDON_PATH, 'fanart.jpg'))
+    #log(os.path.join(CURRENT_ADDON_PATH, 'fanart.jpg'))
     xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                 listitem=li, isFolder=True)
 

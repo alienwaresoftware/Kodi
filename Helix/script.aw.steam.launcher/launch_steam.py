@@ -1,4 +1,6 @@
 import xbmc
 import AlphaUIUtils
 
-AlphaUIUtils.LaunchSteam()
+if (__name__ == "__main__"):
+
+    AlphaUIUtils.LaunchSteam()

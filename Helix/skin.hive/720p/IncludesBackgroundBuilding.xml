@@ -8,7 +8,7 @@
             <width>1280</width>
             <height>720</height>
             <aspectratio>scale</aspectratio>
-            <texture fallback="alienware/Background.png">$INFO[Skin.CurrentTheme]</texture>
+            <texture fallback="alienware/Background.jpg">$INFO[Skin.CurrentTheme]</texture>
             <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
             <include>VisibleFadeEffect</include>
         </control>

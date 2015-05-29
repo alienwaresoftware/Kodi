@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.hive"
-  version="0.11.0"
+  version="0.12.0"
   name="The Hive Interface"
   provider-name="Alienware">
   <requires>

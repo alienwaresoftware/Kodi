@@ -1,6 +1,7 @@
-try:
-    import AlphaUIUtils
+if (__name__ == "__main__"):
+    try:
+        import AlphaUIUtils
 
-    AlphaUIUtils.CloseLauncher()
-except:
-    pass
+        AlphaUIUtils.CloseLauncher()
+    except:
+        pass
