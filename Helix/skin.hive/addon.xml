@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.hive"
-  version="0.12.0"
+  version="0.13.0"
   name="The Hive Interface"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
     <import addon="service.aw.customizations"/>
-    <import addon="script.aw.launcher"/>	
+    <import addon="service.aw.launcher"/>	
+    <import addon="script.service.aw.devicesettings"/>
     <import addon="script.module.aw.devicesettings"/>
     <import addon="plugin.program.aw.gamelauncher"/>
     <import addon="plugin.video.youtube"/>
