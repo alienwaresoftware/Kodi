@@ -157,7 +157,7 @@
 
 <addon
   id="skin.hive"
-  version="0.13.0"
+  version="0.13.1"
   name="The Hive Interface"
   provider-name="Alienware">
   <requires>
