@@ -19,7 +19,7 @@
 				<top>0</top>
         <width>400</width>
         <height>150</height>
-				<texture border="20">alieware/OverlayDialogBackground.png</texture>
+				<texture border="20">alienware/awbusydialogdackground.png</texture>
 			</control>
 			<control type="image">
 				<description>Busy animation</description>

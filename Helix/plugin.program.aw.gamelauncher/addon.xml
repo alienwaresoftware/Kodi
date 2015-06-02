@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.aw.gamelauncher" name="Hive Game Launcher" version="0.0.3" provider-name="Alienware">
+<addon id="plugin.program.aw.gamelauncher" name="Hive Game Launcher" version="0.0.4" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>

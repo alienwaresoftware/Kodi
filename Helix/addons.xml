@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.aw.gamelauncher" name="Hive Game Launcher" version="0.0.3" provider-name="Alienware">
+<addon id="plugin.program.aw.gamelauncher" name="Hive Game Launcher" version="0.0.4" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -15,9 +15,9 @@
     </extension>
 </addon>
 
-<addon id="repository.helix.alienware" name="Alienware's Hive Repo (Helix)" version="1.1.3" provider-name="Alienware">
+<addon id="repository.helix.alienware" name="Alienware's Hive Repo (Helix)" version="1.1.4" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Helix addons">
-                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/Test/Helix/addons.xml</info>
+                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml</info>
                 <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml.md5</checksum>
                 <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Helix</datadir>
         </extension>
@@ -51,7 +51,7 @@
 
 <addon  id="script.module.aw.devicesettings"
         name="Hive Device Settings"
-        version="0.12.0"
+        version="0.13.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -85,7 +85,7 @@
 
 <addon  id="service.aw.backgrounds"
         name="Hive Backgrounds"
-        version="0.11.0"
+        version="0.12.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -103,7 +103,7 @@
 
 <addon  id="service.aw.customizations"
         name="Hive Customizations"
-        version="0.13.0"
+        version="0.14.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -139,7 +139,7 @@
 
 <addon  id="service.aw.themes"
         name="Hive Themes"
-        version="0.12.0"
+        version="0.13.0"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -157,7 +157,7 @@
 
 <addon
   id="skin.hive"
-  version="0.13.1"
+  version="0.13.2"
   name="The Hive Interface"
   provider-name="Alienware">
   <requires>

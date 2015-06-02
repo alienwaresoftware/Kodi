@@ -61,7 +61,7 @@ class AcfNode(dict):
                 return
             if token_type != '"':
                 raise TypeError('Error parsing ACF format - missing node name?')
-            name = parse_quoted_token(f)
+            name = parse_quoted_token(f).lower()
 
             token_type = scan_for_next_token(f)
             if token_type == '"':
