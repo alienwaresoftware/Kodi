@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "Бихте ли искали да инсталирате основните компоненти на The HiveMind?"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "Тези компоненти се изискват, за да получите всички ползи от The HiveMind."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "Моля, изчакайте, докато се инсталират основни компоненти на HiveMind"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "Не може да се инсталират основни компоненти на HiveMind"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "Изходен код = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "За да завършите инсталацията, трябва да рестартирате своя компютър."
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "Искате ли да рестартирате системата сега?"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "Вече е налична нова версия на основните компоненти на The HiveMind!"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "Бихте ли искали да ги актуализирате сега?"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "Текуща версия"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "Нова версия"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "На HiveMind основните компоненти трябва да бъдат инсталирани за да изпълня този Адон."

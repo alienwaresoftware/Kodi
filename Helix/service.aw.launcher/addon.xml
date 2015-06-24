@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon  id="service.aw.launcher" 
-        name="Hive Console Mode" 
-        version="0.0.3" 
+        name="HiveMind Console Mode" 
+        version="1.0.2" 
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -12,7 +12,47 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Console Mode</summary>
-    <description lang="en">Hive Console Mode</description>
+    <summary lang="en">HiveMind Console Mode</summary>
+    <summary lang="ar">HiveMind وضع وحدة</summary>
+    <summary lang="pt_BR">Modo do console HiveMind</summary>
+    <summary lang="bg">Режим на конзола HiveMind</summary>
+    <summary lang="da">HiveMind kontrolpaneltilstand</summary>
+    <summary lang="nl">HiveMind-consolemodus</summary>
+    <summary lang="fi">HiveMind konsolitila</summary>
+    <summary lang="fr">Mode console HiveMind</summary>
+    <summary lang="de">HiveMind-Konsolenmodus</summary>
+    <summary lang="hu">HiveMind konzol üzemmód</summary>
+    <summary lang="pt">Modo Consola HiveMind</summary>
+    <summary lang="it">Modalità console HiveMind</summary>
+    <summary lang="ja">HiveMind コンソールモード</summary>
+    <summary lang="ko">HiveMind 콘솔 모드</summary>
+    <summary lang="no">HiveMind-konsollmodus</summary>
+    <summary lang="pl">Tryb konsoli HiveMind</summary>
+    <summary lang="ru">Режим консоли HiveMind</summary>
+    <summary lang="zh">HiveMind 控制台模式</summary>
+    <summary lang="es">Modo de consola de HiveMind</summary>
+    <summary lang="sv">HiveMind Konsolläge</summary>
+    <summary lang="zh_TW">HiveMind 控制台模式</summary>    
+    <description lang="en">HiveMind Console Mode</description>
+    <description lang="ar">HiveMind وضع وحدة</description>
+    <description lang="pt_BR">Modo do console HiveMind</description>
+    <description lang="bg">Режим на конзола HiveMind</description>
+    <description lang="da">HiveMind kontrolpaneltilstand</description>
+    <description lang="nl">HiveMind-consolemodus</description>
+    <description lang="fi">HiveMind konsolitila</description>
+    <description lang="fr">Mode console HiveMind</description>
+    <description lang="de">HiveMind-Konsolenmodus</description>
+    <description lang="hu">HiveMind konzol üzemmód</description>
+    <description lang="pt">Modo Consola HiveMind</description>
+    <description lang="it">Modalità console HiveMind</description>
+    <description lang="ja">HiveMind コンソールモード</description>
+    <description lang="ko">HiveMind 콘솔 모드</description>
+    <description lang="no">HiveMind-konsollmodus</description>
+    <description lang="pl">Tryb konsoli HiveMind</description>
+    <description lang="ru">Режим консоли HiveMind</description>
+    <description lang="zh">HiveMind 控制台模式</description>
+    <description lang="es">Modo de consola de HiveMind</description>
+    <description lang="sv">HiveMind Konsolläge</description>
+    <description lang="zh_TW">HiveMind 控制台模式</description>
   </extension>
 </addon>

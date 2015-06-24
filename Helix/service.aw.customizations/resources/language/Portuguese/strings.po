@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "Pretende instalar os Componentes HiveMind Core"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "Estes componentes são necessários para receber todas as vantagens de The HiveMind."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "Aguarde enquanto os componentes básicos do HiveMind são instalados"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "Não foi possível instalar os componentes básicos do HiveMind"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "Código de Saída = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "Precisa de reiniciar o seu computador para concluir esta instalação"
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "Pretende reiniciar o sistema agora?"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "Está disponível uma nova versão dos componentes The HiveMind Core!"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "Actualizar agora?"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "Versão actual"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "Nova versão"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "Os Componentes HiveMind núcleo deve ser instalado para executar este addon."

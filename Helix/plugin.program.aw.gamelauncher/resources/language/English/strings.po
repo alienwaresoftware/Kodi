@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 # Addon Name: Confluence
 # Addon id: skin.confluence
 # Addon Provider: Jezz_X, Team Kodi
@@ -16,7 +16,7 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#Device Settings
+#Game Launcher
 
 msgctxt "#33000"
 msgid "Games"

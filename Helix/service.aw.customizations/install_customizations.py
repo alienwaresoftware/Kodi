@@ -1,5 +1,5 @@
-import zipfile, os, xbmc
-from resources.lib.hiveinstaller import HiveInstaller
+import zipfile, os, xbmc, xbmcgui
+from resources.lib.hivemindinstaller import HivemindInstaller
 
 if (__name__ == "__main__"):
    
@@ -15,4 +15,10 @@ if (__name__ == "__main__"):
         xbmc.executebuiltin("Skin.SetString(CustomizationsVersion,"+str(CustomizationsVersion)+")")
     else: pass
     
-    HiveInstaller()
+    monitor = xbmc.Monitor()
+    while True:             
+        if monitor.waitForAbort(2):
+            break
+        if (xbmcgui.getCurrentWindowId() == 10000):
+            HivemindInstaller()
+            break

@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "Vil du installere HiveMind-kjernekomponenter?"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "Disse komponentene er nødvendige for å dra nytte av alle fordelene ved HiveMind."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "Vent mens HiveMind-kjernekomponentene installeres"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "Kan ikke installere HiveMind-kjernekomponentene"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "Avslutningskode = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "Datamaskinen må startes på nytt for å fullføre denne installasjonen."
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "Vil du starte systemet på nytt nå?"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "En ny versjon av HiveMind-kjernekomponenter er nå tilgjengelig?"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "Vil du oppgradere nå?"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "Gjeldende versjon"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "Ny versjon"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "De HiveMind kjernekomponenter må være installert for å kjøre denne addon."

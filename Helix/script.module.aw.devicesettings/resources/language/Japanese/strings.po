@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "デバイス設定"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "オーディオ"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "ネットワーク"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "デバイス設定を変更する"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]オーディオ設定を構成する[/B][CR][CR]オーディオ出力を管理する"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]ALIENFX 設定を構成する[/B][CR][CR]AlienFX 設定を管理する"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]ワイヤレスネットワーク設定を構成する[/B][CR][CR]ワイヤレスネットワークを管理する"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "オーディオソース"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "オーディオソースを選択する"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "スピーカー構成"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "ボリューム"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "オーディオ設定を変更できません。 オーディオケーブルが正しく接続されているか確認してください。"
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "完了"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "オーディオ出力が正常に変更されました。"
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "{0} のネットワークパスワードを入力します"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "接続できません。 パスワードを確認して、もう一度やり直してください。"
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "Wifi ネットワークを切断します"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "{0} を切断しますか？"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "切断できません。 もう一度やり直してください。"
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "準備中"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "接続"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "アドホックネットワーク形成"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "切断中"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "切断"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "関連付け中"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "検出中"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "認証中"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "接続状況： "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "使用不可"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "スピーカー構成を選択する"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]BLUETOOTH 設定を構成する[/B][CR][CR]Bluetooth デバイスを管理する"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "Bluetooth をオンにする"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "検出可能をオンにする"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "接続"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "ペアリング"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "スピーカー構成が正常に変更されました。"
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "スピーカー構成を変更できません。"
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "デバイスをペアリングできません。"
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "デバイスが正常にペアリングされました。"
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "パスコードを比較します。"
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "{0} のパスワードはこのパスワードと一致していますか？"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "デバイスを取り外します"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "{0} を取り外しますか？"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "{0} を取り外せません"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "{0} は正常に取り外されました"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "しばらくお待ちください..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "{0} をペアリング中です。しばらくお待ちください..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "{0} のサービスをインストール中です。しばらくお待ちください..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "ステータス"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "消音する"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "アップデート"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]アップデート設定の構成[/B][CR][CR]アップデート設定を管理"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows アップデート"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "NVidia アップデート"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind アップデート"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Windows アップデート設定"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "NVidia アップデート設定"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "HiveMind アップデート設定"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "今すぐアップデート"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "アップデートの制御"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "自動アップデート"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "更新を通知します"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "手動アップデート"

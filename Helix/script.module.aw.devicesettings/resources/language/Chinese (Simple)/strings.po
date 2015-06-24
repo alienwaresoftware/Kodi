@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "设备设置"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "音频"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "网络"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "更改设备设置"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]配置音频设置[/B][CR][CR]管理您的音频输出"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]配置 ALIENFX 设置[/B][CR][CR]管理您的 AlienFX 设置"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]配置音频设置[/B][CR][CR]管理您的无线网络"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "音频源"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "选择音频源"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "扬声器配置"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "音量"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "无法更改音频设置。 请检查音频电缆是否连接正确。"
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "音频输出已成功更改。"
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "输入 {0} 的网络密码"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "无法连接。 请检查您的密码并重试。"
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "断开 Wifi 网络的连接"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "是否要断开 {0}？"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "无法断开连接。 请重试。"
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "未就绪"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "已连接"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "形成自组网络"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "正在断开连接"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "已断开"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "正在关联"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "正在查找"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "正在验证"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "连接状态： "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "不可用"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "选择扬声器配置"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]配置 BLUETOOTH 设置[/B][CR][CR]管理您的 BLUETOOTH 设备"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "开启 Bluetooth"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "开启可发现性"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "已连接"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "已配对"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "扬声器配置已成功更改。"
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "无法更改扬声器配置。"
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "无法配对设备。"
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "设备已成功配对。"
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "比较密码。"
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "{0} 上的此密码是否与这个相匹配？"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "移除设备"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "是否要移除 {0}？"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "无法移除 {0}"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "已成功移除 {0}"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "请稍候..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "正在配对 {0}，请稍候..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "正在为 {0} 安装服务，请稍候..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "状态"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "静音"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "更新"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]配置更新设置[/B][CR][CR]管理您的更新设置"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows 更新"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "NVidia 更新"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind 更新"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Windows 更新设置"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "NVidia 更新设置"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "HiveMind 更新设置"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "立即更新"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "控制更新"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "自动更新"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "通知更新"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "手动更新"

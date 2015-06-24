@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon  id="script.service.aw.devicesettings" 
-        name="Hive Device Settings Service" 
-        version="0.11.0" 
+        name="HiveMind Device Settings Service" 
+        version="1.0.2" 
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -11,7 +11,48 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Device Settings Service</summary>
-    <description lang="en">Hive Device Settings Service</description>
+    <summary lang="en">HiveMind Device Settings Service</summary>
+    <summary lang="ar">HiveMind خدمة إعدادات جهاز</summary>
+    <summary lang="pt_BR">Serviço de configurações do dispositivo HiveMind</summary>
+    <summary lang="bg">Услуга за настройка на устройството HiveMind</summary>
+    <summary lang="da">HiveMind enhedsindstillingsservice</summary>
+    <summary lang="nl">Service voor HiveMind-apparaatinstellingen</summary>
+    <summary lang="fi">HiveMind laiteasetuspalvelu</summary>
+    <summary lang="fr">Service de configuration du périphérique HiveMind</summary>
+    <summary lang="de">HiveMind-Geräteeinstellungsdienst</summary>
+    <summary lang="hu">HiveMind eszközbeállítási szolgáltatás</summary>
+    <summary lang="pt">Serviço de configurações do dispositivo HiveMind</summary>
+    <summary lang="it">Servizio impostazioni dispositivo HiveMind</summary>
+    <summary lang="ja">HiveMind デバイス設定サービス</summary>
+    <summary lang="ko">HiveMind 장치 설정 서비스</summary>
+    <summary lang="no">HiveMind-enhetsinnstillingstjeneste</summary>
+    <summary lang="pl">Usługa konfigurowania urządzeń HiveMind</summary>
+    <summary lang="ru">Служба параметров устройств HiveMind</summary>
+    <summary lang="zh">HiveMind 设备设置服务</summary>
+    <summary lang="es">Servicio de configuración de dispositivo de HiveMind</summary>
+    <summary lang="sv">HiveMind Enhetsinställningstjänst</summary>
+    <summary lang="zh_TW">HiveMind 裝置設定服務</summary>
+    <description lang="en">HiveMind Device Settings Service</description>
+    <description lang="ar">HiveMind خدمة إعدادات جهاز</description>
+    <description lang="pt_BR">Serviço de configurações do dispositivo HiveMind</description>
+    <description lang="bg">Услуга за настройка на устройството HiveMind</description>
+    <description lang="da">HiveMind enhedsindstillingsservice</description>
+    <description lang="nl">Service voor HiveMind-apparaatinstellingen</description>
+    <description lang="fi">HiveMind laiteasetuspalvelu</description>
+    <description lang="fr">Service de configuration du périphérique HiveMind</description>
+    <description lang="de">HiveMind-Geräteeinstellungsdienst</description>
+    <description lang="hu">HiveMind eszközbeállítási szolgáltatás</description>
+    <description lang="pt">Serviço de configurações do dispositivo HiveMind</description>
+    <description lang="it">Servizio impostazioni dispositivo HiveMind</description>
+    <description lang="ja">HiveMind デバイス設定サービス</description>
+    <description lang="ko">HiveMind 장치 설정 서비스</description>
+    <description lang="no">HiveMind-enhetsinnstillingstjeneste</description>
+    <description lang="pl">Usługa konfigurowania urządzeń HiveMind</description>
+    <description lang="ru">Служба параметров устройств HiveMind</description>
+    <description lang="zh">HiveMind 设备设置服务</description>
+    <description lang="es">Servicio de configuración de dispositivo de HiveMind</description>
+    <description lang="sv">HiveMind Enhetsinställningstjänst</description>
+    <description lang="zh_TW">HiveMind 裝置設定服務</description>
+
   </extension>
 </addon>

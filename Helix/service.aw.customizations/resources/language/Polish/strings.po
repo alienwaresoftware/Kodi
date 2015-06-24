@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "Czy chcesz zainstalować The HiveMind Core Components?"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "Komponenty te są wymagane, aby czerpać wszystkie korzyści płynące z The HiveMind."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "Poczekaj na zainstalowanie głównych składników usługi HiveMind"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "Nie można zainstalować głównych składników usługi HiveMind"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "Kod wyjścia = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "W celu ukończenia instalacji będzie wymagany restart komputera."
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "Czy chcesz teraz zrestartować system?"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "Dostępna jest nowa wersja The HiveMind Core Components!"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "Czy chcesz teraz przeprowadzić aktualizację?"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "Bieżąca wersja"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "Nowa wersja"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "Składniki HiveMind podstawowe musi być zainstalowany, aby uruchomić ten dodatek."

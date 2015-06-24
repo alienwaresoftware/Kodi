@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "是否安装 HiveMind 核心组件？"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "这些组件是充分利用 HiveMind 所必需的。"
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "正在安装 HiveMind 核心组件，请稍候"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "无法安装 HiveMind 核心组件"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "退出代码 = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "您需要重新启动计算机才能完成此安装。"
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "是否立即重新启动系统？"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "新版本的 HiveMind 核心组件现已推出！"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "您是否立即升级？"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "当前版本"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "新版本"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "该HiveMind的核心组件必须安装运行该插件。"

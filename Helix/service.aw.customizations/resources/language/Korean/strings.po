@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "HiveMind 주요 구성 요소를 설치하시겠습니까?"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "HiveMind의 모든 혜택을 누리려면 주요 구성 요소가 필요합니다."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "HiveMind 주요 구성 요소를 설치하는 동안 잠시만 기다려 주십시오."
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "HiveMind 주요 구성 요소를 설치할 수 없습니다."
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "종료 코드 = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "설치를 완료하려면 컴퓨터를 다시 시작해야 합니다."
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "시스템을 지금 다시 시작하시겠습니까?"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "HiveMind 주요 구성 요소의 새 버전이 출시되었습니다!"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "지금 업그레이드하시겠습니까?"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "현재 버전"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "새 버전"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "HiveMind 핵심 구성 요소는이 애드온을 실행하기 위해 설치해야합니다."

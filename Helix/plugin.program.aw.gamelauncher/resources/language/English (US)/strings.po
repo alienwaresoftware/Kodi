@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 # Addon Name: Confluence
 # Addon id: skin.confluence
 # Addon Provider: Jezz_X, Team Kodi
@@ -16,28 +16,40 @@ msgstr ""
 "Language: en_US\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#Device Settings
+#Game Launcher
+
+msgctxt "#33000"
+msgid "Games"
+msgstr ""
 
 msgctxt "#33001"
-msgid "Audio"
-msgstr "Audio"
+msgid "Find Games"
+msgstr ""
 
 msgctxt "#33002"
-msgid "AlienFX"
-msgstr "AlienFX"
+msgid "Launch Steam"
+msgstr ""
 
 msgctxt "#33003"
-msgid "Network"
-msgstr "Network"
+msgid "Finding games...."
+msgstr ""
 
-msgctxt "#33011"
-msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
+msgctxt "#33004"
+msgid "Game(s) found"
+msgstr ""
 
-msgctxt "#33012"
-msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
+msgctxt "#33005"
+msgid "Edit title"
+msgstr ""
 
-msgctxt "#33013"
-msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
+msgctxt "#33006"
+msgid "Edit path"
+msgstr ""
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr ""
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr ""

@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "Apparaatinstellingen"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "Netwerk"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "Wijzig uw apparaatinstellingen"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Beheer uw audio-output"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Beheer uw AlienFX-instellingen"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Beheer uw draadloos netwerk"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "Audiobron"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "Selecteer audiobron"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "Luidsprekerconfiguratie"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "Volume"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "Fout"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "Kan audioinstelling niet wijzigen. Controleer of audiokabel goed is aangesloten."
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "Geslaagd"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "Audio-output is gewijzigd."
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "Voer netwerkwachtwoord in voor {0}"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "Kan geen verbinding maken. Controleer uw wachtwoord en probeer opnieuw."
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "Verbinding met Wifinetwerk verbreken"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "Wilt u verbinding met {0} verbreken?"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "Kan verbinding niet verbreken. Probeer het opnieuw."
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "Niet gereed"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "Aangesloten"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "Ad-hocnetwork gevormd"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "Verbinding verbreken"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "Losgekoppeld"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "Koppelen"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "Verkennen"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "Verifiëren"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "Verbindingsstatus: "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "Niet beschikbaar"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "Luidsprekerconfiguratie selecteren"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Beheer uw Bluetooth-apparaat"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "Bluetooth inschakelen"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "Detectie inschakelen"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "Aangesloten"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "Gekoppeld"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "Luidsprekerconfiguratie is gewijzigd."
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "Kan luidsprekerconfiguratie niet wijzigen."
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "Kan het apparaat niet koppelen."
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "Apparaat is gekoppeld."
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "Vergelijk de wachtwoorden."
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "Komt dit wachtwoord op {0} overeen met deze?"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "Apparaat verwijderen"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "Wilt u {0} verwijderen?"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "Kan {0} niet verwijderen"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "{0} is verwijderd"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "Een ogenblik geduld..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "Wacht terwijl {0} wordt gekoppeld..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "Wacht terwijl services voor {0} worden geïnstalleerd..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "Geluid dempen"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "Updates"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]INSTELLINGEN VOOR UPDATES CONFIGUREREN[/B][CR][CR]Configureer de instellingen voor uw updates"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows Update"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "NVidia Update"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind Update"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Instellingen voor Windows Update"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "Instellingen voor NVidia Update"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "Instellingen voor HiveMind Update"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "Nu updaten"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "Updates controleren"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "Automatische update"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "Verwittigen updaten"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "Handmatig updaten"

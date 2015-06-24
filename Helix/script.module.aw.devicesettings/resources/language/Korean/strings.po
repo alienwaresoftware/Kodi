@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "장치 설정"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "오디오"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "네트워크"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "블루투스"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "장치 설정을 변경하세요"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]오디오 설정 구성[/B][CR][CR]오디오 출력 관리"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]ALIENFX 설정 구성[/B][CR][CR]ALIENFX 설정 관리"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]무선 네트워크 설정 구성[/B][CR][CR]무선 네트워크 관리"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "오디오 소스"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "오디오 소스 선택"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "스피커 구성"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "볼륨"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "오류"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "오디오 설정을 변경할 수 없습니다. 오디오 케이블이 올바르게 연결되었는지 확인하세요."
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "성공"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "오디오 출력이 변경되었습니다."
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "{0}의 네트워크 암호 입력"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "연결할 수 없습니다. 암호를 확인하고 다시 시도하세요."
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "Wi-Fi 네트워크 연결 해제"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "{0}의 연결을 해제하시겠습니까?"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "연결을 해제할 수 없습니다. 다시 시도하세요."
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "준비되지 않음"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "연결됨"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "Ad hoc 네트워크가 형성됨"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "연결 해제 중"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "연결 해제됨"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "연결 중"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "검색 중"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "인증 중"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "연결 상태 : "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "사용할 수 없음"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "스피커 구성 선택"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]블루투스 설정 구성[/B][CR][CR]블루투스 장치 관리"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "블루투스 켜기"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "검색 기능 켜기"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "연결됨"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "페어링됨"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "스피커 구성이 변경되었습니다."
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "스피커 구성을 변경할 수 없습니다."
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "장치를 페어링할 수 없습니다."
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "장치가 성공적으로 페어링되었습니다."
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "암호를 비교하십시오."
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "{0}의 이 암호가 일치합니까?"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "장치 제거"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "{0}을(를) 삭제하시겠습니까?"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "{0}을(를) 삭제할 수 없습니다."
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "{0}이(가) 삭제되었습니다."
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "잠시만 기다려 주세요..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "{0}을(를) 페어링하는 중입니다."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "{0}의 서비스를 설치하는 중입니다..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "상태"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "음소거"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "업데이트"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]업데이트 설정 구성[/B][CR][CR]업데이트 설정 관리"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows 업데이트"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "NVidia 업데이트"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind 업데이트"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Windows 업데이트 설정"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "NVidia 업데이트 설정"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "HiveMind 업데이트 설정"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "지금 업데이트"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "업데이트 제어"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "자동 업데이트"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "업데이트 알림"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "수동 업데이트"

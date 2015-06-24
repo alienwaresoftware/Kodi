@@ -5,11 +5,11 @@ import urlparse
 import xbmc
 import xbmcgui
 import xbmcplugin
+import xbmcaddon
 from glob import glob
 from _winreg import *
 import json
 import subprocess
-import AlphaUIUtils
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
 import urllib2
@@ -17,6 +17,7 @@ import traceback
 import datetime
 import time
 import operator
+import string
 
 from resources.lib.acf import *
 import resources.lib.common as common
@@ -44,12 +45,6 @@ GAMES_DB_PATH = os.path.join(PLUGIN_DATA_PATH,"games.db")
 DEFAULT_THUMB_PATH = os.path.join(PLUGIN_DATA_PATH,"thumbs")
 DEFAULT_FANART_PATH = os.path.join(PLUGIN_DATA_PATH,"fanarts")
 
-log(CURRENT_ADDON_PATH)
-
-# Addon paths creation
-if not os.path.exists(DEFAULT_THUMB_PATH): os.makedirs(DEFAULT_THUMB_PATH)
-if not os.path.exists(DEFAULT_FANART_PATH): os.makedirs(DEFAULT_FANART_PATH)
-
 class Game(object):
     def __init__(self, gameId, title, type, path, thumbImage, fanartImage, isNameChanged, isPathChanged, isIconChanged, isFanartChanged):
         self.gameId = gameId
@@ -61,13 +56,7 @@ class Game(object):
         self.isNameChanged = isNameChanged
         self.isPathChanged = isPathChanged
         self.isIconChanged = isIconChanged
-        self.isFanartChanged = isFanartChanged
-
-base_url = sys.argv[0]
-addon_handle = int(sys.argv[1])
-args = urlparse.parse_qs(sys.argv[2][1:])
-
-xbmcplugin.setContent(addon_handle, 'games')
+        self.isFanartChanged = isFanartChanged        
 
 def build_url(query):
     return base_url + '?' + urllib.urlencode(query)
@@ -109,17 +98,21 @@ def downloadGameImage(gameId, gameName):
     log('Downloading Steam game images for {0} -> {1}'.format(gameId, gameName))
     
     files = []
-    thumbFilePath = os.path.join(DEFAULT_THUMB_PATH,'thumb_{0}_{1}.jpg'.format(gameName, int((time.mktime(datetime.datetime.now().timetuple())))))
-    fanartPath = os.path.join(DEFAULT_FANART_PATH,'fanart_{0}_{1}.jpg'.format(gameName, int((time.mktime(datetime.datetime.now().timetuple())))))
+
+    valid_chars = "-_.() %s%s" % (string.ascii_letters, string.digits)
+    safeGameName = ''.join(c for c in gameName if c in valid_chars)
+
+    thumbFilePath = os.path.join(DEFAULT_THUMB_PATH,'thumb_{0}_{1}.jpg'.format(safeGameName, int((time.mktime(datetime.datetime.now().timetuple())))))
+    fanartPath = os.path.join(DEFAULT_FANART_PATH,'fanart_{0}_{1}.jpg'.format(safeGameName, int((time.mktime(datetime.datetime.now().timetuple())))))
 
     isFanartFound = False
     isThumbImageFound = False
 
-    for fileName in glob(os.path.join(DEFAULT_THUMB_PATH,'thumb_{0}*.*'.format(gameName))):
+    for fileName in glob(os.path.join(DEFAULT_THUMB_PATH,'thumb_{0}*.*'.format(safeGameName))):
         thumbFilePath = fileName
         isThumbImageFound = True
 
-    for fileName in glob(os.path.join(DEFAULT_FANART_PATH,'fanart_{0}*.*'.format(gameName))):
+    for fileName in glob(os.path.join(DEFAULT_FANART_PATH,'fanart_{0}*.*'.format(safeGameName))):
         fanartPath = fileName
         isFanartFound = True
 
@@ -173,6 +166,11 @@ def downloadGameImage(gameId, gameName):
     return files
 
 def findGames():
+    # Addon paths creation
+    if not os.path.exists(DEFAULT_THUMB_PATH): os.makedirs(DEFAULT_THUMB_PATH)
+    if not os.path.exists(DEFAULT_FANART_PATH): os.makedirs(DEFAULT_FANART_PATH)
+
+    xbmc.executebuiltin("Dialog.Close(busydialog)")
     steamPath = getSteamPath()
     steamAppPath = os.path.join(os.path.abspath(steamPath),'steamapps')
 
@@ -189,66 +187,75 @@ def findGames():
     orgGames = getGames()
 
     for filePath in glob('{0}/*.acf'.format(steamAppPath)):
-        gameDict = parse_acf(filePath)
-        if (gameDict['appstate']['bytestodownload'] != '0' and gameDict['appstate']['bytestodownload'] == gameDict['appstate']['bytesdownloaded']):
+        log('findGames()::filepath -> %s' % filePath)
+        try:
+            gameDict = parse_acf(filePath)
+            if (gameDict['appstate']['bytestodownload'] != '0' and gameDict['appstate']['bytestodownload'] == gameDict['appstate']['bytesdownloaded']):
 
-            orgGame = None
+                orgGame = None
 
-            for game in orgGames:
-                if (game.gameId == gameDict['appstate']['appid']):
-                    orgGame = game
-                    break;
+                for game in orgGames:
+                    if (game.gameId == gameDict['appstate']['appid']):
+                        orgGame = game
+                        break;
 
-            name = gameDict['appstate']['name']
-            path = ''
-            isNameChanged = 0
-            isPathChanged = 0
-            isIconChanged = 0
-            isFanartChanged = 0
-            thumbImage = ''
-            fanartImage = ''
-            type = 1
+                name = gameDict['appstate']['name']
+                path = ''
+                isNameChanged = 0
+                isPathChanged = 0
+                isIconChanged = 0
+                isFanartChanged = 0
+                thumbImage = ''
+                fanartImage = ''
+                type = 1
 
-            if ((not orgGame) or (orgGame is not None and orgGame.isFanartChanged == 0 and orgGame.isIconChanged == 0)):
-                gameFiles = downloadGameImage(gameDict['appstate']['appid'],gameDict['appstate']['name'])
-                thumbImage = gameFiles[0]
-                fanartImage = gameFiles[1]
-            elif (orgGame is not None and orgGame.isFanartChanged == 0):
-                gameFiles = downloadGameImage(gameDict['appstate']['appid'],gameDict['appstate']['name'])
-                thumbImage = orgGame.thumbImage
-                fanartImage = gameFiles[1]
-                isIconChanged = 1
-            elif (orgGame is not None and orgGame.isIconChanged == 0):
-                gameFiles = downloadGameImage(gameDict['appstate']['appid'],gameDict['appstate']['name'])
-                thumbImage = gameFiles[0]
-                fanartImage = orgGame.fanartImage
-                isFanartChanged = 1
-            else:
-                thumbImage = orgGame.thumbImage
-                fanartImage = orgGame.fanartImage
-                isIconChanged = 1
-                isFanartChanged = 1
+                if ((not orgGame) or (orgGame is not None and orgGame.isFanartChanged == 0 and orgGame.isIconChanged == 0)):
+                    gameFiles = downloadGameImage(gameDict['appstate']['appid'],gameDict['appstate']['name'])
+                    thumbImage = gameFiles[0]
+                    fanartImage = gameFiles[1]
+                elif (orgGame is not None and orgGame.isFanartChanged == 0):
+                    gameFiles = downloadGameImage(gameDict['appstate']['appid'],gameDict['appstate']['name'])
+                    thumbImage = orgGame.thumbImage
+                    fanartImage = gameFiles[1]
+                    isIconChanged = 1
+                elif (orgGame is not None and orgGame.isIconChanged == 0):
+                    gameFiles = downloadGameImage(gameDict['appstate']['appid'],gameDict['appstate']['name'])
+                    thumbImage = gameFiles[0]
+                    fanartImage = orgGame.fanartImage
+                    isFanartChanged = 1
+                else:
+                    thumbImage = orgGame.thumbImage
+                    fanartImage = orgGame.fanartImage
+                    isIconChanged = 1
+                    isFanartChanged = 1
 
-            if (orgGame is not None and orgGame.isNameChanged == 1):
-                name = orgGame.title
-                isNameChanged = 1
+                if (orgGame is not None and orgGame.isNameChanged == 1):
+                    name = orgGame.title
+                    isNameChanged = 1
 
-            if (orgGame is not None and orgGame.isPathChanged == 1):
-                name = orgGame.path
-                isPathChanged = 1
+                if (orgGame is not None and orgGame.isPathChanged == 1):
+                    name = orgGame.path
+                    isPathChanged = 1
 
-            games[gameDict['appstate']['appid']] = {}
-            games[gameDict['appstate']['appid']]['name'] = name
-            games[gameDict['appstate']['appid']]['path'] = path
-            games[gameDict['appstate']['appid']]['isNameChanged'] = isNameChanged
-            games[gameDict['appstate']['appid']]['isPathChanged'] = isPathChanged
-            games[gameDict['appstate']['appid']]['isIconChanged'] = isIconChanged
-            games[gameDict['appstate']['appid']]['isFanartChanged'] = isFanartChanged
-            games[gameDict['appstate']['appid']]['type'] = type
-            games[gameDict['appstate']['appid']]['thumbImage'] = thumbImage
-            games[gameDict['appstate']['appid']]['fanartImage'] = fanartImage
-            counter = counter + 1
-            pDialog.update(int((float(counter)/float(numFiles))*100), localize(33003))
+                games[gameDict['appstate']['appid']] = {}
+                games[gameDict['appstate']['appid']]['name'] = name
+                games[gameDict['appstate']['appid']]['path'] = path
+                games[gameDict['appstate']['appid']]['isNameChanged'] = isNameChanged
+                games[gameDict['appstate']['appid']]['isPathChanged'] = isPathChanged
+                games[gameDict['appstate']['appid']]['isIconChanged'] = isIconChanged
+                games[gameDict['appstate']['appid']]['isFanartChanged'] = isFanartChanged
+                games[gameDict['appstate']['appid']]['type'] = type
+                games[gameDict['appstate']['appid']]['thumbImage'] = thumbImage
+                games[gameDict['appstate']['appid']]['fanartImage'] = fanartImage
+
+                counter = counter + 1
+        except:
+            log('unable to parse the file %s' % filePath)
+
+        if (pDialog.iscanceled()):
+            break;
+
+        pDialog.update(int((float(counter)/float(numFiles))*100), localize(33003))
 
     #games = sorted(games.iteritems(), key= operator.itemgetter(1))
 
@@ -259,6 +266,9 @@ def findGames():
     pDialog.close()
     dialog = xbmcgui.Dialog()
     ok = dialog.ok(__addonname__, str(counter) + ' ' + localize(33004))
+
+    #if (counter > 0):
+        #xbmc.executebuiltin('Container.Update("plugin://plugin.program.aw.gamelauncher/?action=games&amp;mode=folder")')
     
 def getGames():
     games = []
@@ -292,21 +302,21 @@ def addContextMenu(game,listItem):
     menuTuple = None
 
     if (isInFavorites(game)):
-       menuTuple = (xbmc.getLocalizedString(14077), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=removefromfavorites&amp;mode=folder&amp;gameid={0})'.format(game.gameId),)
+       menuTuple = (xbmc.getLocalizedString(14077), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=removefromfavorites&amp;mode=context&amp;gameid={0})'.format(game.gameId),)
     else:
-       menuTuple = (xbmc.getLocalizedString(14076), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=addtofavorites&amp;mode=folder&amp;gameid={0})'.format(game.gameId),)
+       menuTuple = (xbmc.getLocalizedString(14076), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=addtofavorites&amp;mode=context&amp;gameid={0})'.format(game.gameId),)
 
     if (game.type == 1):
         listItem.addContextMenuItems([menuTuple,
-                            (localize(33005), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=edittitle&amp;mode=folder&amp;gameid={0})'.format(game.gameId),),
-                            (localize(33007), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editicon&amp;mode=folder&amp;gameid={0})'.format(game.gameId),),
-                            (localize(33008), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editfanart&amp;mode=folder&amp;gameid={0})'.format(game.gameId),),],True)
+                            (localize(33005), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=edittitle&amp;mode=context&amp;gameid={0})'.format(game.gameId),),
+                            (localize(33007), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editicon&amp;mode=context&amp;gameid={0})'.format(game.gameId),),
+                            (localize(33008), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editfanart&amp;mode=context&amp;gameid={0})'.format(game.gameId),),],True)
     else:
         listItem.addContextMenuItems([menuTuple,
-                            (localize(33005), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=edittitle&amp;mode=folder&amp;gameid={0})'.format(game.gameId),),
-                            (localize(33006), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editpath&amp;mode=folder&amp;gameid={0})'.format(game.gameId),),
-                            (localize(33007), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editicon&amp;mode=folder&amp;gameid={0})'.format(game.gameId),),
-                            (localize(33008), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editfanart&amp;mode=folder&amp;gameid={0})'.format(game.gameId),),],True)
+                            (localize(33005), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=edittitle&amp;mode=context&amp;gameid={0})'.format(game.gameId),),
+                            (localize(33006), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editpath&amp;mode=context&amp;gameid={0})'.format(game.gameId),),
+                            (localize(33007), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editicon&amp;mode=context&amp;gameid={0})'.format(game.gameId),),
+                            (localize(33008), 'XBMC.Container.Refresh(plugin://plugin.program.aw.gamelauncher/?action=games&amp;menuaction=editfanart&amp;mode=context&amp;gameid={0})'.format(game.gameId),),],True)
 
 
 def addToFavorite(game):
@@ -379,111 +389,187 @@ def updateGameInformation(orgGame, property, value):
         gamesDbfile.write (json.dumps(gamesJson))
         gamesDbfile.close()
 
+def get_view_mode():
+         view_mode = 50
+         for id in range( 50, 59 + 1 ):
+             try:
+                 if xbmc.getCondVisibility( "Control.IsVisible(%i)" % id ):
+                     view_mode = repr( id )
+                     return view_mode
+                     break
+             except:
+                 pass
 
+         for id in range( 500, 600 + 1 ):
+             try:
+                 if xbmc.getCondVisibility( "Control.IsVisible(%i)" % id ):
+                     view_mode = repr( id )
+                     return view_mode
+                     break
+             except:
+                 pass
 
-mode = args.get('mode', None)
-log(args)
-if mode is None:
-    imageFilePath = os.path.join(CURRENT_ADDON_PATH, 'resources','skins','Default','media','alienware')
+         return view_mode
 
-    url = build_url({'mode': 'folder', 'action': 'games'})
-    #print "url -> {0}".format(url)
-    li = xbmcgui.ListItem(localize(33000), iconImage=os.path.join(imageFilePath, 'games.png'))
-    #log(os.path.join(imageFilePath, 'games.png'))
-    #li.setProperty('Fanart_Image', os.path.join(CURRENT_ADDON_PATH, 'fanart.jpg'))
-    #log(os.path.join(CURRENT_ADDON_PATH, 'fanart.jpg'))
-    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
-                                listitem=li, isFolder=True)
+if (xbmcgui.Window(10004).getProperty('service.aw.customizations.isComponentInstalled') == "False"):
+    customizationAddon = xbmcaddon.Addon(id='service.aw.customizations')
+    customizationAddonLanguage = customizationAddon.getLocalizedString
 
-    url = build_url({'mode': 'folder', 'action': 'findgames'})
-    li = xbmcgui.ListItem(localize(33001), iconImage=os.path.join(imageFilePath, 'findgames.png'))
-    #li.setProperty('Fanart_Image', os.path.join(CURRENT_ADDON_PATH, 'fanart.jpg'))
-    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
-                                listitem=li, isFolder=True)
+    xbmcgui.Dialog().ok(__addonname__, customizationAddonLanguage(33011))
+else:
+    base_url = sys.argv[0]
+    addon_handle = int(sys.argv[1])
+    args = urlparse.parse_qs(sys.argv[2][1:])
+
+    mode = args.get('mode', None)
+
+    #xbmcplugin.setContent(int(sys.argv[1]), 'games')
+
+    #log("base_url => + " + base_url + ", args => " + sys.argv[2][1:])
+
+    if mode is None:
+
+        viewModeId = xbmc.getInfoLabel('Skin.String(GamesDefaultViewMode)')
+        if(viewModeId):
+            viewModeId = get_view_mode();
+            xbmc.executebuiltin('Skin.SetString(GamesDefaultViewMode, %s)' % viewModeId) 
+
+        imageFilePath = os.path.join(CURRENT_ADDON_PATH, 'resources','skins','Default','media','alienware')
+
+        url = build_url({'mode': 'folder', 'action': 'games'})
+        li = xbmcgui.ListItem(localize(33000), iconImage=os.path.join(imageFilePath, 'games.png'))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li,totalItems=3,isFolder=True)
+
+        url = build_url({'mode': 'folder', 'action': 'findgames'})
+        li = xbmcgui.ListItem(localize(33001), iconImage=os.path.join(imageFilePath, 'findgames.png'))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li,totalItems=3, isFolder=True)
     
-    url = build_url({'mode': 'folder', 'action': 'steam'})
-    li = xbmcgui.ListItem(localize(33002), iconImage=os.path.join(imageFilePath, 'steam.png'))
-    #li.setProperty('Fanart_Image', os.path.join(CURRENT_ADDON_PATH, 'fanart.jpg'))
-    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
-                                listitem=li, isFolder=True)
+        url = build_url({'mode': 'folder', 'action': 'steam'})
+        li = xbmcgui.ListItem(localize(33002), iconImage=os.path.join(imageFilePath, 'steam.png'))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li,totalItems=3, isFolder=True)
 
-    xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
 
-elif (mode[0] == 'folder'):    
-    actionName = args['action'][0]
+        xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
 
-    menuActionName = ""
-    try:
-        if (args['menuaction']):
-            menuActionName = args['menuaction'][0]
-    except:
-        pass
+    elif (mode[0] == 'folder'): 
+        import AlphaUIUtils      
+        actionName = args['action'][0]
 
-    if (actionName == 'steam'):
+        if (actionName == 'steam'):
+            
+            try:
+                AlphaUIUtils.LaunchSteam()
+            except:
+                pass
+            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+            xbmc.executebuiltin('Container.Refresh("plugin://plugin.program.aw.gamelauncher")')
+        elif (actionName == 'findgames'):
+            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+            findGames()
+            xbmc.executebuiltin('Container.Refresh("plugin://plugin.program.aw.gamelauncher")')
+        elif (actionName == 'games'):
+
+            viewModeId = xbmc.getInfoLabel('Skin.String(GamesDefaultViewMode)')
+            if(not viewModeId):
+                xbmc.executebuiltin('Skin.SetString(GamesDefaultViewMode, %s)' % '500') 
+                xbmc.executebuiltin('Container.SetViewMode(%s)' % '500')             
+
+            xbmcplugin.addSortMethod(addon_handle, xbmcplugin.SORT_METHOD_LABEL)
+
+            games = getGames()
+                        
+            if (games):
+
+
+                for game in games:
+                    url = build_url({'mode': 'folder', 'action': 'launchgame', 'gameid': game.gameId, 'gametype': game.type})
+                    li = xbmcgui.ListItem(game.title, iconImage=game.thumbImage)
+                    li.setProperty('Fanart_Image', game.fanartImage)
+
+                    addContextMenu(game,li)
+                    xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li,totalItems=len(games), isFolder=False)
+
+                xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+
+            if(not viewModeId):
+                xbmc.executebuiltin('Container.SetViewMode(%s)' % '500')             
+
+        elif (actionName == 'launchgame'):
+            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+            gameId = args['gameid'][0]
+            gameType = args['gametype'][0]
+
+            if (gameType == "1"):
+                xbmc.executebuiltin("ActivateWindow(busydialog)")
+                AlphaUIUtils.LaunchSteamGame(unicode(gameId))
+                time.sleep(15)
+                xbmc.executebuiltin("Dialog.Close(busydialog)")
+
+            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+            url = build_url({'mode': 'folder', 'action': 'games'})
+            xbmc.executebuiltin('Container.Refresh("' + url + '")')
+    elif (mode[0] == 'context'): 
+        import AlphaUIUtils      
+        actionName = args['action'][0]
+        menuActionName = ""
+
         try:
-            AlphaUIUtils.LaunchSteam()
+            if (args['menuaction']):
+                menuActionName = args['menuaction'][0]
         except:
             pass
-    elif (actionName == 'findgames'):
-        findGames()
-    elif (actionName == 'games'):
-        xbmcplugin.addSortMethod(addon_handle, xbmcplugin.SORT_METHOD_LABEL)
-        games = getGames()
 
-        if (menuActionName == 'addtofavorites'):
-            if (games):
-                for game in games:
-                    if (game.gameId == args['gameid'][0]):
-                        addToFavorite(game)
-                        break;
-        elif (menuActionName == 'removefromfavorites'):
-            if (games):
-                for game in games:
-                    if (game.gameId == args['gameid'][0]):
-                        removeFromFavorite(game)
-                        break;
-        elif (menuActionName == 'edittitle'):
-            if (games):
-                for game in games:
-                    if (game.gameId == args['gameid'][0]):
-                        dialog = xbmcgui.Dialog()
-                        d = dialog.input(localize(33005),game.title, type=xbmcgui.INPUT_ALPHANUM)
 
-                        if (d):
-                            updateGameInformation(game,'title', d)
+        if (actionName == 'games'):
+
+            games = getGames()
+
+            if (menuActionName == 'addtofavorites'):
+                if (games):
+                    for game in games:
+                        if (game.gameId == args['gameid'][0]):
+                            addToFavorite(game)
                             break;
-        elif (menuActionName == 'editicon'):
-            if (games):
-                for game in games:
-                    if (game.gameId == args['gameid'][0]):
-                        dialog = xbmcgui.Dialog()
-                        d = dialog.browse(2, localize(33007), 'files', '.jpg|.png', True, False, game.thumbImage)
-
-                        if (d):
-                            updateGameInformation(game,'icon', d)
+            elif (menuActionName == 'removefromfavorites'):
+                if (games):
+                    for game in games:
+                        if (game.gameId == args['gameid'][0]):
+                            removeFromFavorite(game)
                             break;
-        elif (menuActionName == 'editfanart'):
-            if (games):
-                for game in games:
-                    if (game.gameId == args['gameid'][0]):
-                        dialog = xbmcgui.Dialog()
-                        d = dialog.browse(2, localize(33008), 'files', '.jpg|.png', True, False, game.fanartImage)
+            elif (menuActionName == 'edittitle'):
+                if (games):
+                    for game in games:
+                        if (game.gameId == args['gameid'][0]):
+                            dialog = xbmcgui.Dialog()
+                            d = dialog.input(localize(33005),game.title, type=xbmcgui.INPUT_ALPHANUM)
 
-                        if (d):
-                            updateGameInformation(game,'fanart', d)
-                            break;
-                        
-        if (games):
-            for game in games:
-                url = build_url({'mode': 'folder', 'action': 'launchgame', 'gameid': game.gameId, 'gametype': game.type})
-                li = xbmcgui.ListItem(game.title, iconImage=game.thumbImage)
-                li.setProperty('Fanart_Image', game.fanartImage)
-                addContextMenu(game,li)
-                xbmcplugin.addDirectoryItem(handle=addon_handle, url=url, listitem=li)
-            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)    
-    elif (actionName == 'launchgame'):
-        gameId = args['gameid'][0]
-        gameType = args['gametype'][0]
+                            if (d):
+                                updateGameInformation(game,'title', d)
+                                break;
+            elif (menuActionName == 'editicon'):
+                if (games):
+                    for game in games:
+                        if (game.gameId == args['gameid'][0]):
+                            dialog = xbmcgui.Dialog()
+                            d = dialog.browse(2, localize(33007), 'files', '.jpg|.png', True, False, game.thumbImage)
 
-        if (gameType == "1"):
-            AlphaUIUtils.LaunchSteamGame(unicode(gameId))
+                            if (d):
+                                updateGameInformation(game,'icon', d)
+                                break;
+            elif (menuActionName == 'editfanart'):
+                if (games):
+                    for game in games:
+                        if (game.gameId == args['gameid'][0]):
+                            dialog = xbmcgui.Dialog()
+                            d = dialog.browse(2, localize(33008), 'files', '.jpg|.png', True, False, game.fanartImage)
+
+                            if (d):
+                                updateGameInformation(game,'fanart', d)
+                                break;                       
+
+            xbmcplugin.endOfDirectory(addon_handle, cacheToDisc=False)
+            url = build_url({'mode': 'folder', 'action': 'games'})
+            xbmc.executebuiltin('Container.Refresh("' + url + '")')

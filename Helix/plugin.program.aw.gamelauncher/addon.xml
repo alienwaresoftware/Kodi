@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.aw.gamelauncher" name="Hive Game Launcher" version="0.0.4" provider-name="Alienware">
+<addon id="plugin.program.aw.gamelauncher" name="HiveMind Game Launcher" version="1.0.3" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>executable</provides>
@@ -9,7 +10,47 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <disclaimer>For Kodi Helix</disclaimer>
-        <summary lang="en">Hive Game Launcher</summary>
-        <description lang="en">Hive Game Launcher</description>
+        <summary lang="en">HiveMind Game Launcher</summary>
+        <summary lang="ar">HiveMind مشغل ألعاب</summary>
+        <summary lang="pt_BR">Inicializador de jogo HiveMind</summary>
+        <summary lang="bg">Стартиране на игри на HiveMind</summary>
+        <summary lang="da">HiveMind spilstarter</summary>
+        <summary lang="nl">HiveMind-opstartprogramma voor spellen</summary>
+        <summary lang="fi">HiveMind pelien käynnistysohjelma</summary>
+        <summary lang="fr">Lanceur de jeux HiveMind</summary>
+        <summary lang="de">HiveMind-Spielestartprogramm</summary>
+        <summary lang="hu">HiveMind játék indító</summary>
+        <summary lang="pt">Iniciador de Jogos HiveMind</summary>
+        <summary lang="it">Game launcher HiveMind</summary>
+        <summary lang="ja">HiveMind ゲームランチャー</summary>
+        <summary lang="ko">HiveMind 게임 실행기</summary>
+        <summary lang="no">HiveMind-spilloppstart</summary>
+        <summary lang="pl">HiveMind Game Launcher</summary>
+        <summary lang="ru">Модуль запуска игры HiveMind</summary>
+        <summary lang="zh">HiveMind Game Launcher</summary>
+        <summary lang="es">Iniciador de juegos de HiveMind</summary>
+        <summary lang="sv">HiveMind Spelstartprogram</summary>
+        <summary lang="zh_TW">HiveMind 遊戲啟動器</summary>      
+        <description lang="en">HiveMind Game Launcher</description>
+        <description lang="ar">HiveMind مشغل ألعاب</description>
+        <description lang="pt_BR">Inicializador de jogo HiveMind</description>
+        <description lang="bg">Стартиране на игри на HiveMind</description>
+        <description lang="da">HiveMind spilstarter</description>
+        <description lang="nl">HiveMind-opstartprogramma voor spellen</description>
+        <description lang="fi">HiveMind pelien käynnistysohjelma</description>
+        <description lang="fr">Lanceur de jeux HiveMind</description>
+        <description lang="de">HiveMind-Spielestartprogramm</description>
+        <description lang="hu">HiveMind játék indító</description>
+        <description lang="pt">Iniciador de Jogos HiveMind</description>
+        <description lang="it">Game launcher HiveMind</description>
+        <description lang="ja">HiveMind ゲームランチャー</description>
+        <description lang="ko">HiveMind 게임 실행기</description>
+        <description lang="no">HiveMind-spilloppstart</description>
+        <description lang="pl">HiveMind Game Launcher</description>
+        <description lang="ru">Модуль запуска игры HiveMind</description>
+        <description lang="zh">HiveMind Game Launcher</description>
+        <description lang="es">Iniciador de juegos de HiveMind</description>
+        <description lang="sv">HiveMind Spelstartprogram</description>
+        <description lang="zh_TW">HiveMind 遊戲啟動器</description>
     </extension>
 </addon>

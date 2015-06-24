@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "Szeretné telepíteni a HiveMind alapkomponenseit?"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "Ezek a komponensek szükségesek a HiveMind minden előnyének kihasználásához."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "Kérem, várja meg az HiveMind komponenseinek telepítését"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "Az HiveMind központi komponensei nem telepíthetők"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "Kilépő kód = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "A telepítés befejezéséhez újra kell indítani a számítógépet."
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "Szeretné újraindítani most a rendszert?"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "A HiveMind alapkomponenseinek új verziója áll rendelkezésre."
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "Szeretne most frissíteni?"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "Aktuális verzió"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "Új verzió"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "A HiveMind Core Components telepíteni kell futtatni ezt addon."

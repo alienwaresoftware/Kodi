@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.aw.gamelauncher" name="Hive Game Launcher" version="0.0.4" provider-name="Alienware">
+<addon id="plugin.program.aw.gamelauncher" name="HiveMind Game Launcher" version="1.0.3" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>executable</provides>
@@ -10,28 +11,69 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <disclaimer>For Kodi Helix</disclaimer>
-        <summary lang="en">Hive Game Launcher</summary>
-        <description lang="en">Hive Game Launcher</description>
+        <summary lang="en">HiveMind Game Launcher</summary>
+        <summary lang="ar">HiveMind مشغل ألعاب</summary>
+        <summary lang="pt_BR">Inicializador de jogo HiveMind</summary>
+        <summary lang="bg">Стартиране на игри на HiveMind</summary>
+        <summary lang="da">HiveMind spilstarter</summary>
+        <summary lang="nl">HiveMind-opstartprogramma voor spellen</summary>
+        <summary lang="fi">HiveMind pelien käynnistysohjelma</summary>
+        <summary lang="fr">Lanceur de jeux HiveMind</summary>
+        <summary lang="de">HiveMind-Spielestartprogramm</summary>
+        <summary lang="hu">HiveMind játék indító</summary>
+        <summary lang="pt">Iniciador de Jogos HiveMind</summary>
+        <summary lang="it">Game launcher HiveMind</summary>
+        <summary lang="ja">HiveMind ゲームランチャー</summary>
+        <summary lang="ko">HiveMind 게임 실행기</summary>
+        <summary lang="no">HiveMind-spilloppstart</summary>
+        <summary lang="pl">HiveMind Game Launcher</summary>
+        <summary lang="ru">Модуль запуска игры HiveMind</summary>
+        <summary lang="zh">HiveMind Game Launcher</summary>
+        <summary lang="es">Iniciador de juegos de HiveMind</summary>
+        <summary lang="sv">HiveMind Spelstartprogram</summary>
+        <summary lang="zh_TW">HiveMind 遊戲啟動器</summary>
+        <description lang="en">HiveMind Game Launcher</description>
+        <description lang="ar">HiveMind مشغل ألعاب</description>
+        <description lang="pt_BR">Inicializador de jogo HiveMind</description>
+        <description lang="bg">Стартиране на игри на HiveMind</description>
+        <description lang="da">HiveMind spilstarter</description>
+        <description lang="nl">HiveMind-opstartprogramma voor spellen</description>
+        <description lang="fi">HiveMind pelien käynnistysohjelma</description>
+        <description lang="fr">Lanceur de jeux HiveMind</description>
+        <description lang="de">HiveMind-Spielestartprogramm</description>
+        <description lang="hu">HiveMind játék indító</description>
+        <description lang="pt">Iniciador de Jogos HiveMind</description>
+        <description lang="it">Game launcher HiveMind</description>
+        <description lang="ja">HiveMind ゲームランチャー</description>
+        <description lang="ko">HiveMind 게임 실행기</description>
+        <description lang="no">HiveMind-spilloppstart</description>
+        <description lang="pl">HiveMind Game Launcher</description>
+        <description lang="ru">Модуль запуска игры HiveMind</description>
+        <description lang="zh">HiveMind Game Launcher</description>
+        <description lang="es">Iniciador de juegos de HiveMind</description>
+        <description lang="sv">HiveMind Spelstartprogram</description>
+        <description lang="zh_TW">HiveMind 遊戲啟動器</description>
     </extension>
 </addon>
 
-<addon id="repository.helix.alienware" name="Alienware's Hive Repo (Helix)" version="1.1.4" provider-name="Alienware">
-        <extension point="xbmc.addon.repository" name="Alienware's Helix addons">
-                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml</info>
-                <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml.md5</checksum>
-                <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Helix</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-                <summary>Alienware's Hive Repo (Helix)</summary>
-                <description>Alienware's Hive Repo (Helix)</description>
-                <disclaimer></disclaimer>
-                <platform>all</platform>
-        </extension>
+<addon id="repository.helix.alienware" name="Alienware's HiveMind Repo (Helix)" version="1.1.11" provider-name="Alienware">
+  <extension point="xbmc.addon.repository" name="Alienware's Helix addons">
+    <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml</info>
+    <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml.md5</checksum>
+    <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Helix</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Alienware's HiveMind Repo (Helix)</summary>
+    <description>Alienware's HiveMind Repo (Helix)</description>
+    <disclaimer></disclaimer>
+    <platform>all</platform>
+  </extension>
 </addon>
 
-<addon id="script.aw.steam.launcher" name="Hive Steam Launcher" version="0.0.2" provider-name="Alienware">
+<addon id="script.aw.steam.launcher" name="HiveMind Steam Launcher" version="1.0.2" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
     </requires>
     <extension point="xbmc.python.script" library="launch_steam.py">
         <provides>game executable</provides>
@@ -50,25 +92,66 @@
 </addon>
 
 <addon  id="script.module.aw.devicesettings"
-        name="Hive Device Settings"
-        version="0.13.0"
+        name="HiveMind Device Settings"
+        version="1.0.3"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="service.aw.customizations"/>
   </requires>
   <extension point="xbmc.python.script" library="devicesettings.py">
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Device Settings</summary>
-    <description lang="en">Hive Device Settings</description>
+    <summary lang="en">HiveMind Device Settings</summary>
+    <summary lang="ar">HiveMind إعدادات جهاز</summary>
+    <summary lang="pt_BR">Configurações do dispositivo HiveMind</summary>
+    <summary lang="bg">Настройки на устройството HiveMind</summary>
+    <summary lang="da">HiveMind enhedsindstillinger</summary>
+    <summary lang="nl">HiveMind apparaatinstellingen</summary>
+    <summary lang="fi">HiveMind laiteasetukset</summary>
+    <summary lang="fr">Paramètres du périphérique HiveMind</summary>
+    <summary lang="de">HiveMind-Geräteeinstellungen</summary>
+    <summary lang="hu">HiveMind eszközbeállítások</summary>
+    <summary lang="pt">Definições do dispositivo HiveMind</summary>
+    <summary lang="it">Impostazioni dispositivo HiveMind</summary>
+    <summary lang="ja">HiveMind デバイス設定</summary>
+    <summary lang="ko">HiveMind 장치 설정</summary>
+    <summary lang="no">HiveMind-enhetsinnstillinger</summary>
+    <summary lang="pl">Ustawienia urządzeń HiveMind</summary>
+    <summary lang="ru">Параметры устройств HiveMind</summary>
+    <summary lang="zh">HiveMind 设备设置</summary>
+    <summary lang="es">Configuración de dispositivo de HiveMind</summary>
+    <summary lang="sv">HiveMind Enhetsinställningar</summary>
+    <summary lang="zh_TW">HiveMind 裝置設定</summary>
+    <description lang="en">HiveMind Device Settings</description>
+    <description lang="ar">HiveMind إعدادات جهاز</description>
+    <description lang="pt_BR">Configurações do dispositivo HiveMind</description>
+    <description lang="bg">Настройки на устройството HiveMind</description>
+    <description lang="da">HiveMind enhedsindstillinger</description>
+    <description lang="nl">HiveMind apparaatinstellingen</description>
+    <description lang="fi">HiveMind laiteasetukset</description>
+    <description lang="fr">Paramètres du périphérique HiveMind</description>
+    <description lang="de">HiveMind-Geräteeinstellungen</description>
+    <description lang="hu">HiveMind eszközbeállítások</description>
+    <description lang="pt">Definições do dispositivo HiveMind</description>
+    <description lang="it">Impostazioni dispositivo HiveMind</description>
+    <description lang="ja">HiveMind デバイス設定</description>
+    <description lang="ko">HiveMind 장치 설정</description>
+    <description lang="no">HiveMind-enhetsinnstillinger</description>
+    <description lang="pl">Ustawienia urządzeń HiveMind</description>
+    <description lang="ru">Параметры устройств HiveMind</description>
+    <description lang="zh">HiveMind 设备设置</description>
+    <description lang="es">Configuración de dispositivo de HiveMind</description>
+    <description lang="sv">HiveMind Enhetsinställningar</description>
+    <description lang="zh_TW">HiveMind 裝置設定</description>
   </extension>
 </addon>
 
 <addon  id="script.service.aw.devicesettings"
-        name="Hive Device Settings Service"
-        version="0.11.0"
+        name="HiveMind Device Settings Service"
+        version="1.0.2"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -78,14 +161,55 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Device Settings Service</summary>
-    <description lang="en">Hive Device Settings Service</description>
+    <summary lang="en">HiveMind Device Settings Service</summary>
+    <summary lang="ar">HiveMind خدمة إعدادات جهاز</summary>
+    <summary lang="pt_BR">Serviço de configurações do dispositivo HiveMind</summary>
+    <summary lang="bg">Услуга за настройка на устройството HiveMind</summary>
+    <summary lang="da">HiveMind enhedsindstillingsservice</summary>
+    <summary lang="nl">Service voor HiveMind-apparaatinstellingen</summary>
+    <summary lang="fi">HiveMind laiteasetuspalvelu</summary>
+    <summary lang="fr">Service de configuration du périphérique HiveMind</summary>
+    <summary lang="de">HiveMind-Geräteeinstellungsdienst</summary>
+    <summary lang="hu">HiveMind eszközbeállítási szolgáltatás</summary>
+    <summary lang="pt">Serviço de configurações do dispositivo HiveMind</summary>
+    <summary lang="it">Servizio impostazioni dispositivo HiveMind</summary>
+    <summary lang="ja">HiveMind デバイス設定サービス</summary>
+    <summary lang="ko">HiveMind 장치 설정 서비스</summary>
+    <summary lang="no">HiveMind-enhetsinnstillingstjeneste</summary>
+    <summary lang="pl">Usługa konfigurowania urządzeń HiveMind</summary>
+    <summary lang="ru">Служба параметров устройств HiveMind</summary>
+    <summary lang="zh">HiveMind 设备设置服务</summary>
+    <summary lang="es">Servicio de configuración de dispositivo de HiveMind</summary>
+    <summary lang="sv">HiveMind Enhetsinställningstjänst</summary>
+    <summary lang="zh_TW">HiveMind 裝置設定服務</summary>
+    <description lang="en">HiveMind Device Settings Service</description>
+    <description lang="ar">HiveMind خدمة إعدادات جهاز</description>
+    <description lang="pt_BR">Serviço de configurações do dispositivo HiveMind</description>
+    <description lang="bg">Услуга за настройка на устройството HiveMind</description>
+    <description lang="da">HiveMind enhedsindstillingsservice</description>
+    <description lang="nl">Service voor HiveMind-apparaatinstellingen</description>
+    <description lang="fi">HiveMind laiteasetuspalvelu</description>
+    <description lang="fr">Service de configuration du périphérique HiveMind</description>
+    <description lang="de">HiveMind-Geräteeinstellungsdienst</description>
+    <description lang="hu">HiveMind eszközbeállítási szolgáltatás</description>
+    <description lang="pt">Serviço de configurações do dispositivo HiveMind</description>
+    <description lang="it">Servizio impostazioni dispositivo HiveMind</description>
+    <description lang="ja">HiveMind デバイス設定サービス</description>
+    <description lang="ko">HiveMind 장치 설정 서비스</description>
+    <description lang="no">HiveMind-enhetsinnstillingstjeneste</description>
+    <description lang="pl">Usługa konfigurowania urządzeń HiveMind</description>
+    <description lang="ru">Служба параметров устройств HiveMind</description>
+    <description lang="zh">HiveMind 设备设置服务</description>
+    <description lang="es">Servicio de configuración de dispositivo de HiveMind</description>
+    <description lang="sv">HiveMind Enhetsinställningstjänst</description>
+    <description lang="zh_TW">HiveMind 裝置設定服務</description>
+
   </extension>
 </addon>
 
 <addon  id="service.aw.backgrounds"
-        name="Hive Backgrounds"
-        version="0.12.0"
+        name="HiveMind Backgrounds"
+        version="1.0.2"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -96,14 +220,54 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Backgrounds</summary>
-    <description lang="en">Hive Backgrounds</description>
+    <summary lang="en">HiveMind Backgrounds</summary>
+    <summary lang="ar">HiveMind خلفيات</summary>
+    <summary lang="pt_BR">Planos de fundo HiveMind</summary>
+    <summary lang="bg">Фонове на HiveMind</summary>
+    <summary lang="da">HiveMind baggrunde</summary>
+    <summary lang="nl">HiveMind-achtergronden</summary>
+    <summary lang="fi">HiveMind taustakuvat</summary>
+    <summary lang="fr">Arrière-plans HiveMind</summary>
+    <summary lang="de">HiveMind-Hintergründe</summary>
+    <summary lang="hu">HiveMind hátterek</summary>
+    <summary lang="pt">Fundos HiveMind</summary>
+    <summary lang="it">Sfondi HiveMind</summary>
+    <summary lang="ja">HiveMind 背景</summary>
+    <summary lang="ko">HiveMind 배경</summary>
+    <summary lang="no">HiveMind-bakgrunner</summary>
+    <summary lang="pl">Tła HiveMind</summary>
+    <summary lang="ru">Фоны HiveMind</summary>
+    <summary lang="zh">HiveMind 背景</summary>
+    <summary lang="es">Fondos de HiveMind</summary>
+    <summary lang="sv">HiveMind Bakgrunder</summary>
+    <summary lang="zh_TW">HiveMind 背景</summary>
+    <description lang="en">HiveMind Backgrounds</description>
+    <description lang="ar">HiveMind خلفيات</description>
+    <description lang="pt_BR">Planos de fundo HiveMind</description>
+    <description lang="bg">Фонове на HiveMind</description>
+    <description lang="da">HiveMind baggrunde</description>
+    <description lang="nl">HiveMind-achtergronden</description>
+    <description lang="fi">HiveMind taustakuvat</description>
+    <description lang="fr">Arrière-plans HiveMind</description>
+    <description lang="de">HiveMind-Hintergründe</description>
+    <description lang="hu">HiveMind hátterek</description>
+    <description lang="pt">Fundos HiveMind</description>
+    <description lang="it">Sfondi HiveMind</description>
+    <description lang="ja">HiveMind 背景</description>
+    <description lang="ko">HiveMind 배경</description>
+    <description lang="no">HiveMind-bakgrunner</description>
+    <description lang="pl">Tła HiveMind</description>
+    <description lang="ru">Фоны HiveMind</description>
+    <description lang="zh">HiveMind 背景</description>
+    <description lang="es">Fondos de HiveMind</description>
+    <description lang="sv">HiveMind Bakgrunder</description>
+    <description lang="zh_TW">HiveMind 背景</description>
   </extension>
 </addon>
 
 <addon  id="service.aw.customizations"
-        name="Hive Customizations"
-        version="0.14.0"
+        name="HiveMind Customizations"
+        version="1.0.3"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -114,14 +278,54 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Customizations</summary>
-    <description lang="en">Hive Customizations</description>
+    <summary lang="en">HiveMind Customizations</summary>
+    <summary lang="ar">HiveMind تخصيصات</summary>
+    <summary lang="pt_BR">Personalizações HiveMind</summary>
+    <summary lang="bg">Персонализации на HiveMind</summary>
+    <summary lang="da">HiveMind tilpasninger</summary>
+    <summary lang="nl">HiveMind-aanpassingen</summary>
+    <summary lang="fi">HiveMind mukautukset</summary>
+    <summary lang="fr">Personnalisation HiveMind</summary>
+    <summary lang="de">HiveMind-Anpassungen</summary>
+    <summary lang="hu">HiveMind testreszabás</summary>
+    <summary lang="pt">Personalizações HiveMind</summary>
+    <summary lang="it">Personalizzazioni HiveMind</summary>
+    <summary lang="ja">HiveMind カスタマイズ</summary>
+    <summary lang="ko">HiveMind 사용자 지정 항목</summary>
+    <summary lang="no">HiveMind-tilpasninger</summary>
+    <summary lang="pl">Personalizacja HiveMind</summary>
+    <summary lang="ru">Настройки HiveMind</summary>
+    <summary lang="zh">HiveMind 自定义</summary>
+    <summary lang="es">Personalización de HiveMind</summary>
+    <summary lang="sv">HiveMind Anpassningar</summary>
+    <summary lang="zh_TW">HiveMind 自訂</summary>
+    <description lang="en">HiveMind Customizations</description>
+    <description lang="ar">HiveMind تخصيصات</description>
+    <description lang="pt_BR">Personalizações HiveMind</description>
+    <description lang="bg">Персонализации на HiveMind</description>
+    <description lang="da">HiveMind tilpasninger</description>
+    <description lang="nl">HiveMind-aanpassingen</description>
+    <description lang="fi">HiveMind mukautukset</description>
+    <description lang="fr">Personnalisation HiveMind</description>
+    <description lang="de">HiveMind-Anpassungen</description>
+    <description lang="hu">HiveMind testreszabás</description>
+    <description lang="pt">Personalizações HiveMind</description>
+    <description lang="it">Personalizzazioni HiveMind</description>
+    <description lang="ja">HiveMind カスタマイズ</description>
+    <description lang="ko">HiveMind 사용자 지정 항목</description>
+    <description lang="no">HiveMind-tilpasninger</description>
+    <description lang="pl">Personalizacja HiveMind</description>
+    <description lang="ru">Настройки HiveMind</description>
+    <description lang="zh">HiveMind 自定义</description>
+    <description lang="es">Personalización de HiveMind</description>
+    <description lang="sv">HiveMind Anpassningar</description>
+    <description lang="zh_TW">HiveMind 自訂</description>
   </extension>
 </addon>
 
 <addon  id="service.aw.launcher"
-        name="Hive Console Mode"
-        version="0.0.3"
+        name="HiveMind Console Mode"
+        version="1.0.2"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -132,14 +336,54 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Console Mode</summary>
-    <description lang="en">Hive Console Mode</description>
+    <summary lang="en">HiveMind Console Mode</summary>
+    <summary lang="ar">HiveMind وضع وحدة</summary>
+    <summary lang="pt_BR">Modo do console HiveMind</summary>
+    <summary lang="bg">Режим на конзола HiveMind</summary>
+    <summary lang="da">HiveMind kontrolpaneltilstand</summary>
+    <summary lang="nl">HiveMind-consolemodus</summary>
+    <summary lang="fi">HiveMind konsolitila</summary>
+    <summary lang="fr">Mode console HiveMind</summary>
+    <summary lang="de">HiveMind-Konsolenmodus</summary>
+    <summary lang="hu">HiveMind konzol üzemmód</summary>
+    <summary lang="pt">Modo Consola HiveMind</summary>
+    <summary lang="it">Modalità console HiveMind</summary>
+    <summary lang="ja">HiveMind コンソールモード</summary>
+    <summary lang="ko">HiveMind 콘솔 모드</summary>
+    <summary lang="no">HiveMind-konsollmodus</summary>
+    <summary lang="pl">Tryb konsoli HiveMind</summary>
+    <summary lang="ru">Режим консоли HiveMind</summary>
+    <summary lang="zh">HiveMind 控制台模式</summary>
+    <summary lang="es">Modo de consola de HiveMind</summary>
+    <summary lang="sv">HiveMind Konsolläge</summary>
+    <summary lang="zh_TW">HiveMind 控制台模式</summary>
+    <description lang="en">HiveMind Console Mode</description>
+    <description lang="ar">HiveMind وضع وحدة</description>
+    <description lang="pt_BR">Modo do console HiveMind</description>
+    <description lang="bg">Режим на конзола HiveMind</description>
+    <description lang="da">HiveMind kontrolpaneltilstand</description>
+    <description lang="nl">HiveMind-consolemodus</description>
+    <description lang="fi">HiveMind konsolitila</description>
+    <description lang="fr">Mode console HiveMind</description>
+    <description lang="de">HiveMind-Konsolenmodus</description>
+    <description lang="hu">HiveMind konzol üzemmód</description>
+    <description lang="pt">Modo Consola HiveMind</description>
+    <description lang="it">Modalità console HiveMind</description>
+    <description lang="ja">HiveMind コンソールモード</description>
+    <description lang="ko">HiveMind 콘솔 모드</description>
+    <description lang="no">HiveMind-konsollmodus</description>
+    <description lang="pl">Tryb konsoli HiveMind</description>
+    <description lang="ru">Режим консоли HiveMind</description>
+    <description lang="zh">HiveMind 控制台模式</description>
+    <description lang="es">Modo de consola de HiveMind</description>
+    <description lang="sv">HiveMind Konsolläge</description>
+    <description lang="zh_TW">HiveMind 控制台模式</description>
   </extension>
 </addon>
 
 <addon  id="service.aw.themes"
-        name="Hive Themes"
-        version="0.13.0"
+        name="HiveMind Themes"
+        version="1.0.6"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -150,15 +394,55 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Themes</summary>
-    <description lang="en">Hive Themes</description>
+    <summary lang="en">HiveMind Themes</summary>
+    <summary lang="ar">HiveMind سمات</summary>
+    <summary lang="pt_BR">Temas HiveMind</summary>
+    <summary lang="bg">Теми на HiveMind</summary>
+    <summary lang="da">HiveMind temaer</summary>
+    <summary lang="nl">HiveMind-thema's</summary>
+    <summary lang="fi">HiveMind teemat</summary>
+    <summary lang="fr">Thèmes HiveMind</summary>
+    <summary lang="de">HiveMind-Designs</summary>
+    <summary lang="hu">HiveMind témák</summary>
+    <summary lang="pt">Temas HiveMind</summary>
+    <summary lang="it">Temi HiveMind</summary>
+    <summary lang="ja">HiveMind テーマ</summary>
+    <summary lang="ko">HiveMind 테마</summary>
+    <summary lang="no">HiveMind-temaer</summary>
+    <summary lang="pl">Motywy HiveMind</summary>
+    <summary lang="ru">Темы HiveMind</summary>
+    <summary lang="zh">HiveMind 主题</summary>
+    <summary lang="es">Temas de HiveMind</summary>
+    <summary lang="sv">HiveMind Teman</summary>
+    <summary lang="zh_TW">HiveMind 主題</summary>
+    <description lang="en">HiveMind Themes</description>
+    <description lang="ar">HiveMind سمات</description>
+    <description lang="pt_BR">Temas HiveMind</description>
+    <description lang="bg">Теми на HiveMind</description>
+    <description lang="da">HiveMind temaer</description>
+    <description lang="nl">HiveMind-thema's</description>
+    <description lang="fi">HiveMind teemat</description>
+    <description lang="fr">Thèmes HiveMind</description>
+    <description lang="de">HiveMind-Designs</description>
+    <description lang="hu">HiveMind témák</description>
+    <description lang="pt">Temas HiveMind</description>
+    <description lang="it">Temi HiveMind</description>
+    <description lang="ja">HiveMind テーマ</description>
+    <description lang="ko">HiveMind 테마</description>
+    <description lang="no">HiveMind-temaer</description>
+    <description lang="pl">Motywy HiveMind</description>
+    <description lang="ru">Темы HiveMind</description>
+    <description lang="zh">HiveMind 主题</description>
+    <description lang="es">Temas de HiveMind</description>
+    <description lang="sv">HiveMind Teman</description>
+    <description lang="zh_TW">HiveMind 主題</description>
   </extension>
 </addon>
 
 <addon
-  id="skin.hive"
-  version="0.13.2"
-  name="The Hive Interface"
+  id="skin.hivemind"
+  version="1.0.6"
+  name="The HiveMind Interface"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
@@ -177,14 +461,48 @@
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Hive by Alienware, Inc.</summary>
-    <summary lang="en_AU">Hive by Alienware, Inc.</summary>
-    <summary lang="en_NZ">Hive by Alienware, Inc.</summary>
-    <summary lang="en_US">Hive by Alienware, Inc.</summary>
-    <description lang="en">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
-    <description lang="en_AU">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
-    <description lang="en_NZ">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
-    <description lang="en_US">Hive is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
+    <summary lang="en">HiveMind by Alienware, Inc.</summary>
+    <summary lang="ar">HiveMind من شركة Alienware, Inc.</summary>
+    <summary lang="pt_BR">HiveMind por Alienware, Inc.</summary>
+    <summary lang="bg">HiveMind от Alienware, Inc.</summary>
+    <summary lang="da">HiveMind fra Alienware, Inc.</summary>
+    <summary lang="nl">HiveMind van Alienware, Inc.</summary>
+    <summary lang="fi">HiveMind by Alienware, Inc.</summary>
+    <summary lang="fr">HiveMind de Alienware, Inc.</summary>
+    <summary lang="de">HiveMind by Alienware, Inc.</summary>
+    <summary lang="hu">HiveMind by Alienware, Inc.</summary>
+    <summary lang="pt">HiveMind pela Alienware, Inc.</summary>
+    <summary lang="it">HiveMind di Alienware, Inc.</summary>
+    <summary lang="ja">Alienware 社による HiveMind</summary>
+    <summary lang="ko">HiveMind by Alienware, Inc.</summary>
+    <summary lang="no">HiveMind fra Alienware, Inc.</summary>
+    <summary lang="pl">HiveMind by Alienware, Inc.</summary>
+    <summary lang="ru">HiveMind от компании Alienware, Inc.</summary>
+    <summary lang="zh">HiveMind by Alienware, Inc.</summary>
+    <summary lang="es">HiveMind de Alienware, Inc.</summary>
+    <summary lang="sv">HiveMind av Alienware, Inc.</summary>
+    <summary lang="zh_TW">HiveMind 由 Alienware, Inc. 提供</summary>
+    <description lang="en">HiveMind is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
+    <description lang="ar">HiveMind هو إصدار معدل من Confluence. لقد أجرت Alienware بعض التعديلات التي تشمل تحسينات توفر الوصول إلى وظائف الأجهزة والقدرة على تشغيل بوابات الألعاب مثل Steam. كما تشمل القدرة على استخدام أجهزة Xbox 360 أو Xbox One أو Dual Shock 4 أو Steam Controller كماوس ولوحة مفاتيح.</description>
+    <description lang="pt_BR">HiveMind é uma versão modificada do Confluence. A Alienware modificou a aparência para incluir melhorias que fornecem acesso à funcionalidade de hardware e à capacidade de executar portais de jogos como o Steam. Também inclui a capacidade de usar um Xbox 360, Xbox One, Dual Shock 4 ou Controlador Steam como um mouse e um teclado.</description>
+    <description lang="bg">HiveMind е модифицирана версия на Confluence. Alienware е модифицирала кожите, така че да включват разширения, които да осигуряват достъп до функционалност на хардуера и възможност да се стартират портали за игри като Steam. Освен това включва възможността за използване на Xbox 360, Xbox One, Dual Shock 4 или Steam контролер като мишка или клавиатура.</description>
+    <description lang="da">HiveMind er en modificeret version af Confluence. Alienware har modificeret temaet, så det omfatter opgraderinger, der giver adgang til hardware-funktionalitet og muligheden for at starte spilleportaler, så som Steam. Det omfatter også muligheden for at bruge Xbox 360, Xbox One, Dual Shock 4, eller Steam Controller som mus og tastatur.</description>
+    <description lang="nl">HiveMind is een aangepaste versie van Confluence. Alienware heeft de skin aangepast om verbeteringen toe te voegen voor toegang tot hardwarefuncaties en de mogelijkheid om gameportals, zoals Steam, te starten. Bovendien omvat het de mogelijkheid om een Xbox 360, Xbox One, Dual Shock 4 of Steam Controller als muis en toetsenbord te gebruiken.</description>
+    <description lang="fi">HiveMind on muunneltu versio Confluencesta. Alienware on muuttanut ulkoasua sisältämään parannuksia, jotka tarjoavat pääsyn laitteistotoimintoihin ja mahdollisuuden käynnistää peliportaaleja, kuten Steam. Se sisältää myös mahdollisuuden käyttää Xbox 360, Xbox One, Dual Shock 4 ja Steam-ohjaimia hiirenä ja näppäimistönä.</description>
+    <description lang="fr">HiveMind est une version modifiée de Confluence. Alienware a modifié l’apparence pour inclure des améliorations qui donnent accès aux fonctionnalités du matériel et la possibilité de lancer des portails de jeux-vidéos tels que Steam. Cette interface inclut également la possibilité d’utiliser une manette Xbox 360, Xbox One, Dual Shock 4 ou Steam à la place du clavier et de la souris.</description>
+    <description lang="de">HiveMind ist eine modifizierte Version von Confluence. Das Design von Alienware wurde modifiziert und umfasst Verbesserungen, die den Zugriff auf Hardwarefunktionen und den Start von Spieleportalen, wie Steam, ermöglichen. Zudem können Sie nun eine Xbox 360, Xbox One, Dual Shock 4 oder Steam Controller als Maus und Tastatur verwenden.</description>
+    <description lang="hu">Az HiveMind a Confluence egy módosított változata. Az Alienware kibővítette a skineket úgy, hogy hozzáférést biztosítsanak a hardver funkciókhoz, valamint lehetővé teszik az olyan játékportálok elindítását, mint a Steam. Lehetővé teszi továbbá Xbox 360, Xbox One, Dual Shock 4 vagy Steam távvezérlők használatát egérként és billentyűzetként.</description>
+    <description lang="pt">O HiveMind é uma versão modificada do Confluence. A Alienware alterou a máscara para incluir melhoramentos que forneçam acesso às funções do hardware e a capacidade de iniciar portais de jogos tais como o Steam. Isto também inclui a capacidade de usar uma Xbox 360, Xbox One, Dual Shock 4, ou o Controlador Steam como rato ou teclado.</description>
+    <description lang="it">HiveMind è una versione modificata di Confluence. Alienware ha modificato l'interfaccia per includere miglioramenti che offrono accesso alle funzionalità hardware e capacità di avviare portali di gioco come Steam. Include inoltre la possibilità di utilizzare un controller per Xbox 360, Xbox One, Dual Shock 4 o Steam come mouse e tastiera.</description>
+    <description lang="ja">HiveMind は Confluence の改良版です。 Alienware はスキンを修正することで、ハードウェアの機能性と Steam のようなゲームポータルを起動する機能を強化しました。 また、Xbox 360、Xbox One、Dual Shock 4、Steam コントローラをマウスやキーボードとして使用することもできます。</description>
+    <description lang="ko">HiveMind는 Confluence의 변경된 버전입니다. Alienware는 하드웨어 기능에 대한 액세스를 제공하고 Steam과 같은 게임 포털을 실행할 수 있도록 스킨을 변경했습니다. 또한 Xbox 360, Xbox One, Dual Shock 4 또는 Steam Controller를 마우스와 키보드처럼 사용할 수 있는 기능을 추가했습니다.</description>
+    <description lang="no">HiveMind er en modifisert versjon av Confluence. Alienware har modifisert huden for å inkludere forbedringer som gir tilgang til maskinevarefunksjonalitet og og muligheten til å starte spillportaler som Steam. Den gjør det også mulig å bruke Xbox 360-, Xbox One-, Dual Shock 4- eller Steam-kontroller som mus eller som tastatur.</description>
+    <description lang="pl">HiveMind jest zmodyfikowaną wersją usługi Confluence. Firma Alienware zmodyfikowała wygląd aplikacji, dodając do niej nowe, przydatne elementy, które zapewniają dostęp do konfiguracji sprzętowej oraz możliwość uruchamiania platform do gier, takich jak Steam. Usługa HiveMind pozwala również wykorzystywać kontrolery do konsol Xbox 360 i Xbox One oraz Dual Shock 4 i Steam Controller do obsługi urządzeń zamiast klawiatury i myszki.</description>
+    <description lang="ru">HiveMind представляет собой усовершенствованную версию Confluence. Компания Alienware усовершенствовала оформление, благодаря чему теперь имеются расширения, обеспечивающие доступ к аппаратной функциональности и возможности запускать такие игровые порталы, как Steam. Помимо этого, появилась возможность использовать Xbox 360, Xbox One, Dual Shock 4 или контроллер Steam в качестве мыши и клавиатуры.</description>
+    <description lang="zh">HiveMind 是 Confluence 的修改版本。 Alienware 已修改皮肤来包含增强功能，这些增强功能提供对硬件功能的访问和启动游戏门户（如 Steam）的能力。 它还包含将 Xbox 360、Xbox One、Dual Shock 4 或 Steam 手柄用作鼠标和键盘的能力。</description>
+    <description lang="es">HiveMind es una versión modificada de Confluence. Alienware ha modificado la skin para incluir mejoras que proporcionan acceso a funcionalidades de hardware y la posibilidad de iniciar portales de juego como Steam. También incluye la posibilidad de utilizar Xbox 360, Xbox One, Dual Shock 4 o Steam Controller como ratón y teclado.</description>
+    <description lang="sv">HiveMind är en modifierad version av Confluence. Alienware har modifierat skalet för att omfatta förbättringar som ger tillgång till maskinvarufunktioner och möjlighet att starta spelportaler såsom Steam. Det inkluderar även möjligheten att använda en Xbox 360-, Xbox One-, Dual Shock 4- eller Steam-kontroller som mus och tangentbord.</description>
+    <description lang="zh_TW">HiveMind 是 Confluence 經過修改的版本。 Alienware 的面板經過修改，加入了提供存取硬體功能的增強，以及啟動 Steam 等遊戲入口網站的功能。 同時還包括了使用 Xbox 360、Xbox One、Dual Shock 4 或 Steam 控制器作為滑鼠和鍵盤的功能。</description>
     <platform>all</platform>
   </extension>
 </addon>

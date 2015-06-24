@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon  id="service.aw.customizations" 
-        name="Hive Customizations" 
-        version="0.14.0" 
+        name="HiveMind Customizations" 
+        version="1.0.3" 
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -12,7 +12,47 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Customizations</summary>
-    <description lang="en">Hive Customizations</description>
+    <summary lang="en">HiveMind Customizations</summary>
+    <summary lang="ar">HiveMind تخصيصات</summary>
+    <summary lang="pt_BR">Personalizações HiveMind</summary>
+    <summary lang="bg">Персонализации на HiveMind</summary>
+    <summary lang="da">HiveMind tilpasninger</summary>
+    <summary lang="nl">HiveMind-aanpassingen</summary>
+    <summary lang="fi">HiveMind mukautukset</summary>
+    <summary lang="fr">Personnalisation HiveMind</summary>
+    <summary lang="de">HiveMind-Anpassungen</summary>
+    <summary lang="hu">HiveMind testreszabás</summary>
+    <summary lang="pt">Personalizações HiveMind</summary>
+    <summary lang="it">Personalizzazioni HiveMind</summary>
+    <summary lang="ja">HiveMind カスタマイズ</summary>
+    <summary lang="ko">HiveMind 사용자 지정 항목</summary>
+    <summary lang="no">HiveMind-tilpasninger</summary>
+    <summary lang="pl">Personalizacja HiveMind</summary>
+    <summary lang="ru">Настройки HiveMind</summary>
+    <summary lang="zh">HiveMind 自定义</summary>
+    <summary lang="es">Personalización de HiveMind</summary>
+    <summary lang="sv">HiveMind Anpassningar</summary>
+    <summary lang="zh_TW">HiveMind 自訂</summary>
+    <description lang="en">HiveMind Customizations</description>
+    <description lang="ar">HiveMind تخصيصات</description>
+    <description lang="pt_BR">Personalizações HiveMind</description>
+    <description lang="bg">Персонализации на HiveMind</description>
+    <description lang="da">HiveMind tilpasninger</description>
+    <description lang="nl">HiveMind-aanpassingen</description>
+    <description lang="fi">HiveMind mukautukset</description>
+    <description lang="fr">Personnalisation HiveMind</description>
+    <description lang="de">HiveMind-Anpassungen</description>
+    <description lang="hu">HiveMind testreszabás</description>
+    <description lang="pt">Personalizações HiveMind</description>
+    <description lang="it">Personalizzazioni HiveMind</description>
+    <description lang="ja">HiveMind カスタマイズ</description>
+    <description lang="ko">HiveMind 사용자 지정 항목</description>
+    <description lang="no">HiveMind-tilpasninger</description>
+    <description lang="pl">Personalizacja HiveMind</description>
+    <description lang="ru">Настройки HiveMind</description>
+    <description lang="zh">HiveMind 自定义</description>
+    <description lang="es">Personalización de HiveMind</description>
+    <description lang="sv">HiveMind Anpassningar</description>
+    <description lang="zh_TW">HiveMind 自訂</description>
   </extension>
 </addon>

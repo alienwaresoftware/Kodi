@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 # Addon Name: Confluence
 # Addon id: skin.confluence
 # Addon Provider: Jezz_X, Team Kodi
@@ -19,37 +19,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr "Do you want to install Hive core components?"
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "Would you like to install The HiveMind Core Components?"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr "This components required to function Hive correctly."
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "These components are required to receive all the benefits of The HiveMind."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr "Please wait while installing Hive core components"
+msgid "Please wait while installing HiveMind core components"
+msgstr "Please wait while installing HiveMind core components"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr "Unable to install Hive core components"
+msgid "Unable to install HiveMind core components"
+msgstr "Unable to install HiveMind core components"
 
 msgctxt "#33004"
 msgid "Exit Code = "
 msgstr "Exit Code = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr "You need to restart your computer to complete the installation"
+msgid "You will need to restart your computer to complete this installation."
+msgstr "You will need to restart your computer to complete this installation."
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr "Do you want to restart the system?"
+msgid "Would you like to restart the system now?"
+msgstr "Would you like to restart the system now?"
 
 msgctxt "#33007"
-msgid "A new verion of Hive core components is available."
-msgstr "A new verion of Hive core components is available."
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "A new version of The HiveMind Core Components is now available!"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
 msgstr "Would you like to upgrade now?"
+
+msgctxt "#33009"
+msgid "Current Version"
+msgstr "Current Version"
+
+msgctxt "#33010"
+msgid "New Version"
+msgstr "New Version"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "The HiveMind Core Components must be installed to run this addon."

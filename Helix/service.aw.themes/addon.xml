@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon  id="service.aw.themes" 
-        name="Hive Themes" 
-        version="0.13.0" 
+        name="HiveMind Themes" 
+        version="1.0.6" 
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -12,7 +12,47 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <minversion>1</minversion>
-    <summary lang="en">Hive Themes</summary>
-    <description lang="en">Hive Themes</description>
+    <summary lang="en">HiveMind Themes</summary>
+    <summary lang="ar">HiveMind سمات</summary>
+    <summary lang="pt_BR">Temas HiveMind</summary>
+    <summary lang="bg">Теми на HiveMind</summary>
+    <summary lang="da">HiveMind temaer</summary>
+    <summary lang="nl">HiveMind-thema's</summary>
+    <summary lang="fi">HiveMind teemat</summary>
+    <summary lang="fr">Thèmes HiveMind</summary>
+    <summary lang="de">HiveMind-Designs</summary>
+    <summary lang="hu">HiveMind témák</summary>
+    <summary lang="pt">Temas HiveMind</summary>
+    <summary lang="it">Temi HiveMind</summary>
+    <summary lang="ja">HiveMind テーマ</summary>
+    <summary lang="ko">HiveMind 테마</summary>
+    <summary lang="no">HiveMind-temaer</summary>
+    <summary lang="pl">Motywy HiveMind</summary>
+    <summary lang="ru">Темы HiveMind</summary>
+    <summary lang="zh">HiveMind 主题</summary>
+    <summary lang="es">Temas de HiveMind</summary>
+    <summary lang="sv">HiveMind Teman</summary>
+    <summary lang="zh_TW">HiveMind 主題</summary>
+    <description lang="en">HiveMind Themes</description>
+    <description lang="ar">HiveMind سمات</description>
+    <description lang="pt_BR">Temas HiveMind</description>
+    <description lang="bg">Теми на HiveMind</description>
+    <description lang="da">HiveMind temaer</description>
+    <description lang="nl">HiveMind-thema's</description>
+    <description lang="fi">HiveMind teemat</description>
+    <description lang="fr">Thèmes HiveMind</description>
+    <description lang="de">HiveMind-Designs</description>
+    <description lang="hu">HiveMind témák</description>
+    <description lang="pt">Temas HiveMind</description>
+    <description lang="it">Temi HiveMind</description>
+    <description lang="ja">HiveMind テーマ</description>
+    <description lang="ko">HiveMind 테마</description>
+    <description lang="no">HiveMind-temaer</description>
+    <description lang="pl">Motywy HiveMind</description>
+    <description lang="ru">Темы HiveMind</description>
+    <description lang="zh">HiveMind 主题</description>
+    <description lang="es">Temas de HiveMind</description>
+    <description lang="sv">HiveMind Teman</description>
+    <description lang="zh_TW">HiveMind 主題</description>
   </extension>
 </addon>

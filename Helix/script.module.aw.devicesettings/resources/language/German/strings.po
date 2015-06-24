@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "Geräteeinstellungen"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "Netzwerk"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "Geräteeinstellungen ändern"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]AUDIOEINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Audioausgabe verwalten"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]ALIENFX-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]AlienFX-Einstellungen verwalten"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]WIRELESS-NETZWERKEINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Wireless-Netzwerk verwalten"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "Audioquelle"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "Audioquelle auswählen"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "Lautsprecherkonfiguration"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "Lautstärke"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "Fehler"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "Audioeinstellung konnte nicht geändert werden. Überprüfen Sie, ob das Audiokabel korrekt angeschlossen ist."
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "Erfolgreich"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "Die Audioausgabe wurde erfolgreich geändert."
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "WLAN"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "Geben Sie das Netzwerkkennwort für {0} ein"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "Verbindung konnte nicht hergestellt werden. Überprüfen Sie das Kennwort und versuchen Sie es erneut."
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "Verbindung zum WLAN-Netzwerk trennen"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "Möchten Sie die Verbindung zu {0} trennen?"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "Die Verbindung konnte nicht getrennt werden. Versuchen Sie es erneut."
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "Nicht bereit"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "Verbunden"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "Ad-hoc-Netzwerk erstellt"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "Verbindung wird getrennt"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "Getrennt"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "Wird zugeordnet"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "Wird gesucht"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "Wird authentifiziert"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "Verbindungsstatus: "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "Nicht verfügbar"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "Lautsprecherkonfiguration auswählen"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]BLUETOOTH-EINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Bluetooth-Gerät verwalten"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "Bluetooth aktivieren"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "Ermittelbarkeit aktivieren"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "Verbunden"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "Gekoppelt"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "Die Lautsprecherkonfiguration wurde erfolgreich geändert."
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "Die Lautsprecherkonfiguration konnte nicht geändert werden."
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "Das Gerät konnte nicht gekoppelt werden."
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "Das Gerät wurde erfolgreich gekoppelt."
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "Kennungen vergleichen."
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "Stimmt dieses Kennwort auf {0} mit diesem überein?"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "Gerät entfernen"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "Möchten Sie {0} entfernen?"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "{0} konnte nicht entfernt werden"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "{0} wurde erfolgreich entfernt"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "Bitte warten ..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "Bitte warten Sie, während {0} gekoppelt wird ..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "Bitte warten Sie, während Dienste für {0} installiert werden ..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "Lautstärke stumm schalten"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "Aktualisierungen"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]AKTUALISIERUNGSEINSTELLUNGEN KONFIGURIEREN[/B][CR][CR]Aktualisierungseinstellungen verwalten"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows-Aktualisierung"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "Nvidia-Aktualisierung"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind-Aktualisierung"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Windows-Aktualisierungseinstellungen"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "Nvidia-Aktualisierungseinstellungen"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "HiveMind-Aktualisierungseinstellungen"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "Jetzt aktualisieren"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "Aktualisierungen steuern"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "Automatische Aktualisierung"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "Benachrichtigen Sie Aktualisierung"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "Manuelle Aktualisierung"

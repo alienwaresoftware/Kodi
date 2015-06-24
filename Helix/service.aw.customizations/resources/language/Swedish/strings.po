@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "Vill du installera grundkomponenterna för HiveMind?"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "Dessa komponenter är nödvändiga för att erhålla alla fördelar med HiveMind."
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "Vänta på att huvudkomponenterna i HiveMind installeras"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "Det gick inte att installera huvudkomponenterna i HiveMind"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "Avslutningskod = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "Du måste starta om datorn för att slutföra installationen."
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "Vill du starta om systemet nu?"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "Det finns en ny version av grundkomponenterna för HiveMind!"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "Vill du uppgradera nu?"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "Nuvarande version"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "Ny version"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "De HiveMind Core Components måste installeras för att köra denna addon."

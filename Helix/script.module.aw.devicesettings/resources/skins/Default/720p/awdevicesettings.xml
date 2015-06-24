@@ -1144,12 +1144,12 @@
             <description>control area</description>
             <orientation>vertical</orientation>
             <width>740</width>
-            <height>72</height>
+            <height>58</height>
             <control type="image">
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(162)</visible>
             </control>
@@ -1157,15 +1157,15 @@
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(162)</visible>
             </control>
             <control type="image">
               <left>20</left>
               <top>5</top>
-              <width>60</width>
-              <height>60</height>
+              <width>48</width>
+              <height>48</height>
               <align>center</align>
               <aligny>center</aligny>
               <texture>alienware/updates/windows.png</texture>
@@ -1174,7 +1174,7 @@
               <left>90</left>
               <top>0</top>
               <width>300</width>
-              <height>70</height>
+              <height>56</height>
               <font>font13</font>
               <textcolor>white</textcolor>
               <align>left</align>
@@ -1186,7 +1186,7 @@
               <right>20</right>
               <top>0</top>
               <width>450</width>
-              <height>70</height>
+              <height>56</height>
               <font>font13</font>
               <textcolor>white</textcolor>
               <align>right</align>
@@ -1198,7 +1198,7 @@
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <onright>101</onright>
               <onleft>101</onleft>
               <onup>166</onup>
@@ -1212,12 +1212,13 @@
             <description>control area</description>
             <orientation>vertical</orientation>
             <width>740</width>
-            <height>72</height>
+            <height>58</height>
+            <visible>false</visible>
             <control type="image">
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(164)</visible>
             </control>
@@ -1225,15 +1226,15 @@
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(164)</visible>
             </control>
             <control type="image">
               <left>20</left>
               <top>5</top>
-              <width>60</width>
-              <height>60</height>
+              <width>48</width>
+              <height>48</height>
               <align>center</align>
               <aligny>center</aligny>
               <texture>alienware/updates/nvidia.png</texture>
@@ -1242,7 +1243,7 @@
               <left>90</left>
               <top>0</top>
               <width>300</width>
-              <height>70</height>
+              <height>56</height>
               <font>font13</font>
               <textcolor>white</textcolor>
               <align>left</align>
@@ -1254,7 +1255,7 @@
               <right>20</right>
               <top>0</top>
               <width>450</width>
-              <height>70</height>
+              <height>56</height>
               <font>font13</font>
               <textcolor>white</textcolor>
               <align>right</align>
@@ -1266,7 +1267,7 @@
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <onright>101</onright>
               <onleft>101</onleft>
               <onup>162</onup>
@@ -1280,12 +1281,12 @@
             <description>control area</description>
             <orientation>vertical</orientation>
             <width>740</width>
-            <height>72</height>
+            <height>58</height>
             <control type="image">
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <texture border="5">alienware/MenuItemNF.png</texture>
               <visible>!Control.HasFocus(166)</visible>
             </control>
@@ -1293,15 +1294,15 @@
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <texture border="5">alienware/MenuItemFO.png</texture>
               <visible>Control.HasFocus(166)</visible>
             </control>
             <control type="image">
               <left>20</left>
               <top>5</top>
-              <width>60</width>
-              <height>60</height>
+              <width>48</width>
+              <height>48</height>
               <align>center</align>
               <aligny>center</aligny>
               <texture>alienware/updates/alienwarehead.png</texture>
@@ -1310,7 +1311,7 @@
               <left>90</left>
               <top>0</top>
               <width>300</width>
-              <height>70</height>
+              <height>56</height>
               <font>font13</font>
               <textcolor>white</textcolor>
               <align>left</align>
@@ -1322,7 +1323,7 @@
               <right>20</right>
               <top>0</top>
               <width>450</width>
-              <height>70</height>
+              <height>56</height>
               <font>font13</font>
               <textcolor>white</textcolor>
               <align>right</align>
@@ -1334,7 +1335,7 @@
               <left>0</left>
               <top>0</top>
               <width>740</width>
-              <height>70</height>
+              <height>56</height>
               <onright>101</onright>
               <onleft>101</onleft>
               <onup>164</onup>

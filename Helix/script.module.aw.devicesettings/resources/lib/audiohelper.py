@@ -24,8 +24,7 @@ class AudioHelper(object):
         #print(selectedIndex)
         #print(self.outputs[selectedIndex].Name)
         try:
-            self.outputs[selectedIndex].SetDefault()
-            return True;
+            return self.outputs[selectedIndex].SetDefault()            
         except:
             print "audiohelper.py::setOutput:", sys.exc_info()[0]
             return False;

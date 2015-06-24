@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "Enhetsinnstillinger"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "Lyd"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "Nettverk"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "Endre enhetsinnstillingene"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]KONFIGURER LYDINNSTILLINGER[/B][CR][CR]Administrer lydutgangen"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]KONFIGURER ALIENFX-INNSTILLINGER[/B][CR][CR]Administrer AlienFX-innstillingene"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]KONFIGURER TRÅDØLSE NETVERKSINNSTILLINGER[/B][CR][CR]Administrer det trådløse nettverket"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "Lydkilde"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "Velg lydkilde"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "Høyttalerkonfigurasjon"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "Volum"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "Feil"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "Kan ikke nedre lydinnstillingen. Kontroller at lydkabelen er koblet riktig."
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "Vellykket"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "Lydutgangen er nå endret."
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "Skriv inn nettverkspassordet for {0}"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "Kan ikke koble til. Kontroller passordet, og prøv på nytt."
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "Koblefra Wifi-nettverket"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "Vil du koble fra {0} ?"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "Kan ikke koble fra. Prøv igjen."
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "Ikke klar"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "Koblet til"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "Ad hoc-nettverk dannet"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "Kobler fra"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "Koblet fra"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "Forbinder"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "Oppdager"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "Autentiserer"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "Tilkoblingsstatus : "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "Ikke tilgjengelig"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "Velg høyttalerkonfigurasjon"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]KONFIGURER BLUETOOTH-INNSTILLINGER[/B][CR][CR]Administrer Bluetooth-enheten"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "Slå PÅ Bluetooth"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "Slå PÅ Oppdagbarhet"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "Koblet til"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "Paret"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "Høyttalerkonfigurasjonen er nå endret."
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "Kan ikke endre høyttalerkonfigurasjonen."
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "Kan ikke pare enheten."
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "Enheten er nå paret."
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "Sammenlign passkodene."
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "Stemmer passordet på {0} med dette?"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "Fjern enheten"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "Vil du fjerne {0}?"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "Kan ikke fjerne {0}"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "{0} er nå fjernet"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "Vennligst vent..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "Vent mens {0} pares..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "Vent mens tjenestene for {0} installeres..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "Demp volumet"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "Oppdateringer"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]KONFIGURER OPPDATERINGER INNSTILLINGER[/B][CR][CR]Håndter oppdateringinnstillinger"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows-oppdatering"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "NVidia-oppdatering"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind-oppdatering"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Windows-oppdateringsinnstillinger"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "NVidia-oppdateringsinnstillinger"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "HiveMind-oppdateringsinnstillinger"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "Oppdater nå"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "Styr oppdateringer"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "Automatisk oppdatering"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "Varsle oppdatering"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "Manuell oppdatering"

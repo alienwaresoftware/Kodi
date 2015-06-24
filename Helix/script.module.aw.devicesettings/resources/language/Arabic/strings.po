@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "إعدادات الأجهزة"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "الصوت"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "الشبكة"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "تغيير إعدادات الجهاز لديك"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]تهيئة إعدادات الصوت[/B][CR][CR]إدارة إخراج الصوت لديك"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]تهيئة إعدادات ALIENFX [/B][CR][CR]إدارة إعدادات ALIENFX لديك"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]تهيئة إعدادات الشبكة اللاسلكية[/B][CR][CR]إدارة الشبكة اللاسلكية الخاصة بك"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "مصدر الصوت"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "تحديد مصدر الصوت"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "تهيئة السماعة"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "مستوى الصوت"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "خطأ"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "غير قادر على تغيير إعداد الصوت. يرجى التحقق من توصيل كابل الصوت بشكل صحيح."
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "عملية ناجحة"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "تم تغيير إخراج الصوت بنجاح."
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "أدخل كلمة مرور الشبكة لـ {0}"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "غير قادر على الاتصال. يرجى التحقق من كلمة المرور والمحاولة مرة أخرى."
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "قطع اتصال شبكة Wifi"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "هل ترغب في قطع اتصال {0}؟"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "غير قادر على قطع الاتصال. الرجاء المحاولة مرة أخرى."
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "غير جاهز"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "متصلة"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "تم إنشاء شبكة مؤقتة"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "جاري قطع الاتصال"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "مفصولة"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "جاري الاقتران"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "جاري الاكتشاف"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "جاري المصادفة"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "حالة الاتصال: "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "غير متوفر"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "تحديد تهيئة السماعة"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]تهيئة إعدادات BLUETOOTH[/B][CR][CR]إدارة جهاز BLUETOOTH لديك"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "تشغيل Bluetooth"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "تشغيل خاصية الاكتشاف"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "متصلة"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "مقترن"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "تم تغيير تهيئة السماعة بنجاح."
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "غير قادر على تغيير تهيئة السماعة"
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "غير قادر على إقران الجهاز"
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "تم إقران الجهاز بنجاح."
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "قم بمقارنة رموز المرور."
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "هل كلمة المرور هذه في {0} تطابق هذه الكلمة؟"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "إزالة الجهاز"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "هل ترغب في إزالة {0}؟"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "غير قادر على إزالة {0}"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "تمت إزالة {0} بنجاح"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "يُرجى الانتظار..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "يرجى الانتظار أثناء اقتران {0}..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "يرجى الانتظار أثناء تثبيت خدمات {0}..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "الحالة"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "كتم الصوت"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "التحديثات"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]تكوين إعدادات التحديثات[/B][CR][CR]إدارة إعدادات التحديثات الخاصة بك"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "تحديث Windows"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "تحديث NVidia"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "تحديث HiveMind"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "إعدادات تحديث Windows"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "إعدادات تحديث NVidia"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "إعدادات تحديث HiveMind"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "تحديث الآن"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "التحكم في التحديثات"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "تحديث تلقائي"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "إعلام التحديث"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "تحديث يدوي"

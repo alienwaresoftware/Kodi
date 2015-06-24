@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "Настройки на устройството"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "Аудио"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "Мрежа"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "Промяна на настройките на Вашето устройство"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАНЕ НА АУДИО НАСТРОЙКИТЕ[/B][CR][CR]Управление на Вашия изходен аудио сигнал"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАНЕ НА НАСТРОЙКИТЕ НА ALIENFX[/B][CR][CR]Управление на Вашите настройки на ALIENFX"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАНЕ НА НАСТРОЙКИТЕ НА БЕЗЖИЧНАТА МРЕЖА[/B][CR][CR]Управление на Вашата безжична мрежа"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "Източник на аудио сигнал"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "Избор на източник на аудио сигнал"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "Конфигурация на високоговорителите"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "Сила на звука"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "Грешка"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "Не може да промените настройката за аудио. Моля, проверете аудио кабелът е свързан правилно."
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "Успешно"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "Аудио изходът беше променен успешно."
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "Въведете мрежовата парола за {0}"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "Връзката не може да се осъществи. Моля, проверете паролата си и опитайте отново."
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "Прекъсване на връзката с Wi-fi мрежата"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "Искате ли да прекъснете връзката с {0}?"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "Връзката не може да бъде прекъсната. Моля, опитайте отново."
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "Няма готовност"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "Осъществена връзка"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "Формирана специална (ad hoc) мрежа компютър към компютър"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "Прекъсване на връзката"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "Прекъсната връзка"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "Свързване"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "Откриване"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "Автентикация"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "Статус на свързване: "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "Няма налични"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "Избор на конфигурация на високоговорителите"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]КОНФИГУРИРАНЕ НА BLUETOOTH НАСТРОЙКИТЕ[/B][CR][CR]Управление на Вашето Bluetooth устройство"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "ВКЛЮЧВАНЕ на Bluetooth"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "ВКЛЮЧВАНЕ на откриваемост"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "Осъществена връзка"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "Сдвояване"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "Конфигурацията на високоговорителите беше променена успешно."
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "Не може да се променя конфигурацията на високоговорителите."
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "Устройството не може да се сдвои."
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "Устройството се сдвои успешно."
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "Сверете цифровите пароли."
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "Дали паролата на {0} съвпада с тази?"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "Отстраняване на устройство"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "Искате ли да отстраните {0}?"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "Не може да се отстрани {0}"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "Устройството {0} беше отстранено успешно"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "Моля, изчакайте..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "Моля, изчакайте осъществяване на сдвояването на {0}..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "Моля, изчакайте инсталирането на услугите за {0}..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "Заглушаване на звука"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "Актуализации"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]КОНФИГУРИРАНЕ НА НАСТРОЙКИТЕ ЗА АКТУАЛИЗАЦИИ[/B][CR][CR]Управление на Вашите настройки за актуализации"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Актуализация на Windows"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "Актуализация на NVidia"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "Актуализация на HiveMind"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Настройки за актуализация на Windows"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "Настройки за актуализация на NVidia"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "Настройки за актуализация на HiveMind"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "Актуализирай сега"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "Управление на актуализациите"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "Автоматична актуализация"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "Уведоми актуализация"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "Ръчна актуализация"

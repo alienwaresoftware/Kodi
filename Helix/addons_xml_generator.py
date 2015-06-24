@@ -119,7 +119,6 @@ class Generator:
             except Exception as e:
                 # missing or poorly formatted addon.xml
                 print("Excluding %s for %s" % ( _path, e ))
-                time.sleep(5)
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u("\n</addons>\n")
         # save file

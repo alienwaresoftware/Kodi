@@ -1,9 +1,6 @@
-# Kodi Media Center language file
-# Addon Name: Confluence
-# Addon id: skin.confluence
-# Addon Provider: Jezz_X, Team Kodi
+﻿# Kodi Media Center language file
 msgid ""
-msgstr ""
+
 "Project-Id-Version: XBMC Main\n"
 "Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -18,6 +15,10 @@ msgstr ""
 
 #Device Settings
 
+msgctxt "#33000"
+msgid "Device Settings"
+msgstr "Device Settings"
+
 msgctxt "#33001"
 msgid "Audio"
 msgstr "Audio"
@@ -30,6 +31,14 @@ msgctxt "#33003"
 msgid "Network"
 msgstr "Network"
 
+msgctxt "#33004"
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgctxt "#33010"
+msgid "Change Your Device Settings"
+msgstr "Change Your Device Settings"
+
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
 msgstr "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
@@ -41,3 +50,235 @@ msgstr "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
 msgstr "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
+
+msgctxt "#33014"
+msgid "Audio Source"
+msgstr "Audio Source"
+
+msgctxt "#33015"
+msgid "Select Audio Source"
+msgstr "Select Audio Source"
+
+msgctxt "#33016"
+msgid "Speaker Configuration"
+msgstr "Speaker Configuration"
+
+msgctxt "#33017"
+msgid "Volume"
+msgstr "Volume"
+
+msgctxt "#33018"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "#33019"
+msgid "Unable to change audio setting. Please check audio cable is connected properly."
+msgstr "Unable to change audio setting. Please check audio cable is connected properly."
+
+msgctxt "#33020"
+msgid "Success"
+msgstr "Success"
+
+msgctxt "#33021"
+msgid "Audio output has been changed successfully."
+msgstr "Audio output has been changed successfully."
+
+msgctxt "#33022"
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgctxt "#33023"
+msgid "Enter network password for {0}"
+msgstr "Enter network password for {0}"
+
+msgctxt "#33025"
+msgid "Unable to connect. Please check your password and try again."
+msgstr "Unable to connect. Please check your password and try again."
+
+msgctxt "#33026"
+msgid "Disconnect Wifi Network"
+msgstr "Disconnect Wifi Network"
+
+msgctxt "#33027"
+msgid "Do you want to disconnect {0} ?"
+msgstr "Do you want to disconnect {0} ?"
+
+msgctxt "#33028"
+msgid "Unable to disconnect. Please try again."
+msgstr "Unable to disconnect. Please try again."
+
+msgctxt "#33029"
+msgid "Not ready"
+msgstr "Not ready"
+
+msgctxt "#33030"
+msgid "Connected"
+msgstr "Connected"
+
+msgctxt "#33031"
+msgid "Ad hoc network formed"
+msgstr "Ad hoc network formed"
+
+msgctxt "#33032"
+msgid "Disconnecting"
+msgstr "Disconnecting"
+
+msgctxt "#33033"
+msgid "Disconnected"
+msgstr "Disconnected"
+
+msgctxt "#33034"
+msgid "Associating"
+msgstr "Associating"
+
+msgctxt "#33035"
+msgid "Discovering"
+msgstr "Discovering"
+
+msgctxt "#33036"
+msgid "Authenticating"
+msgstr "Authenticating"
+
+msgctxt "#33037"
+msgid "Connection Status : "
+msgstr "Connection Status : "
+
+msgctxt "#33038"
+msgid "Not Available"
+msgstr "Not Available"
+
+msgctxt "#33039"
+msgid "Select Speaker Configuration"
+msgstr "Select Speaker Configuration"
+
+msgctxt "#33040"
+msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
+msgstr "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
+
+msgctxt "#33041"
+msgid "Turn ON Bluetooth"
+msgstr "Turn ON Bluetooth"
+
+msgctxt "#33042"
+msgid "Turn ON Discoverability"
+msgstr "Turn ON Discoverability"
+
+msgctxt "#33043"
+msgid "Connected"
+msgstr "Connected"
+
+msgctxt "#33044"
+msgid "Paired"
+msgstr "Paired"
+
+msgctxt "#33045"
+msgid "Speaker configuration has been changed successfully."
+msgstr "Speaker configuration has been changed successfully."
+
+msgctxt "#33046"
+msgid "Unable to change speaker configuration."
+msgstr "Unable to change speaker configuration."
+
+msgctxt "#33047"
+msgid "Unable to pair the device."
+msgstr "Unable to pair the device."
+
+msgctxt "#33048"
+msgid "Device has been paired successfully."
+msgstr "Device has been paired successfully."
+
+msgctxt "#33049"
+msgid "Compare the passcodes."
+msgstr "Compare the passcodes."
+
+msgctxt "#33050"
+msgid "Does this password on {0} match this one?"
+msgstr "Does this password on {0} match this one?"
+
+msgctxt "#33051"
+msgid "Remove device"
+msgstr "Remove device"
+
+msgctxt "#33052"
+msgid "Do you want to remove {0}?"
+msgstr "Do you want to remove {0}?"
+
+msgctxt "#33053"
+msgid "Unable to remove {0}"
+msgstr "Unable to remove {0}"
+
+msgctxt "#33054"
+msgid "{0} has been removed successfully"
+msgstr "{0} has been removed successfully"
+
+msgctxt "#33055"
+msgid "Please wait..."
+msgstr "Please wait..."
+
+msgctxt "#33056"
+msgid "Please wait while pairing {0}..."
+msgstr "Please wait while pairing {0}..."
+
+msgctxt "#33057"
+msgid "Please wait while installing services for {0}..."
+msgstr "Please wait while installing services for {0}..."
+
+msgctxt "#33058"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "#33059"
+msgid "Mute Volume"
+msgstr "Mute Volume"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "Updates"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows Update"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "NVidia Update"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind Update"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Windows Update Settings"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "NVidia Update Settings"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "HiveMind Update Settings"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "Update Now"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "Control updates"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "Automatic update"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "Notify update"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "Manual update"

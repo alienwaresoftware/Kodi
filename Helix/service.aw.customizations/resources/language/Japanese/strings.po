@@ -16,45 +16,49 @@ msgstr ""
 #Customizations
 
 msgctxt "#33000"
-msgid "Do you want to install Hive core components?"
-msgstr ""
+msgid "Would you like to install The HiveMind Core Components?"
+msgstr "HiveMind のコアコンポーネントをインストールしますか？"
 
 msgctxt "#33001"
-msgid "This components required to function Hive correctly."
-msgstr ""
+msgid "These components are required to receive all the benefits of The HiveMind."
+msgstr "HiveMind を十分にご活用いただくには、これらのコンポーネントが必要です。"
 
 msgctxt "#33002"
-msgid "Please wait while installing Hive core components"
-msgstr ""
+msgid "Please wait while installing HiveMind core components"
+msgstr "HiveMind コアコンポーネントをインストール中です。しばらくお待ちください"
 
 msgctxt "#33003"
-msgid "Unable to install Hive core components"
-msgstr ""
+msgid "Unable to install HiveMind core components"
+msgstr "HiveMind コアコンポーネントをインストールできません"
 
 msgctxt "#33004"
 msgid "Exit Code = "
-msgstr ""
+msgstr "終了コード = "
 
 msgctxt "#33005"
-msgid "You need to restart your computer to complete the installation"
-msgstr ""
+msgid "You will need to restart your computer to complete this installation."
+msgstr "インストールを完了するには、コンピュータを再起動する必要があります。"
 
 msgctxt "#33006"
-msgid "Do you want to restart the system?"
-msgstr ""
+msgid "Would you like to restart the system now?"
+msgstr "今すぐシステムを再起動しますか？"
 
 msgctxt "#33007"
-msgid "A new version of Hive core components is available."
-msgstr ""
+msgid "A new version of The HiveMind Core Components is now available!"
+msgstr "現在、HiveMind コアコンポーネントの新バージョンを入手できます！"
 
 msgctxt "#33008"
 msgid "Would you like to upgrade now?"
-msgstr ""
+msgstr "今すぐアップグレードしますか？"
 
 msgctxt "#33009"
 msgid "Current Version"
-msgstr ""
+msgstr "現在のバージョン"
 
 msgctxt "#33010"
 msgid "New Version"
-msgstr ""
+msgstr "新しいバージョン"
+
+msgctxt "#33011"
+msgid "The HiveMind Core Components must be installed to run this addon."
+msgstr "HiveMindのコアコンポーネントは、このアドオンを実行するには、インストールする必要があります。"

@@ -3,6 +3,9 @@ import xbmcgui
 import xbmcaddon
 import thread
 import sys
+import json
+
+import AlphaUIUtils
 from resources.lib.dialogselect import SelectDialog
 from resources.lib.dialogupdateselect import UpdateSelectDialog
 
@@ -71,6 +74,7 @@ ACTION_MOUSE_DRAG = 106
 
 __scriptID__   = 'script.module.aw.devicesettings'
 __addon__ = xbmcaddon.Addon(id=__scriptID__)
+__addonname__ = __addon__.getAddonInfo('name')
 __language__ = __addon__.getLocalizedString
 
 class DeviceSettingsWindow(xbmcgui.WindowXML):
@@ -84,8 +88,20 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
         self.updateWindowSetting = None
         self.updateNvidiaSetting = None
         self.updateAlienwareSetting = None
-
+        
     def onInit(self):
+        xbmc.executebuiltin("ActivateWindow(busydialog)")
+        try:
+            self.initAll()
+        except:
+            self.close()
+            xbmc.executebuiltin("Dialog.Close(busydialog)")
+            xbmc.executebuiltin("RunAddon(" + __scriptID__ + ")")
+            return
+
+        xbmc.executebuiltin("Dialog.Close(busydialog)")
+
+    def initAll(self):
         self.audioSourceLabelControl = self.getControl(AUDIO_SOURCE_LABLE_CONTROL)
         self.audioSpeakerConfigLabelControl = self.getControl(AUDIO_SPEAKER_CONFIG_LABLE_CONTROL)
         self.audioHelper = AudioHelper()  
@@ -105,7 +121,7 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
         volume = self.audioHelper.getVolume()
         self.audioVolumeSliderControl.setPercent(volume)
         self.audioVolumeLabelControl.setLabel("{0}%".format(volume))
-        self.setVolumeControlButtons(volume)
+        self.setVolumeControlButtons(volume, False)
 
         self.wifilist = self.getControl(WIFI_LIST_CONTROL)
         self.wifiNetworkLabelControl = self.getControl(WIFI_NETWORK_LABEL_CONTROL)
@@ -146,11 +162,33 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
         self.updateNvidiaLabelControl = self.getControl(UPDATE_NVIDIA_LABEL_CONTROL)
         self.updateAlienwareLabelControl = self.getControl(UPDATE_ALIENWARE_LABEL_CONTROL)
 
+        self.updateWindowSetting = AlphaUIUtils.GetWindowsUpdateSetting()
+        if (self.updateWindowSetting == 1):
+            self.updateWindowSetting = 0
+        self.updateWindowLabelControl.setLabel(__language__(33070 + self.updateWindowSetting))
+
+        json_response = json.loads(xbmc.executeJSONRPC('{"jsonrpc": "2.0", "method": "Settings.GetSettingValue", "params": {"setting": "general.addonupdates"}, "id": 1 }'))
+        self.updateAlienwareSetting = json_response['result']['value']
+        self.updateAlienwareLabelControl.setLabel(__language__(33070 + self.updateAlienwareSetting))
+
         self.refreshMute()
 
         self.lock = thread.allocate_lock()
 
         self.IsInitDone = True
+
+
+    def alienwareUpdateNow(self):
+        xbmc.executebuiltin("UpdateAddonRepos")
+        xbmc.executebuiltin("UpdateLocalAddons")
+
+    def windowsUpdateNow(self):
+        xbmc.executebuiltin("ActivateWindow(busydialog)")
+        print AlphaUIUtils.UpdateWindowsNow()
+        xbmc.executebuiltin("Dialog.Close(busydialog)")
+
+    def nVidiaUpdateNow(self):
+        xbmcgui.Dialog().notification("Notification", "alienwareUpdateNow", xbmcgui.NOTIFICATION_INFO, 15000)
 
     def isComplete(self): 
         return self.isClosed 
@@ -204,57 +242,76 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
                 dialog._optionList = self.audioHelper.getOutputs()
                 dialog.doModal()
                 if (dialog._selectedOptionPosition is not None):
+                    xbmc.executebuiltin("ActivateWindow(busydialog)")
                     if (self.audioHelper.setOutput(dialog._selectedOptionPosition)):
                         self.audioSourceSelectedIndex = dialog._selectedOptionPosition
                         self.audioSourceLabelControl.setLabel(self.audioHelper.getOutputNameFromIndex(self.audioSourceSelectedIndex))
                         self.updateSpeakerConfig(self.audioSourceSelectedIndex)
+                        volume = self.audioHelper.getVolume()
+                        self.audioVolumeSliderControl.setPercent(volume)                
+                        self.audioVolumeLabelControl.setLabel("{0}%".format(volume))
+                        self.setVolumeControlButtons(volume, False)
                         self.refreshMute()
-                        xbmcgui.Dialog().notification(__language__(33020), __language__(33021), xbmcgui.NOTIFICATION_INFO, 15000)
+                        xbmc.executebuiltin("Dialog.Close(busydialog)")
+                        xbmcgui.Dialog().notification(__language__(33020), __language__(33021), xbmcgui.NOTIFICATION_INFO, 5000)
                     else:
-                        xbmcgui.Dialog().notification(__language__(33018), __language__(33019), xbmcgui.NOTIFICATION_ERROR, 15000)
+                        xbmc.executebuiltin("Dialog.Close(busydialog)")
+                        xbmcgui.Dialog().notification(__language__(33018), __language__(33019), xbmcgui.NOTIFICATION_ERROR, 5000)
                 del dialog 
             elif (self.getFocusId() == AUDIO_SPEAKER_CONFIG_ACTION_CONTROL):
                 dialog = SelectDialog("awdialogselect.xml",__addon__.getAddonInfo('path'), "Default")
                 dialog._title = __language__(33039)
+                xbmc.executebuiltin("ActivateWindow(busydialog)")
                 dialog._optionList = self.audioHelper.getSpeakerConfigs(self.audioSourceSelectedIndex)
+                xbmc.executebuiltin("Dialog.Close(busydialog)")
                 dialog.doModal()
                 if (dialog._selectedOptionPosition is not None):
+                    xbmc.executebuiltin("ActivateWindow(busydialog)")
                     if (self.audioHelper.setSpeakerConfig(self.audioSourceSelectedIndex,dialog._selectedOptionPosition)):
                         self.updateSpeakerConfig(self.audioSourceSelectedIndex)
                         self.refreshMute()
-                        xbmcgui.Dialog().notification(__language__(33020), __language__(33045), xbmcgui.NOTIFICATION_INFO, 15000)
+                        xbmc.executebuiltin("Dialog.Close(busydialog)")
+                        xbmcgui.Dialog().notification(__language__(33020), __language__(33045), xbmcgui.NOTIFICATION_INFO, 5000)
                     else:
-                        xbmcgui.Dialog().notification(__language__(33018), __language__(33046), xbmcgui.NOTIFICATION_ERROR, 15000)
+                        xbmc.executebuiltin("Dialog.Close(busydialog)")
+                        xbmcgui.Dialog().notification(__language__(33018), __language__(33046), xbmcgui.NOTIFICATION_ERROR, 5000)
                 del dialog 
             elif(self.getFocusId() == AUDIO_VOLUME_MUTE_RADIO_CONTROL):
                 self.audioHelper.setMute(self.audioVolumeMuteRadioControl.isSelected())
             elif (self.getFocusId() == BLUETOOTH_DEVICES_LIST_CONTROL):
                 self.bluetoothHelper.authenticateOrRemoveDevice(self.bluetoothDevicesListControl.getSelectedItem().getProperty('Address'))
             elif (self.getFocusId() == UPDATE_WINDOWS_BUTTON_CONTROL):
-                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", selectedUpdateOption = self.updateWindowSetting)
+                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", updateNowCallback = self.windowsUpdateNow, selectedUpdateOption = self.updateWindowSetting, isCloseAtUpdateVisible = False)
                 updateDialog._title = __language__(33065)
                 updateDialog.doModal()
                 if (updateDialog.getSelectedRadionButton() is not None):
                     self.updateWindowSetting = updateDialog.getSelectedRadionButton()
-                    self.updateWindowLabelControl.setLabel(__language__(33069 + self.updateWindowSetting))
+                    self.updateWindowLabelControl.setLabel(__language__(33070 + self.updateWindowSetting))
+
+                    if (self.updateWindowSetting == 0):
+                        AlphaUIUtils.SetWindowsUpdateSetting(1)
+                    elif (self.updateWindowSetting == 2):
+                        AlphaUIUtils.SetWindowsUpdateSetting(2)
                 del updateDialog 
 
             elif (self.getFocusId() == UPDATE_NVIDIA_BUTTON_CONTROL):
-                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", selectedUpdateOption = self.updateNvidiaSetting)
-                updateDialog._title = __language__(33065)
+                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", updateNowCallback = self.nVidiaUpdateNow, selectedUpdateOption = self.updateNvidiaSetting)
+                updateDialog._title = __language__(33066)
                 updateDialog.doModal()
                 if (updateDialog.getSelectedRadionButton() is not None):
                     self.updateNvidiaSetting = updateDialog.getSelectedRadionButton()
-                    self.updateNvidiaLabelControl.setLabel(__language__(33069 + self.updateNvidiaSetting))
+                    self.updateNvidiaLabelControl.setLabel(__language__(33070 + self.updateNvidiaSetting))
                 del updateDialog 
 
             elif (self.getFocusId() == UPDATE_ALIENWARE_BUTTON_CONTROL):
-                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", selectedUpdateOption = self.updateAlienwareSetting)
-                updateDialog._title = __language__(33065)
+                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", updateNowCallback = self.alienwareUpdateNow, selectedUpdateOption = self.updateAlienwareSetting)
+                updateDialog._title = __language__(33067)
                 updateDialog.doModal()
                 if (updateDialog.getSelectedRadionButton() is not None):
                     self.updateAlienwareSetting = updateDialog.getSelectedRadionButton()
-                    self.updateAlienwareLabelControl.setLabel(__language__(33069 + self.updateAlienwareSetting))
+                    self.updateAlienwareLabelControl.setLabel(__language__(33070 + self.updateAlienwareSetting))
+                    xbmc.executeJSONRPC('{"jsonrpc":"2.0", "id":1, "method":"Settings.SetSettingValue","params":{"setting":"general.addonupdates","value":' + str(self.updateAlienwareSetting) + '}}')
+                    xbmc.executeJSONRPC('{"jsonrpc":"2.0", "id":1, "method":"Settings.SetSettingValue","params":{"setting":"general.addonnotifications","value":true}}')
                 del updateDialog 
 
     def onClick(self, controlID):
@@ -286,18 +343,21 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
             self.wifihelper.TakeAction(item) 
             self.setFocus(self.wifilist)         
     
-    def setVolumeControlButtons(self, volume):
-            self.audioVolumeMinusButtonControl.setEnabled(True)
-            self.audioVolumePlusButtonControl.setEnabled(True)
-            if (volume == 0):
-                self.audioVolumeMinusButtonControl.setEnabled(False)
+    def setVolumeControlButtons(self, volume, setFocus = True):
+        self.audioVolumeMinusButtonControl.setEnabled(True)
+        self.audioVolumePlusButtonControl.setEnabled(True)
+        if (volume == 0):
+            self.audioVolumeMinusButtonControl.setEnabled(False)
+            if(setFocus and self.IsInitDone):
                 self.setFocus(self.audioVolumePlusButtonControl)
-            elif (volume == 100):
-                self.audioVolumePlusButtonControl.setEnabled(False)
+        elif (volume == 100):
+            self.audioVolumePlusButtonControl.setEnabled(False)
+            if(setFocus and self.IsInitDone):
                 self.setFocus(self.audioVolumeMinusButtonControl)
 
     def close(self):
-        self.bluetoothHelper.close()
+        if (self.IsInitDone):
+            self.bluetoothHelper.close()
         self.isClosed = True 
         xbmcgui.WindowXML.close(self)    
 
@@ -374,14 +434,20 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
     #############################################################################################
 
 if (__name__ == "__main__"):
-    deviceSettingsWindow = DeviceSettingsWindow("awdevicesettings.xml",__addon__.getAddonInfo('path'), "Default")
-    deviceSettingsWindow.show()
-    monitor = xbmc.Monitor()
-    while not deviceSettingsWindow.isComplete(): 
-        if monitor.waitForAbort(2):
-            # Abort was requested while waiting. We should exit
-            break
-        if (xbmcgui.getCurrentWindowId() == 10000):
-            break
+    if (xbmcgui.Window(10004).getProperty('service.aw.customizations.isComponentInstalled') == "False"):
+        customizationAddon = xbmcaddon.Addon(id='service.aw.customizations')
+        customizationAddonLanguage = customizationAddon.getLocalizedString
 
-    del deviceSettingsWindow
+        xbmcgui.Dialog().ok(__addonname__, customizationAddonLanguage(33011))
+    else:
+        deviceSettingsWindow = DeviceSettingsWindow("awdevicesettings.xml",__addon__.getAddonInfo('path'), "Default")
+        deviceSettingsWindow.show()
+        monitor = xbmc.Monitor()
+        while not deviceSettingsWindow.isComplete(): 
+            if monitor.waitForAbort(2):
+                # Abort was requested while waiting. We should exit
+                break
+            if (xbmcgui.getCurrentWindowId() == 10000):
+                break
+
+        del deviceSettingsWindow

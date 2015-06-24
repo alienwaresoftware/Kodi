@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <!-- Possible values for <charsets>                     -->
 <!-- ==============================                     -->
@@ -61,7 +61,7 @@
   <regions>
     <region name="Bulgaria" locale="BG">
       <dateshort>DD.MM.YYYY</dateshort>
-      <datelong>DDDD, D MMMM YYYY 'г.'</datelong>
+      <datelong>DDDD, D MMMM YYYY 'Ð³.'</datelong>
       <time symbolAM="" symbolPM="">H:mm:ss</time>
       <tempunit>C</tempunit>
       <speedunit>kmh</speedunit>

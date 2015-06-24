@@ -1,7 +1,4 @@
-# Kodi Media Center language file
-# Addon Name: Confluence
-# Addon id: skin.confluence
-# Addon Provider: Jezz_X, Team Kodi
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -251,7 +248,7 @@ msgid "NVidia Update"
 msgstr ""
 
 msgctxt "#33064"
-msgid "Alienware Update"
+msgid "HiveMind Update"
 msgstr ""
 
 msgctxt "#33065"
@@ -263,7 +260,7 @@ msgid "NVidia Update Settings"
 msgstr ""
 
 msgctxt "#33067"
-msgid "Alienware Update Settings"
+msgid "HiveMind Update Settings"
 msgstr ""
 
 msgctxt "#33068"
@@ -279,15 +276,9 @@ msgid "Automatic update"
 msgstr ""
 
 msgctxt "#33071"
-msgid "Update at close"
+msgid "Notify update"
 msgstr ""
 
 msgctxt "#33072"
 msgid "Manual update"
 msgstr ""
-
-
-
-
-
-

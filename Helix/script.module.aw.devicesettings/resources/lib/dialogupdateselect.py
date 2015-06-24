@@ -21,7 +21,7 @@ class UpdateSelectDialog(xbmcgui.WindowXMLDialog):
     _title = None
     _selectedUdpateOption = None
 
-    def __init__(self,strXMLname, strFallbackPath, strDefaultName, forceFallback=True, selectedUpdateOption=None, isAutomaticUpdateVisible=True, isCloseAtUpdateVisible=True, isManualUpdateVisible = True):
+    def __init__(self,strXMLname, strFallbackPath, strDefaultName, defaultRes = "720p", updateNowCallback = None, forceFallback=True, selectedUpdateOption=None, isAutomaticUpdateVisible=True, isCloseAtUpdateVisible=True, isManualUpdateVisible = True):
         # Changing the three varibles passed won't change, anything
         # Doing strXMLname = "bah.xml" will not change anything.
         # don't put GUI sensitive stuff here (as the xml hasn't been read yet
@@ -30,7 +30,7 @@ class UpdateSelectDialog(xbmcgui.WindowXMLDialog):
         self._isCloseAtUpdateVisible = isCloseAtUpdateVisible
         self._isManualUpdateVisible = isManualUpdateVisible
         self._selectedUdpateOption = selectedUpdateOption
-        pass
+        self._updateNowCallback = updateNowCallback
 
     def onInit(self):
         self.getControl(DIALOG_TITLE_LABEL_CONTROL).setLabel(self._title)
@@ -52,37 +52,51 @@ class UpdateSelectDialog(xbmcgui.WindowXMLDialog):
         self.manuaUpdateRadioButtonControl.setVisible(self._isManualUpdateVisible)
         if (self._isManualUpdateVisible):
             self.radioButtons.append(self.manuaUpdateRadioButtonControl)
-        
-        if (self._selectedUdpateOption == 1):
-            self.automaticUpdateRadioButtonControl.setSelected(True)
-        elif (self._selectedUdpateOption == 2):
-            self.closeAtUpdateRadioButtonControl.setSelected(True)
-        elif (self._selectedUdpateOption == 3):
-            self.manuaUpdateRadioButtonControl.setSelected(True)
 
-        self.setFocus(self.udpateNowButtonControl) 
+        self.setUpdateNowButtonState()
+        
+        if (self._selectedUdpateOption == 0):
+            self.automaticUpdateRadioButtonControl.setSelected(True)
+            self.setFocus(self.udpateNowButtonControl)
+        elif (self._selectedUdpateOption == 1):
+            self.closeAtUpdateRadioButtonControl.setSelected(True)
+            self.setFocus(self.closeAtUpdateRadioButtonControl)      
+        elif (self._selectedUdpateOption == 2):
+            self.manuaUpdateRadioButtonControl.setSelected(True) 
+            self.setFocus(self.manuaUpdateRadioButtonControl)        
 
     def deselectRadioButtons(self):
         for radioButton in self.radioButtons:
             radioButton.setSelected(False)     
             
     def getSelectedRadionButton(self):
-        return self._selectedUdpateOption     
+        return self._selectedUdpateOption
+
+    def setUpdateNowButtonState(self):
+        if (self._selectedUdpateOption != 0):
+            self.udpateNowButtonControl.setEnabled(False)
+        else:
+            self.udpateNowButtonControl.setEnabled(True)
 
     def onAction(self, action):
         if (action.getId() == ACTION_PREVIOUS_MENU or action.getId() == ACTION_NAV_BACK ):
             self.close()
         elif (action.getId() == ACTION_SELECT_ITEM or action.getId() == ACTION_MOUSE_LEFT_CLICK ):
-            if (self.getFocusId() == AUTOMATIC_UPDATE_RADIO_BUTTON_CONTROL):
+            if (self.getFocusId() == UPDATE_NOW_BUTTON_CONTROL):
+                if (self._updateNowCallback):
+                    self._updateNowCallback()
+            elif (self.getFocusId() == AUTOMATIC_UPDATE_RADIO_BUTTON_CONTROL):
                 self.deselectRadioButtons()
                 self.automaticUpdateRadioButtonControl.setSelected(True)
-                self._selectedUdpateOption = 1
+                self._selectedUdpateOption = 0
             elif (self.getFocusId() == CLOSE_AT_UPDATE_RADIO_BUTTON_CONTROL):
                 self.deselectRadioButtons()
                 self.closeAtUpdateRadioButtonControl.setSelected(True)
-                self._selectedUdpateOption = 2
+                self._selectedUdpateOption = 1
             elif (self.getFocusId() == MANUAL_UPDATE_RADIO_BUTTON_CONTROL):
                 self.deselectRadioButtons()
                 self.manuaUpdateRadioButtonControl.setSelected(True)
-                self._selectedUdpateOption = 3
+                self._selectedUdpateOption = 2
+
+            self.setUpdateNowButtonState()
             self.close()

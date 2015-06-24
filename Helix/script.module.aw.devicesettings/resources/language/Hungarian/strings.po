@@ -1,4 +1,4 @@
-# Kodi Media Center language file
+﻿# Kodi Media Center language file
 msgid ""
 msgstr ""
 "Project-Id-Version: XBMC Main\n"
@@ -17,216 +17,268 @@ msgstr ""
 
 msgctxt "#33000"
 msgid "Device Settings"
-msgstr ""
+msgstr "Eszközbeállítások"
 
 msgctxt "#33001"
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 msgctxt "#33002"
 msgid "AlienFX"
-msgstr ""
+msgstr "AlienFX"
 
 msgctxt "#33003"
 msgid "Network"
-msgstr ""
+msgstr "Hálózat"
 
 msgctxt "#33004"
 msgid "Bluetooth"
-msgstr ""
+msgstr "Bluetooth"
 
 msgctxt "#33010"
 msgid "Change Your Device Settings"
-msgstr ""
+msgstr "Az eszközbeállítások módosítása"
 
 msgctxt "#33011"
 msgid "[B]CONFIGURE AUDIO SETTINGS[/B][CR][CR]Manage your audio output"
-msgstr ""
+msgstr "[B]AUDIO BEÁLLÍTÁSOK KONFIGURÁLÁSA[/B][CR][CR]A hangkimenetek kezelése"
 
 msgctxt "#33012"
 msgid "[B]CONFIGURE ALIENFX SETTINGS[/B][CR][CR]Manage your AlienFX settings"
-msgstr ""
+msgstr "[B]ALIENFX BEÁLLÍTÁSOK KONFIGURÁLÁSA[/B][CR][CR]Az AlienFX beállítások kezelése"
 
 msgctxt "#33013"
 msgid "[B]CONFIGURE WIRELESS NETWORK SETTINGS[/B][CR][CR]Manage your Wireless Network"
-msgstr ""
+msgstr "[B]A VEZETÉK NÉLKÜLI HÁLÓZAT BEÁLLÍTÁSAINAK KONFIGURÁLÁSA[/B][CR][CR]Az AlienFX vezeték nélküli hálózat beállításainak kezelése"
 
 msgctxt "#33014"
 msgid "Audio Source"
-msgstr ""
+msgstr "Audio forrás"
 
 msgctxt "#33015"
 msgid "Select Audio Source"
-msgstr ""
+msgstr "Audio forrás kiválasztása"
 
 msgctxt "#33016"
 msgid "Speaker Configuration"
-msgstr ""
+msgstr "Hangszóró konfiguráció"
 
 msgctxt "#33017"
 msgid "Volume"
-msgstr ""
+msgstr "Hangszóró"
 
 msgctxt "#33018"
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
 msgctxt "#33019"
 msgid "Unable to change audio setting. Please check audio cable is connected properly."
-msgstr ""
+msgstr "Az audio beállítások nem módosíthatók. Kérem, ellenőrizze, hogy a hangkábel megfelelően csatlakozik-e."
 
 msgctxt "#33020"
 msgid "Success"
-msgstr ""
+msgstr "Sikeres"
 
 msgctxt "#33021"
 msgid "Audio output has been changed successfully."
-msgstr ""
+msgstr "A hangkimenet sikeresen módosítva."
 
 msgctxt "#33022"
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wi-Fi"
 
 msgctxt "#33023"
 msgid "Enter network password for {0}"
-msgstr ""
+msgstr "Adja meg a(z) {0} hálózati jelszavát"
 
 msgctxt "#33025"
 msgid "Unable to connect. Please check your password and try again."
-msgstr ""
+msgstr "Nem lehet csatlakozni. Kérem, ellenőrizze a jelszavát, és próbálkozzon újra."
 
 msgctxt "#33026"
 msgid "Disconnect Wifi Network"
-msgstr ""
+msgstr "Lecsatlakozás a Wi-Fi hálózatról"
 
 msgctxt "#33027"
 msgid "Do you want to disconnect {0} ?"
-msgstr ""
+msgstr "Szeretne lecsatlakozni a következőről: {0}?"
 
 msgctxt "#33028"
 msgid "Unable to disconnect. Please try again."
-msgstr ""
+msgstr "Nem lehet lecsatlakozni. Kérem, próbálkozzon újra."
 
 msgctxt "#33029"
 msgid "Not ready"
-msgstr ""
+msgstr "Nem áll készen"
 
 msgctxt "#33030"
 msgid "Connected"
-msgstr ""
+msgstr "Csatlakozva"
 
 msgctxt "#33031"
 msgid "Ad hoc network formed"
-msgstr ""
+msgstr "Ad hoc hálózat létrejött"
 
 msgctxt "#33032"
 msgid "Disconnecting"
-msgstr ""
+msgstr "Lecsatlakozás"
 
 msgctxt "#33033"
 msgid "Disconnected"
-msgstr ""
+msgstr "Lecsatlakozva"
 
 msgctxt "#33034"
 msgid "Associating"
-msgstr ""
+msgstr "Társítás"
 
 msgctxt "#33035"
 msgid "Discovering"
-msgstr ""
+msgstr "Feltárás"
 
 msgctxt "#33036"
 msgid "Authenticating"
-msgstr ""
+msgstr "Hitelesítés"
 
 msgctxt "#33037"
 msgid "Connection Status : "
-msgstr ""
+msgstr "Csatlakozás állapota: "
 
 msgctxt "#33038"
 msgid "Not Available"
-msgstr ""
+msgstr "Nem áll rendelkezésre"
 
 msgctxt "#33039"
 msgid "Select Speaker Configuration"
-msgstr ""
+msgstr "Hangszóró konfiguráció kiválasztása"
 
 msgctxt "#33040"
 msgid "[B]CONFIGURE BLUETOOTH SETTINGS[/B][CR][CR]Manage your Bluetooth Device"
-msgstr ""
+msgstr "[B]BLUETOOTH BEÁLLÍTÁSOK KONFIGURÁLÁSA[/B][CR][CR]A Bluetooth beállítások kezelése"
 
 msgctxt "#33041"
 msgid "Turn ON Bluetooth"
-msgstr ""
+msgstr "Bluetooth bekapcsolása"
 
 msgctxt "#33042"
 msgid "Turn ON Discoverability"
-msgstr ""
+msgstr "Bluetooth kikapcsolása"
 
 msgctxt "#33043"
 msgid "Connected"
-msgstr ""
+msgstr "Csatlakozva"
 
 msgctxt "#33044"
 msgid "Paired"
-msgstr ""
+msgstr "Párosítva"
 
 msgctxt "#33045"
 msgid "Speaker configuration has been changed successfully."
-msgstr ""
+msgstr "A hangszóró konfiguráció sikeresen módosítva."
 
 msgctxt "#33046"
 msgid "Unable to change speaker configuration."
-msgstr ""
+msgstr "A hangaszóró konfiguráció nem módosítható."
 
 msgctxt "#33047"
 msgid "Unable to pair the device."
-msgstr ""
+msgstr "Az eszköz nem párosítható."
 
 msgctxt "#33048"
 msgid "Device has been paired successfully."
-msgstr ""
+msgstr "Az eszköz sikeresen párosítva."
 
 msgctxt "#33049"
 msgid "Compare the passcodes."
-msgstr ""
+msgstr "Hasonlítsa össze a jelszavakat."
 
 msgctxt "#33050"
 msgid "Does this password on {0} match this one?"
-msgstr ""
+msgstr "A(z) {0} eszközön lévő jelszó egyezik az ezen az eszközön lévővel?"
 
 msgctxt "#33051"
 msgid "Remove device"
-msgstr ""
+msgstr "Eszköz eltávolítása"
 
 msgctxt "#33052"
 msgid "Do you want to remove {0}?"
-msgstr ""
+msgstr "Szeretné eltávolítani a következőt: {0}?"
 
 msgctxt "#33053"
 msgid "Unable to remove {0}"
-msgstr ""
+msgstr "{0} nem távolítható el"
 
 msgctxt "#33054"
 msgid "{0} has been removed successfully"
-msgstr ""
+msgstr "{0} sikeresen eltávolítva"
 
 msgctxt "#33055"
 msgid "Please wait..."
-msgstr ""
+msgstr "Kérem, várjon..."
 
 msgctxt "#33056"
 msgid "Please wait while pairing {0}..."
-msgstr ""
+msgstr "Kérem, várja meg a(z) {0} párosítását..."
 
 msgctxt "#33057"
 msgid "Please wait while installing services for {0}..."
-msgstr ""
+msgstr "Kérem, várja meg a(z) {0} szolgáltatásainak telepítését..."
 
 msgctxt "#33058"
 msgid "Status"
-msgstr ""
+msgstr "Állapot"
 
 msgctxt "#33059"
 msgid "Mute Volume"
-msgstr ""
+msgstr "Hangerő némítása"
+
+msgctxt "#33060"
+msgid "Updates"
+msgstr "Frissítések"
+
+msgctxt "#33061"
+msgid "[B]CONFIGURE UPDATES SETTINGS[/B][CR][CR]Manage your updates settings"
+msgstr "[B]FRISSÍTÉSI BEÁLLÍTÁSOK KONFIGURÁLÁSA[/B][CR][CR]Frissítési beállítások kezelése"
+
+msgctxt "#33062"
+msgid "Windows Update"
+msgstr "Windows frissítés"
+
+msgctxt "#33063"
+msgid "NVidia Update"
+msgstr "NVidia frissítés"
+
+msgctxt "#33064"
+msgid "HiveMind Update"
+msgstr "HiveMind frissítés"
+
+msgctxt "#33065"
+msgid "Windows Update Settings"
+msgstr "Windows frissítési beállítások"
+
+msgctxt "#33066"
+msgid "NVidia Update Settings"
+msgstr "NVidia frissítési beállítások"
+
+msgctxt "#33067"
+msgid "HiveMind Update Settings"
+msgstr "HiveMind frissítési beállítások"
+
+msgctxt "#33068"
+msgid "Update Now"
+msgstr "Frissítés most"
+
+msgctxt "#33069"
+msgid "Control updates"
+msgstr "Frissítések vezérlése"
+
+msgctxt "#33070"
+msgid "Automatic update"
+msgstr "Automatikus frissítés"
+
+msgctxt "#33071"
+msgid "Notify update"
+msgstr "Értesítés frissítés"
+
+msgctxt "#33072"
+msgid "Manual update"
+msgstr "Manuális frissítés"
