@@ -1,0 +1,1001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+  <defaultcontrol always="true">9000</defaultcontrol>
+  <allowoverlay>no</allowoverlay>
+  <controls>
+    <include>CommonBackground</include>
+    <control type="group">
+      <left>90</left>
+      <top>30</top>
+      <control type="group">
+        <left>10</left>
+        <height>580</height>
+        <width>250</width>
+        <control type="image">
+          <description>background for left hand side list</description>
+          <left>0</left>
+          <top>65</top>
+          <texture>special://skin/media/alienware/Power_box.png</texture>
+        </control>
+        <control type="image">
+          <description>SETTINGS logo</description>
+          <left>5</left>
+          <width>60</width>
+          <height>60</height>
+          <aspectratio>keep</aspectratio>
+          <texture>special://skin/media/alienware/icon_settings.png</texture>
+        </control>
+        <include>SettingsBreadcrumb</include>
+        <!-- Breadcrumbs for the settings menu -->
+      </control>
+      <control type="list" id="9000">
+        <left>10</left>
+        <top>105</top>
+        <height>541</height>
+        <pagecontrol>-</pagecontrol>
+        <scrolltime>300</scrolltime>
+        <itemlayout height="54" width="250">
+          <control type="image">
+            <left>0</left>
+            <top>0</top>
+            <height>55</height>
+          </control>
+          <control type="label">
+            <left>15</left>
+            <top>0</top>
+            <height>55</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <label>$INFO[ListItem.Label]</label>
+          </control>
+        </itemlayout>
+        <focusedlayout height="54" width="250">
+          <control type="image">
+            <left>0</left>
+            <top>0</top>
+            <height>55</height>
+            <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+          </control>
+          <control type="label">
+            <left>15</left>
+            <top>0</top>
+            <height>55</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <label>$INFO[ListItem.Label]</label>
+          </control>
+        </focusedlayout>
+        <content>
+          <item id="1">
+            <label>31610</label>
+            <!-- Video -->
+            <onclick>Control.SetFocus(9011,0)</onclick>
+            <icon>-</icon>
+          </item>
+          <item id="2">
+            <label>31635</label>
+            <!-- Audio -->
+            <onclick>Control.SetFocus(9021,0)</onclick>
+            <icon>-</icon>
+          </item>
+          <item id="3">
+            <label>31685</label>
+            <!-- Customization -->
+            <onclick>Control.SetFocus(9041,0)</onclick>
+            <icon>-</icon>
+          </item>
+          <item id="4">
+            <label>31710</label>
+            <!-- Network -->
+            <onclick>Control.SetFocus(9051,0)</onclick>
+            <icon>-</icon>
+          </item>
+          <item id="5">
+            <label>31760</label>
+            <!-- HDMI in -->
+            <onclick>Control.SetFocus(9071,0)</onclick>
+            <icon>-</icon>
+          </item>
+        </content>
+      </control>
+      <control type="group" id="9001">
+        <left>260</left>
+        <top>65</top>
+        <height>515</height>
+        <control type="image">
+          <width>800</width>
+          <texture>settings_leftnavbox.png</texture>
+        </control>
+        <control type="image">
+          <left>0</left>
+          <width>1</width>
+          <texture>settings_dividerline.png</texture>
+        </control>
+        <control type="image">
+          <left>200</left>
+          <width>1</width>
+          <texture>settings_dividerline.png</texture>
+        </control>
+        <!--#################################         Video Group      ################################-->
+        <control type="group" id="9010">
+          <defaultcontrol>9011</defaultcontrol>
+          <description>Network Group</description>
+          <visible>Container(9000).HasFocus(1)</visible>
+          <!-- Wifi / information list -->
+          <control type="list" id="9011">
+            <description>Video Button group</description>
+            <top>40</top>
+            <width>200</width>
+            <height>480</height>
+            <itemgap>0</itemgap>
+            <pagecontrol>25</pagecontrol>
+            <scrolltime tween="sine" easing="out">200</scrolltime>
+            <orientation>vertical</orientation>
+            <visible>true</visible>
+            <itemlayout height="54" width="200">
+              <control type="label">
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </itemlayout>
+            <focusedlayout height="54" width="280">
+              <control type="image">
+                <left>0</left>
+                <top>0</top>
+                <height>55</height>
+                <visible>Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)</visible>
+                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+              </control>
+              <control type="label">
+                <visible>![Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)]</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+              <control type="label">
+                <visible>Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </focusedlayout>
+            <content>
+              <item id="1">
+                <label>31611</label>
+                <!-- Display -->
+                <onclick>Control.SetFocus(9015)</onclick>
+                <icon>-</icon>
+              </item>
+              <item id="2">
+                <label>31612</label>
+                <!-- Scale to Screen -->
+                <onclick>-</onclick>
+                <icon>-</icon>
+              </item>
+            </content>
+          </control>
+          <control type="group" id="9012">
+            <description>Video Control Group</description>
+            <top>40</top>
+            <left>200</left>
+            <width>544</width>
+            <visible>Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)</visible>
+            <!-- Display Option list -->
+            <control type="group">
+              <description>Display Option</description>
+              <top>0</top>
+              <width>544</width>
+              <height>500</height>
+              <visible>Container(9011).Position(0)</visible>
+              <control type="group" id="9013">
+                <left>0</left>
+                <height>55</height>
+                <width>600</width>
+                <visible>true</visible>
+                <control type="label">
+                  <description>Display Resolution</description>
+                  <left>20</left>
+                  <width>280</width>
+                  <height>55</height>
+                  <align>left</align>
+                  <aligny>center</aligny>
+                  <textcolor>white</textcolor>
+                  <shadowcolor>black</shadowcolor>
+                  <label>31613</label>
+                </control>
+                <control type="button" id="9015">
+                  <description>Left Button</description>
+                  <left>300</left>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <onup>9017</onup>
+                  <ondown>9017</ondown>
+                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="label" id="9014">
+                  <description>Value</description>
+                  <left>300</left>
+                  <width>300</width>
+                  <height>55</height>
+                  <align>center</align>
+                  <aligny>center</aligny>
+                  <textcolor>white</textcolor>
+                  <shadowcolor>black</shadowcolor>
+                </control>
+                <control type="button">
+                  <description>Right Button</description>
+                  <right>30</right>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <height>55</height>
+                  <visible>Control.HasFocus(9015)</visible>
+                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <visible>true</visible>
+                </control>
+              </control>
+              <control type="group" id="9016">
+                <left>0</left>
+                <top>55</top>
+                <height>55</height>
+                <width>600</width>
+                <visible>true</visible>
+                <control type="label">
+                  <description>Refreh Rate</description>
+                  <left>20</left>
+                  <width>280</width>
+                  <height>55</height>
+                  <align>left</align>
+                  <aligny>center</aligny>
+                  <textcolor>white</textcolor>
+                  <shadowcolor>black</shadowcolor>
+                  <label>31614</label>
+                </control>
+                <control type="button" id="9017">
+                  <description>Left Button</description>
+                  <left>300</left>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <onup>9015</onup>
+                  <ondown>9015</ondown>
+                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="label" id="9018">
+                  <description>Value</description>
+                  <left>300</left>
+                  <width>300</width>
+                  <height>55</height>
+                  <align>center</align>
+                  <aligny>center</aligny>
+                  <textcolor>white</textcolor>
+                  <shadowcolor>black</shadowcolor>
+                </control>
+                <control type="button">
+                  <description>Right Button</description>
+                  <right>30</right>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <height>55</height>
+                  <visible>Control.HasFocus(9017)</visible>
+                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <visible>true</visible>
+                </control>
+              </control>
+            </control>
+            <control type="group">
+              <description>Display Option</description>
+              <top>0</top>
+              <width>600</width>
+              <height>500</height>
+              <visible>Container(9011).Position(1)</visible>
+              <control type="label">
+                <description>Value</description>
+                <left>20</left>
+                <top>0</top>
+                <width>500</width>
+                <height>500</height>
+                <textcolor>white</textcolor>
+                <shadowcolor>black</shadowcolor>
+                <label>31615</label>
+                <wrapmultiline>true</wrapmultiline>
+              </control>
+              <control type="image">
+                <top>300</top>
+                <width>200</width>
+                <centerleft>50%</centerleft>
+                <aligny>center</aligny>
+                <texture>special://skin/media/alienware/icon_tv.png</texture>
+                <visible>true</visible>
+                <aspectratio align="bottom">keep</aspectratio>
+              </control>
+              <control type="image">
+                <top>300</top>
+                <centerleft>50%</centerleft>
+                <aligny>center</aligny>
+                <texture>special://skin/media/alienware/icon_remote.png</texture>
+                <visible>true</visible>
+                <width>30</width>
+                <aspectratio align="bottom">keep</aspectratio>
+              </control>
+            </control>
+          </control>
+        </control>
+        <!--#############################################################################################-->
+        <!--#################################         Audio Group      ################################-->
+        <control type="group" id="9020">
+          <defaultcontrol>9011</defaultcontrol>
+          <description>Network Group</description>
+          <visible>Container(9000).HasFocus(2)</visible>
+          <!-- Wifi / information list -->
+          <control type="list" id="9021">
+            <description>Audio Button group</description>
+            <top>40</top>
+            <width>200</width>
+            <height>480</height>
+            <itemgap>0</itemgap>
+            <pagecontrol>25</pagecontrol>
+            <scrolltime tween="sine" easing="out">200</scrolltime>
+            <orientation>vertical</orientation>
+            <visible>true</visible>
+            <itemlayout height="54" width="200">
+              <control type="label">
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </itemlayout>
+            <focusedlayout height="54" width="280">
+              <control type="image">
+                <left>0</left>
+                <top>0</top>
+                <height>55</height>
+                <visible>Control.HasFocus(9021) | Control.HasFocus(9024) | Control.HasFocus(9027)</visible>
+                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+              </control>
+              <control type="label">
+                <visible>![Control.HasFocus(9021) | Control.HasFocus(9024) | Control.HasFocus(9027)]</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+              <control type="label">
+                <visible>Control.HasFocus(9021) | Control.HasFocus(9024) | Control.HasFocus(9027)</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </focusedlayout>
+            <content>
+              <item id="1">
+                <label>31636</label>
+                <!-- Output -->
+                <onclick>Control.SetFocus(9024)</onclick>
+                <icon>-</icon>
+              </item>
+              <item id="2">
+                <label>31637</label>
+                <!-- Volume -->
+                <onclick>Control.SetFocus(9027)</onclick>
+                <icon>-</icon>
+              </item>
+            </content>
+          </control>
+          <control type="group" id="9022">
+            <description>Audio Control Group</description>
+            <top>40</top>
+            <left>200</left>
+            <width>544</width>
+            <visible>Control.HasFocus(9021) | Control.HasFocus(9024) | Control.HasFocus(9027)</visible>
+            <!-- Display Option list -->
+            <control type="group">
+              <description>Output Option</description>
+              <top>0</top>
+              <width>544</width>
+              <height>500</height>
+              <visible>Container(9021).Position(0)</visible>
+              <control type="group" id="9023">
+                <left>0</left>
+                <height>55</height>
+                <width>600</width>
+                <visible>true</visible>
+                <control type="button" id="9024">
+                  <description>Left Button</description>
+                  <left>30</left>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="label" id="9025">
+                  <description>Value</description>
+                  <left>0</left>
+                  <width>600</width>
+                  <height>55</height>
+                  <align>center</align>
+                  <aligny>center</aligny>
+                  <textcolor>white</textcolor>
+                  <shadowcolor>black</shadowcolor>
+                </control>
+                <control type="button">
+                  <description>Right Button</description>
+                  <right>30</right>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <height>55</height>
+                  <visible>Control.HasFocus(9024)</visible>
+                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <visible>true</visible>
+                </control>
+              </control>
+            </control>
+            <control type="group">
+              <description>Volume Option</description>
+              <top>0</top>
+              <width>600</width>
+              <height>500</height>
+              <visible>Container(9021).Position(1)</visible>
+              <control type="group" id="9026">
+                <left>0</left>
+                <height>55</height>
+                <width>600</width>
+                <visible>true</visible>
+                <control type="button" id="9027">
+                  <description>Left Button</description>
+                  <left>30</left>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="image" id="9029">
+                  <left>80</left>
+                  <top>20</top>
+                  <width>300</width>
+                  <height>20</height>
+                  <aligny>center</aligny>
+                  <visible>true</visible>
+                  <texture>special://skin/media/alienware/sliderbg.png</texture>
+                </control>
+                <control type="label" id="9028">
+                  <description>Value</description>
+                  <left>420</left>
+                  <width>80</width>
+                  <height>55</height>
+                  <align>center</align>
+                  <aligny>center</aligny>
+                  <textcolor>white</textcolor>
+                  <shadowcolor>black</shadowcolor>
+                  <label>100%</label>
+                </control>
+                <control type="button">
+                  <description>Right Button</description>
+                  <right>30</right>
+                  <width>24</width>
+                  <height>24</height>
+                  <centertop>50%</centertop>
+                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
+                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <label>-</label>
+                </control>
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <height>55</height>
+                  <visible>Control.HasFocus(9027)</visible>
+                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <visible>true</visible>
+                </control>
+              </control>
+            </control>
+          </control>
+        </control>
+        <!--#############################################################################################-->
+        <!--#################################         Customization Group      ################################-->
+        <control type="group" id="9040">
+          <defaultcontrol always="true">9041</defaultcontrol>
+          <description>Audio Group</description>
+          <visible>Container(9000).HasFocus(3)</visible>
+          <control type="list" id="9041">
+            <description>Video Button group</description>
+            <top>40</top>
+            <width>200</width>
+            <height>480</height>
+            <itemgap>0</itemgap>
+            <pagecontrol>25</pagecontrol>
+            <scrolltime tween="sine" easing="out">200</scrolltime>
+            <orientation>vertical</orientation>
+            <visible>true</visible>
+            <itemlayout height="54" width="200">
+              <control type="label">
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </itemlayout>
+            <focusedlayout height="54" width="280">
+              <control type="image">
+                <left>0</left>
+                <top>0</top>
+                <height>55</height>
+                <visible>Control.HasFocus(9041) | Control.IsVisible(9042)</visible>
+                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+              </control>
+              <control type="label">
+                <visible>![Control.HasFocus(9041) |  Control.IsVisible(9042)]</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+              <control type="label">
+                <visible>Control.HasFocus(9041) |  Control.IsVisible(9042)</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </focusedlayout>
+            <content>
+              <item id="1">
+                <label>31686</label>
+                <!-- AlienFX -->
+                <onclick>Control.SetFocus(9015)</onclick>
+                <icon>-</icon>
+              </item>
+            </content>
+          </control>
+          <control type="label" id="9042">
+            <left>0</left>
+            <top>0</top>
+            <height>0</height>
+            <align>left</align>
+            <aligny>center</aligny>
+            <textcolor>white</textcolor>
+          </control>
+        </control>
+        <!--#############################################################################################-->
+        <!--#################################         Network Group      ################################-->
+        <control type="group" id="9050">
+          <defaultcontrol>9051</defaultcontrol>
+          <description>Network Group</description>
+          <visible>Container(9000).HasFocus(4)</visible>
+          <!-- Wifi / information list -->
+          <control type="list" id="9051">
+            <defaultcontrol>9052</defaultcontrol>
+            <description>Network Option List</description>
+            <top>40</top>
+            <width>200</width>
+            <height>480</height>
+            <itemgap>0</itemgap>
+            <pagecontrol>25</pagecontrol>
+            <scrolltime tween="sine" easing="out">200</scrolltime>
+            <orientation>vertical</orientation>
+            <visible>true</visible>
+            <itemlayout height="54" width="200">
+              <control type="label">
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </itemlayout>
+            <focusedlayout height="54" width="280">
+              <control type="image">
+                <left>0</left>
+                <top>0</top>
+                <height>55</height>
+                <visible>Control.HasFocus(9051) | Control.HasFocus(9055)</visible>
+                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+              </control>
+              <control type="label">
+                <visible>![Control.HasFocus(9051) | Control.HasFocus(9055)]</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+              <control type="label">
+                <visible>Control.HasFocus(9051) | Control.HasFocus(9055)</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </focusedlayout>
+            <content>
+              <item id="9052">
+                <label>31711</label>
+                <!-- wifi -->
+                <onclick>Control.SetFocus(9055,0)</onclick>
+                <icon>-</icon>
+              </item>
+              <item id="9053">
+                <label>31712</label>
+                <!-- information -->
+                <onclick>-</onclick>
+                <icon>-</icon>
+              </item>
+            </content>
+          </control>
+          <control type="group" id="9054">
+            <description>Network Control Group</description>
+            <left>200</left>
+            <width>544</width>
+            <defaultcontrol>2</defaultcontrol>
+            <visible>Control.HasFocus(9051) | Control.HasFocus(9055)</visible>
+            <control type="label">
+              <top>15</top>
+              <left>20</left>
+              <width>600</width>
+              <align>left</align>
+              <font>goodtime12</font>
+              <label>31713</label>
+              <!-- Choose a wireless network -->
+              <visible>Container(9051).Position(0)</visible>
+            </control>
+            <!-- Wifi network list -->
+            <control type="list" id="9055">
+              <description>Wireless list</description>
+              <top>40</top>
+              <width>544</width>
+              <height>400</height>
+              <onleft>9051</onleft>
+              <viewtype label="3D list">list</viewtype>
+              <focusposition>2</focusposition>
+              <scrolltime>200</scrolltime>
+              <orientation>vertical</orientation>
+              <visible>Container(9051).Position(0)</visible>
+              <itemlayout width="544" height="55">
+                <control type="image">
+                  <width>24</width>
+                  <height>24</height>
+                  <posx>10</posx>
+                  <posy>13</posy>
+                  <texture>checkmark.png</texture>
+                  <visible>SubString(ListItem.Property(Connected),True)</visible>
+                </control>
+                <control type="label">
+                  <posx>50</posx>
+                  <width>350</width>
+                  <aligny>center</aligny>
+                  <info>ListItem.Label</info>
+                </control>
+                <control type="image">
+                  <width>24</width>
+                  <height>24</height>
+                  <posx>420</posx>
+                  <posy>13</posy>
+                  <texture>whitelock.png</texture>
+                  <visible>SubString(ListItem.Property(SecurityEnabled),True)</visible>
+                </control>
+                <control type="image">
+                  <width>24</width>
+                  <height>24</height>
+                  <posx>460</posx>
+                  <posy>13</posy>
+                  <info>ListItem.Icon</info>
+                </control>
+              </itemlayout>
+              <focusedlayout width="544" height="55">
+                <control type="image">
+                  <left>0</left>
+                  <top>0</top>
+                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <visible>Control.HasFocus(9055)</visible>
+                </control>
+                <control type="image">
+                  <width>24</width>
+                  <height>24</height>
+                  <posx>10</posx>
+                  <posy>13</posy>
+                  <texture>checkmark.png</texture>
+                  <visible>SubString(ListItem.Property(Connected),True)</visible>
+                </control>
+                <control type="label">
+                  <posx>50</posx>
+                  <width>350</width>
+                  <aligny>center</aligny>
+                  <info>ListItem.Label</info>
+                </control>
+                <control type="image">
+                  <width>24</width>
+                  <height>24</height>
+                  <posx>420</posx>
+                  <posy>13</posy>
+                  <texture>whitelock.png</texture>
+                  <visible>SubString(ListItem.Property(SecurityEnabled),True)</visible>
+                </control>
+                <control type="image">
+                  <width>24</width>
+                  <height>24</height>
+                  <posx>460</posx>
+                  <posy>13</posy>
+                  <info>ListItem.Icon</info>
+                </control>
+              </focusedlayout>
+            </control>
+          </control>
+
+          <!-- Network information -->
+          <control type="group" id="9056">
+            <description>Network Control Group</description>
+            <posx>200</posx>
+            <posy>0</posy>
+            <width>544</width>
+            <height>500</height>
+            <defaultcontrol>2</defaultcontrol>
+            <visible>Control.HasFocus(9051) + Container(9051).Position(1)</visible>
+            <control type="label">
+              <top>15</top>
+              <left>20</left>
+              <width>600</width>
+              <align>left</align>
+              <font>goodtime12</font>
+              <label>31720</label>
+              <!-- Network information -->
+            </control>
+
+            <!-- Wifi / network information list -->
+            <control type="list" id="9057">
+              <top>50</top>
+              <left>20</left>
+              <width>600</width>
+              <height>480</height>
+              <pagecontrol>25</pagecontrol>
+              <orientation>vertical</orientation>
+              <visible>true</visible>
+              <itemlayout height="40">
+                <control type="label">
+                  <width>500</width>
+                  <height>55</height>
+                  <label>$INFO[ListItem.Label]</label>
+                </control>
+              </itemlayout>
+              <focusedlayout height="40">
+                <control type="label">
+                  <width>500</width>
+                  <height>55</height>
+                  <font>normal_item</font>
+                  <label>$INFO[ListItem.Label]</label>
+                </control>
+              </focusedlayout>
+              <content>
+                <item>
+                  <label>$INFO[Network.LinkState]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item>
+                  <label>$LOCALIZE[149]: $INFO[Network.MacAddress]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item>
+                  <label>$LOCALIZE[150]: $INFO[Network.IPAddress]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item>
+                  <label>$LOCALIZE[13159]: $INFO[Network.SubnetMask]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item>
+                  <label>$LOCALIZE[13160]: $INFO[Network.GatewayAddress]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item>
+                  <label>$LOCALIZE[13161]: $INFO[Network.DNS1Address]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item>
+                  <label>$LOCALIZE[20307]: $INFO[Network.DNS2Address]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+                <item>
+                  <label>$LOCALIZE[13295] $INFO[System.InternetState]</label>
+                  <onclick>-</onclick>
+                  <icon>-</icon>
+                </item>
+              </content>
+            </control>
+          </control>
+        </control>
+        <!--#############################################################################################-->
+        <!--#################################         HDMI in Group      ################################-->
+        <control type="group" id="9070">
+          <defaultcontrol always="true">9071</defaultcontrol>
+          <description>HDMI IN Group</description>
+          <visible>Container(9000).HasFocus(5)</visible>
+          <!-- HDMI In list -->
+          <control type="list" id="9071">
+            <defaultcontrol always="true">9072</defaultcontrol>
+            <description>HDMI In Group</description>
+            <top>40</top>
+            <width>200</width>
+            <height>480</height>
+            <itemgap>0</itemgap>
+            <pagecontrol>25</pagecontrol>
+            <scrolltime tween="sine" easing="out">200</scrolltime>
+            <orientation>vertical</orientation>
+            <visible>true</visible>
+            <itemlayout height="54" width="200">
+              <control type="image">
+                <left>0</left>
+                <top>0</top>
+                <height>55</height>
+              </control>
+              <control type="label">
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </itemlayout>
+            <focusedlayout height="54" width="280">
+              <control type="image">
+                <left>0</left>
+                <top>0</top>
+                <height>55</height>
+                <visible>Control.HasFocus(9071) | Control.HasFocus(9074) | Control.HasFocus(9075)</visible>
+                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+              </control>
+              <control type="label">
+                <visible>![Control.HasFocus(9071) | Control.HasFocus(9074) | Control.HasFocus(9075)]</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+              <control type="label">
+                <visible>Control.HasFocus(9071) | Control.HasFocus(9074) | Control.HasFocus(9075)</visible>
+                <left>15</left>
+                <top>0</top>
+                <height>55</height>
+                <align>left</align>
+                <aligny>center</aligny>
+                <label>$INFO[ListItem.Label]</label>
+              </control>
+            </focusedlayout>
+            <content>
+              <item id="9072">
+                <label>31761</label>
+                <!-- wifi -->
+                <onclick>Control.SetFocus(9075)</onclick>
+                <icon>-</icon>
+              </item>
+            </content>
+          </control>
+          <control type="group" id="9073">
+            <defaultcontrol always="true">9074</defaultcontrol>
+            <description>HDMI In Control Group</description>
+            <left>200</left>
+            <width>544</width>
+            <defaultcontrol>2</defaultcontrol>
+            <control type="group" id="9074">
+              <defaultcontrol always="true">9075</defaultcontrol>
+              <left>0</left>
+              <top>40</top>
+              <height>55</height>
+              <width>544</width>
+              <visible>Control.HasFocus(9071) | Control.HasFocus(9075)</visible>
+              <control type="button" id="9075">
+                <description>Left Button</description>
+                <left>0</left>
+                <width>600</width>
+                <height>55</height>
+                <centertop>50%</centertop>
+                <textoffsetx>20</textoffsetx>
+                <disabledcolor>grey3</disabledcolor>
+                <texturefocus>special://skin/media/alienware/power_selected.png</texturefocus>
+                <texturenofocus>special://skin/media/alienware/blank.png</texturenofocus>
+                <label>31760</label>
+              </control>
+            </control>
+            <control type="label">
+              <top>15</top>
+              <left>20</left>
+              <width>600</width>
+              <align>left</align>
+              <font>goodtime12</font>
+              <label>31765</label>
+              <!-- Choose a wireless network -->
+              <visible>Control.HasFocus(9071) | Control.HasFocus(9075)</visible>
+            </control>
+            <control type="label">
+              <top>115</top>
+              <left>20</left>
+              <width>600</width>
+              <align>left</align>
+              <label>31764</label>
+              <!-- Choose a wireless network -->
+              <visible>!Control.IsEnabled(9075) + Control.IsVisible(9074)</visible>
+            </control>
+            <control type="label">
+              <top>115</top>
+              <left>20</left>
+              <width>600</width>
+              <align>left</align>
+              <label>31766</label>
+              <!-- Choose a wireless network -->
+              <visible>Control.IsEnabled(9075) + Control.IsVisible(9074)</visible>
+            </control>
+          </control>
+        </control>
+        <!--#############################################################################################-->
+      </control>
+    </control>
+  </controls>
+</window>

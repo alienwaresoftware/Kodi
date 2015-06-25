@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window>
+    <defaultcontrol always="true">10</defaultcontrol>
+    <include>dialogeffect</include>
+    <controls>
+        <control type="image">
+            <description>Corner logo</description>
+            <left>0</left>
+            <top>0</top>
+            <width>1280</width>
+            <height>720</height>
+            <texture>special://skin/media/alienware/blackoverlay.png</texture>
+        </control>
+        <control type="image">
+            <description>Corner logo</description>
+            <left>0</left>
+            <top>230</top>
+            <width>1280</width>
+            <height>260</height>
+            <texture>special://skin/media/alienware/confirmdialogbox.png</texture>
+        </control>
+
+        <control type="group">
+            <top>50</top>
+            <control type="textbox" id="9">
+                <left>40</left>
+                <width>1200</width>
+                <height>100</height>
+                <align>center</align>
+                <alignx>center</alignx>
+                <label>-</label>
+                <font>fontconfirmdialog</font>
+            </control>
+            <control type="group">
+                <top>360</top>
+                <left>0</left>
+                <control type="button" id="11">
+                    <description>Yes button</description>
+                    <width>130</width>
+                  <left>500</left>
+                    <height>45</height>
+                    <label>107</label>
+                    <font>fontconfirmdialog</font>
+                    <textcolor>grey</textcolor>
+                    <focusedcolor>white</focusedcolor>
+                    <!-- <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus> -->
+                    <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+                    <align>center</align>
+                    <onleft>10</onleft>
+                    <onright>10</onright>
+                    <onup>11</onup>
+                    <ondown>11</ondown>
+                </control>
+                <control type="button" id="10">
+                    <description>No button</description>
+                    <left>650</left>
+                    <width>130</width>
+                    <height>45</height>
+                    <label>106</label>
+                    <font>fontconfirmdialog</font>
+                    <textcolor>grey</textcolor>
+                    <focusedcolor>white</focusedcolor>
+                    <!-- <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus> -->
+                    <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+                    <align>center</align>
+                    <onleft>11</onleft>
+                    <onright>11</onright>
+                    <onup>10</onup>
+                    <ondown>10</ondown>
+                </control>
+            </control>
+        </control>
+
+    </controls>
+</window>

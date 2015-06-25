@@ -1,0 +1,1122 @@
+# Kodi Media Center language file
+# Addon Name: Confluence
+# Addon id: skin.confluence
+# Addon Provider: Jezz_X, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Chinese (Simple) (http://www.transifex.com/projects/p/xbmc-main/language/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "#31000"
+msgid "Change Your"
+msgstr "修改您的"
+
+msgctxt "#31003"
+msgid "Power Options"
+msgstr "电源选项"
+
+msgctxt "#31004"
+msgid "Working..."
+msgstr "工作中..."
+
+msgctxt "#31005"
+msgid "Hide Information"
+msgstr "隐藏信息"
+
+msgctxt "#31006"
+msgid "View Options"
+msgstr "视图选项"
+
+msgctxt "#31008"
+msgid "Full screen"
+msgstr "全屏"
+
+msgctxt "#31009"
+msgid "Total Duration"
+msgstr "总时长"
+
+msgctxt "#31022"
+msgid "Music - Files"
+msgstr "音乐 - 文件"
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr "播放"
+
+msgctxt "#31024"
+msgid "Page"
+msgstr "页"
+
+msgctxt "#31025"
+msgid "Items"
+msgstr "项"
+
+msgctxt "#31026"
+msgid "Misc Options"
+msgstr "其他选项"
+
+msgctxt "#31027"
+msgid "Location"
+msgstr "所在地"
+
+msgctxt "#31028"
+msgid "Poster Wrap"
+msgstr "海报卷动"
+
+msgctxt "#31029"
+msgid "Fanart"
+msgstr "同人画"
+
+msgctxt "#31031"
+msgid "Pic Thumbs"
+msgstr "图片缩略图"
+
+msgctxt "#31032"
+msgid "Image Wrap"
+msgstr "图片卷动"
+
+msgctxt "#31033"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "#31039"
+msgid "Actions"
+msgstr "操作"
+
+msgctxt "#31040"
+msgid "Now Playing"
+msgstr "正在播放"
+
+msgctxt "#31042"
+msgid "PLAYING"
+msgstr "播放"
+
+msgctxt "#31043"
+msgid "PAUSED"
+msgstr "暂停"
+
+msgctxt "#31044"
+msgid "FAST FORWARD"
+msgstr "快进"
+
+msgctxt "#31045"
+msgid "REWIND"
+msgstr "回退"
+
+msgctxt "#31046"
+msgid "SEEKING"
+msgstr "搜索中"
+
+msgctxt "#31048"
+msgid "Visualisation Presets"
+msgstr "可视化效果预设"
+
+msgctxt "#31049"
+msgid "End Time"
+msgstr "结束时间"
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr "顺序：升序"
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr "顺序：降序"
+
+msgctxt "#31055"
+msgid "Open playlist"
+msgstr "打开播放列表"
+
+msgctxt "#31056"
+msgid "Save playlist"
+msgstr "保存播放列表"
+
+msgctxt "#31057"
+msgid "Close playlist"
+msgstr "关闭播放列表"
+
+msgctxt "#31058"
+msgid "System music files"
+msgstr "系统音乐文件"
+
+msgctxt "#31059"
+msgid "Current playlist"
+msgstr "当前播放列表"
+
+msgctxt "#31060"
+msgid "This file is stacked, select the part you want to play from."
+msgstr "这是一个堆叠文件，请选择要播放的片段。"
+
+msgctxt "#31061"
+msgid "Current Selected"
+msgstr "当前选择"
+
+msgctxt "#31101"
+msgid "Home screen options"
+msgstr "主界面选项"
+
+msgctxt "#31102"
+msgid "Background"
+msgstr "背景"
+
+msgctxt "#31103"
+msgid "Show \"Paused\" in picture slide show"
+msgstr "图片幻灯片播放时显示“暂停”状态"
+
+msgctxt "#31104"
+msgid "Play Trailers in a window [COLOR=grey3](Video Information Dialogue Only)[/COLOR]"
+msgstr "窗口播放预告片[COLOR=grey3]（仅在视频信息显示画面）[/COLOR]"
+
+msgctxt "#31106"
+msgid "Miscellaneous options"
+msgstr "其他选项"
+
+msgctxt "#31107"
+msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+msgstr "隐藏视频文件名的媒体标识[COLOR=grey3]（Blu-ray, HD-DVD）[/COLOR]"
+
+msgctxt "#31108"
+msgid "Hide Main Menu Buttons"
+msgstr "隐藏主菜单按钮"
+
+msgctxt "#31109"
+msgid "Enable Custom Background"
+msgstr "启用自定义背景"
+
+msgctxt "#31110"
+msgid "Background path:"
+msgstr "背景图路径："
+
+msgctxt "#31111"
+msgid "Hide"
+msgstr "隐藏"
+
+msgctxt "#31112"
+msgid "Options"
+msgstr "选项"
+
+msgctxt "#31116"
+msgid "Show Recently added Albums"
+msgstr "显示最新加入专辑"
+
+msgctxt "#31117"
+msgid "Show Recently added Videos"
+msgstr "显示最新加入视频"
+
+msgctxt "#31118"
+msgid "Home Page Programs Sub-menu"
+msgstr "主界面程序子菜单"
+
+msgctxt "#31119"
+msgid "Hide Background Fanart"
+msgstr "隐藏同人画背景"
+
+msgctxt "#31124"
+msgid "Show Background \"Now Playing\" Video"
+msgstr "在背景显示“正在播放”视频"
+
+msgctxt "#31125"
+msgid "Show Background \"Now Playing\" Visualisation"
+msgstr "在背景显示“正在播放”可视化效果"
+
+msgctxt "#31126"
+msgid "Play TV theme songs in video library (TvTunes add-on)"
+msgstr "视频资料库模式播放电视主题曲（TvTunes 插件）"
+
+msgctxt "#31127"
+msgid "TvTunes"
+msgstr "TvTunes"
+
+msgctxt "#31128"
+msgid "Lyrics"
+msgstr "歌词"
+
+msgctxt "#31129"
+msgid "Hide Fanart in full screen visualisation"
+msgstr "全屏可视化效果隐藏同人画"
+
+msgctxt "#31132"
+msgid "Lyrics Add-on"
+msgstr "歌词插件"
+
+msgctxt "#31134"
+msgid "Home Page Videos Sub-menu"
+msgstr "主界面视频子菜单"
+
+msgctxt "#31135"
+msgid "Home Page Music Sub-menu"
+msgstr "主界面音乐子菜单"
+
+msgctxt "#31136"
+msgid "Home Page Pictures Sub-menu"
+msgstr "主界面图片子菜单"
+
+msgctxt "#31140"
+msgid "Music OSD"
+msgstr "音乐 OSD"
+
+msgctxt "#31141"
+msgid "Video OSD"
+msgstr "视频 OSD"
+
+msgctxt "#31142"
+msgid "Settings level"
+msgstr "设置级别"
+
+msgctxt "#31200"
+msgid "Shortcuts"
+msgstr "快捷方式"
+
+msgctxt "#31203"
+msgid "Choose Your Song"
+msgstr "选择歌曲"
+
+msgctxt "#31205"
+msgid "Lyrics Source"
+msgstr "歌词来源"
+
+msgctxt "#31206"
+msgid "Found"
+msgstr "找到"
+
+msgctxt "#31207"
+msgid "Find More Items"
+msgstr "查找更多项目"
+
+msgctxt "#31208"
+msgid "Upcoming Episodes"
+msgstr "即将播出的分集"
+
+msgctxt "#31300"
+msgid "Current Temp"
+msgstr "当前温度"
+
+msgctxt "#31301"
+msgid "Last Updated"
+msgstr "最近修改"
+
+msgctxt "#31303"
+msgid "Data provider"
+msgstr "数据来源"
+
+msgctxt "#31307"
+msgid "Hide Fanart"
+msgstr "隐藏同人画"
+
+msgctxt "#31308"
+msgid "Movie Details"
+msgstr "电影详细资料"
+
+msgctxt "#31309"
+msgid "Memory Used:"
+msgstr "己用内存："
+
+msgctxt "#31310"
+msgid "Track Number"
+msgstr "音轨号"
+
+msgctxt "#31311"
+msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
+msgstr "同人画图片[CR][CR]不可用[CR][CR]按键设置"
+
+msgctxt "#31312"
+msgid "Current Scraper"
+msgstr "当前刮削器"
+
+msgctxt "#31313"
+msgid "Choose a Scraper"
+msgstr "选择刮削器"
+
+msgctxt "#31314"
+msgid "Content Scanning Options"
+msgstr "内容扫描选项"
+
+msgctxt "#31317"
+msgid "Set Fanart Path"
+msgstr "设置同人画目录"
+
+msgctxt "#31319"
+msgid "Selected Profile"
+msgstr "选择用户配置文件"
+
+msgctxt "#31320"
+msgid "Last Logged In"
+msgstr "最近登录"
+
+msgctxt "#31321"
+msgid "Karaoke Song Selector"
+msgstr "卡拉OK歌曲选择器"
+
+msgctxt "#31322"
+msgid "Aired"
+msgstr "首播"
+
+msgctxt "#31325"
+msgid "Playlist Options"
+msgstr "播放列表选项"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "创建"
+
+msgctxt "#31327"
+msgid "Resolution"
+msgstr "分辨率"
+
+msgctxt "#31328"
+msgid "Recently Added"
+msgstr "最新加入"
+
+msgctxt "#31329"
+msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
+msgstr "[B]时钟设置！[/B] [COLOR=grey2] - 系统自动关闭于[/COLOR]"
+
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]Movie trailer"
+msgstr "点此按钮播放预告片"
+
+msgctxt "#31331"
+msgid "Album Details"
+msgstr "专辑详情"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr "暂停"
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr "停止"
+
+msgctxt "#31353"
+msgid "Fast Forward"
+msgstr "快进"
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr "回退"
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr "电影菜单"
+
+msgctxt "#31356"
+msgid "Download Subtitles"
+msgstr "下载字幕"
+
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr "按2D模式观看"
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr "改变模式"
+
+msgctxt "#31362"
+msgid "Enabled"
+msgstr "开启"
+
+msgctxt "#31390"
+msgid "Skin default"
+msgstr "皮肤默认"
+
+msgctxt "#31391"
+msgid "Skin default with no Caps"
+msgstr "皮肤默认无Caps"
+
+msgctxt "#31392"
+msgid "Arial based"
+msgstr "基于 Arial 字体"
+
+msgctxt "#31400"
+msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B]设置用户界面[/B][CR][CR]变换皮肤 · 设置语言和区域 · 修改文件列表选项 · 设置屏幕保护"
+
+msgctxt "#31401"
+msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B]设置视频选项[/B][CR][CR]管理视频资料库 · 设置视频播放选项 · 修改视频列表选项 · 设置字幕字体"
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B]设置音乐选项[/B][CR][CR]管理音乐资料库 · 设置音乐播放选项 · 修改音乐列表选项 · 设置歌曲提交 · 设置卡拉OK选项"
+
+msgctxt "#31403"
+msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshows"
+msgstr "[B]设置图片选项[/B][CR][CR]设置图片列表选项 · 设置幻灯片播放"
+
+msgctxt "#31404"
+msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set three cities to collect weather information"
+msgstr "[B]设置天气预报[/B][CR][CR]设置三个获取天气信息的城市"
+
+msgctxt "#31406"
+msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B]设置系统选项[/B][CR][CR]设置和校正显示器 · 设置音频输出 · 设置摇控器 · 设置节电选项 · 启用调试 · 设置主机锁定"
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+msgstr "[B]设置插件功能[/B][CR][CR]管理你安装的插件 · 在 xbmc.org 浏览并安装插件 · 修改插件设置"
+
+msgctxt "#31409"
+msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
+msgstr "[B]设置直播电视[/B][CR][CR]更改全屏信息 · 管理电子节目单数据设置"
+
+msgctxt "#31410"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]设置网络服务[/B][CR][CR]设置通过 UPnP 和 HTTP 控制 Kodi · 配置文件共享[CR]启用 Zeroconf · 设置 AirPlay"
+
+msgctxt "#31411"
+msgid "First run help...."
+msgstr "首次运行帮助...."
+
+msgctxt "#31412"
+msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section.  To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"Ok\" to close this dialogue. It will not appear again."
+msgstr "此选项卡表示有一个提供本功能模块特殊设置选项的菜单隐藏在窗口侧边。你可以通过按遥控器或键盘左键、或将鼠标指针移动到选项卡范围来开启此菜单。[CR] [CR]点“确定”关闭此对话框，本提示不会再次出现。"
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "本地字幕可用"
+
+msgctxt "#31420"
+msgid "Login"
+msgstr "登录"
+
+msgctxt "#31421"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "选择您的用户配置文件[CR]登录并继续"
+
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "启动时显示或隐藏登录界面。"
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "选择禁用登录界面时使用的用户配置文件。"
+
+msgctxt "#31501"
+msgid "Scheduled Time"
+msgstr "预定时间"
+
+msgctxt "#31502"
+msgid "Live TV"
+msgstr "直播电视"
+
+msgctxt "#31503"
+msgid "Add Group"
+msgstr "增加组"
+
+msgctxt "#31504"
+msgid "Rename Group"
+msgstr "更名组"
+
+msgctxt "#31505"
+msgid "Delete Group"
+msgstr "删除组"
+
+msgctxt "#31506"
+msgid "Available[CR]Groups"
+msgstr "可用组"
+
+msgctxt "#31509"
+msgid "Channel Group"
+msgstr "频道组"
+
+msgctxt "#31510"
+msgid "Timer Set"
+msgstr "定时器设定"
+
+msgctxt "#31511"
+msgid "Channel Options"
+msgstr "频道选项"
+
+
+#START Alienware skin
+#Power menu
+
+msgctxt "#31600"
+msgid "WELCOME TO ALPHA UI"
+msgstr "欢迎使用 ALPHA UI"
+
+msgctxt "#31601"
+msgid "SHUT DOWN CONSOLE"
+msgstr "关闭控制台"
+
+msgctxt "#31602"
+msgid "RESTART CONSOLE"
+msgstr "重新启动控制台"
+
+msgctxt "#31622"
+msgid "RESTART SYSTEM"
+msgstr "重新启动系统"
+
+msgctxt "#31623"
+msgid "SHUT DOWN SYSTEM"
+msgstr "关闭系统"
+
+msgctxt "#31603"
+msgid "SLEEP"
+msgstr "睡眠"
+
+# Home menu
+msgctxt "#31604"
+msgid "Power"
+msgstr "电源"
+
+msgctxt "#31605"
+msgid "Launch[CR]Steam"
+msgstr "启动[CR]Steam"
+
+msgctxt "#31606"
+msgid "Settings"
+msgstr "设置"
+
+msgctxt "#31607"
+msgid "GO TO DESKTOP"
+msgstr "转至桌面"
+
+msgctxt "#31608"
+msgid "HELP"
+msgstr "帮助"
+
+msgctxt "#31609"
+msgid "Launch System Menu at anytime by pressing LT + LB + RT + RB + Guide button."
+msgstr "通过按下 LT + LB + RT + RB + Guide 按钮随时启动系统菜单。"
+
+# Settings screen - Backgrounds
+msgctxt "#31660"
+msgid "Backgrounds"
+msgstr "背景"
+
+# Settings screen - Console
+msgctxt "#31685"
+msgid "Customization"
+msgstr "自定义"
+
+msgctxt "#31686"
+msgid "AlienFX"
+msgstr "AlienFX"
+
+msgctxt "#31687"
+msgid "Updates"
+msgstr "更新"
+
+msgctxt "#31688"
+msgid "Boot Options"
+msgstr "启动选项"
+
+# Confirm Dialog
+msgctxt "#31781"
+msgid "Yes"
+msgstr "是"
+
+msgctxt "#31782"
+msgid "No"
+msgstr "否"
+
+msgctxt "#31783"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "#31784"
+msgid "Restart"
+msgstr "重新启动"
+
+msgctxt "#31785"
+msgid "OK"
+msgstr "确定"
+
+# Help
+msgctxt "#31800"
+msgid "Hotkeys"
+msgstr "热键"
+
+msgctxt "#31810"
+msgid "Systems Menu"
+msgstr "系统菜单"
+
+msgctxt "#31811"
+msgid "Shifting Focus"
+msgstr "移动焦点"
+
+msgctxt "#31812"
+msgid "Full Screen"
+msgstr "全屏"
+
+msgctxt "#31813"
+msgid "Controller Mouse"
+msgstr "控制器鼠标"
+
+msgctxt "#31814"
+msgid "Guide"
+msgstr "Guide 键"
+
+msgctxt "#31815"
+msgid "Dpad Left"
+msgstr "十字键左键"
+
+msgctxt "#31816"
+msgid "Dpad Right"
+msgstr "十字键右键"
+
+msgctxt "#31817"
+msgid "Dpad Up"
+msgstr "十字键向上键"
+
+msgctxt "#31818"
+msgid "L3"
+msgstr "L3"
+
+msgctxt "#31820"
+msgid "Hotkey Combination LT + LB + RT + RB + Guide button"
+msgstr "热键组合 LT + LB + RT + RB + Guide 按钮"
+
+msgctxt "#31821"
+msgid "Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu."
+msgstr "按下控制器上的 LT + LB + RT + RB 和 Guide 按钮将启动系统菜单。"
+
+msgctxt "#31822"
+msgid "Hotkey Combination LT + LB + RT + RB + Left or Right"
+msgstr "热键组合 LT + LB + RT + RB + 左键或右键"
+
+msgctxt "#31823"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."
+msgstr "使用十字键左键或十字键右键移动窗口焦点。 也可通过键盘使用 Alt + Tab（右移）或 Shift + Alt + Tab（左移）访问此功能。"
+
+msgctxt "#31824"
+msgid "Hotkey Combination LT + LB + RT + RB + Dpad Up"
+msgstr "热键组合 LT + LB + RT + RB + 十字键向上键"
+
+msgctxt "#31825"
+msgid "This hot key will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hot key."
+msgstr "此热键将尝试显示您当前在全屏模式下使用的应用程序。 它与键盘上的 Alt+Enter 和 F11 的作用相同。 不是所有应用程序都会对此热键做出响应。"
+
+msgctxt "#31826"
+msgid "Hotkey Combination LT + LB + RT + RB + L3"
+msgstr "热键组合 LT + LB + RT + RB + L3"
+
+msgctxt "#31827"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "按下热键组合 + L3 将开启鼠标驱动程序。 再次按下热键组合将关闭该驱动程序。"
+
+msgctxt "#31828"
+msgid "System software update failed. Shutdown console in order to begin software update."
+msgstr "系统软件更新失败。 关闭游戏机以开始软件更新。"
+
+msgctxt "#31829"
+msgid "New update available - shut down console to begin download"
+msgstr "新更新可用 - 关闭游戏机以开始下载"
+
+msgctxt "#31830"
+msgid "Close Application"
+msgstr "关闭应用程序"
+
+msgctxt "#31831"
+msgid "This hot key will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hot key."
+msgstr "此热键将尝试关闭您当前使用的应用程序。 它与键盘上的 Alt+F4 和 Alt+Q 的作用相同。 不是所有应用程序都会对此热键做出响应。"
+
+msgctxt "#31832"
+msgid "Disable Hotkey"
+msgstr "禁用热键"
+
+msgctxt "#31833"
+msgid "Pressing LT + LB + RT + RB on the controller plus the Start button will enable/disable the hotkeys"
+msgstr "按下控制器上的 LT + LB + RT + RB 和“开始”按钮将启用/禁用热键。"
+
+# Miscellaneous
+msgctxt "#31840"
+msgid "Connect mouse to enable desktop mode"
+msgstr "连接鼠标以启用桌面模式"
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr "正在初始化 STEAM"
+
+# New items for HiveMind
+msgctxt "#31842"
+msgid "GAMES"
+msgstr "游戏"
+
+msgctxt "#31843"
+msgid "Device Video"
+msgstr "设备视频"
+
+msgctxt "#31844"
+msgid "Device Audio"
+msgstr "设备音频"
+
+msgctxt "#31845"
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgctxt "#31846"
+msgid "Layouts"
+msgstr "布局"
+
+msgctxt "#31847"
+msgid "Hotkeys"
+msgstr "热键"
+
+msgctxt "#31848"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "#31849"
+msgid "Wikis"
+msgstr "Wiki"
+
+msgctxt "#31850"
+msgid "Device Settings"
+msgstr "设备设置"
+
+msgctxt "#31851"
+msgid "Kodi Settings"
+msgstr "Kodi 设置"
+
+msgctxt "#31852"
+msgid "Controller Layout for Menus"
+msgstr "菜单的控制器布局"
+
+msgctxt "#31853"
+msgid "Controller Layout for Keyboard"
+msgstr "键盘的控制器布局"
+
+msgctxt "#31854"
+msgid "Controller Layout for Video Playback"
+msgstr "视频播放的控制器布局"
+
+msgctxt "#31855"
+msgid "Quick Start Guide"
+msgstr "快速入门指南"
+
+msgctxt "#31856"
+msgid "Basic Controls"
+msgstr "基本控件"
+
+msgctxt "#31857"
+msgid "Adding music to the library"
+msgstr "将音乐添加到库"
+
+msgctxt "#31858"
+msgid "Adding video to the library"
+msgstr "将视频添加到库"
+
+msgctxt "#31859"
+msgid "Add-ons Manager"
+msgstr "附加组件管理器"
+
+msgctxt "#31860"
+msgid "Confluence"
+msgstr "Confluence"
+
+msgctxt "#31861"
+msgid "HiveMind"
+msgstr "HiveMind"
+
+msgctxt "#31862"
+msgid "Home Page Games Sub-menu"
+msgstr "主页游戏子菜单"
+
+msgctxt "#31863"
+msgid "File Manager"
+msgstr "文件管理器"
+
+msgctxt "#31864"
+msgid "Controller Layout for Music Playback"
+msgstr "音乐播放的控制器布局"
+
+msgctxt "#31865"
+msgid "Controller Layout for Slideshows"
+msgstr "幻灯片的控制器布局"
+
+msgctxt "#31866"
+msgid "The menu layout is used to perform basic navigation in the menu and interface. These are the default controls."
+msgstr "菜单布局用于在菜单和界面中执行基本导航。 这些是默认控件。"
+
+msgctxt "#31867"
+msgid "The keyboard layout is used whenever the onscreen keyboard appears."
+msgstr "在屏幕键盘出现时使用键盘布局。"
+
+msgctxt "#31868"
+msgid "The video playback layout is used when you are watching a video, tv show, or movie."
+msgstr "当您正在观看视频、电视节目或电影时使用视频播放布局。"
+
+msgctxt "#31869"
+msgid "The music playback layout is used when you are listening to music or radio."
+msgstr "当您正在听音乐或收音机时使用音乐播放布局。"
+
+msgctxt "#31870"
+msgid "The slideshow layout is used when you view picture slideshows. "
+msgstr "在您查看图片幻灯片时使用幻灯片布局。 "
+
+msgctxt "#31871"
+msgid "How to setup your HiveMind Interface."
+msgstr "如何设置 HiveMind 界面。"
+
+msgctxt "#31872"
+msgid "How to use Add-ons in the HiveMind Interface."
+msgstr "如何使用 HiveMind 界面中的加载项。"
+
+msgctxt "#31873"
+msgid "How to use the advance settings in the HiveMind Interface."
+msgstr "如何使用 HiveMind 界面中的高级设置。"
+
+msgctxt "#31874"
+msgid "How to use the Controller Hot Keys."
+msgstr "如何使用控制器热键。"
+
+msgctxt "#31875"
+msgid "Welcome to The HiveMind!"
+msgstr "欢迎使用 HiveMind！"
+
+msgctxt "#31876"
+msgid "The HiveMind is a powerful combination of the flexibility of Kodi Media Center, and customizations from Alienware. To find out more, select the quick start guide, or the \"?\" on the main menu. [CR][CR]This message will not appear again."
+msgstr "HiveMind 结合了 Kodi 媒体中心的灵活性，专为 Alienware 定制。要了解更多信息，请选择快速入门指南或主菜单上的 \"?\"。[CR][CR]此消息不会再次出现。"
+
+msgctxt "#31877"
+msgid "Select"
+msgstr "选择"
+
+msgctxt "#31878"
+msgid "Context Menu"
+msgstr "上下文菜单"
+
+msgctxt "#31879"
+msgid "Previous Menu"
+msgstr "上一级菜单"
+
+msgctxt "#31880"
+msgid "Queue"
+msgstr "队列"
+
+msgctxt "#31881"
+msgid "Shutdown Menu"
+msgstr "关闭菜单"
+
+msgctxt "#31882"
+msgid "Back"
+msgstr "返回"
+
+msgctxt "#31883"
+msgid "Full Screen Toggle"
+msgstr "全屏切换"
+
+msgctxt "#31884"
+msgid "Home"
+msgstr "主页"
+
+msgctxt "#31885"
+msgid "Playlist"
+msgstr "播放列表"
+
+msgctxt "#31886"
+msgid "Favorites Menu"
+msgstr "收藏夹菜单"
+
+msgctxt "#31887"
+msgid "Navigation"
+msgstr "导航"
+
+msgctxt "#31888"
+msgid "Controller Layout for Global"
+msgstr "全局的控制器布局"
+
+msgctxt "#31889"
+msgid "Controller Layout for Fullscreen Video"
+msgstr "全屏视频的控制器布局"
+
+msgctxt "#31890"
+msgid "Pause"
+msgstr "暂停"
+
+msgctxt "#31891"
+msgid "OnScreen Display"
+msgstr "屏幕显示"
+
+msgctxt "#31892"
+msgid "Small Step Back"
+msgstr "小步后退"
+
+msgctxt "#31893"
+msgid "Aspect Ratio"
+msgstr "宽高比"
+
+msgctxt "#31894"
+msgid "Fast Rewind"
+msgstr "快退"
+
+msgctxt "#31895"
+msgid "Stop"
+msgstr "停止"
+
+msgctxt "#31896"
+msgid "Full Screen"
+msgstr "全屏"
+
+msgctxt "#31897"
+msgid "ShowSubtitles"
+msgstr "显示字幕"
+
+msgctxt "#31898"
+msgid "Fast Forward"
+msgstr "快进"
+
+msgctxt "#31899"
+msgid "Audio Next Language"
+msgstr "下一个音频语言"
+
+msgctxt "#31900"
+msgid "Scrub Video"
+msgstr "删除视频"
+
+msgctxt "#31900"
+msgid "Scrub Video"
+msgstr "删除视频"
+
+msgctxt "#31610"
+msgid "Backspace"
+msgstr "退格"
+
+msgctxt "#31611"
+msgid "Cancel"
+msgstr "取消"
+
+msgctxt "#31612"
+msgid "Cursor Left"
+msgstr "光标左移"
+
+msgctxt "#31613"
+msgid "Shift"
+msgstr "上档"
+
+msgctxt "#31614"
+msgid "Space"
+msgstr "空格"
+
+msgctxt "#31615"
+msgid "Enter"
+msgstr "Enter"
+
+msgctxt "#31616"
+msgid "Cursor Right"
+msgstr "光标右移"
+
+msgctxt "#31617"
+msgid "Symbols"
+msgstr "符号"
+
+msgctxt "#31618"
+msgid "Preset List"
+msgstr "预设列表"
+
+msgctxt "#31619"
+msgid "Info"
+msgstr "信息"
+
+msgctxt "#31620"
+msgid "Skip"
+msgstr "跳过"
+
+msgctxt "#31621"
+msgid "Zoom Normal"
+msgstr "正常缩放"
+
+msgctxt "#31624"
+msgid "Zoom Out"
+msgstr "缩小"
+
+msgctxt "#31625"
+msgid "Zoom In"
+msgstr "放大"
+
+msgctxt "#31626"
+msgid "Rotate"
+msgstr "旋转"
+
+msgctxt "#31627"
+msgid "Navigate/Zoom"
+msgstr "导航/缩放"
+
+#END Alienware skin
+
+msgctxt "#31901"
+msgid "36 Hour Forecast"
+msgstr "36小时预报"
+
+msgctxt "#31902"
+msgid "Hourly Forecast"
+msgstr "每小时预报"
+
+msgctxt "#31903"
+msgid "Weekend Forecast"
+msgstr "一周预报"
+
+msgctxt "#31904"
+msgid "10 Day Forecast"
+msgstr "10日预报"
+
+msgctxt "#31905"
+msgid "Forecast"
+msgstr "天气预报"
+
+msgctxt "#31908"
+msgid "Chance of Precipitation"
+msgstr "降雨概率"
+
+msgctxt "#31909"
+msgid "Fetching forecast info..."
+msgstr "获取天气信息..."
+
+msgctxt "#31910"
+msgid "Map & Alerts"
+msgstr "地图 & 警报"
+
+msgctxt "#31950"
+msgid "WEATHER"
+msgstr "天气"
+
+msgctxt "#31951"
+msgid "PICTURES"
+msgstr "图片"
+
+msgctxt "#31952"
+msgid "TV"
+msgstr "电视"
+
+msgctxt "#31953"
+msgid "VIDEOS"
+msgstr "视频"
+
+msgctxt "#31954"
+msgid "MOVIES"
+msgstr "电影"
+
+msgctxt "#31955"
+msgid "TV SHOWS"
+msgstr "剧集"
+
+msgctxt "#31956"
+msgid "MUSIC"
+msgstr "音乐"
+
+msgctxt "#31957"
+msgid "PROGRAMS"
+msgstr "程序"
+
+msgctxt "#31958"
+msgid "PLAY DISC"
+msgstr "播放光盘"
+
+msgctxt "#31959"
+msgid "SYSTEM"
+msgstr "系统"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "电台"
