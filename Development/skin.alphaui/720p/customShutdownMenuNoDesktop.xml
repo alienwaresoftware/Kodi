@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window id="4000">
+    <onload>XBMC.RunScript("special://skin\scripts\update_power_menu.py")</onload>
+    <defaultcontrol always="true">9000</defaultcontrol>
+    <controls>
+        <include>CommonBackground</include>
+        <control type="group" id="1">
+            <height>800</height>
+            <top>80</top>
+            <left>475</left>
+            <control type="image">
+                <height>40</height>
+                <width>40</width>
+                <aspectratio>keep</aspectratio>
+                <description>Power menu header thing</description>
+                <texture>special://skin/media/alienware/icons_power_small.png</texture>
+            </control>
+            <control type="label">
+                <description>Power label</description>
+                <font>goodtime12</font>
+              <height>40</height>
+              <aligny>center</aligny>
+              <label>31604</label> <!-- POWER -->
+            </control>
+
+            <control type="image">
+                <width>330</width>
+                <height>400</height>
+                <top>35</top>
+                <texture>special://skin/media/alienware/Power_box.png</texture>
+            </control>
+
+            <control type="list" id="9000">
+                <top>110</top>
+                <alignx>center</alignx>
+                <height>400</height>
+                <onleft>91</onleft>
+                <onright>91</onright>
+                <ondown>91</ondown>
+                <movement>1</movement>
+                <orientation>vertical</orientation>
+                <itemlayout height="70" width="330">
+                    <control type="label">
+                        <left>15</left> 
+                        <aligny>center</aligny>
+                        <font>goodtime13</font>
+                        <label>$INFO[ListItem.Label]</label>
+                    </control>
+                </itemlayout>
+                <focusedlayout height="70" width="330">
+                    <control type="image">
+                        <left>0</left>
+                        <height>70</height>
+                        <width>1</width>
+                        <texture>special://skin/media/alienware/white_border.png</texture>
+                    </control>
+                    <control type="image">
+                        <left>0</left>
+                        <height>1</height>
+                        <width>330</width>
+                        <texture>special://skin/media/alienware/white_border.png</texture>
+                    </control>
+                    <control type="image">
+                        <left>330</left>
+                        <height>70</height>
+                        <width>1</width>
+                        <texture>special://skin/media/alienware/white_border.png</texture>
+                    </control>
+                    <control type="image">
+                        <top>70</top>
+                        <left>0</left>
+                        <height>1</height>
+                        <width>330</width>
+                        <texture>special://skin/media/alienware/white_border.png</texture>
+                    </control>
+                    <control type="image">
+                        <left>0</left>
+                        <width>330</width>
+                        <height>70</height>
+                        <texture>special://skin/media/alienware/power_selected.png</texture>
+                    </control>
+
+                    <control type="label">
+                        <left>15</left>
+                        <font>goodtime13</font>
+                        <aligny>center</aligny>
+                        <textcolor>white</textcolor>
+                        <label>$INFO[ListItem.Label]</label>
+                    </control>
+                </focusedlayout>
+                <content>
+                    <item id="91">
+                        <label>31603</label> <!-- Sleep -->
+                        <onclick>XBMC.RunScript("special://skin\scripts\sleep_system.py")</onclick>
+                    </item>
+                    <item id="92">
+                        <label>31602</label> <!-- Resetart Console -->
+                        <onclick>XBMC.RunScript("special://skin\scripts\restart_system.py")</onclick>
+                    </item>
+                    <item id="93">
+                        <label>31601</label> <!-- Shut Down Console -->
+                        <onclick>XBMC.RunScript("special://skin\scripts\autoUpdateInstaller.py")</onclick>
+                    </item>
+                </content>
+            </control>
+
+            <control type="label">
+                <label>31607</label> <!-- Disabled Go to desktop -->
+                <top>-100</top>
+                <left>15</left> 
+                <aligny>center</aligny>
+                <font>goodtime13</font>
+                <textcolor>grey3</textcolor>
+            </control>
+            <control type="label">
+                <label>31840</label> <!-- Connect mouse to enable desktop mode -->
+                <top>-50</top>
+                <left>15</left> 
+                <width>330</width>
+                <aligny>center</aligny>
+                <font>small_item</font>
+                <textcolor>grey3</textcolor>
+                <wrapmultiline>true</wrapmultiline>
+            </control>
+
+        </control>
+    </controls>
+</window>

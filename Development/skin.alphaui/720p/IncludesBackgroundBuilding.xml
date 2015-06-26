@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<includes>
+  <include name="LoadingBackground">
+    <control type="image">
+      <description>Loading Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture>special://skin/media/alienware/Alienware_Splashscreen.png</texture>
+    </control>
+  </include>
+
+  <include name="CommonBackground">
+    <control type="image">
+      <description>Normal Default Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture>special://skin/media/alienware/XBMC_Background.png</texture>
+    </control>
+  </include>
+
+  <include name="CommonBackgroundNoExit">
+    <control type="image">
+      <description>Normal Default Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture>special://skin/media/alienware/XBMC_Background.png</texture>
+    </control>
+  </include>
+
+  <include name="SteamLoadingBackground">
+    <control type="image">
+      <description>Steam Loading Background Image</description>
+      <left>0</left>
+      <top>0</top>
+      <width>1280</width>
+      <height>720</height>
+      <aspectratio>scale</aspectratio>
+      <texture>special://skin/media/alienware/XBMC_Background.png</texture>
+    </control>
+    <control type="label">
+      <top>310</top>
+      <align>center</align>
+      <width>1280</width>
+      <height>70</height>
+      <font>goodtime10</font>
+      <label>31841</label>
+      <!-- Initializing Steam -->
+      <textcolor>red</textcolor>
+    </control>
+    <control type="image">
+      <description>Steam Loading bar</description>
+      <left>480</left>
+      <top>350</top>
+      <width>320</width>
+      <height>5</height>
+      <aspectratio>scale</aspectratio>
+      <texture>special://skin/media/alienware/initializingLoaderbar_fill.png</texture>
+    </control>
+
+  </include>
+
+</includes>

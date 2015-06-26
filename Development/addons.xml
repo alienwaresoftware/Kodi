@@ -14,26 +14,6 @@
         </extension>
 </addon>
 
-<addon id="script.aw.amazonprime.launcher" name="Amazon Prime" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_amazonprime.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Amazon Prime</summary>
-        <language></language>
-        <description lang="en">Amazon Prime</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="script.aw.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -46,46 +26,6 @@
         <summary lang="en">Battle.Net</summary>
         <language></language>
         <description lang="en">Battle.Net</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.bluestacks.launcher" name="BlueStacks" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_BlueStacks.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">BlueStacks</summary>
-        <language></language>
-        <description lang="en">BlueStacks</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.dota2.launcher" name="Dota 2" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_dota2.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Dota 2</summary>
-        <language></language>
-        <description lang="en">Dota 2</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -114,6 +54,26 @@
     </extension>
 </addon>
 
+<addon id="script.aw.gotodesktop" name="Go To Desktop" version="1.0" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="gotodesktop.py">
+        <provides>game executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">Go To Desktop</summary>
+        <language></language>
+        <description lang="en">Go To Desktop</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
 <addon id="script.aw.hulu.launcher" name="Hulu" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -126,26 +86,6 @@
         <summary lang="en">Hulu</summary>
         <language></language>
         <description lang="en">Hulu</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.ie.launcher" name="Microsoft Internet Explorer" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_ie.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Internet Explorer</summary>
-        <language></language>
-        <description lang="en">Internet Explorer</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -214,18 +154,18 @@
     </extension>
 </addon>
 
-<addon id="script.aw.steam.launcher" name="Steam" version="0.0.1" provider-name="Alienware">
+<addon id="script.aw.plex.launcher" name="Plex" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
-    <extension point="xbmc.python.script" library="launch_steam.py">
+    <extension point="xbmc.python.script" library="launch_plex.py">
         <provides>game executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en">Steam</summary>
+        <summary lang="en">Plex</summary>
         <language></language>
-        <description lang="en">Steam</description>
+        <description lang="en">Plex</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -274,48 +214,8 @@
     </extension>
 </addon>
 
-<addon id="script.aw.xbox.launcher" name="Xbox Live" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_xbox.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Xbox Live</summary>
-        <language></language>
-        <description lang="en">Xbox Live</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.youtube.launcher" name="YouTube" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_youtube.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">YouTube</summary>
-        <language></language>
-        <description lang="en">YouTube</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon
-  id="skin.alienware"
+  id="skin.alphaui"
   version="1.2"
   name="Alpha UI"
   provider-name="Alienware">
