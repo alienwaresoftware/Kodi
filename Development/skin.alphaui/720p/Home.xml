@@ -111,7 +111,7 @@
           <item id="91">
             <label>[UPPERCASE]$LOCALIZE[31605][/UPPERCASE]</label>
             <!-- Launch Steam -->
-            <onclick>XBMC.RunScript("special://skin\scripts\launch_steam.py")</onclick>
+            <onclick>RunAddon(script.aw.steam.launcher)</onclick>
             <icon>special://skin/media/alienware/icon_SteamLogo.png</icon>
           </item>
           <item id="92">
