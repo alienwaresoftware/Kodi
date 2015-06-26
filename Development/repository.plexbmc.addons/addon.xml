@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+  id="repository.plexbmc.addons"
+  name="PleXBMC Add-ons for XBMC"
+  version="3.0.0"
+  provider-name="hippojay, pecinko, magnesium, wickning1">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository"
+             name="PlexBMC Add-on Repository">
+    <info compressed="true">http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml</info>
+    <checksum>http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml.md5</checksum>
+    <datadir zip="true">http://hippojay.github.io/repository.plexbmc.addons/download</datadir>
+    <hashes>true</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons for PleXBMC</summary>
+    <description lang="en">Install addons to enhance the Plex + XBMC relationship.  Cosy....</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
+</addon>

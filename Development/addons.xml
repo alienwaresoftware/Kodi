@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="repository.alelec" name="alelec Kodi Repo" version="1.0.0" provider-name="alelec">
+	<extension point="xbmc.addon.repository" name="alelec Kodi Repo">
+		<info compressed="false">http://www.alelec.net/kodi/repo/addons.xml</info>
+		<checksum>http://www.alelec.net/kodi/repo/addons.xml.md5</checksum>
+		<datadir zip="false">http://www.alelec.net/kodi/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Add-ons and updates that are not (yet) available via the xbmc.org repo</summary>
+		<description>Add-ons and updates that are not (yet) available via the xbmc.org repo</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="repository.helix.Alienware.development" name="Alienware Helix Development Repo" version="0.1.0" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Helix Development Addons">
                 <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Development/addons.xml</info>
@@ -12,6 +26,30 @@
                 <disclaimer></disclaimer>
                 <platform>all</platform>
         </extension>
+</addon>
+
+<addon
+  id="repository.plexbmc.addons"
+  name="PleXBMC Add-ons for XBMC"
+  version="3.0.0"
+  provider-name="hippojay, pecinko, magnesium, wickning1">
+  <requires>
+    <import addon="xbmc.addon" version="12.0.0"/>
+  </requires>
+  <extension point="xbmc.addon.repository"
+             name="PlexBMC Add-on Repository">
+    <info compressed="true">http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml</info>
+    <checksum>http://hippojay.github.io/repository.plexbmc.addons/download/addons.xml.md5</checksum>
+    <datadir zip="true">http://hippojay.github.io/repository.plexbmc.addons/download</datadir>
+    <hashes>true</hashes>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Install Add-ons for PleXBMC</summary>
+    <description lang="en">Install addons to enhance the Plex + XBMC relationship.  Cosy....</description>
+    <disclaimer lang="en"></disclaimer>
+    <platform>all</platform>
+    <nofanart>true</nofanart>
+  </extension>
 </addon>
 
 <addon id="script.aw.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">

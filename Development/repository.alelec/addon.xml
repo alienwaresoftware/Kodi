@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.alelec" name="alelec Kodi Repo" version="1.0.0" provider-name="alelec">
+	<extension point="xbmc.addon.repository" name="alelec Kodi Repo">
+		<info compressed="false">http://www.alelec.net/kodi/repo/addons.xml</info>
+		<checksum>http://www.alelec.net/kodi/repo/addons.xml.md5</checksum>
+		<datadir zip="false">http://www.alelec.net/kodi/repo/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Add-ons and updates that are not (yet) available via the xbmc.org repo</summary>
+		<description>Add-ons and updates that are not (yet) available via the xbmc.org repo</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
