@@ -62,3 +62,55 @@ msgstr "Nova versão"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "Os Componentes HiveMind núcleo deve ser instalado para executar este addon."
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "O cliente Origin não está instalado"
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "Pretende transferir o cliente Origin?"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "O cliente GOG Galaxy não está instalado"
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "Pretende transferir o cliente GOG Galaxy?"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "O cliente Uplay não está instalado"
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "Pretende transferir o cliente Uplay?"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "O cliente Battle.net não está instalado"
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "Pretende transferir o cliente Battle.net?"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "Não é possível iniciar a aplicação. Tente novamente."
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "O cliente NVidia GFE não está instalado"
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "Pretende transferir o cliente NVidia GFE?"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "O cliente Google Chrome não está instalado"
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "Pretende transferir o cliente Google Chrome?"

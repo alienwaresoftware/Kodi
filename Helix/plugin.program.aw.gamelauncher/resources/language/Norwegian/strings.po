@@ -25,7 +25,7 @@ msgstr "Finn spill"
 
 msgctxt "#33002"
 msgid "Launch Steam"
-msgstr "Start Steam"
+msgstr "Åpne Steam"
 
 msgctxt "#33003"
 msgid "Finding games...."
@@ -50,3 +50,76 @@ msgstr "Rediger ikon"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "Rediger tilhengerkunst"
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Åpne Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "Åpne GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Åpne Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Åpne Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " Legg til spill"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "Skriv inn spillets navn"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "Velg kjørbar fil for spillet"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "Velg miniatyrbilde for spillet"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "Velg fankunstbilde for spillet"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "Legg til i menyens tilleggsprogrammer på hjemmesiden"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "Fjern fra menyens tilleggsprogrammer på hjemmesiden"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "Legg til i undermenyen for spill på hjemmesiden"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "Fjern fra undermenyen for spill på hjemmesiden"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "Fankunst"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "Vil du angi fankunst?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "Velg tilleggsprogram fra menyen på hjemmesiden"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "Velg tilleggsprogrammer fra undermenyen for spill på hjemmesiden"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "Fjern spill"
+

@@ -1,0 +1,244 @@
+﻿# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Russian (http://www.transifex.com/projects/p/xbmc-main/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr "Изменить название"
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr "Изменить путь"
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr "Изменить значок"
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr "Изменить фанарт"
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr "Все категории средства запуска"
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr "Программы"
+
+msgctxt "#33002"
+msgid "Music"
+msgstr "Музыка"
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr "Видео"
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr "Изображения"
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr "Выбор категории средства запуска"
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr "Указать адрес веб-сайта"
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr "Выбор исполняемого файла"
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr "Указать название"
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr "Выбор значка"
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr "Выбор постера"
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr "Параметр : Клавиатура/мышь при загрузке"
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr "Параметр : Запуск с настройками Администратора"
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr "Параметр : Запуск при первоначальной загрузке"
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr "Сохранить средства запуска программ"
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr "Запуск с правами Администратора"
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr "Запуск без прав Администратора"
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr "Сохранить это средство запуска?"
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr " Добавить программу"
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr "Выбор типа средства запуска"
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr "Приложение Windows"
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr "Приложение Windows Store"
+
+msgctxt "#33026"
+msgid "Website"
+msgstr "Веб-сайт"
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr "Добавить в надстройки для меню главной страницы"
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr "Удалить из надстроек для меню главной страницы"
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr "Добавить в подменю 'Видео' на главной странице"
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr "Удалить из подменю 'Видео' на главной странице"
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr "Добавить в подменю 'Музыка' на главной странице"
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr "Удалить из подменю 'Музыка' на главной странице"
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr "Добавить в подменю 'Изображения' на главной странице"
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr "Удалить из подменю 'Изображения' на главной странице"
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr "Добавить в подменю 'Программы' на главной странице"
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr "Удалить из подменю 'Программы' на главной странице"
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr "Подключать мышь/клавиатуру при загрузке"
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr "Не подключать мышь/клавиатуру при загрузке"
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr "Запуск при первоначальной загрузке"
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr "Не выполнять запуск при первоначальной загрузке"
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr "Выбор надстроек для меню главной страницы"
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr "Выбор надстроек для подменю 'Программы' на главной странице"
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr "Выбор надстроек для подменю 'Видео' на главной странице"
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr "Выбор надстроек для подменю 'Музыка' на главной странице"
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr "Выбор надстроек для подменю 'Изображения' на главной странице"
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr "Изменить название, значок и постер"
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr "Изменить название, путь, значок и постер"
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr "Изменить меню"
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr "Удалить из программ"
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr "Выбрать параметр"
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr "Установить новое приложение"
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr "Добавить существующее приложение"
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr "Недопустимая операция"
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr "Программа с таким путем уже добавлена"
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr "Изменить категорию"
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr "Выбрать категорию"
+

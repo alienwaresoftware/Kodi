@@ -50,3 +50,76 @@ msgstr "Editar ícone"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "Editar fanart"
+
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Iniciar Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "Iniciar GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Iniciar Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Iniciar Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " Adicionar jogo"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "Introduzir o nome do jogo"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "Selecionar executável do jogo"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "Selecionar miniatura do jogo"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "Selecionar imagem dos fãs do jogo"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "Adicionar aos suplementos do menu da página inicial"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "Remover suplemento do menu da página inicial"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "Adicionar ao submenu de jogos da página inicial"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "Remover do submenu de jogos da página inicial"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "Obras dos fãs"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "Pretende definir uma obra dos fãs?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "Selecionar suplemento do menu inicial"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "Selecionar suplementos do submenu de jogos da página inicial"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "Remover jogo"

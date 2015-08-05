@@ -1,0 +1,245 @@
+﻿# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/xbmc-main/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr "タイトルを編集"
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr "パスを編集"
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr "アイコンを編集"
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr "ファンアートを編集"
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr "すべてのランチャー"
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr "プログラム"
+
+msgctxt "#33002"
+msgid "Music"
+msgstr "ミュージック"
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr "ビデオ"
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr "ピクチャ"
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr "ランチャーカテゴリの選択"
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr "Web サイトアドレスの入力"
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr "実行可能ファイルの選択"
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr "タイトルの入力"
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr "アイコンの選択"
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr "ファンアート画像の選択"
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr "設定: 読み込み時のキーボード / マウス"
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr "設定: 管理者設定で起動"
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr "設定: 起動時に開始する設定"
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr "プログラムランチャーの保存"
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr "管理者特権で起動"
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr "管理者特権なしで起動"
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr "このランチャーを保存しますか?"
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr " プログラムの追加"
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr "ランチャータイプの選択"
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr "Windows アプリケーション"
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr "Windows ストアアプリケーション"
+
+msgctxt "#33026"
+msgid "Website"
+msgstr "Web サイト"
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr "ホームページメニューアドオンに追加"
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr "ホームページメニューアドオンから削除"
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr "ホームページビデオサブメニューに追加"
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr "ホームページビデオサブメニューから削除"
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr "ホームページミュージックサブメニューに追加"
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr "ホームページミュージックサブメニューから削除"
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr "ホームページピクチャサブメニューに追加"
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr "ホームページピクチャサブメニューから削除"
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr "ホームページプログラムサブメニューに追加"
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr "ホームページプログラムサブメニューから削除"
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr "読み込み時にマウス / キーボードを有効にする"
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr "読み込み時にマウス / キーボードを無効にする"
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr "起動時に開始"
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr "起動時に開始しない"
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr "ホームページメニューアドオンの選択"
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr "ホームページプログラムサブメニューアドオンの選択"
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr "ホームページビデオサブメニューアドオンの選択"
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr "ホームページミュージックサブメニューアドオンの選択"
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr "ホームページピクチャサブメニューアドオンの選択"
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr "タイトル、アイコン、ファンアートの編集"
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr "タイトル、パス、アイコン、ファンアートの編集"
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr "メニューの編集"
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr "プログラムから削除"
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr "オプションの選択"
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr "新しいアプリケーションのインストール"
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr "既存のアプリケーションを追加"
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr "無効な操作"
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr "このパスのプログラムは既に追加されています"
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr "カテゴリの編集"
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr "カテゴリの選択"
+

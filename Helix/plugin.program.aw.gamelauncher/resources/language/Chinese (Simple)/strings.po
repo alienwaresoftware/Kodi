@@ -50,3 +50,76 @@ msgstr "编辑图标"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "编辑同人画"
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "启动Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "启动GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "启动Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "启动Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " 添加游戏"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "输入游戏名称"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "选择游戏可执行文件"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "选择游戏缩略图"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "选择游戏同人图图像"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "添加到主页菜单附件"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "从主页菜单附件移除"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "添加到主页游戏子菜单"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "从主页游戏子菜单移除"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "同人图"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "是否要设置同人图？"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "选择主页菜单附件"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "选择主页游戏子菜单附件"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "移除游戏"
+

@@ -62,3 +62,55 @@ msgstr "新しいバージョン"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "HiveMindのコアコンポーネントは、このアドオンを実行するには、インストールする必要があります。"
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "Origin クライアントがインストールされていません"
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "Origin クライアントをダウンロードしますか?"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "GOG Galaxy クライアントがインストールされていません"
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "GOG Galaxy クライアントをダウンロードしますか?"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "Uplay クライアントがインストールされていません"
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "Uplay クライアントをダウンロードしますか?"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "Battle.net クライアントがインストールされていません"
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "Battle.net クライアントをダウンロードしますか?"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "アプリケーションを起動できません。もう一度お試しください。"
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "NVidia GFE クライアントがインストールされていません"
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "NVidia GFE クライアントをダウンロードしますか?"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "Google Chrome クライアントがインストールされていません"
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "Google Chrome クライアントをダウンロードしますか?"

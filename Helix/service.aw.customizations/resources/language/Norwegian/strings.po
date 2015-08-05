@@ -62,3 +62,55 @@ msgstr "Ny versjon"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "De HiveMind kjernekomponenter må være installert for å kjøre denne addon."
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "Origin-klient er ikke installert"
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "Vil du laste ned Origin-klient?"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "GOG Galaxy-klient er ikke installert"
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "Vil du laste ned GOG Galaxy-klient?"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "Uplay-klient er ikke installert"
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "Vil du laste ned Uplay-klient?"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "Battle.net-klient er ikke installert"
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "Vil du laste ned Battle.net-klient?"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "Kunne ikke starte programmet. Prøv igjen."
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "NVidia GFE-klient er ikke installert"
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "Vil du laste ned NVidia GFE-klient?"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "Google Chrome-klient er ikke installert"
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "Vil du laste ned Google Chrome-klient?"

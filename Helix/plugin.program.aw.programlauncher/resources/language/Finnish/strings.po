@@ -1,0 +1,243 @@
+﻿# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Finnish (http://www.transifex.com/projects/p/xbmc-main/language/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr "Muokkaa nimeä"
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr "Muokkaa polkua"
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr "Muokkaa kuvaketta"
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr "Muokkaa fanitaidetta"
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr "Kaikkien käynnistin"
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr "Ohjelmat"
+
+msgctxt "#33002"
+msgid "Music"
+msgstr "Musiikki"
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr "Videot"
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr "Kuvat"
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr "Valitse käynnistimen luokka"
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr "Anna sivuston osoite"
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr "Valitse suoritettava tiedosto"
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr "Kirjoita otsikko"
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr "Valitse kuvake"
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr "Valitse fanikuva"
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr "Asetus: näppäimistö/hiiri ladattaessa"
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr "Asetus: käynnistä järjestelmänvalvojan oikeuksin -asetus"
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr "Asetus: käynnistä käynnistettäessä -asetus"
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr "Tallenna program launcher"
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr "Käynnistä järjestelmänvalvojan oikeuksilla"
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr "Käynnistä ilman järjestelmänvalvojan oikeuksia"
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr "Haluatko tallentaa tämän käynnistimen?"
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr " Lisää ohjelma"
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr "Valitse käynnistimen tyyppi"
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr "Windows-sovellus"
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr "Windows-kaupan sovellus"
+
+msgctxt "#33026"
+msgid "Website"
+msgstr "Sivusto"
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr "Lisää aloitussivun valikon lisäosiin"
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr "Poista aloitussivun valikon lisäosista"
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr "Lisää aloitussivun Video-alivalikkoon"
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr "Poista aloitussivun Video-alivalikosta"
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr "Lisää aloitussivun Musiikki-alivalikkoon"
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr "Poista aloitussivun Musiikki-alivalikosta"
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr "Lisää aloitussivun Kuvat-alivalikkoon"
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr "Poista aloitussivun Kuvat-alivalikosta"
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr "Lisää aloitussivun Ohjelmat-alivalikkoon"
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr "Poista aloitussivun Ohjelmat-alivalikosta"
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr "Ota käyttöön hiiri/näppäimistö ladattaessa"
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr "Poista käytöstä hiiri/näppäimistö ladattaessa"
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr "Käynnistä käynnistettäessä"
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr "Älä käynnistä käynnistettäessä"
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr "Valitse aloitussivun valikon lisäosat"
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr "Valitse aloitussivun Ohjelmat-alivalikon lisäosat"
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr "Valitse aloitussivun Video-alivalikon lisäosat"
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr "Valitse aloitussivun Musiikki-alivalikon lisäosat"
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr "Valitse aloitussivun Kuvat-alivalikon lisäosat"
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr "Muokkaa otsikkoa, kuvaketta, fanikuvaa"
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr "Muokkaa otsikkoa, polkua, kuvaketta, fanikuvaa"
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr "Muokkaa-valikko"
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr "Poista ohjelmista"
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr "Valitse vaihtoehto"
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr "Asenna uusi sovellus"
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr "Lisää olemassa oleva sovellus"
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr "Virheellinen toiminto"
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr "Polku on jo lisätyn ohjelman käytössä"
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr "Muokkaa luokkaa"
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr "Valitse luokka"
+

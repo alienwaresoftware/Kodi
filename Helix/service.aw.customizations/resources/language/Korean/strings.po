@@ -62,3 +62,55 @@ msgstr "새 버전"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "HiveMind 핵심 구성 요소는이 애드온을 실행하기 위해 설치해야합니다."
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "Origin 클라이언트가 설치되지 않았습니다."
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "Origin 클라이언트를 다운로드하시겠습니까?"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "GOG Galaxy 클라이언트가 설치되지 않았습니다."
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "GOG Galaxy 클라이언트를 다운로드하시겠습니까?"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "Uplay 클라이언트가 설치되지 않았습니다."
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "Uplay 클라이언트를 다운로드하시겠습니까?"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "Battle.net 클라이언트가 설치되지 않았습니다."
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "Battle.net 클라이언트를 다운로드하시겠습니까?"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "애플리케이션을 실행할 수 없습니다. 다시 시도하십시오."
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "NVidia GFE 클라이언트가 설치되지 않았습니다."
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "NVidia GFE 클라이언트를 다운로드하시겠습니까?"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "Google Chrome 클라이언트가 설치되지 않았습니다."
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "Google Chrome 클라이언트를 다운로드하시겠습니까?"

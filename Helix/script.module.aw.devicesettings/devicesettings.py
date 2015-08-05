@@ -171,6 +171,9 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
         self.updateAlienwareSetting = json_response['result']['value']
         self.updateAlienwareLabelControl.setLabel(__language__(33070 + self.updateAlienwareSetting))
 
+
+        self.updateNvidiaLabelControl.setLabel(__language__(33070 + 2))
+
         self.refreshMute()
 
         self.lock = thread.allocate_lock()
@@ -188,7 +191,8 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
         xbmc.executebuiltin("Dialog.Close(busydialog)")
 
     def nVidiaUpdateNow(self):
-        xbmcgui.Dialog().notification("Notification", "alienwareUpdateNow", xbmcgui.NOTIFICATION_INFO, 15000)
+        if(self.updateNvidiaSetting == 2):
+            xbmc.executebuiltin('RunAddon(script.aw.gfe.launcher)')
 
     def isComplete(self): 
         return self.isClosed 
@@ -253,10 +257,10 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
                         self.setVolumeControlButtons(volume, False)
                         self.refreshMute()
                         xbmc.executebuiltin("Dialog.Close(busydialog)")
-                        xbmcgui.Dialog().notification(__language__(33020), __language__(33021), xbmcgui.NOTIFICATION_INFO, 5000)
+                        xbmcgui.Dialog().notification(__language__(33020), __language__(33021), xbmcgui.NOTIFICATION_INFO, 9000)
                     else:
                         xbmc.executebuiltin("Dialog.Close(busydialog)")
-                        xbmcgui.Dialog().notification(__language__(33018), __language__(33019), xbmcgui.NOTIFICATION_ERROR, 5000)
+                        xbmcgui.Dialog().notification(__language__(33018), __language__(33019), xbmcgui.NOTIFICATION_ERROR, 9000)
                 del dialog 
             elif (self.getFocusId() == AUDIO_SPEAKER_CONFIG_ACTION_CONTROL):
                 dialog = SelectDialog("awdialogselect.xml",__addon__.getAddonInfo('path'), "Default")
@@ -271,10 +275,10 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
                         self.updateSpeakerConfig(self.audioSourceSelectedIndex)
                         self.refreshMute()
                         xbmc.executebuiltin("Dialog.Close(busydialog)")
-                        xbmcgui.Dialog().notification(__language__(33020), __language__(33045), xbmcgui.NOTIFICATION_INFO, 5000)
+                        xbmcgui.Dialog().notification(__language__(33020), __language__(33045), xbmcgui.NOTIFICATION_INFO, 9000)
                     else:
                         xbmc.executebuiltin("Dialog.Close(busydialog)")
-                        xbmcgui.Dialog().notification(__language__(33018), __language__(33046), xbmcgui.NOTIFICATION_ERROR, 5000)
+                        xbmcgui.Dialog().notification(__language__(33018), __language__(33046), xbmcgui.NOTIFICATION_ERROR, 9000)
                 del dialog 
             elif(self.getFocusId() == AUDIO_VOLUME_MUTE_RADIO_CONTROL):
                 self.audioHelper.setMute(self.audioVolumeMuteRadioControl.isSelected())
@@ -295,7 +299,7 @@ class DeviceSettingsWindow(xbmcgui.WindowXML):
                 del updateDialog 
 
             elif (self.getFocusId() == UPDATE_NVIDIA_BUTTON_CONTROL):
-                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", updateNowCallback = self.nVidiaUpdateNow, selectedUpdateOption = self.updateNvidiaSetting)
+                updateDialog = UpdateSelectDialog("awdialogupdateselect.xml",__addon__.getAddonInfo('path'), "Default", updateNowCallback = self.nVidiaUpdateNow, selectedUpdateOption = 2,isAutomaticUpdateVisible = False, isCloseAtUpdateVisible = False)
                 updateDialog._title = __language__(33066)
                 updateDialog.doModal()
                 if (updateDialog.getSelectedRadionButton() is not None):

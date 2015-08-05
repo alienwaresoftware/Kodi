@@ -1083,3 +1083,136 @@ msgstr "القرص"
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "النظام"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "الراديو"
+
+msgctxt "#31961"
+msgid "Launch Console Keyboard"
+msgstr "تشغيل لوحة مفاتيح وحدة التحكم"
+
+msgctxt "#31962"
+msgid "Pressing  LT+LB+RT+RB on the controller plus the Share button will open and close On Screen Keyboard."
+msgstr "سيؤدي الضغط على LT وLB وRT وRB على وحدة التحكم بالإضافة إلى Share button إلى فتح لوحة المفاتيح التي تظهر على الشاشة وإغلاقها."
+
+msgctxt "#31963"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the PS button will launch the System Menu."
+msgstr "سيؤدي الضغط على L1 وR1 وL2 وR2 على وحدة التحكم بالإضافة إلى زر PS إلى تشغيل قائمة النظام."
+
+msgctxt "#31964"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "يؤدي الضغط على مجموعة مفاتيح التشغيل السريع بالإضافة إلى الزر L3 إلى تشغيل برنامج تشغيل الماوس. سيؤدي الضغط على مجموعة مفاتيح التشغيل السريع من جديد إلى إيقاف تشغيل برنامج التشغيل."
+
+msgctxt "#31965"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "غيّر تركيز النافذة باستخدام Dpad إلى اليسار أو Dpad إلى اليمين. يمكن الوصول إلى هذه الوظيفة أيضًا عبر لوحة المفاتيح عبر الضغط على Alt+Tab (التبديل إلى اليمين) وShift+Alt+Tab (التبديل إلى اليسار)"
+
+msgctxt "#31966"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "سيحاول مفتاح التشغيل السريع هذا أظهار التطبيق الذي تستخدمه حاليًا في ملء الشاشة. فلديه الوظيفة نفسها مثل الضغط على Alt+Enter وF11 على لوحة المفاتيح. لن تستجيب كل التطبيقات لمفتاح التشغيل السريع هذا."
+
+msgctxt "#31967"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "سيحاول مفتاح التشغيل السريع هذا أغلاق التطبيق الذي تستخدمه حاليًا. فلديه الوظيفة نفسها مثل الضغط على Alt+F4 وAlt+Q على لوحة المفاتيح. لن تستجيب كل التطبيقات لمفتاح التشغيل السريع هذا."
+
+msgctxt "#31968"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the Option button will enable/disable the hotkeys."
+msgstr "سيؤدي الضغط على L1 وR1 وL2 وR2 على وحدة التحكم بالإضافة إلى Option button إلى تمكين/تعطيل مفاتيح التشغيل السريع."
+
+msgctxt "#31969"
+msgid "Pressing  L1+R1+L2+R2 on the controller plus the Share button will open and close On Screen Keyboard."
+msgstr "سيؤدي الضغط على L1 وR1 وL2 وR2 على وحدة التحكم بالإضافة إلى Share button إلى فتح لوحة المفاتيح التي تظهر على الشاشة وإغلاقها."
+
+msgctxt "#31970"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Steam button will launch the System Menu."
+msgstr "سيؤدي الضغط على LT وRB وLB وRB على وحدة التحكم بالإضافة إلى زر Steam إلى تشغيل قائمة النظام."
+
+msgctxt "#31971"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "يؤدي الضغط على مجموعة مفاتيح التشغيل السريع بالإضافة إلى الزر L3 إلى تشغيل برنامج تشغيل الماوس. سيؤدي الضغط على مجموعة مفاتيح التشغيل السريع من جديد إلى إيقاف تشغيل برنامج التشغيل."
+
+msgctxt "#31972"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "غيّر تركيز النافذة باستخدام Dpad إلى اليسار أو Dpad إلى اليمين. يمكن الوصول إلى هذه الوظيفة أيضًا عبر لوحة المفاتيح عبر الضغط على Alt+Tab (التبديل إلى اليمين) وShift+Alt+Tab (التبديل إلى اليسار)"
+
+msgctxt "#31973"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "سيحاول مفتاح التشغيل السريع هذا أظهار التطبيق الذي تستخدمه حاليًا في ملء الشاشة. فلديه الوظيفة نفسها مثل الضغط على Alt+Enter وF11 على لوحة المفاتيح. لن تستجيب كل التطبيقات لمفتاح التشغيل السريع هذا."
+
+msgctxt "#31974"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "سيحاول مفتاح التشغيل السريع هذا أغلاق التطبيق الذي تستخدمه حاليًا. فلديه الوظيفة نفسها مثل الضغط على Alt+F4 وAlt+Q على لوحة المفاتيح. لن تستجيب كل التطبيقات لمفتاح التشغيل السريع هذا."
+
+msgctxt "#31975"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Start button will enable/disable the hotkeys."
+msgstr "سيؤدي الضغط على LT وRB وLB وRB على وحدة التحكم بالإضافة إلى زر البدء إلى تمكين/تعطيل مفاتيح التشغيل السريع."
+
+msgctxt "#31976"
+msgid "Pressing  LT+RB+LB+RB on the controller plus the back button will open and close On Screen Keyboard."
+msgstr "سيؤدي الضغط على LT وRB وLB وRB على وحدة التحكم بالإضافة إلى زر السابق إلى فتح لوحة المفاتيح التي تظهر على الشاشة وإغلاقها."
+
+msgctxt "#31977"
+msgid "N/A"
+msgstr "غير مطبّق"
+
+msgctxt "#31978"
+msgid "Controller Layout for On Screen Keyboard (OSK)"
+msgstr "تخطيط وحدة التحكم للوحة المفاتيح التي تظهر على الشاشة (OSK)"
+
+msgctxt "#31979"
+msgid "Controller Layout for Browser"
+msgstr "تخطيط وحدة التحكم للمستعرض"
+
+msgctxt "#31980"
+msgid "Left Click"
+msgstr "الزر الأيسر"
+
+msgctxt "#31981"
+msgid "Right Click"
+msgstr "الزر الأيمن"
+
+msgctxt "#31982"
+msgid "Go to left tab in browser"
+msgstr "انتقل إلى علامة التبويب اليسرى في المستعرض"
+
+msgctxt "#31983"
+msgid "Go to right tab in browser"
+msgstr "انتقل إلى علامة التبويب اليمنى في المستعرض"
+
+msgctxt "#31984"
+msgid "New Tab"
+msgstr "علامة تبويب جديدة"
+
+msgctxt "#31985"
+msgid "Shift + Tab"
+msgstr "Shift + Tab"
+
+msgctxt "#31986"
+msgid "Tab"
+msgstr "علامة التبويب"
+
+msgctxt "#31987"
+msgid "Dpad Up/Down = Zoom in/out[CR]Dpad Left = Website Back[CR]Dpad Right = Website Forward"
+msgstr "Dpad Up/Down = Zoom in/out[CR]Dpad Left = Website Back[CR]Dpad Right = Website Forward"
+
+msgctxt "#31988"
+msgid "Controller Mouse will be disabled when On-Screen Keyboard (OSK) is ON and when OSK is OFF, Controller Mouse will restore its previous state."
+msgstr "سيتم تعطيل ماوس وحدة التحكم عند تشغيل لوحة المفاتيح التي تظهر على الشاشة (OSK)، وعند إيقاف تشغيل هذه الأخيرة، ستعود ماوس وحدة التحكم إلى حالتها السابقة."
+
+msgctxt "#31989"
+msgid "How to customize your home menu."
+msgstr "كيفية تخصيص قائمة الصفحة الرئيسية."
+
+msgctxt "#31990"
+msgid "How to install additional repositories."
+msgstr "كيفية تثبيت مستودعات إضافية."
+
+msgctxt "#31991"
+msgid "File"
+msgstr "ملف"
+
+msgctxt "#31992"
+msgid "Tab/Scroll Website"
+msgstr "علامة التبويب/التمرير في موقع ويب"
+

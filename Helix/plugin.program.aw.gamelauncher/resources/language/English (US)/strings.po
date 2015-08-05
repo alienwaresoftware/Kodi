@@ -53,3 +53,55 @@ msgstr ""
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr ""
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr ""
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr ""
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr ""
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr ""
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr ""
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr ""
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr ""
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr ""
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr ""
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr ""
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr ""
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr ""
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr ""

@@ -1,62 +1,91 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.aw.gamelauncher" name="HiveMind Game Launcher" version="1.0.3" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="service.aw.customizations"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <disclaimer>For Kodi Helix</disclaimer>
-        <summary lang="en">HiveMind Game Launcher</summary>
-        <summary lang="ar">HiveMind مشغل ألعاب</summary>
-        <summary lang="pt_BR">Inicializador de jogo HiveMind</summary>
-        <summary lang="bg">Стартиране на игри на HiveMind</summary>
-        <summary lang="da">HiveMind spilstarter</summary>
-        <summary lang="nl">HiveMind-opstartprogramma voor spellen</summary>
-        <summary lang="fi">HiveMind pelien käynnistysohjelma</summary>
-        <summary lang="fr">Lanceur de jeux HiveMind</summary>
-        <summary lang="de">HiveMind-Spielestartprogramm</summary>
-        <summary lang="hu">HiveMind játék indító</summary>
-        <summary lang="pt">Iniciador de Jogos HiveMind</summary>
-        <summary lang="it">Game launcher HiveMind</summary>
-        <summary lang="ja">HiveMind ゲームランチャー</summary>
-        <summary lang="ko">HiveMind 게임 실행기</summary>
-        <summary lang="no">HiveMind-spilloppstart</summary>
-        <summary lang="pl">HiveMind Game Launcher</summary>
-        <summary lang="ru">Модуль запуска игры HiveMind</summary>
-        <summary lang="zh">HiveMind Game Launcher</summary>
-        <summary lang="es">Iniciador de juegos de HiveMind</summary>
-        <summary lang="sv">HiveMind Spelstartprogram</summary>
-        <summary lang="zh_TW">HiveMind 遊戲啟動器</summary>
-        <description lang="en">HiveMind Game Launcher</description>
-        <description lang="ar">HiveMind مشغل ألعاب</description>
-        <description lang="pt_BR">Inicializador de jogo HiveMind</description>
-        <description lang="bg">Стартиране на игри на HiveMind</description>
-        <description lang="da">HiveMind spilstarter</description>
-        <description lang="nl">HiveMind-opstartprogramma voor spellen</description>
-        <description lang="fi">HiveMind pelien käynnistysohjelma</description>
-        <description lang="fr">Lanceur de jeux HiveMind</description>
-        <description lang="de">HiveMind-Spielestartprogramm</description>
-        <description lang="hu">HiveMind játék indító</description>
-        <description lang="pt">Iniciador de Jogos HiveMind</description>
-        <description lang="it">Game launcher HiveMind</description>
-        <description lang="ja">HiveMind ゲームランチャー</description>
-        <description lang="ko">HiveMind 게임 실행기</description>
-        <description lang="no">HiveMind-spilloppstart</description>
-        <description lang="pl">HiveMind Game Launcher</description>
-        <description lang="ru">Модуль запуска игры HiveMind</description>
-        <description lang="zh">HiveMind Game Launcher</description>
-        <description lang="es">Iniciador de juegos de HiveMind</description>
-        <description lang="sv">HiveMind Spelstartprogram</description>
-        <description lang="zh_TW">HiveMind 遊戲啟動器</description>
-    </extension>
+<addon id="plugin.program.aw.gamelauncher" name="HiveMind Game Launcher" version="1.0.9" provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="service.aw.customizations"/>
+    <import addon="script.aw.steam.launcher"/>
+    <import addon="script.aw.origin.launcher"/>
+    <!--<import addon="script.aw.gog.launcher"/>-->
+    <import addon="script.aw.uplay.launcher"/>
+    <import addon="script.aw.battle.launcher"/>
+    <import addon="plugin.program.aw.programlauncher"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <disclaimer>For Kodi Helix</disclaimer>
+    <summary lang="en">HiveMind Game Launcher</summary>
+    <summary lang="ar">HiveMind مشغل ألعاب</summary>
+    <summary lang="pt_BR">Inicializador de jogo HiveMind</summary>
+    <summary lang="bg">Стартиране на игри на HiveMind</summary>
+    <summary lang="da">HiveMind spilstarter</summary>
+    <summary lang="nl">HiveMind-opstartprogramma voor spellen</summary>
+    <summary lang="fi">HiveMind pelien käynnistysohjelma</summary>
+    <summary lang="fr">Lanceur de jeux HiveMind</summary>
+    <summary lang="de">HiveMind-Spielestartprogramm</summary>
+    <summary lang="hu">HiveMind játék indító</summary>
+    <summary lang="pt">Iniciador de Jogos HiveMind</summary>
+    <summary lang="it">Game launcher HiveMind</summary>
+    <summary lang="ja">HiveMind ゲームランチャー</summary>
+    <summary lang="ko">HiveMind 게임 실행기</summary>
+    <summary lang="no">HiveMind-spilloppstart</summary>
+    <summary lang="pl">HiveMind Game Launcher</summary>
+    <summary lang="ru">Модуль запуска игры HiveMind</summary>
+    <summary lang="zh">HiveMind Game Launcher</summary>
+    <summary lang="es">Iniciador de juegos de HiveMind</summary>
+    <summary lang="sv">HiveMind Spelstartprogram</summary>
+    <summary lang="zh_TW">HiveMind 遊戲啟動器</summary>
+    <description lang="en">HiveMind Game Launcher</description>
+    <description lang="ar">HiveMind مشغل ألعاب</description>
+    <description lang="pt_BR">Inicializador de jogo HiveMind</description>
+    <description lang="bg">Стартиране на игри на HiveMind</description>
+    <description lang="da">HiveMind spilstarter</description>
+    <description lang="nl">HiveMind-opstartprogramma voor spellen</description>
+    <description lang="fi">HiveMind pelien käynnistysohjelma</description>
+    <description lang="fr">Lanceur de jeux HiveMind</description>
+    <description lang="de">HiveMind-Spielestartprogramm</description>
+    <description lang="hu">HiveMind játék indító</description>
+    <description lang="pt">Iniciador de Jogos HiveMind</description>
+    <description lang="it">Game launcher HiveMind</description>
+    <description lang="ja">HiveMind ゲームランチャー</description>
+    <description lang="ko">HiveMind 게임 실행기</description>
+    <description lang="no">HiveMind-spilloppstart</description>
+    <description lang="pl">HiveMind Game Launcher</description>
+    <description lang="ru">Модуль запуска игры HiveMind</description>
+    <description lang="zh">HiveMind Game Launcher</description>
+    <description lang="es">Iniciador de juegos de HiveMind</description>
+    <description lang="sv">HiveMind Spelstartprogram</description>
+    <description lang="zh_TW">HiveMind 遊戲啟動器</description>
+  </extension>
 </addon>
 
-<addon id="repository.helix.alienware" name="Alienware's HiveMind Repo (Helix)" version="1.1.11" provider-name="Alienware">
+<addon id="plugin.program.aw.programlauncher" name="HiveMind Program Launcher" version="1.0.2" provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="service.aw.customizations"/>
+    <import addon="script.service.aw.bootprogramlauncher"/>
+    <import addon="script.aw.huluweb.launcher"/>
+    <import addon="script.aw.web.launcher"/>
+    <import addon="script.aw.facebookweb.launcher"/>
+    <import addon="script.aw.gfe.launcher"/>
+    <import addon="script.aw.googlechrome.launcher"/>
+    <import addon="script.aw.netflixweb.launcher"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <disclaimer>For Kodi Helix</disclaimer>
+    <summary lang="en">HiveMind Program Launcher</summary>
+    <description lang="en">HiveMind Program Launcher</description>
+  </extension>
+</addon>
+
+<addon id="repository.helix.alienware" name="Alienware's HiveMind Repo (Helix)" version="1.1.14" provider-name="Alienware">
   <extension point="xbmc.addon.repository" name="Alienware's Helix addons">
     <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml</info>
     <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Helix/addons.xml.md5</checksum>
@@ -70,13 +99,194 @@
   </extension>
 </addon>
 
-<addon id="script.aw.steam.launcher" name="HiveMind Steam Launcher" version="1.0.2" provider-name="Alienware">
+<addon id="repository.helix.Alienware.development" name="Alienware Helix Development Repo" version="1.1" provider-name="Alienware">
+        <extension point="xbmc.addon.repository" name="Alienware's Helix Development Addons">
+                <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Development/addons.xml</info>
+                <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Development/addons.xml.md5</checksum>
+                <datadir zip="true">http://raw.github.com/alienwaresoftware/Kodi/master/Development</datadir>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Alienware's Helix Development Repo</summary>
+                <description>Alienware's Helix Development Repo. This is all alpha or beta add-ons and might not fully function. Please do not install if you are not comfortable using in development software. If you run into errors please post them to https://github.com/alienwaresoftware</description>
+                <disclaimer></disclaimer>
+                <platform>all</platform>
+        </extension>
+</addon>
+
+<addon id="script.aw.battle.launcher" name="HiveMind Battle.net Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_battle.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Battle.net Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Battle.net Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.facebookweb.launcher" name="HiveMind Facebook Web Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Facebook Web Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Facebook Web Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.gfe.launcher" name="HiveMind NVidia GFE Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_gfe.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind NVidia GFE Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind NVidia GFE Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.googlechrome.launcher" name="HiveMind Google Chrome Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Google Chrome Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Google Chrome Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.gotodesktop.launcher" name="HiveMind Go To Desktop Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Go To Desktop Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Go To Desktop Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.huluweb.launcher" name="HiveMind Hulu Web Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Hulu Web Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Hulu Web Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.netflixweb.launcher" name="HiveMind Netflix Web Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Netflix Web Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Netflix Web Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.origin.launcher" name="HiveMind Origin Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_origin.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Origin Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Origin Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.steam.launcher" name="HiveMind Steam Launcher" version="1.0.4" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="service.aw.customizations"/>
     </requires>
     <extension point="xbmc.python.script" library="launch_steam.py">
-        <provides>game executable</provides>
+        <provides>executable</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
@@ -91,9 +301,51 @@
     </extension>
 </addon>
 
+<addon id="script.aw.uplay.launcher" name="HiveMind Uplay Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch_uplay.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Uplay Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Uplay Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
+<addon id="script.aw.web.launcher" name="HiveMind Web Launcher" version="1.0.2" provider-name="Alienware">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="service.aw.customizations"/>
+    </requires>
+    <extension point="xbmc.python.script" library="launch.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">HiveMind Web Launcher</summary>
+        <language></language>
+        <description lang="en">HiveMind Web Launcher</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>Alienware</source>
+        <forum></forum>
+        <email></email>
+        <website></website>
+    </extension>
+</addon>
+
 <addon  id="script.module.aw.devicesettings"
         name="HiveMind Device Settings"
-        version="1.0.3"
+        version="1.0.4"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -149,12 +401,30 @@
   </extension>
 </addon>
 
-<addon  id="script.service.aw.devicesettings"
-        name="HiveMind Device Settings Service"
-        version="1.0.2"
+<addon  id="script.service.aw.bootprogramlauncher"
+        name="HiveMind Boot Program Launcher Service"
+        version="1.0.1"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="service.aw.customizations"/>
+  </requires>
+  <extension point="xbmc.service" library="service.py" start="login">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <minversion>1</minversion>
+    <summary lang="en">HiveMind Boot Program Launcher Service</summary>
+  </extension>
+</addon>
+
+<addon  id="script.service.aw.devicesettings"
+        name="HiveMind Device Settings Service"
+        version="1.0.3"
+        provider-name="Alienware">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="service.aw.customizations"/>
   </requires>
   <extension point="xbmc.service" library="service.py" start="startup">
   </extension>
@@ -209,7 +479,7 @@
 
 <addon  id="service.aw.backgrounds"
         name="HiveMind Backgrounds"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -267,10 +537,11 @@
 
 <addon  id="service.aw.customizations"
         name="HiveMind Customizations"
-        version="1.0.3"
+        version="1.0.6"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="skin.hivemind" version="1.0.9"/>
   </requires>
   <extension point="xbmc.service"
              library="install_customizations.py" start="startup">
@@ -325,7 +596,7 @@
 
 <addon  id="service.aw.launcher"
         name="HiveMind Console Mode"
-        version="1.0.2"
+        version="1.0.3"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -383,13 +654,13 @@
 
 <addon  id="service.aw.themes"
         name="HiveMind Themes"
-        version="1.0.6"
+        version="1.0.12"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
   <extension point="xbmc.service"
-             library="install_themes.py" start="startup">
+             library="install_themes.py" start="login">
   </extension>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
@@ -441,17 +712,11 @@
 
 <addon
   id="skin.hivemind"
-  version="1.0.6"
+  version="1.0.9"
   name="The HiveMind Interface"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="service.aw.customizations"/>
-    <import addon="service.aw.launcher"/>
-    <import addon="script.service.aw.devicesettings"/>
-    <import addon="script.module.aw.devicesettings"/>
-    <import addon="plugin.program.aw.gamelauncher"/>
-    <import addon="plugin.video.youtube"/>
   </requires>
   <extension
     point="xbmc.gui.skin"

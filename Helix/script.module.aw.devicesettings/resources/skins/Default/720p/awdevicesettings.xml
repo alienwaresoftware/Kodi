@@ -3,7 +3,7 @@
   <defaultcontrol always="true">101</defaultcontrol>
   <allowoverlay>no</allowoverlay>
   <controls>
-    <control type="image">
+  <!--<control type="image">
       <description>Normal Default Background Image</description>
       <left>0</left>
       <top>0</top>
@@ -14,7 +14,8 @@
       <visible>![Skin.HasSetting(UseCustomBackground) + !IsEmpty(Skin.String(CustomBackgroundPath))]</visible>
       <animation effect="fade" time="300">Visible</animation>
       <animation effect="fade" time="300">Hidden</animation>
-    </control>
+    </control> -->
+    <include>CommonBackground</include>
     <control type="image">
       <description>User Set Background Image</description>
       <left>0</left>
@@ -1213,7 +1214,7 @@
             <orientation>vertical</orientation>
             <width>740</width>
             <height>58</height>
-            <visible>false</visible>
+            <visible>true</visible>
             <control type="image">
               <left>0</left>
               <top>0</top>

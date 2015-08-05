@@ -1,0 +1,243 @@
+﻿# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/xbmc-main/language/es/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: es\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr "Editar título"
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr "Editar ruta"
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr "Editar icono"
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr "Editar fanart"
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr "Selector general"
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr "Programas"
+
+msgctxt "#33002"
+msgid "Music"
+msgstr "Música"
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr "Vídeos"
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr "Imágenes"
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr "Seleccionar categoría de selector"
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr "Introducir dirección del sitio web"
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr "Seleccionar archivo ejecutable"
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr "Introducir título"
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr "Icono de selección"
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr "Seleccionar imagen de Fanart"
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr "Configuración: Teclado/ratón en carga"
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr "Configuración: Ejecutar con configuración de administrador"
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr "Configuración:  Iniciar en configuración de arranque"
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr "Guardar program launcher"
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr "Ejecutar con privilegios de administrador"
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr "Ejecutar sin privilegios de administrador"
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr "¿Desea guardar este selector?"
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr " Añadir programa"
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr "Seleccionar tipo de selector"
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr "Aplicación de Windows"
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr "Aplicación de la tienda de Windows"
+
+msgctxt "#33026"
+msgid "Website"
+msgstr "Sitio web"
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr "Añadir a los complementos del menú de la página de inicio"
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr "Eliminar de los complementos del menú de la página de inicio"
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr "Añadir al submenú de vídeo de la página de inicio"
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr "Eliminar del submenú de vídeo de la página de inicio"
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr "Añadir al submenú de música de la página de inicio"
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr "Eliminar del submenú de música de la página de inicio"
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr "Añadir al submenú de imágenes de la página de inicio"
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr "Eliminar del submenú de imágenes de la página de inicio"
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr "Añadir al submenú de programas de la página de inicio"
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr "Eliminar del submenú de programas de la página de inicio"
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr "Activar ratón/kb en carga"
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr "Desactivar ratón/kb en carga"
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr "Iniciar durante el arranque"
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr "No iniciar durante el arranque"
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr "Seleccionar complementos del menú de la página de inicio"
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr "Seleccionar complementos del submenú de programas de la página de inicio"
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr "Seleccionar complementos del submenú de vídeos de la página de inicio"
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr "Seleccionar complementos del submenú de música de la página de inicio"
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr "Seleccionar complementos del submenú de imágenes de la página de inicio"
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr "Editar título, icono, fanart"
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr "Editar título, ruta, icono, fanart"
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr "Editar menú"
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr "Eliminar de los programas"
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr "Seleccionar opción"
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr "Instalar nueva aplicación"
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr "Añadir aplicación existente"
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr "Operación no válida"
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr "ya se ha añadido un programa con esta ruta"
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr "Editar categoría"
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr "Seleccionar categoría"
+

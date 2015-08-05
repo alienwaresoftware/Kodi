@@ -62,3 +62,55 @@ msgstr "Новая версия"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "В HiveMind Основные компоненты должны быть установлены, чтобы запустить этот аддон."
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "Клиент Origin не установлен"
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "Загрузить клиент Origin?"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "Клиент GOG Galaxy не установлен"
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "Загрузить клиент GOG Galaxy?"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "Клиент Uplay не установлен"
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "Загрузить клиент Uplay?"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "Клиент Battle.net не установлен"
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "Загрузить клиент Battle.net?"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "Не удалось запустить приложение. Повторите попытку."
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "Клиент NVidia GFE не установлен"
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "Скачать клиент NVidia GFE?"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "Клиент Google Chrome не установлен"
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "Скачать клиент Google Chrome"

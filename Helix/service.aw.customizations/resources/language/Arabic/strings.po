@@ -62,3 +62,55 @@ msgstr "الإصدار الجديد"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "يجب تثبيت مكونات HiveMind الأساسية لتشغيل هذا الملحق."
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "العميل Origin غير مثبت"
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "هل تريد تنزيل العميل Origin؟"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "العميل GOG Galaxy غير مثبت"
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "هل تريد تنزيل العميل GOG Galaxy؟"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "العميل Uplay غير مثبت"
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "هل تريد تنزيل العميل Uplay؟"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "العميل Battle.net غير مثبت"
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "هل تريد تنزيل العميل Battle.net؟"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "تعذّر تشغيل التطبيق، يرجى المحاولة من جديد."
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "العميل NVidia GFE غير مثبت"
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "هل تريد تنزيل العميل NVidia GFE؟"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "العميل Google Chrome غير مثبت"
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "هل تريد تنزيل العميل Google Chrome"

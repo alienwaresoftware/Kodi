@@ -50,3 +50,77 @@ msgstr "アイコンを編集"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "ファンアートを編集"
+
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Origin の起動"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "GOG Galaxy の起動"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Uplay の起動"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Battle.net の起動"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " ゲームの追加"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "ゲーム名の入力"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "ゲームの実行可能ファイルを選択"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "ゲームのサムネイル画像を選択"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "ゲームのファンアート画像を選択"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "ホームページメニューアドオンに追加"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "ホームページメニューアドオンから削除"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "ホームページゲームサブメニューに追加"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "ホームページゲームサブメニューから削除"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "ファンアート"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "ファンアートを設定しますか?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "ホームメニューアドオンの選択"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "ホームページゲームサブメニューアドオンの選択"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "ゲームの削除"
+

@@ -1,0 +1,243 @@
+﻿# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Chinese (Simple) (http://www.transifex.com/projects/p/xbmc-main/language/zh/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr "编辑标题"
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr "编辑路径"
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr "编辑图标"
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr "编辑同人画"
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr "所有启动程序"
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr "程序"
+
+msgctxt "#33002"
+msgid "Music"
+msgstr "音乐"
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr "视频"
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr "图片"
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr "选择启动程序类别"
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr "输入网站地址"
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr "选择可执行文件"
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr "输入名称"
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr "选择图标"
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr "选择同人图图像"
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr "设置：加载时的键盘/鼠标"
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr "设置：使用管理员设置启动"
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr "设置：在引导时启动设置"
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr "保存program launcher"
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr "使用管理员权限启动"
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr "不使用管理员权限启动"
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr "是否要保存此启动程序？"
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr " 添加程序"
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr "选择启动程序类型"
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr "Windows应用程序"
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr "Windows Store应用程序"
+
+msgctxt "#33026"
+msgid "Website"
+msgstr "网站"
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr "添加到主页菜单附件"
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr "从主页菜单附件移除"
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr "添加到主页视频子菜单"
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr "从主页视频子菜单移除"
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr "添加到主页音乐子菜单"
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr "从主页音乐子菜单移除"
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr "添加到主页图片子菜单"
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr "从主页图片子菜单移除"
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr "添加到主页程序子菜单"
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr "从主页程序子菜单移除"
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr "加载时启用鼠标/键盘"
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr "加载时禁用鼠标/键盘"
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr "引导时启动"
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr "不要在引导时启动"
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr "选择主页菜单附件"
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr "选择主页程序子菜单附件"
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr "选择主页视频子菜单附件"
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr "选择主页音乐子菜单附件"
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr "选择主页图片子菜单附件"
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr "编辑名称、图标、同人图"
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr "编辑名称、路径、图标、同人图"
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr "编辑菜单"
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr "从程序移除"
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr "选择选项"
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr "安装新应用程序"
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr "添加现有应用程序"
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr "无效操作"
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr "具有此路径的程序已添加"
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr "编辑类别"
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr "选择类别"
+

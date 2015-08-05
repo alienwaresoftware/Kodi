@@ -991,8 +991,8 @@
 				<width>75</width>
 				<height>75</height>
 				<aspectratio aligny="center" alignx="center">keep</aspectratio>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
-			</control>
+        <texture background="true">$INFO[ListItem.Icon]</texture>
+      </control>
 		</itemlayout>
 		<focusedlayout height="200" width="182">
 			<control type="image">
@@ -1001,8 +1001,8 @@
 				<width>75</width>
 				<height>75</height>
 				<aspectratio aligny="center" alignx="center">keep</aspectratio>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
-				<visible>!ControlGroup(9002).HasFocus</visible>
+        <texture background="true">$INFO[ListItem.Icon]</texture>
+        <visible>!ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
 				<left>0</left>

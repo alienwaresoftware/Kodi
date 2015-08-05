@@ -1,0 +1,244 @@
+﻿# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/xbmc-main/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr "Cím szerkesztése"
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr "Útvonal szerkesztése"
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr "Ikon szerkesztése"
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr "Rajongói alkotás szerkesztése"
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr "Összes indító"
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr "Programok"
+
+msgctxt "#33002"
+msgid "Music"
+msgstr "Zene"
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr "Videók"
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr "Képek"
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr "Válassza ki az indító kategóriát"
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr "Adja meg a honlap címét"
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr "Válassza ki az indítófájlt"
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr "Adja meg a címet"
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr "Válassza ki az ikont"
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr "Válassza ki a Fanart képet"
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr "Beállítás: billentyűzet/egér betöltéskor"
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr "Beállítás: indítás rendszergazdai beállítással"
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr "Beállítás: indítás rendszerindítási beállítással"
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr "Program launcher mentése"
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr "Indítás rendszergazdai jogosultságokkal"
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr "Indítás rendszergazdai jogosultságok nélkül"
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr "El szeretné menteni ezt az indítót?"
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr " Program hozzáadása"
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr "Válassza ki az indító típusát"
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr "Windows alkalmazás"
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr "Windows Store alkalmazás"
+
+msgctxt "#33026"
+msgid "Website"
+msgstr "Honlap"
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr "Hozzáadás a kezdőlap menü bővítményeihez"
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr "Eltávolítás a kezdőlap menü bővítményeiből"
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr "Hozzáadás a kezdőlap videó almenüjéhez"
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr "Eltávolítás a kezdőlap videó almenüjéből"
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr "Hozzáadás a kezdőlap zene almenüjéhez"
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr "Eltávolítás a kezdőlap zene almenüjéből"
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr "Hozzáadás a kezdőlap képek almenüjéhez"
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr "Eltávolítás a kezdőlap képek almenüjéből"
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr "Hozzáadás a kezdőlap programok almenüjéhez"
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr "Eltávolítás a kezdőlap programok almenüjéből"
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr "Egér/billentyűzet engedélyezése betöltéskor"
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr "Egér/billentyűzet letiltása betöltéskor"
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr "Indítás rendszerindításkor"
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr "Ne induljon rendszerindításkor"
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr "Válassza ki a kezdőlap menü bővítményeit"
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr "Válassza ki a kezdőlap programok almenü bővítményeit"
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr "Válassza ki a kezdőlap videó almenü bővítményeit"
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr "Válassza ki a kezdőlap zene almenü bővítményeit"
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr "Válassza ki a kezdőlap képek almenü bővítményeit"
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr "Cím, ikon, Fanart szerkesztése"
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr "Cím, elérési útvonal, ikon, Fanart szerkesztése"
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr "Menü szerkesztése"
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr "Eltávolítás a programok közül"
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr "Beállítások kiválasztása"
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr "Új alkalmazás telepítése"
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr "Meglévő alkalmazás hozzáadása"
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr "Érvénytelen művelet"
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr "Ezzel az elérési útvonallal már létezik program"
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr "Kategória szerkesztése"
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr "Kategória kiválasztása"
+

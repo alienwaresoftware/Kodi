@@ -50,3 +50,76 @@ msgstr "Редактиране на иконата"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "Редактиране на фен арт"
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Стартиране на Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "Стартиране на GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Стартиране на Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Стартиране на Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " Добавяне на игра"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "Въведете наименование на игра"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "Изберете изпълним файл на игра"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "Изберете миниатюрно изображение на игра"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "Изберете фанарт за игра"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "Добавяне към Добавки в менюто на началната страница"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "Премахване от Добавки в менюто на началната страница"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "Добавяне към подменю Игри на началната страница"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "Премахване от подменю Игри на началната страница"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "Фанарт"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "Желаете ли да зададете фанарт?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "Изберете Добавка Начално меню"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "Изберете Добавки за подменю Игри на началната страница"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "Премахване на игра"
+

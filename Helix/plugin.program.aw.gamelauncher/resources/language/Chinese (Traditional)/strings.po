@@ -50,3 +50,77 @@ msgstr "編輯圖示"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "編輯同人圖 (fanart)"
+
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "啟動 Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "啟動 GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "啟動 Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "啟動 Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " 新增遊戲"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "輸入遊戲名稱"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "選擇遊戲執行檔"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "選擇遊戲縮圖影像"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "選擇遊戲自製影像"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "新增至首頁功能表附加元件"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "從首頁功能表附加元件移除"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "新增至首頁遊戲子功能表"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "從首頁遊戲子功能表移除"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "自製圖片"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "您是否要設定自製圖片？"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "選擇首頁功能表附加元件"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "選擇首頁遊戲子功能表附加元件"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "移除遊戲"
+

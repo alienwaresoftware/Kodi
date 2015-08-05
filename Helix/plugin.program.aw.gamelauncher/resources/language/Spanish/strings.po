@@ -25,7 +25,7 @@ msgstr "Buscar juegos"
 
 msgctxt "#33002"
 msgid "Launch Steam"
-msgstr "Iniciar Steam"
+msgstr "Ejecutar Steam"
 
 msgctxt "#33003"
 msgid "Finding games...."
@@ -50,3 +50,76 @@ msgstr "Editar icono"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "Editar fanart"
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Ejecutar Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "Ejecutar GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Ejecutar Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Ejecutar Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " Añadir juego"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "Introducir nombre del juego"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "Seleccionar juego ejecutable"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "Seleccionar miniatura de juego"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "Seleccionar imagen de fanart del juego"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "Añadir a los complementos del menú de la página de inicio"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "Eliminar de los complementos del menú de la página de inicio"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "Añadir al submenú de juegos de la página de inicio"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "Eliminar del submenú de juegos de la página de inicio"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "Fanart"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "¿Desea establecer una ilustración fanart?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "Seleccionar complemento del menú de inicio"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "Seleccionar complementos del submenú de juegos de la página de inicio"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "Eliminar juego"
+

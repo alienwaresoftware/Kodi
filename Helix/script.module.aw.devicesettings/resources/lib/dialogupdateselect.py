@@ -54,16 +54,18 @@ class UpdateSelectDialog(xbmcgui.WindowXMLDialog):
             self.radioButtons.append(self.manuaUpdateRadioButtonControl)
 
         self.setUpdateNowButtonState()
-        
+
         if (self._selectedUdpateOption == 0):
             self.automaticUpdateRadioButtonControl.setSelected(True)
-            self.setFocus(self.udpateNowButtonControl)
+            self.setFocus(self.automaticUpdateRadioButtonControl)
         elif (self._selectedUdpateOption == 1):
             self.closeAtUpdateRadioButtonControl.setSelected(True)
             self.setFocus(self.closeAtUpdateRadioButtonControl)      
         elif (self._selectedUdpateOption == 2):
             self.manuaUpdateRadioButtonControl.setSelected(True) 
             self.setFocus(self.manuaUpdateRadioButtonControl)        
+
+        
 
     def deselectRadioButtons(self):
         for radioButton in self.radioButtons:
@@ -73,7 +75,7 @@ class UpdateSelectDialog(xbmcgui.WindowXMLDialog):
         return self._selectedUdpateOption
 
     def setUpdateNowButtonState(self):
-        if (self._selectedUdpateOption != 0):
+        if (self._selectedUdpateOption == 0 or self._selectedUdpateOption == 1):
             self.udpateNowButtonControl.setEnabled(False)
         else:
             self.udpateNowButtonControl.setEnabled(True)

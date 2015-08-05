@@ -11,6 +11,7 @@ try:
     if __name__ == '__main__':
         try:
             setWindowSetting("IsAlphaConsoleAcount",str(AlphaUIUtils.IsAlphaConsoleAcount()))
+            #setWindowSetting("LaunchFirtTime",True)
         except:
             setWindowSetting("IsAlphaConsoleAcount","False")     
 except:

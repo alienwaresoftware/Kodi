@@ -50,3 +50,77 @@ msgstr "Redigeringsikon"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "Rediger fanart"
+
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Start Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "Start GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Start Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Start Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " Tilføj spil"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "Indtast navn på spil"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "Vælg en eksekverbar fil til spillet"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "Vælg et miniaturebillede til spillet"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "Vælg et fanart-billede til spillet"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "Føj til tilføjelsesprogrammerne i startsidens menu"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "Fjern fra tilføjelsesprogrammerne i startsidens menu"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "Føj til startsidens undermenu for spil"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "Fjern fra startsidens undermenu for spil"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "Fanart"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "Vil du indstille et fanart-billede?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "Vælg et tilføjelsesprogram på startsiden"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "Vælg tilføjelsesprogrammer i startsidens undermenu for spil"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "Fjern spil"
+

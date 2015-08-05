@@ -50,3 +50,77 @@ msgstr "Pictogram aanpassen"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "Fanart aanpassen"
+
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Start Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "Start GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Start Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Start Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " Game toevoegen"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "Voer naam van game in"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "Kies uitvoerbaar bestand van game"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "Kies miniatuurafbeelding van game"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "Kies Fanart-afbeelding van game"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "Toevoegen aan add-ons van startpaginamenu"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "Verwijderen uit add-ons van startpaginamenu"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "Toevoegen aan submenu Games van startpagina"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "Verwijderen uit submenu Games van startpagina"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "Fanart"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "Wilt u een Fanart instellen?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "Kies add-on voor startpaginamenu"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "Kies add-ons voor submenu Games van startpagina"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "Game verwijderen"
+

@@ -62,3 +62,55 @@ msgstr "Uusi versio"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "HiveMind Core Components on asennettava suorittaa tämän addon."
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "Origin-ohjelmaa ei ole asennettu"
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "Haluatko ladata Origin-ohjelman?"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "GOG Galaxy -ohjelmaa ei ole asennettu"
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "Haluatko ladata GOG Galaxy -ohjelman?"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "Uplay-ohjelmaa ei ole asennettu"
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "Haluatko ladata Uplay-ohjelman?"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "Battle.net-ohjelmaa ei ole asennettu"
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "Haluatko ladata Battle.net-ohjelman?"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "Ei voi käynnistää sovellusta, yritä uudelleen."
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "NVidia GFE -ohjelmaa ei ole asennettu"
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "Haluatko ladata NVidia GFE -ohjelman?"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "Google Chrome -ohjelmaa ei ole asennettu"
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "Haluatko ladata Google Chrome -ohjelman?"

@@ -1,0 +1,247 @@
+﻿# Kodi Media Center language file
+# Addon Name: Confluence
+# Addon id: skin.confluence
+# Addon Provider: Jezz_X, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: English (http://www.transifex.com/projects/p/xbmc-main/language/en/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#Program Launcher
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr ""
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr ""
+
+msgctxt "#33002"
+msgid "Music"
+msgstr ""
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr ""
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr ""
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr ""
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr ""
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr ""
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr ""
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr ""
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr ""
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr ""
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr ""
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr ""
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr ""
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr ""
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr ""
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr ""
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr ""
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr ""
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr ""
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr ""
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr ""
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr ""
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr ""
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr ""
+
+msgctxt "#33026"
+msgid "Website"
+msgstr ""
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr ""
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr ""
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr ""
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr ""
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr ""
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr ""
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr ""
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr ""
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr ""
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr ""
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr ""
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr ""
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr ""
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr ""
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr ""
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr ""
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr ""
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr ""
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr ""
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr ""
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr ""
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr ""
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr ""
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr ""
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr ""
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr ""
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr ""
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr ""
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr ""
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr ""

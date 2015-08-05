@@ -47,6 +47,75 @@ msgctxt "#33007"
 msgid "Edit icon"
 msgstr "Изменить значок"
 
-msgctxt "#33008"
-msgid "Edit fanart"
-msgstr "Изменить фанарт"
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Запустить Origin"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "Запустить GOG Galaxy"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Запустить Uplay"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Запустить Battle.net"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " Добавить игру"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "Указать название игры"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "Выбрать исполняемый файл игры"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "Выбрать миниатюру игры"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "Выбрать постер игры"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "Добавить в надстройки для меню главной страницы"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "Удалить из надстроек для меню главной страницы"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "Добавить в подменю 'Игры' на главной странице"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "Удалить из подменю 'Игры' на главной странице"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "Постер"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "Добавить постер?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "Выбрать надстройку для меню на главной странице"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "Выбрать надстройки для подменю 'Игры' на главной странице"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "Удалить игру"
+

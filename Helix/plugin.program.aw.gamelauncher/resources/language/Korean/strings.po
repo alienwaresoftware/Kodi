@@ -25,7 +25,7 @@ msgstr "게임 찾기"
 
 msgctxt "#33002"
 msgid "Launch Steam"
-msgstr "스팀 실행"
+msgstr "Steam 실행"
 
 msgctxt "#33003"
 msgid "Finding games...."
@@ -50,3 +50,77 @@ msgstr "아이콘 수정"
 msgctxt "#33008"
 msgid "Edit fanart"
 msgstr "팬아트 수정"
+
+
+msgctxt "#33009"
+msgid "Launch Origin"
+msgstr "Origin 실행"
+
+msgctxt "#33010"
+msgid "Launch GOG Galaxy"
+msgstr "GOG Galaxy 실행"
+
+msgctxt "#33011"
+msgid "Launch Uplay"
+msgstr "Uplay 실행"
+
+msgctxt "#33012"
+msgid "Launch Battle.net"
+msgstr "Battle.net 실행"
+
+msgctxt "#33013"
+msgid " Add Game"
+msgstr " 게임 추가"
+
+msgctxt "#33014"
+msgid "Enter Game Name"
+msgstr "게임 이름 입력"
+
+msgctxt "#33015"
+msgid "Select Game Executable"
+msgstr "게임 실행 파일 선택"
+
+msgctxt "#33016"
+msgid "Select Game Thumb Image"
+msgstr "게임 썸네일 이미지 선택"
+
+msgctxt "#33017"
+msgid "Select Game Fanart Image"
+msgstr "게임 배경 아트 이미지 선택"
+
+msgctxt "#33018"
+msgid "Add to Home Page Menu Addons"
+msgstr "홈페이지 메뉴 추가 기능에 추가"
+
+msgctxt "#33019"
+msgid "Remove from Home Page Menu Addon"
+msgstr "홈페이지 메뉴 추가 기능에서 제거"
+
+msgctxt "#33020"
+msgid "Add to Home Page Games Sub-menu"
+msgstr "홈페이지 게임 하위 메뉴에 추가"
+
+msgctxt "#33021"
+msgid "Remove from Home Page Games Sub-menu"
+msgstr "홈페이지 게임 하위 메뉴에서 제거"
+
+msgctxt "#33022"
+msgid "Fanart"
+msgstr "배경 아트"
+
+msgctxt "#33023"
+msgid "Do you want to set a fanart?"
+msgstr "배경 아트를 설정하시겠습니까?"
+
+msgctxt "#33024"
+msgid "Select Home Menu Addon"
+msgstr "홈 메뉴 추가 기능 선택"
+
+msgctxt "#33025"
+msgid "Select Home Page Games Sub-menu Addons"
+msgstr "홈페이지 게임 하위 메뉴 추가 기능 선택"
+
+msgctxt "#33026"
+msgid "Remove Game"
+msgstr "게임 제거"
+

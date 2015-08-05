@@ -1,0 +1,244 @@
+﻿# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Norwegian (http://www.transifex.com/projects/p/xbmc-main/language/no/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: no\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgctxt "#33005"
+msgid "Edit title"
+msgstr "Rediger tittel"
+
+msgctxt "#33006"
+msgid "Edit path"
+msgstr "Rediger bane"
+
+msgctxt "#33007"
+msgid "Edit icon"
+msgstr "Rediger ikon"
+
+msgctxt "#33008"
+msgid "Edit fanart"
+msgstr "Rediger tilhengerkunst"
+
+msgctxt "#33000"
+msgid "All Launcher"
+msgstr "Alle oppstartsprogrammer"
+
+msgctxt "#33001"
+msgid "Programs"
+msgstr "Programmer"
+
+msgctxt "#33002"
+msgid "Music"
+msgstr "Musikk"
+
+msgctxt "#33003"
+msgid "Videos"
+msgstr "Videoer"
+
+msgctxt "#33004"
+msgid "Pictures"
+msgstr "Bilder"
+
+msgctxt "#33009"
+msgid "Select launcher category"
+msgstr "Velg kategori for oppstartsprogram"
+
+msgctxt "#33010"
+msgid "Enter website address"
+msgstr "Skriv inn adressen til nettstedet"
+
+msgctxt "#33011"
+msgid "Select executable file"
+msgstr "Velg kjørbar fil"
+
+msgctxt "#33012"
+msgid "Enter title"
+msgstr "Skriv inn tittel"
+
+msgctxt "#33013"
+msgid "Select Icon"
+msgstr "Velg ikon"
+
+msgctxt "#33014"
+msgid "Select Fanart Image"
+msgstr "Velg fankunstbilde"
+
+msgctxt "#33015"
+msgid "Setting : Keyboard/Mouse on load"
+msgstr "Innstilling : Tastatur/mus ved lasting"
+
+msgctxt "#33016"
+msgid "Setting : Launch with Administrator setting"
+msgstr "Innstilling: Åpne med administratorinnstilling"
+
+msgctxt "#33017"
+msgid "Setting : Start at boot setting"
+msgstr "Innstilling: Åpne ved oppstart"
+
+msgctxt "#33020"
+msgid "Save program launcher"
+msgstr "Lagre programoppstart"
+
+msgctxt "#33018"
+msgid "Launch with Administrator privileges"
+msgstr "Åpne med administratorprivilegier"
+
+msgctxt "#33019"
+msgid "Launch without Administrator privileges"
+msgstr "Åpne uten administratorprivilegier"
+
+msgctxt "#33021"
+msgid "Would you like to save this launcher?"
+msgstr "Vil du lagre dette oppstartsprogrammet?"
+
+msgctxt "#33022"
+msgid " Add Program"
+msgstr " Legg til program"
+
+msgctxt "#33023"
+msgid "Select launcher type"
+msgstr "Velg oppstartsprogramtype"
+
+msgctxt "#33024"
+msgid "Windows Application"
+msgstr "Windows-program"
+
+msgctxt "#33025"
+msgid "Windows Store Application"
+msgstr "Windows Store-program"
+
+msgctxt "#33026"
+msgid "Website"
+msgstr "Nettsted"
+
+msgctxt "#33027"
+msgid "Add to Home Page Menu Addons"
+msgstr "Legg til i menyens tilleggsprogrammer på hjemmesiden"
+
+msgctxt "#33028"
+msgid "Remove from Home Page Menu Addons"
+msgstr "Fjern fra menyens tilleggsprogrammer på hjemmesiden"
+
+msgctxt "#33029"
+msgid "Add to Home Page Video Sub-menu"
+msgstr "Legg til i undermenyen for video på hjemmesiden"
+
+msgctxt "#33030"
+msgid "Remove from Home Page Video Sub-menu"
+msgstr "Fjern fra undermenyen for video på hjemmesiden"
+
+msgctxt "#33031"
+msgid "Add to Home Page Music Sub-menu"
+msgstr "Legg til i undermenyen for musikk på hjemmesiden"
+
+msgctxt "#33032"
+msgid "Remove from Home Page Music Sub-menu"
+msgstr "Fjern fra undermenyen for musikk på hjemmesiden"
+
+msgctxt "#33033"
+msgid "Add to Home Page Pictures Sub-menu"
+msgstr "Legg til i undermenyen for bilder på hjemmesiden"
+
+msgctxt "#33034"
+msgid "Remove from Home Page Pictures Sub-menu"
+msgstr "Fjern fra undermenyen for bilder på hjemmesiden"
+
+msgctxt "#33035"
+msgid "Add to Home Page Programs Sub-menu"
+msgstr "Legg til i undermenyen for programmer på hjemmesiden"
+
+msgctxt "#33036"
+msgid "Remove from Home Page Programs Sub-menu"
+msgstr "Fjern fra undermenyen for programmer på hjemmesiden"
+
+msgctxt "#33037"
+msgid "Enable mouse/kb on load"
+msgstr "Aktiver mus/tastatur ved lasting"
+
+msgctxt "#33038"
+msgid "Disable mouse/kb on load"
+msgstr "Deaktiver mus/tastatur ved lasting"
+
+msgctxt "#33039"
+msgid "Start at boot"
+msgstr "Åpne ved oppstart"
+
+msgctxt "#33040"
+msgid "Do not start at boot"
+msgstr "Ikke åpne ved oppstart"
+
+msgctxt "#33041"
+msgid "Select Home Page Menu Addons"
+msgstr "Velg tilleggsprogrammer fra menyen på hjemmesiden"
+
+msgctxt "#33042"
+msgid "Select Home Page Programs Sub-menu Addons"
+msgstr "Velg tilleggsprogrammer fra undermenyen for programmer på hjemmesiden"
+
+msgctxt "#33043"
+msgid "Select Home Page Video Sub-menu Addons"
+msgstr "Velg tilleggsprogrammer fra undermenyen for video på hjemmesiden"
+
+msgctxt "#33044"
+msgid "Select Home Page Music Sub-menu Addons"
+msgstr "Velg tilleggsprogrammer fra undermenyen for musikk på hjemmesiden"
+
+msgctxt "#33045"
+msgid "Select Home Page Pictures Sub-menu Addons"
+msgstr "Velg tilleggsprogrammer fra undermenyen for bilder på hjemmesiden"
+
+msgctxt "#33046"
+msgid "Edit title, icon, fanart"
+msgstr "Rediger tittel, ikon, fankunst"
+
+msgctxt "#33047"
+msgid "Edit title, path, icon, fanart"
+msgstr "Rediger tittel, bane, ikon, fankunst"
+
+msgctxt "#33048"
+msgid "Edit Menu"
+msgstr "Rediger meny"
+
+msgctxt "#33049"
+msgid "Remove from programs"
+msgstr "Fjern fra programmer"
+
+msgctxt "#33050"
+msgid "Select Option"
+msgstr "Velg alternativ"
+
+msgctxt "#33051"
+msgid "Install New Application"
+msgstr "Installer nytt program"
+
+msgctxt "#33052"
+msgid "Add Existing Application"
+msgstr "Legg til eksisterende program"
+
+msgctxt "#33053"
+msgid "Invalid Operation"
+msgstr "Ugyldig operasjon"
+
+msgctxt "#33054"
+msgid "Program with this path already added"
+msgstr "Et program med denne banen er allerede lagt til"
+
+msgctxt "#33055"
+msgid "Edit Category"
+msgstr "Rediger kategori"
+
+msgctxt "#33056"
+msgid "Select Category"
+msgstr "Velg kategori"
+

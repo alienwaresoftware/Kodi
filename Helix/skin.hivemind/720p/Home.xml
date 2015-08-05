@@ -829,40 +829,75 @@
             <!--visible>!Skin.HasSetting(HomeMenuNoGamesButton) + !SubString(Window(10004).Property(service.aw.customizations.IsComponentInstalled),True)</visible></-->
             <visible>!Skin.HasSetting(HomeMenuNoGamesButton) + Skin.HasSetting(IsCoreComponentInstalled)</visible>
           </item>
-          <item id="92">
+          <item>
+            <label>[UPPERCASE]$INFO[Skin.String(HomeMenuButton1Title)][/UPPERCASE]</label>
+            <onclick>RunPlugin($INFO[Skin.String(HomeMenuButton1)])</onclick>
+            <icon>$INFO[Skin.String(HomeMenuButton1Image)]</icon>
+            <thumb>-</thumb>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton1)) + IsEmpty(system.addontitle(Skin.String(HomeMenuButton1)))</visible>
+          </item>
+          <item>
             <label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton1))][/UPPERCASE]</label>
             <onclick>RunAddon($INFO[Skin.String(HomeMenuButton1)])</onclick>
             <icon>$INFO[system.addonicon(Skin.String(HomeMenuButton1))]</icon>
             <thumb>-</thumb>
-            <visible>!IsEmpty(Skin.String(HomeMenuButton1))</visible>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton1)) + !IsEmpty(system.addontitle(Skin.String(HomeMenuButton1)))</visible>
           </item>
-          <item id="93">
+          <item>
+            <label>[UPPERCASE]$INFO[Skin.String(HomeMenuButton2Title)][/UPPERCASE]</label>
+            <onclick>RunPlugin($INFO[Skin.String(HomeMenuButton2)])</onclick>
+            <icon>$INFO[Skin.String(HomeMenuButton2Image)]</icon>
+            <thumb>-</thumb>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton2)) + IsEmpty(system.addontitle(Skin.String(HomeMenuButton2)))</visible>
+          </item>
+          <item>
             <label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton2))][/UPPERCASE]</label>
             <onclick>RunAddon($INFO[Skin.String(HomeMenuButton2)])</onclick>
             <icon>$INFO[system.addonicon(Skin.String(HomeMenuButton2))]</icon>
             <thumb>-</thumb>
-            <visible>!IsEmpty(Skin.String(HomeMenuButton2))</visible>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton2)) + !IsEmpty(system.addontitle(Skin.String(HomeMenuButton2)))</visible>
           </item>
-          <item id="94">
+          <item>
+            <label>[UPPERCASE]$INFO[Skin.String(HomeMenuButton3Title)][/UPPERCASE]</label>
+            <onclick>RunPlugin($INFO[Skin.String(HomeMenuButton3)])</onclick>
+            <icon>$INFO[Skin.String(HomeMenuButton3Image)]</icon>
+            <thumb>-</thumb>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton3)) + IsEmpty(system.addontitle(Skin.String(HomeMenuButton3)))</visible>
+          </item>
+          <item>
             <label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton3))][/UPPERCASE]</label>
             <onclick>RunAddon($INFO[Skin.String(HomeMenuButton3)])</onclick>
             <icon>$INFO[system.addonicon(Skin.String(HomeMenuButton3))]</icon>
             <thumb>-</thumb>
-            <visible>!IsEmpty(Skin.String(HomeMenuButton3))</visible>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton3)) + !IsEmpty(system.addontitle(Skin.String(HomeMenuButton3)))</visible>
           </item>
-          <item id="95">
+          <item>
+            <label>[UPPERCASE]$INFO[Skin.String(HomeMenuButton4Title)][/UPPERCASE]</label>
+            <onclick>RunPlugin($INFO[Skin.String(HomeMenuButton4)])</onclick>
+            <icon>$INFO[Skin.String(HomeMenuButton4Image)]</icon>
+            <thumb>-</thumb>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton4)) + IsEmpty(system.addontitle(Skin.String(HomeMenuButton4)))</visible>
+          </item>
+          <item>
             <label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton4))][/UPPERCASE]</label>
             <onclick>RunAddon($INFO[Skin.String(HomeMenuButton4)])</onclick>
             <icon>$INFO[system.addonicon(Skin.String(HomeMenuButton4))]</icon>
             <thumb>-</thumb>
-            <visible>!IsEmpty(Skin.String(HomeMenuButton4))</visible>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton4)) + !IsEmpty(system.addontitle(Skin.String(HomeMenuButton4)))</visible>
           </item>
-          <item id="96">
+          <item>
+            <label>[UPPERCASE]$INFO[Skin.String(HomeMenuButton5Title)][/UPPERCASE]</label>
+            <onclick>RunPlugin($INFO[Skin.String(HomeMenuButton5)])</onclick>
+            <icon>$INFO[Skin.String(HomeMenuButton5Image)]</icon>
+            <thumb>-</thumb>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton5)) + IsEmpty(system.addontitle(Skin.String(HomeMenuButton5)))</visible>
+          </item>
+          <item>
             <label>[UPPERCASE]$INFO[system.addontitle(Skin.String(HomeMenuButton5))][/UPPERCASE]</label>
             <onclick>RunAddon($INFO[Skin.String(HomeMenuButton5)])</onclick>
             <icon>$INFO[system.addonicon(Skin.String(HomeMenuButton5))]</icon>
             <thumb>-</thumb>
-            <visible>!IsEmpty(Skin.String(HomeMenuButton5))</visible>
+            <visible>!IsEmpty(Skin.String(HomeMenuButton5)) + !IsEmpty(system.addontitle(Skin.String(HomeMenuButton5)))</visible>
           </item>
           <item id="3">
             <label>31956</label>
@@ -873,8 +908,7 @@
           </item>
           <item id="1">
             <label>31957</label>
-            <onclick condition="!System.Platform.Android">ActivateWindow(Programs,Addons,return)</onclick>
-            <onclick condition="System.Platform.Android">ActivateWindow(Programs)</onclick>
+            <onclick>RunAddon(plugin.program.aw.programlauncher)</onclick>
             <icon>alienware/icons/icon_programs.png</icon>
             <thumb>-</thumb>
             <visible>!Skin.HasSetting(HomeMenuNoProgramsButton)</visible>

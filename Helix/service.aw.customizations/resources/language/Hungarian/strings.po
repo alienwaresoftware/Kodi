@@ -62,3 +62,55 @@ msgstr "Új verzió"
 msgctxt "#33011"
 msgid "The HiveMind Core Components must be installed to run this addon."
 msgstr "A HiveMind Core Components telepíteni kell futtatni ezt addon."
+
+msgctxt "#33012"
+msgid "Origin client is not installed"
+msgstr "Origin kliens nincs telepítve."
+
+msgctxt "#33013"
+msgid "Would you like to download Origin client?"
+msgstr "Szeretné letölteni az Origin klienst?"
+
+msgctxt "#33014"
+msgid "GOG Galaxy client is not installed"
+msgstr "GOG Galaxy kliens nincs telepítve"
+
+msgctxt "#33015"
+msgid "Would you like to download GOG Galaxy client?"
+msgstr "Szeretné letölteni a GOG Galaxy klienst?"
+
+msgctxt "#33016"
+msgid "Uplay client is not installed"
+msgstr "Uplay kliens nincs telepítve"
+
+msgctxt "#33017"
+msgid "Would you like to download Uplay client?"
+msgstr "Szeretné letölteni a Uplay klienst?"
+
+msgctxt "#33018"
+msgid "Battle.net client is not installed"
+msgstr "Battle.net kliens nincs telepítve"
+
+msgctxt "#33019"
+msgid "Would you like to download Battle.net client?"
+msgstr "Szeretné letölteni a Battle.net klienst?"
+
+msgctxt "#33020"
+msgid "Unable to launch the application, please try again."
+msgstr "Nem lehet elindítani az alkalmazást. Kérjük, próbálja meg újra."
+
+msgctxt "#33021"
+msgid "NVidia GFE client is not installed"
+msgstr "NVidia GFE kliens nincs telepítve"
+
+msgctxt "#33022"
+msgid "Would you like to download NVidia GFE client?"
+msgstr "Szeretné letölteni az NVidia GFE klienst?"
+
+msgctxt "#33023"
+msgid "Google Chrome is not installed"
+msgstr "Google Chrome kliens nincs telepítve"
+
+msgctxt "#33024"
+msgid "Would you like to download Google Chrome?"
+msgstr "Szeretné letölteni az Google Chrome klienst?"

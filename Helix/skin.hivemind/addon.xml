@@ -1,17 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.hivemind"
-  version="1.0.6"
+  version="1.0.9"
   name="The HiveMind Interface"
   provider-name="Alienware">
   <requires>
     <import addon="xbmc.gui" version="5.3.0"/>
-    <import addon="service.aw.customizations"/>
-    <import addon="service.aw.launcher"/>	
-    <import addon="script.service.aw.devicesettings"/>
-    <import addon="script.module.aw.devicesettings"/>
-    <import addon="plugin.program.aw.gamelauncher"/>
-    <import addon="plugin.video.youtube"/>
   </requires>
   <extension
     point="xbmc.gui.skin"

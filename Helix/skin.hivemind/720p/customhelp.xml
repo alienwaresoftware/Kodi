@@ -189,6 +189,45 @@
             <width>736</width>
             <height>85</height>
             <font>font12</font>
+            <label>31988</label>
+            <!--Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu.-->
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(6)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31988</label>
+            <!--Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu.-->
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(9)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31988</label>
+            <!--Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu.-->
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(1) + Container(9101).Hasfocus(12)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
             <label>31821</label>
             <!--Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu.-->
             <align>center</align>
@@ -257,6 +296,186 @@
             <align>center</align>
             <textcolor>white</textcolor>
             <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(6)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31976</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(7)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31963</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(8)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31964</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(9)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31965</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(10)</visible>
+          </control>
+              <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31966</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(11)</visible>
+          </control>
+              <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31967</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(12)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31968</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(13)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31969</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(14)</visible>
+          </control>
+              <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31970</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(15)</visible>
+          </control>
+              <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31971</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(16)</visible>
+          </control>
+              <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31972</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(17)</visible>
+          </control>
+              <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31973</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(18)</visible>
+          </control>
+              <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31974</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(19)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31975</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(20)</visible>
+          </control>
+          <control type="textbox">
+            <description>description area</description>
+            <left>7</left>
+            <top>30</top>
+            <width>736</width>
+            <height>85</height>
+            <font>font12</font>
+            <label>31976</label>
+            <align>center</align>
+            <textcolor>white</textcolor>
+            <visible>Container(9000).Hasfocus(2) + Container(9102).Hasfocus(21)</visible>
           </control>
           <control type="textbox">
             <description>description area</description>
@@ -350,7 +569,7 @@
                 <width>93</width>
                 <aspectratio>keep</aspectratio>
                 <description>The icon</description>
-                <texture>alienware/X360/Layout/helplayoutLeft.png</texture>
+                <texture>$INFO[ListItem.Property("Icon1")]</texture>
               </control>
               <control type="image">
                 <left>400</left>
@@ -359,7 +578,7 @@
                 <width>93</width>
                 <aspectratio>keep</aspectratio>
                 <description>The icon</description>
-                <texture>alienware/X360/Layout/helplayoutright.png</texture>
+                <texture>$INFO[ListItem.Property("Icon2")]</texture>
               </control>
               <control type="label">
                 <top>20</top>
@@ -370,6 +589,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left1")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>68</top>
@@ -380,6 +600,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left2")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>116</top>
@@ -390,6 +611,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left3")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>162</top>
@@ -400,6 +622,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left4")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>208</top>
@@ -410,6 +633,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left5")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>254</top>
@@ -420,6 +644,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left6")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>304</top>
@@ -430,6 +655,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left7")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>20</top>
@@ -440,6 +666,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right1")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>68</top>
@@ -450,6 +677,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right2")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>116</top>
@@ -460,6 +688,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right3")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>162</top>
@@ -470,6 +699,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right4")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>208</top>
@@ -480,6 +710,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right5")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>254</top>
@@ -490,6 +721,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right6")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>304</top>
@@ -500,6 +732,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right7")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <bottom>-45</bottom>
@@ -520,7 +753,7 @@
                 <width>93</width>
                 <aspectratio>keep</aspectratio>
                 <description>The icon</description>
-                <texture>alienware/X360/Layout/helplayoutLeft.png</texture>
+                <texture>$INFO[ListItem.Property("Icon1")]</texture>
               </control>
               <control type="image">
                 <left>400</left>
@@ -529,7 +762,7 @@
                 <width>93</width>
                 <aspectratio>keep</aspectratio>
                 <description>The icon</description>
-                <texture>alienware/X360/Layout/helplayoutright.png</texture>
+                <texture>$INFO[ListItem.Property("Icon2")]</texture>
               </control>
               <control type="label">
                 <top>20</top>
@@ -540,6 +773,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left1")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>68</top>
@@ -550,6 +784,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left2")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>116</top>
@@ -560,6 +795,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left3")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>162</top>
@@ -570,6 +806,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left4")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>208</top>
@@ -580,6 +817,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left5")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>254</top>
@@ -590,6 +828,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left6")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>304</top>
@@ -600,6 +839,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Left7")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>20</top>
@@ -610,6 +850,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right1")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>68</top>
@@ -620,6 +861,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right2")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>116</top>
@@ -640,6 +882,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right4")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>208</top>
@@ -650,6 +893,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right5")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>254</top>
@@ -660,6 +904,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right6")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <top>304</top>
@@ -670,6 +915,7 @@
                 <align>left</align>
                 <aligny>center</aligny>
                 <label>$INFO[ListItem.Property("Right7")]</label>
+                <scroll>true</scroll>
               </control>
               <control type="label">
                 <bottom>-45</bottom>
@@ -685,7 +931,229 @@
             </focusedlayout>
             <content>
               <item id="1">
-                <label>31888</label>
+                <label>$LOCALIZE[31888] (Xbox)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/X360/Layout/helplayoutLeft.png</property>
+                <property name="Icon2">alienware/X360/Layout/helplayoutRight.png</property>
+                <property name="Left1">31877</property>
+                <property name="Left2">31878</property>
+                <property name="Left3">31879</property>
+                <property name="Left4">31880</property>
+                <property name="Left5">31977</property>
+                <property name="Left6">31881</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31882</property>
+                <property name="Right2">31883</property>
+                <property name="Right3">31884</property>
+                <property name="Right4">31885</property>
+                <property name="Right5">31977</property>
+                <property name="Right6">31886</property>
+                <property name="Right7">31887</property>
+              </item>
+              <item id="2">
+                <label>$LOCALIZE[31889] (Xbox)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/X360/Layout/helplayoutLeft.png</property>
+                <property name="Icon2">alienware/X360/Layout/helplayoutRight.png</property>
+                <property name="Left1">31890</property>
+                <property name="Left2">31891</property>
+                <property name="Left3">31892</property>
+                <property name="Left4">31893</property>
+                <property name="Left5">31894</property>
+                <property name="Left6">31977</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31895</property>
+                <property name="Right2">31896</property>
+                <property name="Right3">31977</property>
+                <property name="Right4">31897</property>
+                <property name="Right5">31898</property>
+                <property name="Right6">31899</property>
+                <property name="Right7">31900</property>
+              </item>
+              <item id="3">
+                <label>$LOCALIZE[31853] (Xbox)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/X360/Layout/helplayoutLeft.png</property>
+                <property name="Icon2">alienware/X360/Layout/helplayoutRight.png</property>
+                <property name="Left1">31877</property>
+                <property name="Left2">31610</property>
+                <property name="Left3">31611</property>
+                <property name="Left4">31612</property>
+                <property name="Left5">31977</property>
+                <property name="Left6">31613</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31882</property>
+                <property name="Right2">31614</property>
+                <property name="Right3">31615</property>
+                <property name="Right4">31616</property>
+                <property name="Right5">31977</property>
+                <property name="Right6">31617</property>
+                <property name="Right7">31887</property>
+              </item>
+              <item id="4">
+                <label>$LOCALIZE[31864] (Xbox)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/X360/Layout/helplayoutLeft.png</property>
+                <property name="Icon2">alienware/X360/Layout/helplayoutRight.png</property>
+                <property name="Left1">31890</property>
+                <property name="Left2">31891</property>
+                <property name="Left3">31977</property>
+                <property name="Left4">31618</property>
+                <property name="Left5">31894</property>
+                <property name="Left6">31977</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31895</property>
+                <property name="Right2">31977</property>
+                <property name="Right3">31977</property>
+                <property name="Right4">31619</property>
+                <property name="Right5">31898</property>
+                <property name="Right6">31977</property>
+                <property name="Right7">31620</property>
+              </item>
+              <item id="5">
+                <label>$LOCALIZE[31865] (Xbox)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/X360/Layout/helplayoutLeft.png</property>
+                <property name="Icon2">alienware/X360/Layout/helplayoutRight.png</property>
+                <property name="Left1">31890</property>
+                <property name="Left2">31977</property>
+                <property name="Left3">31977</property>
+                <property name="Left4">31626</property>
+                <property name="Left5">31624</property>
+                <property name="Left6">31977</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31895</property>
+                <property name="Right2">31621</property>
+                <property name="Right3">31977</property>
+                <property name="Right4">31619</property>
+                <property name="Right5">31625</property>
+                <property name="Right6">31977</property>
+                <property name="Right7">31627</property>
+              </item>
+              <item id="6">
+                <label>$LOCALIZE[31978] (Xbox)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/X360/Layout/helplayoutLeft.png</property>
+                <property name="Icon2">alienware/X360/Layout/helplayoutRight.png</property>
+                <property name="Left1">31877</property>
+                <property name="Left2">31610</property>
+                <property name="Left3">31611</property>
+                <property name="Left4">31612</property>
+                <property name="Left5">31985</property>
+                <property name="Left6">31613</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31882</property>
+                <property name="Right2">31614</property>
+                <property name="Right3">31615</property>
+                <property name="Right4">31616</property>
+                <property name="Right5">31986</property>
+                <property name="Right6">31617</property>
+                <property name="Right7">31887</property>
+              </item>
+              <item id="7">
+                <label>$LOCALIZE[31979] (Xbox)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/X360/Layout/helplayoutLeft.png</property>
+                <property name="Icon2">alienware/X360/Layout/helplayoutRight.png</property>
+                <property name="Left1">31980</property>
+                <property name="Left2">31982</property>
+                <property name="Left3">31977</property>
+                <property name="Left4">31977</property>
+                <property name="Left5">31977</property>
+                <property name="Left6">31985</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31981</property>
+                <property name="Right2">31983</property>
+                <property name="Right3">31984</property>
+                <property name="Right4">31977</property>
+                <property name="Right5">31977</property>
+                <property name="Right6">31992</property>
+                <property name="Right7">31987</property>
+              </item>
+              <item id="8">
+                <label>$LOCALIZE[31888] (DS4)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/PS4/Layout/PS4_Helplayout1.png</property>
+                <property name="Icon2">alienware/PS4/Layout/PS4_Helplayout2.png</property>
+                <property name="Left1">31877</property>
+                <property name="Left2">31878</property>
+                <property name="Left3">31879</property>
+                <property name="Left4">31880</property>
+                <property name="Left5">31977</property>
+                <property name="Left6">31881</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31882</property>
+                <property name="Right2">31883</property>
+                <property name="Right3">31884</property>
+                <property name="Right4">31885</property>
+                <property name="Right5">31977</property>
+                <property name="Right6">31886</property>
+                <property name="Right7">31887</property>
+              </item>
+              <item id="9">
+                <label>$LOCALIZE[31978] (DS4)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/PS4/Layout/PS4_Helplayout1.png</property>
+                <property name="Icon2">alienware/PS4/Layout/PS4_Helplayout2.png</property>
+                <property name="Left1">31877</property>
+                <property name="Left2">31610</property>
+                <property name="Left3">31611</property>
+                <property name="Left4">31612</property>
+                <property name="Left5">31985</property>
+                <property name="Left6">31613</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31882</property>
+                <property name="Right2">31614</property>
+                <property name="Right3">31615</property>
+                <property name="Right4">31616</property>
+                <property name="Right5">31986</property>
+                <property name="Right6">31617</property>
+                <property name="Right7">31887</property>
+              </item>
+              <item id="10">
+                <label>$LOCALIZE[31979] (DS4)</label>
+                <onclick>noop</onclick>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+                <property name="Icon1">alienware/PS4/Layout/PS4_Helplayout1.png</property>
+                <property name="Icon2">alienware/PS4/Layout/PS4_Helplayout2.png</property>
+                <property name="Left1">31980</property>
+                <property name="Left2">31982</property>
+                <property name="Left3">31977</property>
+                <property name="Left4">31977</property>
+                <property name="Left5">31977</property>
+                <property name="Left6">31985</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31981</property>
+                <property name="Right2">31983</property>
+                <property name="Right3">31984</property>
+                <property name="Right4">31977</property>
+                <property name="Right5">31977</property>
+                <property name="Right6">31992</property>
+                <property name="Right7">31987</property>
+              </item>
+              <item id="11">
+                <property name="Icon1">alienware/Steam/Layout/SteamHelplayout1.png</property>
+                <property name="Icon2">alienware/Steam/Layout/SteamHelplayout2.png</property>
+                <label>$LOCALIZE[31888] (Steam)</label>
                 <onclick>noop</onclick>
                 <thumb>-</thumb>
                 <visible>yes</visible>
@@ -693,39 +1161,21 @@
                 <property name="Left2">31878</property>
                 <property name="Left3">31879</property>
                 <property name="Left4">31880</property>
-                <property name="Left5">31881</property>
-                <property name="Left6"></property>
-                <property name="Left7"></property>
+                <property name="Left5">31977</property>
+                <property name="Left6">31977</property>
+                <property name="Left7">31977</property>
                 <property name="Right1">31882</property>
                 <property name="Right2">31883</property>
                 <property name="Right3">31884</property>
                 <property name="Right4">31885</property>
-                <property name="Right5"></property>
-                <property name="Right6">31886</property>
+                <property name="Right5">31977</property>
+                <property name="Right6">31881</property>
                 <property name="Right7">31887</property>
               </item>
-              <item id="2">
-                <label>31889</label>
-                <onclick>noop</onclick>
-                <thumb>-</thumb>
-                <visible>yes</visible>
-                <property name="Left1">31890</property>
-                <property name="Left2">31891</property>
-                <property name="Left3">31892</property>
-                <property name="Left4">31893</property>
-                <property name="Left5">31894</property>
-                <property name="Left6"></property>
-                <property name="Left7"></property>
-                <property name="Right1">31895</property>
-                <property name="Right2">31896</property>
-                <property name="Right3"></property>
-                <property name="Right4">31897</property>
-                <property name="Right5">31898</property>
-                <property name="Right6">31899</property>
-                <property name="Right7">31900</property>
-              </item>
-              <item id="3">
-                <label>31853</label>
+              <item id="12">
+                <property name="Icon1">alienware/Steam/Layout/SteamHelplayout1.png</property>
+                <property name="Icon2">alienware/Steam/Layout/SteamHelplayout2.png</property>
+                <label>$LOCALIZE[31978] (Steam)</label>
                 <onclick>noop</onclick>
                 <thumb>-</thumb>
                 <visible>yes</visible>
@@ -733,56 +1183,38 @@
                 <property name="Left2">31610</property>
                 <property name="Left3">31611</property>
                 <property name="Left4">31612</property>
-                <property name="Left5"></property>
-                <property name="Left6">31613</property>
-                <property name="Left7"></property>
+                <property name="Left5">31985</property>
+                <property name="Left6">31977</property>
+                <property name="Left7">31977</property>
                 <property name="Right1">31882</property>
                 <property name="Right2">31614</property>
                 <property name="Right3">31615</property>
                 <property name="Right4">31616</property>
-                <property name="Right5"></property>
+                <property name="Right5">31986</property>
                 <property name="Right6">31617</property>
-                <property name="Right7"></property>
+                <property name="Right7">31887</property>
               </item>
-              <item id="4">
-                <label>31864</label>
+              <item id="13">
+                <property name="Icon1">alienware/Steam/Layout/SteamHelplayout1.png</property>
+                <property name="Icon2">alienware/Steam/Layout/SteamHelplayout2.png</property>
+                <label>$LOCALIZE[31979] (Steam)</label>
                 <onclick>noop</onclick>
                 <thumb>-</thumb>
                 <visible>yes</visible>
-                <property name="Left1">31890</property>
-                <property name="Left2">31891</property>
-                <property name="Left3"></property>
-                <property name="Left4">31618</property>
-                <property name="Left5">31894</property>
-                <property name="Left6"></property>
-                <property name="Left7"></property>
-                <property name="Right1">31895</property>
-                <property name="Right2"></property>
-                <property name="Right3"></property>
-                <property name="Right4">31619</property>
-                <property name="Right5">31898</property>
-                <property name="Right6"></property>
-                <property name="Right7">31620</property>
-              </item>
-              <item id="5">
-                <label>31865</label>
-                <onclick>noop</onclick>
-                <thumb>-</thumb>
-                <visible>yes</visible>
-                <property name="Left1">31890</property>
-                <property name="Left2"></property>
-                <property name="Left3"></property>
-                <property name="Left4">31626</property>
-                <property name="Left5">31624</property>
-                <property name="Left6"></property>
-                <property name="Left7"></property>
-                <property name="Right1">31895</property>
-                <property name="Right2">31621</property>
-                <property name="Right3"></property>
-                <property name="Right4">31619</property>
-                <property name="Right5">31625</property>
-                <property name="Right6"></property>
-                <property name="Right7">31627</property>
+                <property name="Left1">31980</property>
+                <property name="Left2">31982</property>
+                <property name="Left3">31977</property>
+                <property name="Left4">31977</property>
+                <property name="Left5">31977</property>
+                <property name="Left6">31977</property>
+                <property name="Left7">31977</property>
+                <property name="Right1">31981</property>
+                <property name="Right2">31983</property>
+                <property name="Right3">31984</property>
+                <property name="Right4">31977</property>
+                <property name="Right5">31977</property>
+                <property name="Right6">31992</property>
+                <property name="Right7">31987</property>
               </item>
             </content>
           </control>
@@ -860,44 +1292,149 @@
             </focusedlayout>
             <content>
               <item id="1">
-                <label>31810</label>
+                <label>$LOCALIZE[31810] (Xbox)</label>
                 <onclick>noop</onclick>
                 <icon>Alienware/X360/Hotkeys/Controller_GuideMenu.png</icon>
                 <thumb>-</thumb>
                 <visible>yes</visible>
               </item>
               <item id="2">
-                <label>31813</label>
+                <label>$LOCALIZE[31813] (Xbox)</label>
                 <onclick>noop</onclick>
                 <icon>Alienware/X360/Hotkeys/Controller_MouseDriver.png</icon>
                 <thumb>-</thumb>
                 <visible>yes</visible>
               </item>
               <item id="3">
-                <label>31811</label>
+                <label>$LOCALIZE[31811] (Xbox)</label>
                 <onclick>noop</onclick>
                 <icon>Alienware/X360/Hotkeys/Controller_ShiftingFocus.png</icon>
                 <thumb>-</thumb>
                 <visible>yes</visible>
               </item>
               <item id="4">
-                <label>31812</label>
+                <label>$LOCALIZE[31812] (Xbox)</label>
                 <onclick>noop</onclick>
                 <icon>Alienware/X360/Hotkeys/Controller_FullScreen.png</icon>
                 <thumb>-</thumb>
                 <visible>yes</visible>
               </item>
               <item id="5">
-                <label>31830</label>
+                <label>$LOCALIZE[31830] (Xbox)</label>
                 <onclick>noop</onclick>
                 <icon>Alienware/X360/Hotkeys/Controller_CloseApp.png</icon>
                 <thumb>-</thumb>
                 <visible>yes</visible>
               </item>
               <item id="6">
-                <label>31832</label>
+                <label>$LOCALIZE[31832] (Xbox)</label>
                 <onclick>noop</onclick>
                 <icon>Alienware/X360/Hotkeys/Controller_DisableHotKey.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="7">
+                <label>$LOCALIZE[31961] (Xbox)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/X360/Hotkeys/Xbox360_ConsoleKeyboard.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="8">
+                <label>$LOCALIZE[31810] (DS4)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/PS4/Hotkeys/PS4_Controller_SystemMenu.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="9">
+                <label>$LOCALIZE[31813] (DS4)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/PS4/Hotkeys/PS4_Controller_MouseControl.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="10">
+                <label>$LOCALIZE[31811] (DS4)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/PS4/Hotkeys/PS4_Controller_ShiftFocus.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="11">
+                <label>$LOCALIZE[31812] (DS4)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/PS4/Hotkeys/PS4_Controller_FullScreen.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="12">
+                <label>$LOCALIZE[31830] (DS4)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/PS4/Hotkeys/PS4_Controller_CloseApp.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="13">
+                <label>$LOCALIZE[31832] (DS4)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/PS4/Hotkeys/PS4_Controller_TurnOffHotkeys.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="14">
+                <label>$LOCALIZE[31961] (DS4)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/PS4/Hotkeys/PS4_Controller_ConsoleKeyboard.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="15">
+                <label>$LOCALIZE[31810] (Steam)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/Steam/Hotkeys/Steam_SystemMenu.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="16">
+                <label>$LOCALIZE[31813] (Steam)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/Steam/Hotkeys/Steam_EnableMouse.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="17">
+                <label>$LOCALIZE[31811] (Steam)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/Steam/Hotkeys/Steam_ShiftFocus.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="18">
+                <label>$LOCALIZE[31812] (Steam)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/Steam/Hotkeys/Steam_FullScreen.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="19">
+                <label>$LOCALIZE[31830] (Steam)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/Steam/Hotkeys/Steam_CloseApp.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+               <item id="20">
+                <label>$LOCALIZE[31832] (Steam)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/Steam/Hotkeys/Steam_TurnOffHotkeys.png</icon>
+                <thumb>-</thumb>
+                <visible>yes</visible>
+              </item>
+              <item id="21">
+                <label>$LOCALIZE[31961] (Steam)</label>
+                <onclick>noop</onclick>
+                <icon>Alienware/Steam/Hotkeys/Steam_ConsoleKeyboard.png</icon>
                 <thumb>-</thumb>
                 <visible>yes</visible>
               </item>
@@ -989,18 +1526,18 @@
                 <visible>yes</visible>
               </item>
               <item id="3">
-                <label>31871</label>
+                <label>31989</label>
                 <onclick>playmedia("special://skin\scripts\Help_Scripts\Settings.strm")</onclick>
                 <icon>alienware\help_images\help_settings.png</icon>
                 <thumb>-</thumb>
-                <visible>false</visible>
+                <visible>yes</visible>
               </item>
               <item id="4">
-                <label>31872</label>
+                <label>31990</label>
                 <onclick>playmedia("special://skin\scripts\Help_Scripts\Addons.strm")</onclick>
                 <icon>alienware\help_images\help_addons.png</icon>
                 <thumb>-</thumb>
-                <visible>false</visible>
+                <visible>yes</visible>
               </item>
               <item id="5">
                 <label>31873</label>

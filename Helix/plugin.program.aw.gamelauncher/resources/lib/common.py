@@ -1,6 +1,7 @@
 import xbmc
 import xbmcgui
 import xbmcaddon
+import urllib2
 
 __addon__        = xbmcaddon.Addon()
 __addonversion__ = __addon__.getAddonInfo('version')
@@ -50,3 +51,11 @@ def dialog_ok(line1 = '', line2 = '', line3 = ''):
 
 def tohex(val, nbits):
   return hex((val + (1 << nbits)) % (1 << nbits))
+
+def downloadFile(url, filePath):
+    opener = urllib2.build_opener()
+    opener.addheaders = [('User-agent', 'Mozilla/5.0')]
+    resource = opener.open(url, timeout=30)
+    file = open(filePath,"wb")
+    file.write(resource.read())
+    file.close()
