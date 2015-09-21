@@ -582,10 +582,10 @@ else:
         xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
                                     listitem=li, totalItems=noOfItems, isFolder=True)
 
-        #url = build_url({'mode': 'folder', 'action': 'launchgog'})
-        #li = xbmcgui.ListItem(localize(33010), iconImage=os.path.join(imageFilePath, 'gog.png'))
-        #xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
-        #                            listitem=li, totalItems=noOfItems, isFolder=True)
+        url = build_url({'mode': 'folder', 'action': 'launchgog'})
+        li = xbmcgui.ListItem(localize(33010), iconImage=os.path.join(imageFilePath, 'gog.png'))
+        xbmcplugin.addDirectoryItem(handle=addon_handle, url=url,
+                                    listitem=li, totalItems=noOfItems, isFolder=True)
 
         url = build_url({'mode': 'folder', 'action': 'launchuplay'})
         li = xbmcgui.ListItem(localize(33011), iconImage=os.path.join(imageFilePath, 'uplay.png'))

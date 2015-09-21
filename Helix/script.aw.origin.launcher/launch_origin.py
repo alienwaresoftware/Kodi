@@ -1,4 +1,4 @@
-import xbmc
+﻿import xbmc
 import xbmcgui
 import xbmcaddon
 import os
@@ -63,6 +63,7 @@ if (__name__ == "__main__"):
 
             if (not launchPath or not os.path.isfile(launchPath)):
                 if (xbmcgui.Dialog().yesno(__addonname__,__customizationaddonlanguage__(33012),'',__customizationaddonlanguage__(33013))):
+                    AlphaUIUtils.EnableDisableControllerMouse(True)
                     webbrowser.open('http://www.origin.com')
             else:
                 #subprocess.Popen(launchPath,cwd=os.path.dirname(launchPath))

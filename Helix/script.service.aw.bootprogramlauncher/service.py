@@ -1,4 +1,4 @@
-try:
+﻿try:
     import xbmc
     import xbmcaddon
     import os
@@ -67,13 +67,22 @@ try:
     if __name__ == '__main__':
         monitor = xbmc.Monitor()
 
-        if not monitor.waitForAbort(10):
+        if not monitor.waitForAbort(3):
         
             programs = getPrograms(CATEGORY_ALL)
 
             if (programs):
                 for program in programs:
-                    if(program.type == TYPE_WIN32):
+
+                    if (program.type == TYPE_ADDON):
+                        if(program.startAtBoot):
+
+                            if(program.mouseKeyboardOnLoad):
+                                AlphaUIUtils.EnableDisableControllerMouse(True)
+
+                            xbmc.executebuiltin(program.path)
+
+                    elif(program.type == TYPE_WIN32):
                         if(program.startAtBoot):
                             print(program.name + " : startAtBoot -> " + str(program.startAtBoot))
                             AlphaUIUtils.LaunchApplication(unicode(program.path), unicode(os.path.dirname(program.path)),unicode(""), program.elevatePermission, program.mouseKeyboardOnLoad, program.mouseKeyboardOnLoad)        

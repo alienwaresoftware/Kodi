@@ -1,4 +1,4 @@
-import xbmc
+﻿import xbmc
 import xbmcgui
 import xbmcaddon
 import os
@@ -45,7 +45,6 @@ def parseConfigurationFile():
                     if (string.find(battleGame,'/game/') == 0):
                             gameData.append(battleGameData[battleGame])
 
-			
             for data in gameData:
                     #if (data['resource']['game']['download_complete']):
                             exePath = os.path.join(data['resource']['game']['install_dir'],data['resource']['game']['binary_launch_path'])
@@ -54,8 +53,7 @@ def parseConfigurationFile():
                             if(name == "Battle.net"):
                                 #log(exePath + " " + gamePath + " "  + name)
                                 #battleGames.append(Battle("BA-"+ self.getUuid(),name,exePath,gamePath))
-								return name, exePath, gamePath
-								
+                                return name, exePath, gamePath
         except Exception,e:
             #log(e.message)
             #log(e.__class__.__name__)
@@ -109,6 +107,7 @@ if (__name__ == "__main__"):
             #if (not exeName or not exePath or not os.path.isfile(launchPath)):
             if(not os.path.isfile(launchPath)):
                 if (xbmcgui.Dialog().yesno(__addonname__,__customizationaddonlanguage__(33018),'',__customizationaddonlanguage__(33019))):
+                    AlphaUIUtils.EnableDisableControllerMouse(True)
                     webbrowser.open('http://www.battle.net')
             else:
                 

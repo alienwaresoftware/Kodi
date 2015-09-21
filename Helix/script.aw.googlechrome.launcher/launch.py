@@ -1,4 +1,4 @@
-import xbmc
+﻿import xbmc
 import xbmcgui
 import xbmcaddon
 import os
@@ -65,10 +65,11 @@ if (__name__ == "__main__"):
                 launchPath = os.path.join(launchPath, "chrome.exe")
             if (not launchPath or not os.path.isfile(launchPath)):
                 if (xbmcgui.Dialog().yesno(__addonname__,__customizationaddonlanguage__(33023),'',__customizationaddonlanguage__(33024))):
+                    AlphaUIUtils.EnableDisableControllerMouse(True)
                     webbrowser.open('http://www.google.com/chrome/')
             else:
                 #subprocess.Popen(launchPath,cwd=os.path.dirname(launchPath))
-                result = AlphaUIUtils.LaunchApplication(unicode(launchPath), unicode(os.path.dirname(launchPath)),unicode(""), False, True, True)
+                result = AlphaUIUtils.LaunchApplication(unicode(launchPath), unicode(os.path.dirname(launchPath)),unicode(""), False, False, False)
                 if not result:
                     customizationAddon = xbmcaddon.Addon(id='service.aw.customizations')
                     customizationAddonLanguage = customizationAddon.getLocalizedString

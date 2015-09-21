@@ -1,4 +1,4 @@
-import os
+﻿import os
 import sys
 import urllib
 import urlparse
@@ -358,6 +358,32 @@ def getHomeMenuItem(program, folderAction, path):
 
     return homeMenu
 
+def addToHomeMenu2(selectedProgram, menuType, path, position):
+    if selectedProgram:
+        myurl = getProgramUrl(selectedProgram, path)
+        title, buttonPrefix = getMenuInfo(menuType, selectedProgram.category)
+        xbmc.executebuiltin('Skin.SetString({0}{1}, {2})'.format(buttonPrefix ,position, myurl))
+        xbmc.executebuiltin('Skin.SetString({0}{1}Title, {2})'.format(buttonPrefix ,position, selectedProgram.name))
+        xbmc.executebuiltin('Skin.SetString({0}{1}Image, {2})'.format(buttonPrefix ,position, selectedProgram.thumbImage))
+        xbmc.executebuiltin('Skin.SetString({0}{1}Type, {2})'.format(buttonPrefix ,position, 'launcher'))
+        xbmc.executebuiltin('Skin.SetString({0}{1}TypeId, {2})'.format(buttonPrefix ,position, selectedProgram.id))
+
+
+def getPosition(buttonPrefix,programId):
+    for i in range(1, 6, 1):
+        valToRet = 1
+        addonId = ''
+        buttonValue = xbmc.getInfoLabel('Skin.String({0}{1})'.format(buttonPrefix, i))
+        if not buttonValue:
+            addonId = xbmc.getInfoLabel('System.AddonTitle({0})'.format(buttonValue))
+
+        if not addonId:
+            if xbmc.getInfoLabel('Skin.String({0}{1}Type)'.format(buttonPrefix, i)) == 'launcher':
+                if xbmc.getInfoLabel('Skin.String({0}{1}TypeId)'.format(buttonPrefix, i)) == programId:
+                    valToRet = i
+                    break
+
+    return valToRet
 
 def isAddedtoMenu(buttonPrefix,programId):
     isSubMenuExist = False
@@ -503,12 +529,23 @@ def addContextMenu(listItem, program, folderAction, path):
             editMenu = (localize(33046),
                     'XBMC.Container.Refresh(plugin://{0}/?mode=contextmenu&amp;from={4}&amp;path={5}&amp;action=editmenu&amp;settingname=mousekb&amp;programid={1}&amp;programtype={2}&amp;programcategory={3})'.format(
                       __addonid__, program.id, program.type, program.category, folderAction, path),)
-
-            listItem.addContextMenuItems([getFavoriteMenuItem(program, folderAction, path),
+            
+            if(program.id == "script.aw.gotodesktop.launcher"):
+                listItem.addContextMenuItems([getFavoriteMenuItem(program, folderAction, path),
                                       editMenu,
                                       getHomeMenuItem(program, folderAction, path),
-                                      getSubMenuItem(program, folderAction, path),                                     
+                                      getSubMenuItem(program, folderAction, path),   
+                                      mouseKeyboardSettingMenu,                                
                                       ], True)
+            else:
+                listItem.addContextMenuItems([getFavoriteMenuItem(program, folderAction, path),
+                                      editMenu,
+                                      getHomeMenuItem(program, folderAction, path),
+                                      getSubMenuItem(program, folderAction, path),   
+                                      mouseKeyboardSettingMenu,
+                                      startAtBootSettingMenu,                                 
+                                      ], True)
+
         elif program.type == common.TYPE_WEBSITE:
             editMenu = (localize(33047),
                     'XBMC.Container.Refresh(plugin://{0}/?mode=contextmenu&amp;from={4}&amp;path={5}&amp;action=editmenu&amp;settingname=mousekb&amp;programid={1}&amp;programtype={2}&amp;programcategory={3})'.format(
@@ -600,7 +637,14 @@ def initAddon():
                                    False)
             addons = getAddons()
             for addon in addons:
-                addProgramToDictionary(programs, addon[0], addon[1], addon[2], common.TYPE_ADDON,
+
+                addonIds = ["script.aw.googlechrome.launcher", "script.aw.facebookweb.launcher", "script.aw.huluweb.launcher", "script.aw.netflixweb.launcher", "script.aw.web.launcher"]
+                if(addon[0] in addonIds):
+                    addProgramToDictionary(programs, addon[0], addon[1], addon[2], common.TYPE_ADDON,
+                                       'RunAddon(%s)' % addon[0], '',
+                                       addon[3], addon[4], 0, 0, 0, 0, False, False, True, False, False)
+                else:
+                    addProgramToDictionary(programs, addon[0], addon[1], addon[2], common.TYPE_ADDON,
                                        'RunAddon(%s)' % addon[0], '',
                                        addon[3], addon[4], 0, 0, 0, 0, False, False, False, False, False)
         else:
@@ -930,8 +974,15 @@ def launchProgram(selectedProgram, path):
     try:
         if selectedProgram.type == common.TYPE_ADDON:
             isContainerRefresh = False
+
+            if(selectedProgram.mouseKeyboardOnLoad == "True"):
+                AlphaUIUtils.EnableDisableControllerMouse(True)
+
             xbmc.executebuiltin(selectedProgram.path)
         elif selectedProgram.type == common.TYPE_WEBSITE:
+            if(selectedProgram.mouseKeyboardOnLoad == "True"):
+                AlphaUIUtils.EnableDisableControllerMouse(True)
+            
             webbrowser.open(selectedProgram.path)
         elif selectedProgram.type == common.TYPE_WIN32 or selectedProgram.type == common.TYPE_WIN8:
             #subprocess.Popen(selectedProgram.path, cwd=os.path.dirname(selectedProgram.path))
@@ -966,6 +1017,99 @@ def findSelectedProgram(programs, programId, programType, programCategory):
     for program in programs:
         if program.id == programId and program.type == programType and program.category == programCategory:
             return program
+
+
+def getMenuInfo(menuType, category):
+    title = ''
+    buttonPrefix = ''
+    if menuType == 'home':
+            buttonPrefix = 'HomeMenuButton'
+            title = localize(33041)
+    elif menuType == 'sub':
+        if category == common.CATEGORY_PROGRAM:
+            buttonPrefix = 'HomeProgramButton'
+            title = localize(33042)
+        elif category == common.CATEGORY_VIDEO:
+            buttonPrefix = 'HomeVideosButton'
+            title = localize(33043)
+        elif category == common.CATEGORY_MUSIC:
+            buttonPrefix = 'HomeMusicButton'
+            title = localize(33044)
+        elif category == common.CATEGORY_IMAGE:
+            buttonPrefix = 'HomePictureButton'
+            title = localize(33045)
+    return title, buttonPrefix
+
+
+def removeFromHomeMenu(selectedProgram, menuType):
+    if selectedProgram:
+
+        title, buttonPrefix = getMenuInfo(menuType, selectedProgram.category)
+
+        for i in range(1, 6, 1):
+            buttonValue = xbmc.getInfoLabel('Skin.String({0}{1})'.format(buttonPrefix, i))
+            if buttonValue:
+                addonId = xbmc.getInfoLabel('System.AddonTitle({0})'.format(buttonValue))
+
+                if not addonId:
+                    if xbmc.getInfoLabel('Skin.String({0}{1}Type)'.format(buttonPrefix, i)) == 'launcher':
+                        if xbmc.getInfoLabel('Skin.String({0}{1}TypeId)'.format(buttonPrefix, i)) == selectedProgram.id:
+                            xbmc.executebuiltin('Skin.SetString({0}{1}, '')'.format(buttonPrefix, i))
+                            xbmc.executebuiltin('Skin.SetString({0}{1}Title, '')'.format(buttonPrefix, i))
+                            xbmc.executebuiltin('Skin.SetString({0}{1}Image, '')'.format(buttonPrefix, i))
+                            xbmc.executebuiltin('Skin.SetString({0}{1}Type, '')'.format(buttonPrefix, i))
+                            xbmc.executebuiltin('Skin.SetString({0}{1}TypeId, '')'.format(buttonPrefix, i))
+
+                            programJson = getProgramsJson()
+                            if menuType == 'home':
+                                programJson[selectedProgram.id]['addedToMainMenu'] = False
+                            elif menuType == 'sub':
+                                programJson[selectedProgram.id]['addedToSubMenu'] = False
+
+                            writeToDB(programJson)
+
+                            break
+
+
+
+def addtoHomeMenu(selectedProgram, menuType, path):
+    if selectedProgram:
+        myurl = getProgramUrl(selectedProgram, path)
+        optionToShow = []
+
+        title, buttonPrefix = getMenuInfo(menuType, selectedProgram.category)
+
+        for i in range(1, 6, 1):
+            buttonValue = xbmc.getInfoLabel('Skin.String({0}{1})'.format(buttonPrefix, i))
+            if buttonValue:
+                addonId = xbmc.getInfoLabel('System.AddonTitle({0})'.format(buttonValue))
+
+                if addonId:
+                    optionToShow.append(xbmc.getLocalizedString(24000) + ' {0}        {1}'.format(i, addonId))
+                else:
+                    optionToShow.append(xbmc.getLocalizedString(24000) + ' {0}        {1}'.format(i, xbmc.getInfoLabel('Skin.String({0}{1}Title)'.format(buttonPrefix, i))))
+            else:
+                optionToShow.append(xbmc.getLocalizedString(24000) + ' {0}'.format(i))
+
+        dialog = xbmcgui.Dialog()
+        retVal = dialog.select(title,optionToShow)
+        if retVal != -1:
+            position = retVal + 1
+
+            xbmc.executebuiltin('Skin.SetString({0}{1}, {2})'.format(buttonPrefix ,position, myurl))
+            xbmc.executebuiltin('Skin.SetString({0}{1}Title, {2})'.format(buttonPrefix ,position, selectedProgram.name))
+            xbmc.executebuiltin('Skin.SetString({0}{1}Image, {2})'.format(buttonPrefix ,position, selectedProgram.thumbImage))
+            xbmc.executebuiltin('Skin.SetString({0}{1}Type, {2})'.format(buttonPrefix ,position, 'launcher'))
+            xbmc.executebuiltin('Skin.SetString({0}{1}TypeId, {2})'.format(buttonPrefix ,position, selectedProgram.id))
+
+            programJson = getProgramsJson()
+
+            if menuType == 'home':
+                programJson[selectedProgram.id]['addedToMainMenu'] = True
+            elif menuType == 'sub':
+                programJson[selectedProgram.id]['addedToSubMenu'] = True
+
+            writeToDB(programJson)
 
 def updateProgramInformation(selectedProgram, property):
     if selectedProgram:
@@ -1039,97 +1183,28 @@ def updateProgramInformation(selectedProgram, property):
                 if databaseChanged:
                     writeToDB(programJson)
 
+                if (existsInHomeMenu(selectedProgram)):
+                    #removeFromHomeMenu(selectedProgram, 'home')
+                    position = getPosition('HomeMenuButton', selectedProgram.id)
+                    addToHomeMenu2(selectedProgram, 'home', selectedProgram.path, position)
+                    #add to home menu
+                    #addToHomeMenu(selectedProgram, 'home', selectedProgram.path)
+                
+                if (existsInSubMenu(selectedProgram)):
+                    #removeFromSubMeu(selectedProgram, 'sub')
+                    position = 0
+                    if isAddedtoMenu('HomeProgramButton', selectedProgram.id):
+                        position = getPosition('HomeProgramButton', selectedProgram.id)
+                    elif isAddedtoMenu('HomeVideosButton', selectedProgram.id):
+                        position = getPosition('HomeVideosButton', selectedProgram.id)
+                    elif isAddedtoMenu('HomeMusicButton', selectedProgram.id):
+                        position = getPosition('HomeMusicButton', selectedProgram.id)
+                    elif isAddedtoMenu('HomePictureButton', selectedProgram.id):
+                        position = getPosition('HomePictureButton', selectedProgram.id)
 
-def getMenuInfo(menuType, category):
-    title = ''
-    buttonPrefix = ''
-    if menuType == 'home':
-            buttonPrefix = 'HomeMenuButton'
-            title = localize(33041)
-    elif menuType == 'sub':
-        if category == common.CATEGORY_PROGRAM:
-            buttonPrefix = 'HomeProgramButton'
-            title = localize(33042)
-        elif category == common.CATEGORY_VIDEO:
-            buttonPrefix = 'HomeVideosButton'
-            title = localize(33043)
-        elif category == common.CATEGORY_MUSIC:
-            buttonPrefix = 'HomeMusicButton'
-            title = localize(33044)
-        elif category == common.CATEGORY_IMAGE:
-            buttonPrefix = 'HomePictureButton'
-            title = localize(33045)
-    return title, buttonPrefix
+                    addToHomeMenu2(selectedProgram, 'sub', selectedProgram.path, position)
+                    #addToHomeMenu(selectedProgram, 'sub', selectedProgram)
 
-
-def removeFromHomeMenu(selectedProgram, menuType):
-    if selectedProgram:
-
-        title, buttonPrefix = getMenuInfo(menuType, selectedProgram.category)
-
-        for i in range(1, 6, 1):
-            buttonValue = xbmc.getInfoLabel('Skin.String({0}{1})'.format(buttonPrefix, i))
-            if buttonValue:
-                addonId = xbmc.getInfoLabel('System.AddonTitle({0})'.format(buttonValue))
-
-                if not addonId:
-                    if xbmc.getInfoLabel('Skin.String({0}{1}Type)'.format(buttonPrefix, i)) == 'launcher':
-                        if xbmc.getInfoLabel('Skin.String({0}{1}TypeId)'.format(buttonPrefix, i)) == selectedProgram.id:
-                            xbmc.executebuiltin('Skin.SetString({0}{1}, '')'.format(buttonPrefix, i))
-                            xbmc.executebuiltin('Skin.SetString({0}{1}Title, '')'.format(buttonPrefix, i))
-                            xbmc.executebuiltin('Skin.SetString({0}{1}Image, '')'.format(buttonPrefix, i))
-                            xbmc.executebuiltin('Skin.SetString({0}{1}Type, '')'.format(buttonPrefix, i))
-                            xbmc.executebuiltin('Skin.SetString({0}{1}TypeId, '')'.format(buttonPrefix, i))
-
-                            programJson = getProgramsJson()
-                            if menuType == 'home':
-                                programJson[selectedProgram.id]['addedToMainMenu'] = False
-                            elif menuType == 'sub':
-                                programJson[selectedProgram.id]['addedToSubMenu'] = False
-
-                            writeToDB(programJson)
-
-                            break
-
-
-def addtoHomeMenu(selectedProgram, menuType, path):
-    if selectedProgram:
-        myurl = getProgramUrl(selectedProgram, path)
-        optionToShow = []
-
-        title, buttonPrefix = getMenuInfo(menuType, selectedProgram.category)
-
-        for i in range(1, 6, 1):
-            buttonValue = xbmc.getInfoLabel('Skin.String({0}{1})'.format(buttonPrefix, i))
-            if buttonValue:
-                addonId = xbmc.getInfoLabel('System.AddonTitle({0})'.format(buttonValue))
-
-                if addonId:
-                    optionToShow.append(xbmc.getLocalizedString(24000) + ' {0}        {1}'.format(i, addonId))
-                else:
-                    optionToShow.append(xbmc.getLocalizedString(24000) + ' {0}        {1}'.format(i, xbmc.getInfoLabel('Skin.String({0}{1}Title)'.format(buttonPrefix, i))))
-            else:
-                optionToShow.append(xbmc.getLocalizedString(24000) + ' {0}'.format(i))
-
-        dialog = xbmcgui.Dialog()
-        retVal = dialog.select(title,optionToShow)
-        if retVal != -1:
-            position = retVal + 1
-
-            xbmc.executebuiltin('Skin.SetString({0}{1}, {2})'.format(buttonPrefix ,position, myurl))
-            xbmc.executebuiltin('Skin.SetString({0}{1}Title, {2})'.format(buttonPrefix ,position, selectedProgram.name))
-            xbmc.executebuiltin('Skin.SetString({0}{1}Image, {2})'.format(buttonPrefix ,position, selectedProgram.thumbImage))
-            xbmc.executebuiltin('Skin.SetString({0}{1}Type, {2})'.format(buttonPrefix ,position, 'launcher'))
-            xbmc.executebuiltin('Skin.SetString({0}{1}TypeId, {2})'.format(buttonPrefix ,position, selectedProgram.id))
-
-            programJson = getProgramsJson()
-
-            if menuType == 'home':
-                programJson[selectedProgram.id]['addedToMainMenu'] = True
-            elif menuType == 'sub':
-                programJson[selectedProgram.id]['addedToSubMenu'] = True
-
-            writeToDB(programJson)
 
 def processUrl():
     global base_url

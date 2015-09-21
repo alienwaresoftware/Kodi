@@ -1,4 +1,4 @@
-import xbmc
+﻿import xbmc
 import xbmcgui
 import xbmcaddon
 import os
@@ -58,6 +58,7 @@ if (__name__ == "__main__"):
 
             if (not os.path.isfile(launchPath)):
                 if (xbmcgui.Dialog().yesno(__addonname__,__customizationaddonlanguage__(33021),'',__customizationaddonlanguage__(33022))):
+                    AlphaUIUtils.EnableDisableControllerMouse(True)
                     webbrowser.open('http://www.geforce.com/geforce-experience')
             else:
                 #subprocess.Popen(launchPath,cwd=os.path.dirname(launchPath))

@@ -1,4 +1,4 @@
-import xbmc
+﻿import xbmc
 import xbmcgui
 import xbmcaddon
 import os
@@ -64,6 +64,7 @@ if (__name__ == "__main__"):
 
             if (not exeName or not exePath or not os.path.isfile(launchPath)):
                 if (xbmcgui.Dialog().yesno(__addonname__,__customizationaddonlanguage__(33016),'',__customizationaddonlanguage__(33017))):
+                    AlphaUIUtils.EnableDisableControllerMouse(True)
                     webbrowser.open('http://www.uplay.com')
             else:
 

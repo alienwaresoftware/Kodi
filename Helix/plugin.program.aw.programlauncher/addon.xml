@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.aw.programlauncher" name="HiveMind Program Launcher" version="1.0.2" provider-name="Alienware">
+<addon id="plugin.program.aw.programlauncher" name="HiveMind Program Launcher" version="1.0.3" provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="service.aw.customizations"/>
     <import addon="script.service.aw.bootprogramlauncher"/>
-    <import addon="script.aw.huluweb.launcher"/>
-    <import addon="script.aw.web.launcher"/>
-    <import addon="script.aw.facebookweb.launcher"/>
+    <import addon="script.aw.huluweb.launcher" optional="true"/>
+    <import addon="script.aw.web.launcher" optional="true"/>
+    <import addon="script.aw.facebookweb.launcher" optional="true"/>
     <import addon="script.aw.gfe.launcher"/>
-    <import addon="script.aw.googlechrome.launcher"/>
-    <import addon="script.aw.netflixweb.launcher"/>
+    <import addon="script.aw.googlechrome.launcher" optional="true"/>
+    <import addon="script.aw.netflixweb.launcher" optional="true"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>executable</provides>
