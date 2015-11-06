@@ -43,6 +43,7 @@
         <width>530</width>
         <height>30</height>
         <font>font13_title</font>
+        <textcolor>white</textcolor>
         <align>center</align>
         <aligny>center</aligny>
         <textcolor>selected</textcolor>
@@ -57,6 +58,7 @@
       <height>32</height>
       <label>-</label>
       <font>-</font>
+      <textcolor>white</textcolor>
       <onclick>PreviousMenu</onclick>
       <texturefocus>alienware/DialogCloseButton-focus.png</texturefocus>
       <texturenofocus>alienware/DialogCloseButton.png</texturenofocus>
@@ -86,7 +88,7 @@
           <width>510</width>
           <height>40</height>
           <font>font13</font>
-          <textcolor>grey2</textcolor>
+          <textcolor>white</textcolor>
           <selectedcolor>selected</selectedcolor>
           <align>left</align>
           <aligny>center</aligny>
