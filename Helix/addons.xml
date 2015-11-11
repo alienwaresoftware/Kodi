@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.aw.gamelauncher" name="HiveMind Game Launcher" version="1.0.11" provider-name="Alienware">
+<addon id="plugin.program.aw.gamelauncher" name="HiveMind Game Launcher" version="1.0.10" provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="service.aw.customizations"/>
@@ -155,7 +155,7 @@
     </extension>
 </addon>
 
-<addon id="script.aw.gfe.launcher" name="HiveMind NVidia GFE Launcher" version="1.0.4" provider-name="Alienware">
+<addon id="script.aw.gfe.launcher" name="HiveMind NVidia GFE Launcher" version="1.0.3" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="service.aw.customizations"/>
@@ -366,7 +366,7 @@
 
 <addon  id="script.module.aw.devicesettings"
         name="HiveMind Device Settings"
-        version="1.0.5"
+        version="1.0.4"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -558,7 +558,7 @@
 
 <addon  id="service.aw.customizations"
         name="HiveMind Customizations"
-        version="1.0.8"
+        version="1.0.7"
         provider-name="Alienware">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

@@ -38,7 +38,6 @@
         <width>300</width>
         <height>130</height>
         <font>font12</font>
-        <textcolor>white</textcolor>
         <align>left</align>
         <aligny>center</aligny>
         <wrapmultiline>true</wrapmultiline>

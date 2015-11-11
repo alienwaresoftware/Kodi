@@ -62,7 +62,7 @@ if (__name__ == "__main__"):
                     webbrowser.open('http://www.geforce.com/geforce-experience')
             else:
                 #subprocess.Popen(launchPath,cwd=os.path.dirname(launchPath))
-                result = AlphaUIUtils.LaunchApplication(unicode(launchPath), unicode(os.path.dirname(launchPath)),unicode(""), False, False, True)
+                result = AlphaUIUtils.LaunchApplication(unicode(launchPath), unicode(os.path.dirname(launchPath)),unicode(""), True, False, True)
                 if not result:
                     customizationAddon = xbmcaddon.Addon(id='service.aw.customizations')
                     customizationAddonLanguage = customizationAddon.getLocalizedString

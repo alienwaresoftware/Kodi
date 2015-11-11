@@ -67,7 +67,6 @@
         <top>11</top>
         <width>64</width>
         <height>32</height>
-        <textcolor>white</textcolor>
         <label>-</label>
         <font>-</font>
         <onclick>PreviousMenu</onclick>
@@ -113,7 +112,7 @@
             <width>240</width>
             <height>55</height>
             <font>font24_title</font>
-            <textcolor>white</textcolor>
+            <textcolor>grey3</textcolor>
             <align>right</align>
             <aligny>center</aligny>
             <label>$INFO[ListItem.Label]</label>
@@ -371,7 +370,6 @@
               <onup>109</onup>
               <ondown>114</ondown>
               <onright>113</onright>
-              <textcolor>white</textcolor>
               <onleft>101</onleft>
               <label>[B]-[/B]</label>
               <align>center</align>
@@ -425,7 +423,6 @@
               <ondown>114</ondown>
               <onright>101</onright>
               <onleft>112</onleft>
-              <textcolor>white</textcolor>
               <label>[B]+[/B]</label>
               <align>center</align>
               <aligny>center</aligny>
@@ -512,7 +509,6 @@
               <aligny>center</aligny>
               <texturenofocus flipx="true">alienware/arrow.png</texturenofocus>
               <texturefocus flipx="true">alienware/circlearrow.png</texturefocus>
-              <textcolor>white</textcolor>
               <label>-</label>
               <onright>119</onright>
               <onleft>101</onleft>
@@ -528,7 +524,6 @@
               <aligny>center</aligny>
               <texturenofocus>alienware/arrow.png</texturenofocus>
               <texturefocus>alienware/circlearrow.png</texturefocus>
-              <textcolor>white</textcolor>
               <label>-</label>
               <onright>101</onright>
               <onleft>117</onleft>
@@ -595,7 +590,6 @@
               <aligny>center</aligny>
               <texturenofocus flipx="true">alienware/arrow.png</texturenofocus>
               <texturefocus flipx="true">alienware/circlearrow.png</texturefocus>
-              <textcolor>white</textcolor>
               <label>-</label>
               <onright>127</onright>
               <onleft>101</onleft>
@@ -611,7 +605,6 @@
               <aligny>center</aligny>
               <texturenofocus>alienware/arrow.png</texturenofocus>
               <texturefocus>alienware/circlearrow.png</texturefocus>
-              <textcolor>white</textcolor>
               <label>-</label>
               <onright>101</onright>
               <onleft>125</onleft>
@@ -678,7 +671,6 @@
               <aligny>center</aligny>
               <texturenofocus flipx="true">alienware/arrow.png</texturenofocus>
               <texturefocus flipx="true">alienware/circlearrow.png</texturefocus>
-              <textcolor>white</textcolor>
               <label>-</label>
               <onright>138</onright>
               <onleft>101</onleft>
@@ -688,7 +680,6 @@
               <top>15</top>
               <width>1</width>
               <height>15</height>
-              <textcolor>white</textcolor>
               <aligny>center</aligny>
               <visible>true</visible>
               <texture>alienware/sliderbg.png</texture>
@@ -715,7 +706,6 @@
               <aligny>center</aligny>
               <texturenofocus>alienware/arrow.png</texturenofocus>
               <texturefocus>alienware/circlearrow.png</texturefocus>
-              <textcolor>white</textcolor>
               <label>-</label>
               <onright>101</onright>
               <onleft>135</onleft>
@@ -769,7 +759,6 @@
             <left>10</left>
             <height>30</height>
             <width>700</width>
-            <textcolor>white</textcolor>
             <aligny>center</aligny>
             <font>font13</font>
             <label>$ADDON[script.module.aw.devicesettings 33058]</label>
@@ -786,7 +775,6 @@
             <left>20</left>
             <height>30</height>
             <width>700</width>
-            <textcolor>white</textcolor>
             <aligny>center</aligny>
             <font>font13</font>
             <label>  $LOCALIZE[13295] $INFO[System.InternetState]</label>
@@ -795,7 +783,6 @@
             <left>20</left>
             <height>30</height>
             <width>700</width>
-            <textcolor>white</textcolor>
             <aligny>center</aligny>
             <font>font13</font>
             <label>  $INFO[Network.LinkState]</label>
@@ -813,7 +800,6 @@
             <left>10</left>
             <height>30</height>
             <width>700</width>
-            <textcolor>white</textcolor>
             <aligny>center</aligny>
             <font>font13</font>
             <label>$ADDON[script.module.aw.devicesettings 33022]</label>
@@ -840,7 +826,6 @@
                 <left>10</left>
                 <width>500</width>
                 <height>45</height>
-                <textcolor>white</textcolor>
                 <font>font13</font>
                 <aligny>center</aligny>
                 <info>ListItem.Label</info>
@@ -867,7 +852,6 @@
                 <height>45</height>
                 <left>540</left>
                 <width>170</width>
-                <textcolor>white</textcolor>
                 <aligny>center</aligny>
                 <align>right</align>
                 <scroll>true</scroll>
@@ -890,7 +874,6 @@
                 <left>10</left>
                 <width>500</width>
                 <height>45</height>
-                <textcolor>white</textcolor>
                 <font>font13</font>
                 <aligny>center</aligny>
                 <info>ListItem.Label</info>
@@ -918,7 +901,6 @@
                 <left>540</left>
                 <width>170</width>
                 <aligny>center</aligny>
-                <textcolor>white</textcolor>
                 <align>right</align>
                 <scroll>true</scroll>
                 <font>font13</font>
@@ -1075,7 +1057,6 @@
                   <height>45</height>
                   <left>20</left>
                   <width>450</width>
-                  <textcolor>white</textcolor>
                   <aligny>center</aligny>
                   <font>font13</font>
                   <info>ListItem.Label</info>
@@ -1085,7 +1066,6 @@
                   <height>45</height>
                   <left>530</left>
                   <width>200</width>
-                  <textcolor>white</textcolor>
                   <align>right</align>
                   <aligny>center</aligny>
                   <font>font13</font>
@@ -1122,7 +1102,6 @@
                   <height>45</height>
                   <left>20</left>
                   <width>450</width>
-                  <textcolor>white</textcolor>
                   <aligny>center</aligny>
                   <font>font13</font>
                   <info>ListItem.Label</info>
@@ -1132,7 +1111,6 @@
                   <height>45</height>
                   <left>530</left>
                   <width>200</width>
-                  <textcolor>white</textcolor>
                   <align>right</align>
                   <aligny>center</aligny>
                   <font>font13</font>

@@ -149,16 +149,6 @@ class UplayGame(object):
                         elif 'append' in line:
                             append = line.split(': ')[1]
 
-                    if haveRelative and haveRegister and haveName:
-                        uplayRegObjects.append(Uplay(name, '', relative, register, append))
-                        relative = ''
-                        register = ''
-                        append = ''
-                        name = ''
-                        haveRelative = False
-                        haveRegister = False
-                        haveName = False
-
                 uplayGames = []
     
                 for uplay in uplayRegObjects:
