@@ -14,7 +14,7 @@ while True:
 
     if original_state and not new_state: # Had mouse connected, now we don't
         print "LOST MOUSE"
-        xbmc.executebuiltin("ReplaceWindow(4000)")
+        xbmc.executebuiltin("ReplaceWindow(4001)")
         break
     elif not original_state and new_state: # Did NOT have mouse connected, but now we do:
         print "GAINED MOUSE"

@@ -168,7 +168,7 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
-				<texture>Confluence_Logo.png</texture>
+				<texture>alienware/alienware-logo.png</texture>
 			</control>
 			<control type="group">
 				<left>940</left>

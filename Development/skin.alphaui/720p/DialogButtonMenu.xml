@@ -81,10 +81,11 @@
         <textwidth>290</textwidth>
         <texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
         <texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick>XBMC.RunScript("special://skin\scripts\logout.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),True)">XBMC.RunScript("special://skin\scripts\logout.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),False)">Quit()</onclick>
         <pulseonselect>no</pulseonselect>
         <font>font13</font>
-        <label>[UPPERCASE]$LOCALIZE[31607][/UPPERCASE]</label>
+        <label>$VAR[ExitConsole]</label>
         <visible>System.ShowExitButton</visible>
       </control>
       <control type="button" id="6">
@@ -97,7 +98,8 @@
 				<textwidth>290</textwidth>
 				<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
 				<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick>XBMC.RunScript("special://skin\scripts\sleep_system.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),True)">XBMC.RunScript("special://skin\scripts\sleep_system.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),False)">Suspend()</onclick>
 				<pulseonselect>no</pulseonselect>
 				<font>font13</font>
 				<label>[UPPERCASE]$LOCALIZE[31603][/UPPERCASE]</label> <!-- Sleep -->
@@ -112,11 +114,12 @@
 				<textwidth>290</textwidth>
 				<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
 				<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick>XBMC.RunScript("special://skin\scripts\restart_system.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),True)">XBMC.RunScript("special://skin\scripts\restart_system.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),False)">Reboot()</onclick>
 				<visible>System.CanReboot</visible>
 				<pulseonselect>no</pulseonselect>
 				<font>font13</font>
-				<label>[UPPERCASE]$LOCALIZE[31602][/UPPERCASE]</label> <!-- Resetart Console -->
+				<label>$VAR[RestartConsole]</label> <!-- Resetart Console -->
 			</control>
 			<!--<control type="button" id="3">
 				<description>Shutdown button</description>
@@ -144,10 +147,11 @@
 				<textwidth>290</textwidth>
 				<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
 				<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick>XBMC.RunScript("special://skin\scripts\shutdown_system.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),True)">XBMC.RunScript("special://skin\scripts\shutdown_system.py")</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),False)">Powerdown()</onclick>
 				<pulseonselect>no</pulseonselect>
 				<font>font13</font>
-				<label>[UPPERCASE]$LOCALIZE[31601][/UPPERCASE]</label> <!-- Shut Down Console -->
+				<label>$VAR[ShutdownConsole]</label> <!-- Shut Down Console -->
 			</control>
 			<control type="button" id="4">
 				<description>Custom Shutdown Timer</description>
@@ -159,7 +163,8 @@
 				<textwidth>290</textwidth>
 				<texturefocus border="25,5,25,5">ShutdownButtonFocus.png</texturefocus>
 				<texturenofocus border="25,5,25,5">ShutdownButtonNoFocus.png</texturenofocus>
-        <onclick>AlarmClock(shutdowntimer,XBMC.RunScript("special://skin\scripts\shutdown_system.py"))</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),True)">AlarmClock(shutdowntimer,XBMC.RunScript("special://skin\scripts\shutdown_system.py"))</onclick>
+        <onclick condition="SubString(Window.Property(IsAlphaConsoleAcount),False)">AlarmClock(shutdowntimer,Powerdown())</onclick>
 				<pulseonselect>no</pulseonselect>
 				<font>font13</font>
 				<label>[UPPERCASE]$LOCALIZE[20150][/UPPERCASE]</label>

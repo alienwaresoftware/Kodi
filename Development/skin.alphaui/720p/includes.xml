@@ -13,8 +13,6 @@
 	<include file="IncludesHomeMenuItems.xml"/>
 	<include file="IncludesPVR.xml"/>
 	<include file="IncludesBackgroundBuilding.xml"/>
-	<include file="IncludesSettingsBreadcrumb.xml"/>
-	<include file="IncludesHelpBreadcrumb.xml"/>
 	<include file="weather\10DayForecast.xml"/>
 	<include file="weather\36HourForecast.xml"/>
 	<include file="weather\WeekendForecast.xml"/>
@@ -41,7 +39,25 @@
 		<value condition="Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)">DialogBack2.png</value>
 	</variable>
 
-	<include name="BehindDialogFadeOut">
+  <variable name="RestartConsole">
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),True)">[UPPERCASE]$LOCALIZE[31602][/UPPERCASE]</value>
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),False)">[UPPERCASE]$LOCALIZE[31622][/UPPERCASE]</value>
+    <value>[UPPERCASE]$LOCALIZE[31602][/UPPERCASE]</value>
+  </variable>
+
+  <variable name="ShutdownConsole">
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),True)">[UPPERCASE]$LOCALIZE[31601][/UPPERCASE]</value>
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),False)">[UPPERCASE]$LOCALIZE[31623][/UPPERCASE]</value>
+    <value>[UPPERCASE]$LOCALIZE[31601][/UPPERCASE]</value>
+  </variable>
+
+  <variable name="ExitConsole">
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),True)">[UPPERCASE]$LOCALIZE[31607][/UPPERCASE]</value>
+    <value condition="SubString(Window(shutdownmenu).Property(IsAlphaConsoleAcount),False)">[UPPERCASE]$LOCALIZE[13012][/UPPERCASE]</value>
+    <value>[UPPERCASE]$LOCALIZE[31607][/UPPERCASE]</value>
+  </variable>
+
+  <include name="BehindDialogFadeOut">
 		<control type="image">
 			<left>0</left>
 			<top>0</top>
@@ -81,37 +97,35 @@
 		<width>221</width>
 		<textoffsetx>20</textoffsetx>
 		<textwidth>195</textwidth>
-		<aligny>center</aligny>
+		<aligny>bottom</aligny>
 		<font>font12_title</font>
 		<texturefocus border="5">button-focus.png</texturefocus>
 		<texturenofocus border="5">button-nofocus.png</texturenofocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="ButtonHomeSubCommonValues">
-		<height>35</height>
+		<height>40</height>
 		<width>180</width>
 		<textwidth>195</textwidth>
 		<align>center</align>
 		<aligny>center</aligny>
-		<font>font12</font>
-		<textcolor>grey2</textcolor>
-		<focusedcolor>white</focusedcolor>
-		<texturefocus border="5">HomeSubFO.png</texturefocus>
-		<texturenofocus border="5">HomeSubNF.png</texturenofocus>
+		<font>font16</font>
+		<textcolor>white</textcolor>
+		<focusedcolor>blue</focusedcolor>
+		<texturenofocus border="5"></texturenofocus>
+		<texturefocus border="5"></texturefocus>
 		<pulseonselect>false</pulseonselect>
 	</include>
 	<include name="HomeSubMenuCommonValues">
-		<left>0</left>
+		<left>-110</left>
 		<top>0</top>
-		<width>1280</width>
+		<width>1500</width>
 		<height>35</height>
 		<align>center</align>
 		<onup>9000</onup>
 		<ondown>9002</ondown>
-		<itemgap>0</itemgap>
+		<itemgap>80</itemgap>
 		<orientation>Horizontal</orientation>
-		<animation effect="slide" start="0,-40" end="0,0" delay="200" time="200" tween="quadratic" easing="out">Visible</animation>
-		<animation effect="slide" start="0,0" end="0,-40" time="200" tween="quadratic" easing="out">Hidden</animation>
 	</include>
 	<include name="ButtonInfoDialogsCommonValues">
 		<height>40</height>
@@ -164,7 +178,7 @@
 			<width>220</width>
 			<height>80</height>
 			<aspectratio>keep</aspectratio>
-			<texture>Confluence_Logo.png</texture>
+			<texture>alienware/alienware-logo.png</texture>
 		</control>
 	</include>
 	<include name="MainWindowMouseButtons">
@@ -184,7 +198,7 @@
 				<font>-</font>
 				<onclick>back</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<texturenofocus border="5"></texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
 				<onup>50</onup>
@@ -209,7 +223,7 @@
 				<font>-</font>
 				<onclick>ActivateWindow(home)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<texturenofocus border="5"></texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
 				<onup>50</onup>
@@ -242,7 +256,7 @@
 				<font>-</font>
 				<onclick>ActivateWindow(PlayerControls)</onclick>
 				<texturefocus border="5">floor_buttonFO.png</texturefocus>
-				<texturenofocus border="5">floor_button.png</texturenofocus>
+				<texturenofocus border="5"></texturenofocus>
 				<onleft>50</onleft>
 				<onright>50</onright>
 				<onup>50</onup>
@@ -326,7 +340,7 @@
 				<top>30r</top>
 				<width>700</width>
 				<height>20</height>
-				<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumberLabel, - ([COLOR=blue],[/COLOR])]</label>
+				<label>$INFO[VideoPlayer.ChannelName]$INFO[VideoPlayer.ChannelNumber, - ([COLOR=blue],[/COLOR])]</label>
 				<align>left</align>
 				<aligny>center</aligny>
 				<font>font12</font>
@@ -961,9 +975,9 @@
 			<effect type="fade" start="100" end="0" time="300"/>
 		</animation>
 		<hitrect x="0" y="530" w="1280" h="120"/>
-		<left>0</left>
-		<top>190r</top>
-		<width>1280</width>
+		<centerleft>50%r</centerleft>
+		<top>150r</top>
+		<width>1175</width>
 		<height>200</height>
 		<pagecontrol>-</pagecontrol>
 		<scrolltime>300</scrolltime>
@@ -974,88 +988,40 @@
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>180</width>
-				<height>120</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">button-nofocus.png</bordertexture>
-				<bordersize>3</bordersize>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="image">
-				<left>5</left>
-				<top>120</top>
-				<width>170</width>
-				<height>110</height>
-				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="label">
-				<left>1</left>
-				<top>125</top>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey2</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
-			</control>
+				<width>75</width>
+				<height>75</height>
+				<aspectratio aligny="center" alignx="center">keep</aspectratio>
+        <texture background="true">$INFO[ListItem.Icon]</texture>
+      </control>
 		</itemlayout>
 		<focusedlayout height="200" width="182">
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>180</width>
-				<height>120</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">button-nofocus.png</bordertexture>
-				<bordersize>3</bordersize>
-				<texture background="true">$INFO[ListItem.Icon]</texture>
-				<visible>!ControlGroup(9002).HasFocus</visible>
+				<width>75</width>
+				<height>75</height>
+				<aspectratio aligny="center" alignx="center">keep</aspectratio>
+        <texture background="true">$INFO[ListItem.Icon]</texture>
+        <visible>!ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
 				<left>0</left>
 				<top>0</top>
-				<width>180</width>
-				<height>120</height>
-				<aspectratio aligny="bottom">keep</aspectratio>
-				<bordertexture border="5">folder-focus.png</bordertexture>
-				<bordersize>3</bordersize>
+				<width>75</width>
+				<height>75</height>
+				<aspectratio aligny="center" alignx="center">keep</aspectratio>
 				<texture background="true">$INFO[ListItem.Icon]</texture>
 				<visible>ControlGroup(9002).HasFocus</visible>
 			</control>
 			<control type="image">
-				<left>5</left>
-				<top>120</top>
-				<width>170</width>
-				<height>110</height>
-				<aspectratio aligny="top">keep</aspectratio>
-				<texture diffuse="diffuse_mirror2.png" flipy="true" background="true">$INFO[ListItem.Icon]</texture>
-			</control>
-			<control type="label">
-				<left>1</left>
-				<top>125</top>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>white</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
-				<visible>Control.HasFocus(9002)</visible>
-			</control>
-			<control type="label">
-				<left>1</left>
-				<top>125</top>
-				<width>180</width>
-				<height>20</height>
-				<font>font12</font>
-				<textcolor>grey2</textcolor>
-				<align>center</align>
-				<aligny>center</aligny>
-				<label>$INFO[ListItem.Label]</label>
-				<visible>!Control.HasFocus(9002)</visible>
-			</control>
+                <left>-12</left>
+                <width>100</width>
+                <height>30</height>
+                <top>50</top>
+                <aspectratio aligny="center" alignx="center">stretch</aspectratio>
+                <texture>CalibrateSubtitles.png</texture>
+                <visible>ControlGroup(9002).HasFocus</visible>
+            </control>
 		</focusedlayout>
 	</include>
 	<include name="TVNextAiredListCommonLayout">
@@ -1245,11 +1211,11 @@
 	<include name="KeyboardButton">
 		<width>50</width>
 		<height>50</height>
-        <texturenofocus border="3">special://skin/media/alienware/keyboardkey.png</texturenofocus>
-        <texturefocus border="3">special://skin/media/alienware/keyboardkey_focused.png</texturefocus>
+		<texturenofocus border="3">KeyboardKeyNF.png</texturenofocus>
+		<texturefocus border="5">KeyboardKey.png</texturefocus>
 		<align>center</align>
 		<aligny>center</aligny>
-		<font>large_item</font>
-		<focusedcolor>white</focusedcolor>
+		<font>font13</font>
+		<focusedcolor>black</focusedcolor>
 	</include>
 </includes>
