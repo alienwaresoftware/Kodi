@@ -453,6 +453,6 @@ class SettingsXML(xbmcgui.WindowXMLDialog):
         finally:          
             self.lock.release()
 
-mywin = SettingsXML("Settings.xml",os.getcwd())
+mywin = SettingsXML("Alienware_Settings.xml",os.getcwd())
 mywin.doModal()
 del mywin

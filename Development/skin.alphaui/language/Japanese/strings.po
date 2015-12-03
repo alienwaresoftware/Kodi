@@ -1183,3 +1183,136 @@ msgstr "ディスク再生"
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "システム"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "無線"
+
+msgctxt "#31961"
+msgid "Launch Console Keyboard"
+msgstr "コンソールキーボードの起動"
+
+msgctxt "#31962"
+msgid "Pressing  LT+LB+RT+RB on the controller plus the Back button will open and close On Screen Keyboard."
+msgstr "コントローラーの LT+LB+RT+RB と Share ボタンを押すと、スクリーンキーボードが開いたり、閉じたりします。"
+
+msgctxt "#31963"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the PS button will launch the System Menu."
+msgstr "コントローラーの L1+R1+L2+R2 と PS ボタンを押すと、システムメニューが起動します。"
+
+msgctxt "#31964"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "ホットキーの組み合わせと L3 が押されると、マウス ドライバーがオンになります。ホットキーの組み合わせをもう一度押すと、 ドライバーがオフになります。"
+
+msgctxt "#31965"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "Dpad Left または Dpad Right を使ってウィンドウのフォーカスを移動します。この機能には、キーボードの Alt+Tab（Shift Right）Shift+Alt+Tab（Shift Left）でアクセスすることもできます。"
+
+msgctxt "#31966"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "このホットキーを使うと、現在使用しているアプリケーションが全画面表示されます。キーボードの Alt+Enter、F11 と同じです。すべてのアプリケーションがこのホットキーに応答するわけではありません。"
+
+msgctxt "#31967"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "このホットキーを使うと、現在使用しているアプリケーションが閉じられます。キーボードの F4、Alt+Q と同じです。すべてのアプリケーションがこのホットキーに応答するわけではありません。"
+
+msgctxt "#31968"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the Option button will enable/disable the hotkeys."
+msgstr "コントローラーの L1+R1+L2+R2 と Option ボタンを押すと、ホットキーの有効 / 無効切り替わります。"
+
+msgctxt "#31969"
+msgid "Pressing  L1+R1+L2+R2 on the controller plus the Share button will open and close On Screen Keyboard."
+msgstr "コントローラーの L1+R1+L2+R2 と Share ボタンを押すと、スクリーンキーボードが開いたり、閉じたりします。"
+
+msgctxt "#31970"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Steam button will launch the System Menu."
+msgstr "コントローラーの LT+RB+LB+RB と Steam ボタンを押すと、システムメニューが起動します。"
+
+msgctxt "#31971"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "ホットキーの組み合わせと L3 が押されると、マウス ドライバーがオンになります。ホットキーの組み合わせをもう一度押すと、 ドライバーがオフになります."
+
+msgctxt "#31972"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "Dpad Left または Dpad Right を使ってウィンドウのフォーカスを移動します。この機能には、キーボードの Alt+Tab（Shift Right）Shift+Alt+Tab（Shift Left）でアクセスすることもできます"
+
+msgctxt "#31973"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "このホットキーを使うと、現在使用しているアプリケーションが全画面表示されます。キーボードの Alt+Enter、F11 と同じです。すべてのアプリケーションがこのホットキーに応答するわけではありません."
+
+msgctxt "#31974"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "このホットキーを使うと、現在使用しているアプリケーションが閉じられます。キーボードの F4、Alt+Q と同じです。すべてのアプリケーションがこのホットキーに応答するわけではありません."
+
+msgctxt "#31975"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Start button will enable/disable the hotkeys."
+msgstr "コントローラーの LT+RB+LB+RB と Start ボタンを押すと、ホットキーの有効 / 無効が切り替わります。"
+
+msgctxt "#31976"
+msgid "Pressing  LT+RB+LB+RB on the controller plus the back button will open and close On Screen Keyboard."
+msgstr "コントローラーの LT+RB+LB+RB と戻るボタンを押すと、スクリーンキーボードが開いたり、閉じたりします。"
+
+msgctxt "#31977"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "#31978"
+msgid "Controller Layout for On Screen Keyboard (OSK)"
+msgstr "スクリーンキーボード（OSK）のコントローラーレイアウト"
+
+msgctxt "#31979"
+msgid "Controller Layout for Browser"
+msgstr "ブラウザーのコントローラーレイアウト"
+
+msgctxt "#31980"
+msgid "Left Click"
+msgstr "左クリック"
+
+msgctxt "#31981"
+msgid "Right Click"
+msgstr "右クリック"
+
+msgctxt "#31982"
+msgid "Go to left tab in browser"
+msgstr "ブラウザーで左のタブに移動"
+
+msgctxt "#31983"
+msgid "Go to right tab in browser"
+msgstr "ブラウザーで右のタブに移動"
+
+msgctxt "#31984"
+msgid "New Tab"
+msgstr "新規タブ"
+
+msgctxt "#31985"
+msgid "Shift + Tab"
+msgstr "Shift + Tab"
+
+msgctxt "#31986"
+msgid "Tab"
+msgstr "Tab"
+
+msgctxt "#31987"
+msgid "Dpad Up/Down = Zoom in/out[CR]Dpad Left = Website Back[CR]Dpad Right = Website Forward"
+msgstr "Dpad Up/Down = 拡大 / 縮小[CR]Dpad Left = Web サイトで戻る[CR]Dpad Right = Web サイトで進む"
+
+msgctxt "#31988"
+msgid "Controller Mouse will be disabled when On-Screen Keyboard (OSK) is ON and when OSK is OFF, Controller Mouse will restore its previous state."
+msgstr "スクリーンキーボード（OSK）がオンになると、コントローラーマウスが無効になり、OSK がオフになると、コントローラーマウスが以前の状態に戻ります。"
+
+msgctxt "#31989"
+msgid "How to customize your home menu."
+msgstr "ホームメニューをカスタマイズする方法。"
+
+msgctxt "#31990"
+msgid "How to install additional repositories."
+msgstr "追加のリポジトリをインストールする方法。"
+
+msgctxt "#31991"
+msgid "File"
+msgstr "ファイル"
+
+msgctxt "#31992"
+msgid "Tab/Scroll Website"
+msgstr "Tab / Web サイトのスクロール"
+

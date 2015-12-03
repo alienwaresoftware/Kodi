@@ -1115,3 +1115,136 @@ msgstr "播放光碟"
 msgctxt "#31959"
 msgid "SYSTEM"
 msgstr "系統"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "選項"
+
+msgctxt "#31961"
+msgid "Launch Console Keyboard"
+msgstr "啟動主控台鍵盤"
+
+msgctxt "#31962"
+msgid "Pressing  LT+LB+RT+RB on the controller plus the Back button will open and close On Screen Keyboard."
+msgstr "按下控制器的  LT+LB+RT+RB 加 [Share] (分享) 按鈕，可開啟與關閉螢幕鍵盤。"
+
+msgctxt "#31963"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the PS button will launch the System Menu."
+msgstr "按下控制器的 L1+R1+L2+R2 加 [PS]，可啟動 [System Menu] (系統功能表)。"
+
+msgctxt "#31964"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "按下熱鍵組合加 L3，可開啟滑鼠驅動。再按一次熱鍵組合則可關閉驅動。"
+
+msgctxt "#31965"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "使用左 Dpad 或右 Dpad 可移動視窗焦點。此功能也可使用鍵盤的 Alt+Tab (右側 Shift) Shift+Alt + Tab (左側 Shift) 存取"
+
+msgctxt "#31966"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "此熱鍵會嘗試以全螢幕顯示您正在使用的應用程式。這與鍵盤上的 Alt+Enter 與 F11 相同。並非所有應用程式皆會回應此熱鍵。"
+
+msgctxt "#31967"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "此熱鍵會嘗試關閉您正在使用的應用程式。這與鍵盤上的 Alt+F4 與 Alt+Q 相同。並非所有應用程式皆會回應此熱鍵。"
+
+msgctxt "#31968"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the Option button will enable/disable the hotkeys."
+msgstr "按下控制器的 L1+R1+L2+R2 加 [Option] (選項) 按鈕，可啟用/停用熱鍵。"
+
+msgctxt "#31969"
+msgid "Pressing  L1+R1+L2+R2 on the controller plus the Share button will open and close On Screen Keyboard."
+msgstr "按下控制器的 L1+R1+L2+R2 加 [Share] (分享) 按鈕，可開啟與關閉螢幕鍵盤。"
+
+msgctxt "#31970"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Steam button will launch the System Menu."
+msgstr "按下控制器的 LT+RB+LB+RB 加 [Steam] 按鈕，可啟動 [System Menu] (系統功能表)。"
+
+msgctxt "#31971"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "按下熱鍵組合加 L3，可開啟滑鼠驅動。再按一次熱鍵組合則可關閉驅動。"
+
+msgctxt "#31972"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "使用左 Dpad 或右 Dpad 可移動視窗焦點。此功能也可使用鍵盤的 Alt+Tab (右側 Shift) Shift+Alt + Tab (左側 Shift) 存取"
+
+msgctxt "#31973"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "此熱鍵會嘗試以全螢幕顯示您正在使用的應用程式。這與鍵盤上的 Alt+Enter 與 F11 相同。並非所有應用程式皆會回應此熱鍵。"
+
+msgctxt "#31974"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "此熱鍵會嘗試關閉您正在使用的應用程式。這與鍵盤上的 Alt+F4 與 Alt+Q 相同。並非所有應用程式皆會回應此熱鍵。"
+
+msgctxt "#31975"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Start button will enable/disable the hotkeys."
+msgstr "按下控制器的 LT+RB+LB+RB 按鈕加 [Start] (開始) 按鈕，可啟用/停用熱鍵。"
+
+msgctxt "#31976"
+msgid "Pressing  LT+RB+LB+RB on the controller plus the back button will open and close On Screen Keyboard."
+msgstr "按下控制器的 LT+RB+LB+RB 加 [Back] (返回) 按鈕可開啟與關閉螢幕鍵盤。"
+
+msgctxt "#31977"
+msgid "N/A"
+msgstr "不適用"
+
+msgctxt "#31978"
+msgid "Controller Layout for On Screen Keyboard (OSK)"
+msgstr "螢幕鍵盤 (OSK) 控制器配置"
+
+msgctxt "#31979"
+msgid "Controller Layout for Browser"
+msgstr "瀏覽器的控制器配置"
+
+msgctxt "#31980"
+msgid "Left Click"
+msgstr "按滑鼠左鍵"
+
+msgctxt "#31981"
+msgid "Right Click"
+msgstr "按滑鼠右鍵"
+
+msgctxt "#31982"
+msgid "Go to left tab in browser"
+msgstr "前往瀏覽器的左側分頁"
+
+msgctxt "#31983"
+msgid "Go to right tab in browser"
+msgstr "前往瀏覽器的右側分頁"
+
+msgctxt "#31984"
+msgid "New Tab"
+msgstr "新分頁"
+
+msgctxt "#31985"
+msgid "Shift + Tab"
+msgstr "Shift + Tab"
+
+msgctxt "#31986"
+msgid "Tab"
+msgstr "分頁"
+
+msgctxt "#31987"
+msgid "Dpad Up/Down = Zoom in/out[CR]Dpad Left = Website Back[CR]Dpad Right = Website Forward"
+msgstr "Dpad 上/下 = 縮放 [CR] 左 Dpad = 網站上一頁 [CR] 右 Dpad = 網站下一頁"
+
+msgctxt "#31988"
+msgid "Controller Mouse will be disabled when On-Screen Keyboard (OSK) is ON and when OSK is OFF, Controller Mouse will restore its previous state."
+msgstr "螢幕鍵盤 (OSK) 開啟時，會停用控制器滑鼠，而關閉 OSK 時，控制器滑鼠就會恢復至其先前狀態。"
+
+msgctxt "#31989"
+msgid "How to customize your home menu."
+msgstr "如何自訂您的首頁功能表。"
+
+msgctxt "#31990"
+msgid "How to install additional repositories."
+msgstr "如何安裝其他儲存庫。"
+
+msgctxt "#31991"
+msgid "File"
+msgstr "檔案"
+
+msgctxt "#31992"
+msgid "Tab/Scroll Website"
+msgstr "移動/捲動網站"
+
