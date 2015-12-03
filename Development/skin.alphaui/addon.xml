@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<!--?xml version="1.0" encoding="UTF-8"?>
 <addon
   id="skin.alphaui"
-  version="2.0"
+  version="1.3"
   name="Alpha UI"
   provider-name="Alienware">
   <requires>
@@ -15,48 +15,14 @@
     <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Alpha UI by Alienware, Inc.</summary>
-    <summary lang="ar">Alpha UI من شركة Alienware, Inc.</summary>
-    <summary lang="pt_BR">Alpha UI por Alienware, Inc.</summary>
-    <summary lang="bg">Alpha UI от Alienware, Inc.</summary>
-    <summary lang="da">Alpha UI fra Alienware, Inc.</summary>
-    <summary lang="nl">Alpha UI van Alienware, Inc.</summary>
-    <summary lang="fi">Alpha UI by Alienware, Inc.</summary>
-    <summary lang="fr">Alpha UI de Alienware, Inc.</summary>
-    <summary lang="de">Alpha UI by Alienware, Inc.</summary>
-    <summary lang="hu">Alpha UI by Alienware, Inc.</summary>
-    <summary lang="pt">Alpha UI pela Alienware, Inc.</summary>
-    <summary lang="it">Alpha UI di Alienware, Inc.</summary>
-    <summary lang="ja">Alienware 社による Alpha UI</summary>
-    <summary lang="ko">Alpha UI by Alienware, Inc.</summary>
-    <summary lang="no">Alpha UI fra Alienware, Inc.</summary>
-    <summary lang="pl">Alpha UI by Alienware, Inc.</summary>
-    <summary lang="ru">Alpha UI от компании Alienware, Inc.</summary>
-    <summary lang="zh">Alpha UI by Alienware, Inc.</summary>
-    <summary lang="es">Alpha UI de Alienware, Inc.</summary>
-    <summary lang="sv">Alpha UI av Alienware, Inc.</summary>
-    <summary lang="zh_TW">Alpha UI 由 Alienware, Inc. 提供</summary>
-    <description lang="en">Alpha UI is a modified version of Confluence. Alienware has modified the skin to include enhancements that provide access to hardware funcationality and the ability to launch game portals such as Steam. It also includes the ability to use an Xbox 360, Xbox One, Dual Shock 4, or Steam Controller as a mouse and keyboard.</description>
-    <description lang="ar">Alpha UI هو إصدار معدل من Confluence. لقد أجرت Alienware بعض التعديلات التي تشمل تحسينات توفر الوصول إلى وظائف الأجهزة والقدرة على تشغيل بوابات الألعاب مثل Steam. كما تشمل القدرة على استخدام أجهزة Xbox 360 أو Xbox One أو Dual Shock 4 أو Steam Controller كماوس ولوحة مفاتيح.</description>
-    <description lang="pt_BR">Alpha UI é uma versão modificada do Confluence. A Alienware modificou a aparência para incluir melhorias que fornecem acesso à funcionalidade de hardware e à capacidade de executar portais de jogos como o Steam. Também inclui a capacidade de usar um Xbox 360, Xbox One, Dual Shock 4 ou Controlador Steam como um mouse e um teclado.</description>
-    <description lang="bg">Alpha UI е модифицирана версия на Confluence. Alienware е модифицирала кожите, така че да включват разширения, които да осигуряват достъп до функционалност на хардуера и възможност да се стартират портали за игри като Steam. Освен това включва възможността за използване на Xbox 360, Xbox One, Dual Shock 4 или Steam контролер като мишка или клавиатура.</description>
-    <description lang="da">Alpha UI er en modificeret version af Confluence. Alienware har modificeret temaet, så det omfatter opgraderinger, der giver adgang til hardware-funktionalitet og muligheden for at starte spilleportaler, så som Steam. Det omfatter også muligheden for at bruge Xbox 360, Xbox One, Dual Shock 4, eller Steam Controller som mus og tastatur.</description>
-    <description lang="nl">Alpha UI is een aangepaste versie van Confluence. Alienware heeft de skin aangepast om verbeteringen toe te voegen voor toegang tot hardwarefuncaties en de mogelijkheid om gameportals, zoals Steam, te starten. Bovendien omvat het de mogelijkheid om een Xbox 360, Xbox One, Dual Shock 4 of Steam Controller als muis en toetsenbord te gebruiken.</description>
-    <description lang="fi">Alpha UI on muunneltu versio Confluencesta. Alienware on muuttanut ulkoasua sisältämään parannuksia, jotka tarjoavat pääsyn laitteistotoimintoihin ja mahdollisuuden käynnistää peliportaaleja, kuten Steam. Se sisältää myös mahdollisuuden käyttää Xbox 360, Xbox One, Dual Shock 4 ja Steam-ohjaimia hiirenä ja näppäimistönä.</description>
-    <description lang="fr">Alpha UI est une version modifiée de Confluence. Alienware a modifié l’apparence pour inclure des améliorations qui donnent accès aux fonctionnalités du matériel et la possibilité de lancer des portails de jeux-vidéos tels que Steam. Cette interface inclut également la possibilité d’utiliser une manette Xbox 360, Xbox One, Dual Shock 4 ou Steam à la place du clavier et de la souris.</description>
-    <description lang="de">Alpha UI ist eine modifizierte Version von Confluence. Das Design von Alienware wurde modifiziert und umfasst Verbesserungen, die den Zugriff auf Hardwarefunktionen und den Start von Spieleportalen, wie Steam, ermöglichen. Zudem können Sie nun eine Xbox 360, Xbox One, Dual Shock 4 oder Steam Controller als Maus und Tastatur verwenden.</description>
-    <description lang="hu">Az Alpha UI a Confluence egy módosított változata. Az Alienware kibővítette a skineket úgy, hogy hozzáférést biztosítsanak a hardver funkciókhoz, valamint lehetővé teszik az olyan játékportálok elindítását, mint a Steam. Lehetővé teszi továbbá Xbox 360, Xbox One, Dual Shock 4 vagy Steam távvezérlők használatát egérként és billentyűzetként.</description>
-    <description lang="pt">O Alpha UI é uma versão modificada do Confluence. A Alienware alterou a máscara para incluir melhoramentos que forneçam acesso às funções do hardware e a capacidade de iniciar portais de jogos tais como o Steam. Isto também inclui a capacidade de usar uma Xbox 360, Xbox One, Dual Shock 4, ou o Controlador Steam como rato ou teclado.</description>
-    <description lang="it">Alpha UI è una versione modificata di Confluence. Alienware ha modificato l'interfaccia per includere miglioramenti che offrono accesso alle funzionalità hardware e capacità di avviare portali di gioco come Steam. Include inoltre la possibilità di utilizzare un controller per Xbox 360, Xbox One, Dual Shock 4 o Steam come mouse e tastiera.</description>
-    <description lang="ja">Alpha UI は Confluence の改良版です。 Alienware はスキンを修正することで、ハードウェアの機能性と Steam のようなゲームポータルを起動する機能を強化しました。 また、Xbox 360、Xbox One、Dual Shock 4、Steam コントローラをマウスやキーボードとして使用することもできます。</description>
-    <description lang="ko">Alpha UI는 Confluence의 변경된 버전입니다. Alienware는 하드웨어 기능에 대한 액세스를 제공하고 Steam과 같은 게임 포털을 실행할 수 있도록 스킨을 변경했습니다. 또한 Xbox 360, Xbox One, Dual Shock 4 또는 Steam Controller를 마우스와 키보드처럼 사용할 수 있는 기능을 추가했습니다.</description>
-    <description lang="no">Alpha UI er en modifisert versjon av Confluence. Alienware har modifisert huden for å inkludere forbedringer som gir tilgang til maskinevarefunksjonalitet og og muligheten til å starte spillportaler som Steam. Den gjør det også mulig å bruke Xbox 360-, Xbox One-, Dual Shock 4- eller Steam-kontroller som mus eller som tastatur.</description>
-    <description lang="pl">Alpha UI jest zmodyfikowaną wersją usługi Confluence. Firma Alienware zmodyfikowała wygląd aplikacji, dodając do niej nowe, przydatne elementy, które zapewniają dostęp do konfiguracji sprzętowej oraz możliwość uruchamiania platform do gier, takich jak Steam. Usługa Alpha UI pozwala również wykorzystywać kontrolery do konsol Xbox 360 i Xbox One oraz Dual Shock 4 i Steam Controller do obsługi urządzeń zamiast klawiatury i myszki.</description>
-    <description lang="ru">Alpha UI представляет собой усовершенствованную версию Confluence. Компания Alienware усовершенствовала оформление, благодаря чему теперь имеются расширения, обеспечивающие доступ к аппаратной функциональности и возможности запускать такие игровые порталы, как Steam. Помимо этого, появилась возможность использовать Xbox 360, Xbox One, Dual Shock 4 или контроллер Steam в качестве мыши и клавиатуры.</description>
-    <description lang="zh">Alpha UI 是 Confluence 的修改版本。 Alienware 已修改皮肤来包含增强功能，这些增强功能提供对硬件功能的访问和启动游戏门户（如 Steam）的能力。 它还包含将 Xbox 360、Xbox One、Dual Shock 4 或 Steam 手柄用作鼠标和键盘的能力。</description>
-    <description lang="es">Alpha UI es una versión modificada de Confluence. Alienware ha modificado la skin para incluir mejoras que proporcionan acceso a funcionalidades de hardware y la posibilidad de iniciar portales de juego como Steam. También incluye la posibilidad de utilizar Xbox 360, Xbox One, Dual Shock 4 o Steam Controller como ratón y teclado.</description>
-    <description lang="sv">Alpha UI är en modifierad version av Confluence. Alienware har modifierat skalet för att omfatta förbättringar som ger tillgång till maskinvarufunktioner och möjlighet att starta spelportaler såsom Steam. Det inkluderar även möjligheten att använda en Xbox 360-, Xbox One-, Dual Shock 4- eller Steam-kontroller som mus och tangentbord.</description>
-    <description lang="zh_TW">Alpha UI 是 Confluence 經過修改的版本。 Alienware 的面板經過修改，加入了提供存取硬體功能的增強，以及啟動 Steam 等遊戲入口網站的功能。 同時還包括了使用 Xbox 360、Xbox One、Dual Shock 4 或 Steam 控制器作為滑鼠和鍵盤的功能。</description>
+    <summary lang="en">Alpha UI skin by Alienware</summary>
+    <summary lang="en_AU">Alpha UI skin by Alienware</summary>
+    <summary lang="en_NZ">Alpha UI skin by Alienware</summary>
+    <summary lang="en_US">Alpha UI skin by Alienware</summary>
+    <description lang="en">Alpha UI is the default skin for Kodi 14.0 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+    <description lang="en_AU">Alpha UI is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+    <description lang="en_NZ">Alpha UI is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
+    <description lang="en_US">Alpha UI is the default skin for Kodi 9.11 and above. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
     <platform>all</platform>
   </extension>
 </addon>

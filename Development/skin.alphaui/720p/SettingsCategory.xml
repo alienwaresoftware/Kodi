@@ -62,7 +62,7 @@
 				<width>220</width>
 				<height>80</height>
 				<aspectratio>keep</aspectratio>
-				<texture>alienware/alienware-logo.png</texture>
+				<texture>Confluence_Logo.png</texture>
 			</control>
 			<control type="grouplist" id="3">
 				<description>button area</description>
