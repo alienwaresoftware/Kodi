@@ -54,7 +54,7 @@
 
 <addon
   id="skin.alphaui"
-  version="2.0"
+  version="2.0.1"
   name="Alpha UI"
   provider-name="Alienware">
   <requires>

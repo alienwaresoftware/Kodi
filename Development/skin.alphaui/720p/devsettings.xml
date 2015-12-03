@@ -15,7 +15,7 @@
           <description>background for left hand side list</description>
           <left>0</left>
           <top>65</top>
-          <texture>special://skin/media/alienware/Power_box.png</texture>
+          <texture>alienware/Power_box.png</texture>
         </control>
         <control type="image">
           <description>SETTINGS logo</description>
@@ -23,7 +23,7 @@
           <width>60</width>
           <height>60</height>
           <aspectratio>keep</aspectratio>
-          <texture>special://skin/media/alienware/icon_settings.png</texture>
+          <texture>alienware/icon_settings.png</texture>
         </control>
         <include>SettingsBreadcrumb</include>
         <!-- Breadcrumbs for the settings menu -->
@@ -54,7 +54,7 @@
             <left>0</left>
             <top>0</top>
             <height>55</height>
-            <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+            <texture border="5">alienware/power_selected.png</texture>
           </control>
           <control type="label">
             <left>15</left>
@@ -148,7 +148,7 @@
                 <top>0</top>
                 <height>55</height>
                 <visible>Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)</visible>
-                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                <texture border="5">alienware/power_selected.png</texture>
               </control>
               <control type="label">
                 <visible>![Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)]</visible>
@@ -221,8 +221,8 @@
                   <centertop>50%</centertop>
                   <onup>9017</onup>
                   <ondown>9017</ondown>
-                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <texturefocus>alienware/spin_left.png</texturefocus>
+                  <texturenofocus>alienware/spin_left.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="label" id="9014">
@@ -241,8 +241,8 @@
                   <width>24</width>
                   <height>24</height>
                   <centertop>50%</centertop>
-                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <texturefocus>alienware/spin_right.png</texturefocus>
+                  <texturenofocus>alienware/spin_right.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="image">
@@ -250,7 +250,7 @@
                   <top>0</top>
                   <height>55</height>
                   <visible>Control.HasFocus(9015)</visible>
-                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <texture border="5">alienware/power_selected.png</texture>
                   <visible>true</visible>
                 </control>
               </control>
@@ -279,8 +279,8 @@
                   <centertop>50%</centertop>
                   <onup>9015</onup>
                   <ondown>9015</ondown>
-                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <texturefocus>alienware/spin_left.png</texturefocus>
+                  <texturenofocus>alienware/spin_left.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="label" id="9018">
@@ -299,8 +299,8 @@
                   <width>24</width>
                   <height>24</height>
                   <centertop>50%</centertop>
-                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <texturefocus>alienware/spin_right.png</texturefocus>
+                  <texturenofocus>alienware/spin_right.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="image">
@@ -308,7 +308,7 @@
                   <top>0</top>
                   <height>55</height>
                   <visible>Control.HasFocus(9017)</visible>
-                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <texture border="5">alienware/power_selected.png</texture>
                   <visible>true</visible>
                 </control>
               </control>
@@ -335,7 +335,7 @@
                 <width>200</width>
                 <centerleft>50%</centerleft>
                 <aligny>center</aligny>
-                <texture>special://skin/media/alienware/icon_tv.png</texture>
+                <texture>alienware/icon_tv.png</texture>
                 <visible>true</visible>
                 <aspectratio align="bottom">keep</aspectratio>
               </control>
@@ -343,7 +343,7 @@
                 <top>300</top>
                 <centerleft>50%</centerleft>
                 <aligny>center</aligny>
-                <texture>special://skin/media/alienware/icon_remote.png</texture>
+                <texture>alienware/icon_remote.png</texture>
                 <visible>true</visible>
                 <width>30</width>
                 <aspectratio align="bottom">keep</aspectratio>
@@ -384,7 +384,7 @@
                 <top>0</top>
                 <height>55</height>
                 <visible>Control.HasFocus(9021) | Control.HasFocus(9024) | Control.HasFocus(9027)</visible>
-                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                <texture border="5">alienware/power_selected.png</texture>
               </control>
               <control type="label">
                 <visible>![Control.HasFocus(9021) | Control.HasFocus(9024) | Control.HasFocus(9027)]</visible>
@@ -444,8 +444,8 @@
                   <width>24</width>
                   <height>24</height>
                   <centertop>50%</centertop>
-                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <texturefocus>alienware/spin_left.png</texturefocus>
+                  <texturenofocus>alienware/spin_left.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="label" id="9025">
@@ -464,8 +464,8 @@
                   <width>24</width>
                   <height>24</height>
                   <centertop>50%</centertop>
-                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <texturefocus>alienware/spin_right.png</texturefocus>
+                  <texturenofocus>alienware/spin_right.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="image">
@@ -473,7 +473,7 @@
                   <top>0</top>
                   <height>55</height>
                   <visible>Control.HasFocus(9024)</visible>
-                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <texture border="5">alienware/power_selected.png</texture>
                   <visible>true</visible>
                 </control>
               </control>
@@ -495,8 +495,8 @@
                   <width>24</width>
                   <height>24</height>
                   <centertop>50%</centertop>
-                  <texturefocus>special://skin/media/alienware/spin_left.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_left.png</texturenofocus>
+                  <texturefocus>alienware/spin_left.png</texturefocus>
+                  <texturenofocus>alienware/spin_left.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="image" id="9029">
@@ -506,7 +506,7 @@
                   <height>20</height>
                   <aligny>center</aligny>
                   <visible>true</visible>
-                  <texture>special://skin/media/alienware/sliderbg.png</texture>
+                  <texture>alienware/sliderbg.png</texture>
                 </control>
                 <control type="label" id="9028">
                   <description>Value</description>
@@ -525,8 +525,8 @@
                   <width>24</width>
                   <height>24</height>
                   <centertop>50%</centertop>
-                  <texturefocus>special://skin/media/alienware/spin_right.png</texturefocus>
-                  <texturenofocus>special://skin/media/alienware/spin_right.png</texturenofocus>
+                  <texturefocus>alienware/spin_right.png</texturefocus>
+                  <texturenofocus>alienware/spin_right.png</texturenofocus>
                   <label>-</label>
                 </control>
                 <control type="image">
@@ -534,7 +534,7 @@
                   <top>0</top>
                   <height>55</height>
                   <visible>Control.HasFocus(9027)</visible>
-                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <texture border="5">alienware/power_selected.png</texture>
                   <visible>true</visible>
                 </control>
               </control>
@@ -573,7 +573,7 @@
                 <top>0</top>
                 <height>55</height>
                 <visible>Control.HasFocus(9041) | Control.IsVisible(9042)</visible>
-                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                <texture border="5">alienware/power_selected.png</texture>
               </control>
               <control type="label">
                 <visible>![Control.HasFocus(9041) |  Control.IsVisible(9042)]</visible>
@@ -646,7 +646,7 @@
                 <top>0</top>
                 <height>55</height>
                 <visible>Control.HasFocus(9051) | Control.HasFocus(9055)</visible>
-                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                <texture border="5">alienware/power_selected.png</texture>
               </control>
               <control type="label">
                 <visible>![Control.HasFocus(9051) | Control.HasFocus(9055)]</visible>
@@ -745,7 +745,7 @@
                 <control type="image">
                   <left>0</left>
                   <top>0</top>
-                  <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                  <texture border="5">alienware/power_selected.png</texture>
                   <visible>Control.HasFocus(9055)</visible>
                 </control>
                 <control type="image">
@@ -908,7 +908,7 @@
                 <top>0</top>
                 <height>55</height>
                 <visible>Control.HasFocus(9071) | Control.HasFocus(9074) | Control.HasFocus(9075)</visible>
-                <texture border="5">special://skin/media/alienware/power_selected.png</texture>
+                <texture border="5">alienware/power_selected.png</texture>
               </control>
               <control type="label">
                 <visible>![Control.HasFocus(9071) | Control.HasFocus(9074) | Control.HasFocus(9075)]</visible>
@@ -959,8 +959,8 @@
                 <centertop>50%</centertop>
                 <textoffsetx>20</textoffsetx>
                 <disabledcolor>grey3</disabledcolor>
-                <texturefocus>special://skin/media/alienware/power_selected.png</texturefocus>
-                <texturenofocus>special://skin/media/alienware/blank.png</texturenofocus>
+                <texturefocus>alienware/power_selected.png</texturefocus>
+                <texturenofocus>alienware/blank.png</texturenofocus>
                 <label>31760</label>
               </control>
             </control>

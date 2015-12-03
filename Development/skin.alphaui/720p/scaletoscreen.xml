@@ -14,7 +14,7 @@
         <top>0</top>
         <width>1280</width>
         <height>720</height>
-        <texture flipy="true">special://skin/media/alienware/scaletoscreenbg.png</texture>
+        <texture flipy="true">alienware/scaletoscreenbg.png</texture>
       </control>
       <control type="image">
         <description>Corner logo</description>
@@ -23,7 +23,7 @@
         <width>80</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
-        <texture flipy="true">special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+        <texture flipy="true">alienware/icon_ScaleToScreen_cornerarrow.png</texture>
       </control>
       <control type="image">
         <description>Corner logo</description>
@@ -32,7 +32,7 @@
         <width>80</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
-        <texture flipx="true" flipy="true">special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+        <texture flipx="true" flipy="true">alienware/icon_ScaleToScreen_cornerarrow.png</texture>
       </control>
       <control type="image">
         <description>Corner logo</description>
@@ -41,7 +41,7 @@
         <width>80</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
-        <texture>special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+        <texture>alienware/icon_ScaleToScreen_cornerarrow.png</texture>
       </control>
       <control type="image">
         <description>Corner logo</description>
@@ -50,7 +50,7 @@
         <width>80</width>
         <height>80</height>
         <aspectratio>keep</aspectratio>
-        <texture flipx="true">special://skin/media/alienware/icon_ScaleToScreen_cornerarrow.png</texture>
+        <texture flipx="true">alienware/icon_ScaleToScreen_cornerarrow.png</texture>
       </control>
       <control type="label">
         <left>250</left>
@@ -71,8 +71,8 @@
         <height>45</height>
         <align>center</align>
         <aligny>center</aligny>
-        <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
-        <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+        <texturenofocus border="2">alienware/button.png</texturenofocus>
+        <texturefocus border="2">alienware/selected.png</texturefocus>
         <textcolor>FFFFFFFF</textcolor>
         <focusedcolor>FFFFFFFF</focusedcolor>
         <disabledcolor>80FFFFFF</disabledcolor>
@@ -84,14 +84,14 @@
         <top>200</top>
         <width>200</width>
         <left>540</left>
-        <texture>special://skin/media/alienware/icon_tv.png</texture>
+        <texture>alienware/icon_tv.png</texture>
         <visible>true</visible>
         <aspectratio align="bottom">keep</aspectratio>
       </control>
       <control type="image">
         <top>187</top>
         <left>625</left>
-        <texture>special://skin/media/alienware/icon_remote.png</texture>
+        <texture>alienware/icon_remote.png</texture>
         <visible>true</visible>
         <width>30</width>
         <aspectratio align="bottom">keep</aspectratio>
@@ -103,7 +103,7 @@
           <left>750</left>
           <height>40</height>
           <aspectratio>keep</aspectratio>
-          <texture>special://skin/media/alienware/A_button.png</texture>
+          <texture>alienware/A_button.png</texture>
         </control>
         <control type="label">
           <left>1040</left>

@@ -13,7 +13,7 @@
                 <width>40</width>
                 <aspectratio>keep</aspectratio>
                 <description>Power menu header thing</description>
-                <texture>special://skin/media/alienware/icons_power_small.png</texture>
+                <texture>alienware/icons_power_small.png</texture>
             </control>
             <control type="label">
                 <description>Power label</description>
@@ -27,7 +27,7 @@
                 <width>330</width>
                 <height>400</height>
                 <top>35</top>
-                <texture>special://skin/media/alienware/Power_box.png</texture>
+                <texture>alienware/Power_box.png</texture>
             </control>
 
             <control type="list" id="9000">
@@ -52,32 +52,32 @@
                         <left>0</left>
                         <height>70</height>
                         <width>1</width>
-                        <texture>special://skin/media/alienware/white_border.png</texture>
+                        <texture>alienware/white_border.png</texture>
                     </control>
                     <control type="image">
                         <left>0</left>
                         <height>1</height>
                         <width>330</width>
-                        <texture>special://skin/media/alienware/white_border.png</texture>
+                        <texture>alienware/white_border.png</texture>
                     </control>
                     <control type="image">
                         <left>330</left>
                         <height>70</height>
                         <width>1</width>
-                        <texture>special://skin/media/alienware/white_border.png</texture>
+                        <texture>alienware/white_border.png</texture>
                     </control>
                     <control type="image">
                         <top>70</top>
                         <left>0</left>
                         <height>1</height>
                         <width>330</width>
-                        <texture>special://skin/media/alienware/white_border.png</texture>
+                        <texture>alienware/white_border.png</texture>
                     </control>
                     <control type="image">
                         <left>0</left>
                         <width>330</width>
                         <height>70</height>
-                        <texture>special://skin/media/alienware/power_selected.png</texture>
+                        <texture>alienware/power_selected.png</texture>
                     </control>
 
                     <control type="label">

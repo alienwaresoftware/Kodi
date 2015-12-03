@@ -14,7 +14,7 @@
         <top>0</top>
         <width>1280</width>
         <height>720</height>
-        <texture flipy="true">special://skin/media/alienware/scaletoscreenbg.png</texture>
+        <texture flipy="true">alienware/scaletoscreenbg.png</texture>
       </control>
       <control type="image">
         <description>Corner logo</description>
@@ -22,7 +22,7 @@
         <top>230</top>
         <width>1280</width>
         <height>260</height>
-        <texture>special://skin/media/alienware/confirmdialogbox.png</texture>
+        <texture>alienware/confirmdialogbox.png</texture>
       </control>
       <control type="label" id="4110">
         <left>40</left>
@@ -60,8 +60,8 @@
           <height>45</height>
           <align>center</align>
           <aligny>center</aligny>
-          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
-          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <texturenofocus border="2">alienware/button.png</texturenofocus>
+          <texturefocus border="2">alienware/selected.png</texturefocus>
           <textcolor>FFFFFFFF</textcolor>
           <focusedcolor>FFFFFFFF</focusedcolor>
           <disabledcolor>80FFFFFF</disabledcolor>
@@ -79,8 +79,8 @@
           <height>45</height>
           <align>center</align>
           <aligny>center</aligny>
-          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
-          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <texturenofocus border="2">alienware/button.png</texturenofocus>
+          <texturefocus border="2">alienware/selected.png</texturefocus>
           <textcolor>FFFFFFFF</textcolor>
           <focusedcolor>FFFFFFFF</focusedcolor>
           <disabledcolor>80FFFFFF</disabledcolor>
@@ -103,8 +103,8 @@
           <height>45</height>
           <align>center</align>
           <aligny>center</aligny>
-          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
-          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <texturenofocus border="2">alienware/button.png</texturenofocus>
+          <texturefocus border="2">alienware/selected.png</texturefocus>
           <textcolor>FFFFFFFF</textcolor>
           <focusedcolor>FFFFFFFF</focusedcolor>
           <disabledcolor>80FFFFFF</disabledcolor>
@@ -122,8 +122,8 @@
           <height>45</height>
           <align>center</align>
           <aligny>center</aligny>
-          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
-          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <texturenofocus border="2">alienware/button.png</texturenofocus>
+          <texturefocus border="2">alienware/selected.png</texturefocus>
           <textcolor>FFFFFFFF</textcolor>
           <focusedcolor>FFFFFFFF</focusedcolor>
           <disabledcolor>80FFFFFF</disabledcolor>
@@ -146,8 +146,8 @@
           <height>45</height>
           <align>center</align>
           <aligny>center</aligny>
-          <texturenofocus border="2">special://skin/media/alienware/button.png</texturenofocus>
-          <texturefocus border="2">special://skin/media/alienware/selected.png</texturefocus>
+          <texturenofocus border="2">alienware/button.png</texturenofocus>
+          <texturefocus border="2">alienware/selected.png</texturefocus>
           <textcolor>FFFFFFFF</textcolor>
           <focusedcolor>FFFFFFFF</focusedcolor>
           <disabledcolor>80FFFFFF</disabledcolor>

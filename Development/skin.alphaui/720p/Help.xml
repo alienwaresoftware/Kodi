@@ -16,12 +16,12 @@
         <width>40</width>
         <height>40</height>
         <aspectratio>keep</aspectratio>
-        <texture>special://skin/media/alienware/icon_Helpcontroller.png</texture>
+        <texture>alienware/icon_Helpcontroller.png</texture>
       </control>
       <control type="image">
         <description>background for left hand side list</description>
         <top>45</top>
-        <texture>special://skin/media/alienware/Power_box.png</texture>
+        <texture>alienware/Power_box.png</texture>
       </control>
 
       <!-- Divider lines for the lists -->
@@ -60,7 +60,7 @@
             <left>20</left>
             <width>400</width>
             <aspectratio>keep</aspectratio>
-            <texture>special://skin/media/alienware/Controller_GuideMenu.png</texture>
+            <texture>alienware/Controller_GuideMenu.png</texture>
           </control>
           <control type="label">
             <top>380</top>
@@ -99,7 +99,7 @@
             <left>20</left>
             <width>400</width>
             <aspectratio>keep</aspectratio>
-            <texture>special://skin/media/alienware/Controller_ShiftingFocus.png</texture>
+            <texture>alienware/Controller_ShiftingFocus.png</texture>
           </control>
           <control type="label">
             <top>380</top>
@@ -145,7 +145,7 @@
             <left>20</left>
             <width>400</width>
             <aspectratio>keep</aspectratio>
-            <texture>special://skin/media/alienware/Controller_FullScreen.png</texture>
+            <texture>alienware/Controller_FullScreen.png</texture>
           </control>
           <control type="label">
             <top>380</top>
@@ -184,7 +184,7 @@
             <left>20</left>
             <width>400</width>
             <aspectratio>keep</aspectratio>
-            <texture>special://skin/media/alienware/Controller_MouseDriver.png</texture>
+            <texture>alienware/Controller_MouseDriver.png</texture>
           </control>
           <control type="label">
             <top>390</top>
@@ -223,7 +223,7 @@
             <left>20</left>
             <width>400</width>
             <aspectratio>keep</aspectratio>
-            <texture>special://skin/media/alienware/Controller_CloseApplication.png</texture>
+            <texture>alienware/Controller_CloseApplication.png</texture>
           </control>
           <control type="label">
             <top>380</top>
@@ -272,7 +272,7 @@
               <left>0</left>
               <top>0</top>
               <height>45</height>
-              <texture border="2">special://skin/media/alienware/selected.png</texture>
+              <texture border="2">alienware/selected.png</texture>
             </control>
             <control type="label">
               <left>15</left>
@@ -322,7 +322,7 @@
                   <top>0</top>
                   <height>45</height>
                   <visible>Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)</visible>
-                  <texture border="2">special://skin/media/alienware/selected.png</texture>
+                  <texture border="2">alienware/selected.png</texture>
                 </control>
                 <control type="label">
                   <visible>![Control.HasFocus(9011) | Control.HasFocus(9015) | Control.HasFocus(9017)]</visible>
