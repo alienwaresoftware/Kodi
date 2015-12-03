@@ -52,46 +52,6 @@
   </extension>
 </addon>
 
-<addon id="script.aw.battlenet.launcher" name="Battle.Net" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_battlenet.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Battle.Net</summary>
-        <language></language>
-        <description lang="en">Battle.Net</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.geforce.launcher" name="Geforce Experience" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_geforce.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">GeForce Experience</summary>
-        <language></language>
-        <description lang="en">GeForce Experience</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="script.aw.gotodesktop" name="Go To Desktop" version="1.0" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -104,26 +64,6 @@
         <summary lang="en">Go To Desktop</summary>
         <language></language>
         <description lang="en">Go To Desktop</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.hulu.launcher" name="Hulu" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_hulu.py">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Hulu</summary>
-        <language></language>
-        <description lang="en">Hulu</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
@@ -172,26 +112,6 @@
     </extension>
 </addon>
 
-<addon id="script.aw.origin.launcher" name="Origin" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_origin.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Origin</summary>
-        <language></language>
-        <description lang="en">Origin</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
 <addon id="script.aw.plex.launcher" name="Plex" version="0.0.1" provider-name="Alienware">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -204,46 +124,6 @@
         <summary lang="en">Plex</summary>
         <language></language>
         <description lang="en">Plex</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.uplay.launcher" name="Uplay" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_uplay.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Uplay</summary>
-        <language></language>
-        <description lang="en">Uplay</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>Alienware</source>
-        <forum></forum>
-        <email></email>
-        <website></website>
-    </extension>
-</addon>
-
-<addon id="script.aw.webbrowser.launcher" name="Web Browser" version="0.0.1" provider-name="Alienware">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="launch_webbrowser.py">
-        <provides>game executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">Launches the default web browser. </summary>
-        <language></language>
-        <description lang="en">This added allows you to launch which ever browser you have set as your default browser.</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <source>Alienware</source>
         <forum></forum>
