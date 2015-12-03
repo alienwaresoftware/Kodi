@@ -1,0 +1,1251 @@
+# Kodi Media Center language file
+# Addon Name: Confluence
+# Addon id: skin.confluence
+# Addon Provider: Jezz_X, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/xbmc-main/language/hu/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#31000"
+msgid "Change Your"
+msgstr "Választható"
+
+msgctxt "#31003"
+msgid "Power Options"
+msgstr "Kikapcsolási lehetőségek"
+
+msgctxt "#31004"
+msgid "Working..."
+msgstr "Dolgozom..."
+
+msgctxt "#31005"
+msgid "Hide Information"
+msgstr "Információ elrejtése"
+
+msgctxt "#31006"
+msgid "View Options"
+msgstr "Nézet lehetőségek"
+
+msgctxt "#31008"
+msgid "Full screen"
+msgstr "Teljes képernyő"
+
+msgctxt "#31009"
+msgid "Total Duration"
+msgstr "Teljes időtartam"
+
+msgctxt "#31022"
+msgid "Music - Files"
+msgstr "Zene - Fájlmód"
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr "Éppen játszva"
+
+msgctxt "#31024"
+msgid "Page"
+msgstr "Oldal"
+
+msgctxt "#31025"
+msgid "Items"
+msgstr "Elem"
+
+msgctxt "#31026"
+msgid "Misc Options"
+msgstr "Egyéb beállítások"
+
+msgctxt "#31027"
+msgid "Location"
+msgstr "Fekvés"
+
+msgctxt "#31028"
+msgid "Poster Wrap"
+msgstr "Poszter"
+
+msgctxt "#31029"
+msgid "Fanart"
+msgstr "Fanart"
+
+msgctxt "#31031"
+msgid "Pic Thumbs"
+msgstr "Kép ikonok"
+
+msgctxt "#31032"
+msgid "Image Wrap"
+msgstr "Képborító"
+
+msgctxt "#31033"
+msgid "Info"
+msgstr "Infó"
+
+msgctxt "#31039"
+msgid "Actions"
+msgstr "Műveletek"
+
+msgctxt "#31040"
+msgid "Now Playing"
+msgstr "Most játszva"
+
+msgctxt "#31042"
+msgid "PLAYING"
+msgstr "LEJÁTSZÁS"
+
+msgctxt "#31043"
+msgid "PAUSED"
+msgstr "MEGÁLLÍTVA"
+
+msgctxt "#31044"
+msgid "FAST FORWARD"
+msgstr "ELŐRETEKERÉS"
+
+msgctxt "#31045"
+msgid "REWIND"
+msgstr "VISSZATEKERÉS"
+
+msgctxt "#31046"
+msgid "SEEKING"
+msgstr "KERESŐ"
+
+msgctxt "#31048"
+msgid "Visualisation Presets"
+msgstr "Vizualizáció beállításai"
+
+msgctxt "#31049"
+msgid "End Time"
+msgstr "Befejezés időpontja"
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr "Sorrend: Növekvő"
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr "Sorrend: Csökkenő"
+
+msgctxt "#31055"
+msgid "Open playlist"
+msgstr "Játszáslista megnyitása"
+
+msgctxt "#31056"
+msgid "Save playlist"
+msgstr "Játszáslista mentése"
+
+msgctxt "#31057"
+msgid "Close playlist"
+msgstr "Játszáslista zárása"
+
+msgctxt "#31058"
+msgid "System music files"
+msgstr "Rendszer, zene fájlok"
+
+msgctxt "#31059"
+msgid "Current playlist"
+msgstr "Jelenlegi játszáslista"
+
+msgctxt "#31060"
+msgid "This file is stacked, select the part you want to play from."
+msgstr "Ez a fájl egyesített. Válaszd azt a részt, ahonnan a lejátszást szeretnéd kezdeni."
+
+msgctxt "#31061"
+msgid "Current Selected"
+msgstr "Jelenleg kiválasztott"
+
+msgctxt "#31101"
+msgid "Home screen options"
+msgstr "Sajátképernyő lehetőségei"
+
+msgctxt "#31102"
+msgid "Background"
+msgstr "Háttér"
+
+msgctxt "#31103"
+msgid "Show \"Paused\" in picture slide show"
+msgstr "\"Megállítva\" mutatása a diavetítés közben"
+
+msgctxt "#31104"
+msgid "Play Trailers in a window [COLOR=grey3](Video Information Dialogue Only)[/COLOR]"
+msgstr "Filmelőzetesek lejátszása ablakban [COLOR=grey3](csak a videóinfó ablakban)[/COLOR]"
+
+msgctxt "#31106"
+msgid "Miscellaneous options"
+msgstr "Egyéb beállítások"
+
+msgctxt "#31107"
+msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Fájlnevekből olvasott filmjellemzők elrejtése [COLOR=grey3](BR, HD-DVD)[/COLOR]"
+
+msgctxt "#31108"
+msgid "Hide Main Menu Buttons"
+msgstr "Főmenü gombok láthatósága"
+
+msgctxt "#31109"
+msgid "Enable Custom Background"
+msgstr "Saját háttér engedélyezése"
+
+msgctxt "#31110"
+msgid "Background path:"
+msgstr "Háttér mappa: "
+
+msgctxt "#31111"
+msgid "Hide"
+msgstr "Elrejt"
+
+msgctxt "#31112"
+msgid "Options"
+msgstr "Lehetőségek"
+
+msgctxt "#31116"
+msgid "Show Recently added Albums"
+msgstr "Nemrég hozzáadott albumok mutatása"
+
+msgctxt "#31117"
+msgid "Show Recently added Videos"
+msgstr "Nemrég hozzáadott videók mutatása"
+
+msgctxt "#31118"
+msgid "Home Page Programs Sub-menu"
+msgstr "Főképernyő Programok almenü"
+
+msgctxt "#31119"
+msgid "Hide Background Fanart"
+msgstr "Fanart-háttér elrejtése"
+
+msgctxt "#31124"
+msgid "Show Background \"Now Playing\" Video"
+msgstr "A háttérben az éppen játszott videó megjelenítése"
+
+msgctxt "#31125"
+msgid "Show Background \"Now Playing\" Visualisation"
+msgstr "A háttérben az éppen futó vizualizáció megjelenítése"
+
+msgctxt "#31126"
+msgid "Play TV theme songs in video library (TvTunes add-on)"
+msgstr "TV főtéma dalok játszása a videó médiatárban (TvTunes kiegészítő)"
+
+msgctxt "#31127"
+msgid "TvTunes"
+msgstr "TvTunes"
+
+msgctxt "#31128"
+msgid "Lyrics"
+msgstr "Dalszöveg"
+
+msgctxt "#31129"
+msgid "Hide Fanart in full screen visualisation"
+msgstr "Fanart elrejtése teljes képernyős vizualizációnál"
+
+msgctxt "#31132"
+msgid "Lyrics Add-on"
+msgstr "Dalszöveg kiegészítő"
+
+msgctxt "#31134"
+msgid "Home Page Videos Sub-menu"
+msgstr "Főképernyő Videó almenü"
+
+msgctxt "#31135"
+msgid "Home Page Music Sub-menu"
+msgstr "Főképernyő Zene almenü"
+
+msgctxt "#31136"
+msgid "Home Page Pictures Sub-menu"
+msgstr "Főképernyő Képek almenü"
+
+msgctxt "#31140"
+msgid "Music OSD"
+msgstr "Zene tálca"
+
+msgctxt "#31141"
+msgid "Video OSD"
+msgstr "Videó tálca"
+
+msgctxt "#31142"
+msgid "Settings level"
+msgstr "Beállítás szint"
+
+msgctxt "#31200"
+msgid "Shortcuts"
+msgstr "Parancsikonok"
+
+msgctxt "#31203"
+msgid "Choose Your Song"
+msgstr "Válaszd a dalodat"
+
+msgctxt "#31205"
+msgid "Lyrics Source"
+msgstr "Dalszövegforrás"
+
+msgctxt "#31206"
+msgid "Found"
+msgstr "Található"
+
+msgctxt "#31207"
+msgid "Find More Items"
+msgstr "További elemek keresése"
+
+msgctxt "#31208"
+msgid "Upcoming Episodes"
+msgstr "Következő epizódok"
+
+msgctxt "#31300"
+msgid "Current Temp"
+msgstr "Hőmérséklet most"
+
+msgctxt "#31301"
+msgid "Last Updated"
+msgstr "Utoljára frissítve"
+
+msgctxt "#31303"
+msgid "Data provider"
+msgstr "Adatszolgáltató"
+
+msgctxt "#31307"
+msgid "Hide Fanart"
+msgstr "Fanart elrejtése"
+
+msgctxt "#31308"
+msgid "Movie Details"
+msgstr "Film részletek"
+
+msgctxt "#31309"
+msgid "Memory Used:"
+msgstr "Memória használat:"
+
+msgctxt "#31310"
+msgid "Track Number"
+msgstr "Zeneszám"
+
+msgctxt "#31311"
+msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
+msgstr "Fanart kép[CR][CR]Elérhetetlen[CR][CR] Nyomj a gombra a beállításhoz"
+
+msgctxt "#31312"
+msgid "Current Scraper"
+msgstr "Jelenlegi leolvasó"
+
+msgctxt "#31313"
+msgid "Choose a Scraper"
+msgstr "Válassz leolvasót"
+
+msgctxt "#31314"
+msgid "Content Scanning Options"
+msgstr "Tartalomkeresési lehetőségek"
+
+msgctxt "#31317"
+msgid "Set Fanart Path"
+msgstr "Fanart elérési helye"
+
+msgctxt "#31319"
+msgid "Selected Profile"
+msgstr "Választott profil"
+
+msgctxt "#31320"
+msgid "Last Logged In"
+msgstr "Utoljára bejelentkezve"
+
+msgctxt "#31321"
+msgid "Karaoke Song Selector"
+msgstr "Karaoke dalválasztó"
+
+msgctxt "#31322"
+msgid "Aired"
+msgstr "Játszva"
+
+msgctxt "#31325"
+msgid "Playlist Options"
+msgstr "Játszáslista lehetőségek"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "Létrehozva"
+
+msgctxt "#31327"
+msgid "Resolution"
+msgstr "Felbontás"
+
+msgctxt "#31328"
+msgid "Recently Added"
+msgstr "Nemrég hozzáadva"
+
+msgctxt "#31329"
+msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
+msgstr "[B]Időzítő beállítva![/B] [COLOR=grey2] - Automatikus leállítás ennyi idő múlva:[/COLOR]"
+
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]Movie trailer"
+msgstr "Nyomd a gombot a filmelőzetes[CR][CR]Lejátszásához"
+
+msgctxt "#31331"
+msgid "Album Details"
+msgstr "Album részletek"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr "Pillanat állj"
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr "Leállítás"
+
+msgctxt "#31353"
+msgid "Fast Forward"
+msgstr "Előretekerés"
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr "Visszatekerés"
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr "Film menü"
+
+msgctxt "#31356"
+msgid "Download Subtitles"
+msgstr "Felirat letöltése"
+
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr "Megnézés 2D-ként"
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr "Mód változtatása"
+
+msgctxt "#31362"
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+msgctxt "#31390"
+msgid "Skin default"
+msgstr "Felszín alapértelmezése"
+
+msgctxt "#31391"
+msgid "Skin default with no Caps"
+msgstr "Alapértelmezett, nagybetűsítés nélkül"
+
+msgctxt "#31392"
+msgid "Arial based"
+msgstr "Arial betűkészlet"
+
+msgctxt "#31400"
+msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B]MEGJELENÍTÉS MÓDJÁNAK BEÁLLÍTÁSA[/B][CR][CR]Felszín váltása · Nyelv, régió váltása · Fájl listázás módjának beállítása[CR]Képernyővédő beállítása"
+
+msgctxt "#31401"
+msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B]VIDEÓ BEÁLLÍTÁSOK[/B][CR][CR]Film médiatár kezelése · Videólejátszás beállítása · Videólistázás módjának beállítása[CR]Feliratok karaktertípusának váltása"
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B]ZENE BEÁLLÍTÁSOK[/B][CR][CR]Zene médiatár kezelése · Zenelejátszás beállítása · Zenelistázás módjának beállítása[CR]Zene lejátszási szabályok felállítása · Karaoke lehetőségek"
+
+msgctxt "#31403"
+msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshows"
+msgstr "[B]KÉP BEÁLLÍTÁSOK[/B][CR][CR]Képek listázási módjának beállítása · Diavetítés beállítása"
+
+msgctxt "#31404"
+msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set three cities to collect weather information"
+msgstr "[B]IDŐJÁRÁS BEÁLLÍTÁSOK[/B][CR][CR]Három város megadása, melyekről időjárás információk fognak megjelenni"
+
+msgctxt "#31406"
+msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B]RENDSZERBEÁLLÍTÁSOK[/B][CR][CR]Kijelzők beállítása, kalibrálása · Hangkimenet konfigurálása · Távirányító beállítása[CR]Energiagazdálkodási lehetőségek beállítása · Hibakeresés bekapcsolása[CR]Mesterzár felállítása"
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+msgstr "[B]KIEGÉSZÍTŐK BEÁLLÍTÁSA[/B][CR][CR]A telepített kiegészítők kezelése · Kiegészítők böngészése és telepítése az xbmc.org[CR]webhelyről · Kiegészítők beállításainak módosítása"
+
+msgctxt "#31409"
+msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
+msgstr "[B]TV BEÁLLÍTÁSOK[/B][CR][CR]Teljesképernyős infó · Elektronikus Programújság \"EPG\" beállítások"
+
+msgctxt "#31410"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]SZOLGÁLTATÁSOK BEÁLLÍTÁSA[/B][CR][CR]Kodi UPNP-n és HTTP-n keresztüli vezérlésének beállításai · Fájlmegosztás beállításai[CR]Zeroconf engedélyezése · AirPlay beállításai"
+
+msgctxt "#31411"
+msgid "First run help...."
+msgstr "Segítség első indításkor..."
+
+msgctxt "#31412"
+msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section.  To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"Ok\" to close this dialogue. It will not appear again."
+msgstr "Ez a fül azt jelzi hogy oldalt van egy menü, extra opciókkal az adott tartalomhoz.  A menühöz hozzáférhetsz ha az egérmutatót a fül fölé viszed, vagy a bal nyilat megnyomod a távirányítón. [CR][CR]Nyomj \"OK\" gombot a szöveg bezárásához. Nem fog még egyszer megjelenni."
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Helyi felirat elérhető"
+
+msgctxt "#31420"
+msgid "Login"
+msgstr "Bejelentkezés"
+
+msgctxt "#31421"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Válaszd ki az Kodi felhasználói profilod[CR]a belépéshez"
+
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Bejelentkezési képernyő mutatása vagy elrejtése indításkor"
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Profil kiválasztása amely használatra kerül ha a bejelentkező képernyő ki van kapcsolva."
+
+msgctxt "#31501"
+msgid "Scheduled Time"
+msgstr "Ütemezett időzítés"
+
+msgctxt "#31502"
+msgid "Live TV"
+msgstr "Élő TV"
+
+msgctxt "#31503"
+msgid "Add Group"
+msgstr "Csoport hozzáadása"
+
+msgctxt "#31504"
+msgid "Rename Group"
+msgstr "Csoport átnevezése"
+
+msgctxt "#31505"
+msgid "Delete Group"
+msgstr "Csoport törlése"
+
+msgctxt "#31506"
+msgid "Available[CR]Groups"
+msgstr "Elérhető[CR]Csoportok"
+
+msgctxt "#31509"
+msgid "Channel Group"
+msgstr "Csatorna csoportok"
+
+msgctxt "#31510"
+msgid "Timer Set"
+msgstr "Időzítő beállítás"
+
+msgctxt "#31511"
+msgid "Channel Options"
+msgstr "Csatorna opciók"
+
+#START Alienware skin
+#Power menu
+
+msgctxt "#31600"
+msgid "WELCOME TO ALPHA UI"
+msgstr "AZ ALPHA FELHASZNÁLÓ FELÜLET ÜDVÖZLI ÖNT!"
+
+msgctxt "#31601"
+msgid "SHUT DOWN CONSOLE"
+msgstr "KONZOL LEÁLLÍTÁSA"
+
+msgctxt "#31602"
+msgid "RESTART CONSOLE"
+msgstr "KONZOL ÚJRAINDÍTÁSA"
+
+msgctxt "#31622"
+msgid "RESTART SYSTEM"
+msgstr "RENDSZER ÚJRAINDÍTÁSA"
+
+msgctxt "#31623"
+msgid "SHUT DOWN SYSTEM"
+msgstr "RENDSZER LEÁLLÍTÁSA"
+
+msgctxt "#31603"
+msgid "SLEEP"
+msgstr "ALVÁS"
+
+# Home menu
+msgctxt "#31604"
+msgid "Power"
+msgstr "Bekapcsolás"
+
+msgctxt "#31605"
+msgid "Launch[CR]Steam"
+msgstr "[CR]Steam indítása"
+
+msgctxt "#31606"
+msgid "Settings"
+msgstr "Beállítások"
+
+msgctxt "#31607"
+msgid "GO TO DESKTOP"
+msgstr "UGRÁS AZ ASZTALRA"
+
+msgctxt "#31608"
+msgid "HELP"
+msgstr "SÚGÓ"
+
+msgctxt "#31609"
+msgid "Launch System Menu at anytime by pressing LT + LB + RT + RB + Guide button."
+msgstr "A rendszermenü bármikor elindítható az LT + LB + RT + RB + Irányító gomb megnyomásával."
+
+# Settings screen - Backgrounds
+msgctxt "#31660"
+msgid "Backgrounds"
+msgstr "Hátterek"
+
+# Settings screen - Console
+msgctxt "#31685"
+msgid "Customization"
+msgstr "Testreszabás"
+
+msgctxt "#31686"
+msgid "AlienFX"
+msgstr "AlienFX"
+
+msgctxt "#31687"
+msgid "Updates"
+msgstr "Frissítések"
+
+msgctxt "#31688"
+msgid "Boot Options"
+msgstr "Rendszerindítási opciók"
+
+# Confirm Dialog
+msgctxt "#31781"
+msgid "Yes"
+msgstr "Igen"
+
+msgctxt "#31782"
+msgid "No"
+msgstr "Nem"
+
+msgctxt "#31783"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "#31784"
+msgid "Restart"
+msgstr "Újraindítás"
+
+msgctxt "#31785"
+msgid "OK"
+msgstr "OK"
+
+# Help
+msgctxt "#31800"
+msgid "Hotkeys"
+msgstr "Gyorsbillentyűk"
+
+msgctxt "#31810"
+msgid "Systems Menu"
+msgstr "Rendszermenü"
+
+msgctxt "#31811"
+msgid "Shifting Focus"
+msgstr "Fókusz váltása"
+
+msgctxt "#31812"
+msgid "Full Screen"
+msgstr "Teljes képernyő"
+
+msgctxt "#31813"
+msgid "Controller Mouse"
+msgstr "Vezérlő egér"
+
+msgctxt "#31814"
+msgid "Guide"
+msgstr "Irányító"
+
+msgctxt "#31815"
+msgid "Dpad Left"
+msgstr "Dpad balra"
+
+msgctxt "#31816"
+msgid "Dpad Right"
+msgstr "Dpad jobbra"
+
+msgctxt "#31817"
+msgid "Dpad Up"
+msgstr "Dpad fel"
+
+msgctxt "#31818"
+msgid "L3"
+msgstr "L3"
+
+msgctxt "#31820"
+msgid "Hotkey Combination LT + LB + RT + RB + Guide button"
+msgstr "LT + LB + RT + RB + Irányító gomb billentyűkombináció"
+
+msgctxt "#31821"
+msgid "Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu."
+msgstr "A vezérlő LT + LB + RT + RB és Irányító gombjának megnyomásával a Rendszermenü indítható el."
+
+msgctxt "#31822"
+msgid "Hotkey Combination LT + LB + RT + RB + Left or Right"
+msgstr "LT + LB + RT + RB + Balra vagy Jobbra gomb billentyűkombináció"
+
+msgctxt "#31823"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."
+msgstr "Az ablak fókusz a Dpad balra vagy Dpad jobbra megnyomásával váltható. Ez a funkció a billentyűzeten keresztül is elérhető az Alt + Tab (Shift jobbra) vagy Shift + Alt + Tab (Shift balra) megnyomásával."
+
+msgctxt "#31824"
+msgid "Hotkey Combination LT + LB + RT + RB + Dpad Up"
+msgstr "LT + LB + RT + RB + Dpad fel gomb billentyűkombináció"
+
+msgctxt "#31825"
+msgid "This hot key will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hot key."
+msgstr "Ezzel a billentyűkombinációval az aktuálisan használt alkalmazás teljes képernyős megjelenítése kísérelhető meg. Ez ugyanaz, mint a billentyűzet Alt+Enter és F11 gombjának megnyomása. Nem minden alkalmazás reagál erre a billentyűkombinációra."
+
+msgctxt "#31826"
+msgid "Hotkey Combination LT + LB + RT + RB + L3"
+msgstr "LT + LB + RT + RB + L3 gomb billentyűkombináció"
+
+msgctxt "#31827"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "A billentyűkombináció és az L3 gomb megnyomásával az egér illesztőprogram aktiválható. A billentyűkombináció újbóli megnyomásával az illesztőprogram kikapcsol."
+
+msgctxt "#31828"
+msgid "System software update failed. Shutdown console in order to begin software update."
+msgstr "A rendszerfrissítés sikertelen volt. A szoftverfrissítés elindításához állítsa le a konzolt."
+
+msgctxt "#31829"
+msgid "New update available - shut down console to begin download"
+msgstr "Új frissítés áll rendelkezésre - a letöltés elindításához állítsa le a konzolt"
+
+msgctxt "#31830"
+msgid "Close Application"
+msgstr "Alkalmazás bezárása"
+
+msgctxt "#31831"
+msgid "This hot key will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hot key."
+msgstr "Ezzel a billentyűkombinációval az aktuálisan használt alkalmazás bezárása kísérelhető meg. Ez ugyanaz, mint a billentyűzet Alt+F4 és az Alt+Q gombjának megnyomása. Nem minden alkalmazás reagál erre a billentyűkombinációra."
+
+msgctxt "#31832"
+msgid "Disable Hotkey"
+msgstr "Billentyűkombináció letiltása"
+
+msgctxt "#31833"
+msgid "Pressing LT + LB + RT + RB on the controller plus the Start button will enable/disable the hotkeys"
+msgstr "A vezérlő LT + LB + RT + RB és Start gombjának megnyomásával a billentyűkombinációk engedélyezhetők/letilthatók."
+
+# Miscellaneous
+msgctxt "#31840"
+msgid "Connect mouse to enable desktop mode"
+msgstr "Az asztali üzemmód engedélyezéséhez csatlakoztasson egeret"
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr "STEAM INICIALIZÁLÁSA"
+
+# New items for HiveMind
+
+msgctxt "#31842"
+msgid "GAMES"
+msgstr "JÁTÉKOK"
+
+msgctxt "#31843"
+msgid "Device Video"
+msgstr "Eszköz videó"
+
+msgctxt "#31844"
+msgid "Device Audio"
+msgstr "Eszköz audio"
+
+msgctxt "#31845"
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgctxt "#31846"
+msgid "Layouts"
+msgstr "Elrendezések"
+
+msgctxt "#31847"
+msgid "Hotkeys"
+msgstr "Gyorsbillentyűk"
+
+msgctxt "#31848"
+msgid "Videos"
+msgstr "Videók"
+
+msgctxt "#31849"
+msgid "Wikis"
+msgstr "Wiki"
+
+msgctxt "#31850"
+msgid "Device Settings"
+msgstr "Eszközbeállítások"
+
+msgctxt "#31851"
+msgid "Kodi Settings"
+msgstr "Kodi beállítások"
+
+msgctxt "#31852"
+msgid "Controller Layout for Menus"
+msgstr "Vezérlő elrendezés a menük számára"
+
+msgctxt "#31853"
+msgid "Controller Layout for Keyboard"
+msgstr "Vezérlő elrendezés a billentyűzet számára"
+
+msgctxt "#31854"
+msgid "Controller Layout for Video Playback"
+msgstr "Vezérlő elrendezés a videó lejátszás számára"
+
+msgctxt "#31855"
+msgid "Quick Start Guide"
+msgstr "Gyorsútmutató"
+
+msgctxt "#31856"
+msgid "Basic Controls"
+msgstr "Alap vezérlők"
+
+msgctxt "#31857"
+msgid "Adding music to the library"
+msgstr "Zene hozzáadása a könyvtárhoz"
+
+msgctxt "#31858"
+msgid "Adding video to the library"
+msgstr "Videó hozzáadása a könyvtárhoz"
+
+msgctxt "#31859"
+msgid "Add-ons Manager"
+msgstr "Kiegészítő kezelő"
+
+msgctxt "#31860"
+msgid "Confluence"
+msgstr "Confluence"
+
+msgctxt "#31861"
+msgid "HiveMind"
+msgstr "HiveMind"
+
+msgctxt "#31862"
+msgid "Home Page Games Sub-menu"
+msgstr "Kezdőoldal játék almenü"
+
+msgctxt "#31863"
+msgid "File Manager"
+msgstr "Fájlkezelő"
+
+msgctxt "#31864"
+msgid "Controller Layout for Music Playback"
+msgstr "Vezérlő elrendezés a zene lejátszás számára"
+
+msgctxt "#31865"
+msgid "Controller Layout for Slideshows"
+msgstr "Vezérlő elrendezés a diavetítés számára"
+
+msgctxt "#31866"
+msgid "The menu layout is used to perform basic navigation in the menu and interface. These are the default controls."
+msgstr "A menü elrendezés használható az alapvető navigációra a menükben és a felhasználói felületen. Ezek az alapértelmezett vezérlők."
+
+msgctxt "#31867"
+msgid "The keyboard layout is used whenever the onscreen keyboard appears."
+msgstr "A billentyűzet elrendezés használható bármikor, amikor a képernyőn billentyűzet jelenik meg."
+
+msgctxt "#31868"
+msgid "The video playback layout is used when you are watching a video, tv show, or movie."
+msgstr "A videó lejátszás elrendezés használható akkor, amikor videót, TV műsort vagy filmet néz."
+
+msgctxt "#31869"
+msgid "The music playback layout is used when you are listening to music or radio."
+msgstr "A zene lejátszó elrendezés használható zene vagy rádió hallgatásakor."
+
+msgctxt "#31870"
+msgid "The slideshow layout is used when you view picture slideshows. "
+msgstr "A diavetítés elrendezés használható képek diavetítésekor. "
+
+msgctxt "#31871"
+msgid "How to setup your HiveMind Interface."
+msgstr "A HiveMind felhasználói felület beállítása."
+
+msgctxt "#31872"
+msgid "How to use Add-ons in the HiveMind Interface."
+msgstr "Kiegészítők használata a HiveMind felhasználói felületen."
+
+msgctxt "#31873"
+msgid "How to use the advance settings in the HiveMind Interface."
+msgstr "Speciális beállítások használata a HiveMind felhasználói felületen."
+
+msgctxt "#31874"
+msgid "How to use the Controller Hot Keys."
+msgstr "A vezérlő billentyűkombinációk használata."
+
+msgctxt "#31875"
+msgid "Welcome to The HiveMind!"
+msgstr "A HiveMind üdvözli Önt!"
+
+msgctxt "#31876"
+msgid "The HiveMind is a powerful combination of the flexibility of Kodi Media Center, and customizations from Alienware. To find out more, select the quick start guide, or the \"?\" on the main menu. [CR][CR]This message will not appear again."
+msgstr "A HiveMind a Kodi Media Center rugalmasságának és az Alienware testreszabhatóságának ötvözete. Bővebb információért a főmenüben válassza a gyorsútmutatót vagy a \"?\" ikont. [CR][CR]Ez az üzenet nem jelenik meg újra."
+
+msgctxt "#31877"
+msgid "Select"
+msgstr "Kiválaszt"
+
+msgctxt "#31878"
+msgid "Context Menu"
+msgstr "Helyi menü"
+
+msgctxt "#31879"
+msgid "Previous Menu"
+msgstr "Előző menü"
+
+msgctxt "#31880"
+msgid "Queue"
+msgstr "Sor"
+
+msgctxt "#31881"
+msgid "Shutdown Menu"
+msgstr "Leállítás menü"
+
+msgctxt "#31882"
+msgid "Back"
+msgstr "Vissza"
+
+msgctxt "#31883"
+msgid "Full Screen Toggle"
+msgstr "Teljes képernyő váltása"
+
+msgctxt "#31884"
+msgid "Home"
+msgstr "Kezdőlap"
+
+msgctxt "#31885"
+msgid "Playlist"
+msgstr "Lejátszási lista"
+
+msgctxt "#31886"
+msgid "Favorites Menu"
+msgstr "Kedvencek menü"
+
+msgctxt "#31887"
+msgid "Navigation"
+msgstr "Navigáció"
+
+msgctxt "#31888"
+msgid "Controller Layout for Global"
+msgstr "Globális vezérlő elrendezés"
+
+msgctxt "#31889"
+msgid "Controller Layout for Fullscreen Video"
+msgstr "Vezérlő elrendezés a teljes képernyős videó számára"
+
+msgctxt "#31890"
+msgid "Pause"
+msgstr "Szünet"
+
+msgctxt "#31891"
+msgid "OnScreen Display"
+msgstr "Megjelenítés a képernyőn"
+
+msgctxt "#31892"
+msgid "Small Step Back"
+msgstr "Kis lépés vissza"
+
+msgctxt "#31893"
+msgid "Aspect Ratio"
+msgstr "Képméretarány"
+
+msgctxt "#31894"
+msgid "Fast Rewind"
+msgstr "Gyors visszatekerés"
+
+msgctxt "#31895"
+msgid "Stop"
+msgstr "Leállítás"
+
+msgctxt "#31896"
+msgid "Full Screen"
+msgstr "Teljes képernyő"
+
+msgctxt "#31897"
+msgid "ShowSubtitles"
+msgstr "Feliratok megjelenítése"
+
+msgctxt "#31898"
+msgid "Fast Forward"
+msgstr "Gyors előretekerés"
+
+msgctxt "#31899"
+msgid "Audio Next Language"
+msgstr "Audio – következő nyelv"
+
+msgctxt "#31900"
+msgid "Scrub Video"
+msgstr "Videó tisztítása"
+
+msgctxt "#31900"
+msgid "Scrub Video"
+msgstr "Videó tisztítása"
+
+msgctxt "#31610"
+msgid "Backspace"
+msgstr "Backspace"
+
+msgctxt "#31611"
+msgid "Cancel"
+msgstr "Mégse"
+
+msgctxt "#31612"
+msgid "Cursor Left"
+msgstr "Kurzor balra"
+
+msgctxt "#31613"
+msgid "Shift"
+msgstr "Shift"
+
+msgctxt "#31614"
+msgid "Space"
+msgstr "Szóköz"
+
+msgctxt "#31615"
+msgid "Enter"
+msgstr "Enter"
+
+msgctxt "#31616"
+msgid "Cursor Right"
+msgstr "Kurzor jobbra"
+
+msgctxt "#31617"
+msgid "Symbols"
+msgstr "Szimbólumok"
+
+msgctxt "#31618"
+msgid "Preset List"
+msgstr "Előre beállított lista"
+
+msgctxt "#31619"
+msgid "Info"
+msgstr "Infó"
+
+msgctxt "#31620"
+msgid "Skip"
+msgstr "Kihagyás"
+
+msgctxt "#31621"
+msgid "Zoom Normal"
+msgstr "Normál zoom"
+
+msgctxt "#31624"
+msgid "Zoom Out"
+msgstr "Távolítás"
+
+msgctxt "#31625"
+msgid "Zoom In"
+msgstr "Közelítés"
+
+msgctxt "#31626"
+msgid "Rotate"
+msgstr "Elforgatás"
+
+msgctxt "#31627"
+msgid "Navigate/Zoom"
+msgstr "Navigáció/Zoom"
+
+#END Alienware skin
+
+msgctxt "#31901"
+msgid "36 Hour Forecast"
+msgstr "36 órás előrejelzés"
+
+msgctxt "#31902"
+msgid "Hourly Forecast"
+msgstr "Előrejelzés óránként"
+
+msgctxt "#31903"
+msgid "Weekend Forecast"
+msgstr "Hétvégi előrejelzés"
+
+msgctxt "#31904"
+msgid "10 Day Forecast"
+msgstr "10 napos előrejelzés"
+
+msgctxt "#31905"
+msgid "Forecast"
+msgstr "Előrejelzés"
+
+msgctxt "#31908"
+msgid "Chance of Precipitation"
+msgstr "Csapadék esélye"
+
+msgctxt "#31909"
+msgid "Fetching forecast info..."
+msgstr "Előrejelzési információ letöltése..."
+
+msgctxt "#31910"
+msgid "Map & Alerts"
+msgstr "Térkép & Riasztások"
+
+msgctxt "#31950"
+msgid "WEATHER"
+msgstr "IDŐJÁRÁS"
+
+msgctxt "#31951"
+msgid "PICTURES"
+msgstr "KÉPEK"
+
+msgctxt "#31952"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31953"
+msgid "VIDEOS"
+msgstr "VIDEÓK"
+
+msgctxt "#31954"
+msgid "MOVIES"
+msgstr "FILMEK"
+
+msgctxt "#31955"
+msgid "TV SHOWS"
+msgstr "SOROZATOK"
+
+msgctxt "#31956"
+msgid "MUSIC"
+msgstr "ZENE"
+
+msgctxt "#31957"
+msgid "PROGRAMS"
+msgstr "PROGRAMOK"
+
+msgctxt "#31958"
+msgid "PLAY DISC"
+msgstr "LEMEZ LEJÁTSZÁSA"
+
+msgctxt "#31959"
+msgid "SYSTEM"
+msgstr "RENDSZER"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "RÁDIÓ"
+
+msgctxt "#31961"
+msgid "Launch Console Keyboard"
+msgstr "Konzol billentyűzet indítása"
+
+msgctxt "#31962"
+msgid "Pressing  LT+LB+RT+RB on the controller plus the Back button will open and close On Screen Keyboard."
+msgstr "Az LT+LB+RT+RB és a Share gombok megnyomásával megnyitja és bezárja a képernyőn megjelenő billentyűzetet."
+
+msgctxt "#31963"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the PS button will launch the System Menu."
+msgstr "Az L1+R1+L2+R2 és a  PS gombok megnyomásával elindítja a rendszer menüt."
+
+msgctxt "#31964"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "A gyorsgomb kombináció és az L3 megnyomásával bekapcsolja az egér illesztőprogramot. A gyorsgomb kombináció újabb megnyomásával kikapcsolja az illesztőprogramot."
+
+msgctxt "#31965"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "Ablakfókusz váltása Dpad bal vagy a Dpad jobb használatával. A funkció billentyűzetről is elérhető az Alt+Tab (jobb Shift) Shift+Alt+Tab (bal Shift) billentyűkombinációval."
+
+msgctxt "#31966"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "Ez a gyorsgomb megjeleníti a jelenleg teljes képernyő módban használt alkalmazást. Ugyanaz a funkció, mintha megnyomná az Alt+Enter billentyűkombinációt vagy az F11-et. Nem minden alkalmazás reagál erre a gyorsgombra."
+
+msgctxt "#31967"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "A gyorsgomb bezárja az éppen használt alkalmazást. Ugyanaz a funkció, mintha megnyomná az Alt+F4 vagy az Alt+Q billentyűkombinációkat. Nem minden alkalmazás reagál erre a gyorsgombra."
+
+msgctxt "#31968"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the Option button will enable/disable the hotkeys."
+msgstr "Az  L1+R1+L2+R2 és az Option gomb megnyomásával engedélyezi/letiltja a gyorsgombokat."
+
+msgctxt "#31969"
+msgid "Pressing  L1+R1+L2+R2 on the controller plus the Share button will open and close On Screen Keyboard."
+msgstr "Az L1+R1+L2+R2 és a Share gombok megnyomásával megnyitja és bezárja a képernyőn megjelenő billentyűzetet."
+
+msgctxt "#31970"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Steam button will launch the System Menu."
+msgstr "Az LT+RB+LB+RB és a Steam gombok megnyomásával megnyitja a rendszermenüt."
+
+msgctxt "#31971"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "A gyorsgomb kombináció és az L3 megnyomásával bekapcsolja az egér illesztőprogramot. A gyorsgomb kombináció újabb megnyomásával kikapcsolja az illesztőprogramot."
+
+msgctxt "#31972"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "Ablakfókusz váltása a Dpad bal vagy a Dpad jobb használatával. A funkció billentyűzetről is elérhető az Alt+Tab (jobb Shift) Shift+Alt+Tab (bal Shift) billentyűkombinációval."
+
+msgctxt "#31973"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "Ez a gyorsgomb megjeleníti a jelenleg teljes képernyő módban használt alkalmazást. Ugyanaz a funkció, mintha megnyomná az Alt+Enter billentyűkombinációt vagy az F11-et. Nem minden alkalmazás reagál erre a gyorsgombra."
+
+msgctxt "#31974"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "A gyorsgomb bezárja az éppen használt alkalmazást. Ugyanaz a funkció, mintha megnyomná az Alt+F4 vagy az Alt+Q billentyűkombinációkat. Nem minden alkalmazás reagál erre a gyorsgombra."
+
+msgctxt "#31975"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Start button will enable/disable the hotkeys."
+msgstr "Az LT+RB+LB+RB  és a Start gomb megnyomásával engedélyezi/letiltja a gyorsgombokat."
+
+msgctxt "#31976"
+msgid "Pressing  LT+RB+LB+RB on the controller plus the back button will open and close On Screen Keyboard."
+msgstr "Az LT+RB+LB+RB és a vissza gombok megnyomásával megnyitja és bezárja a képernyőn megjelenő billentyűzetet."
+
+msgctxt "#31977"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "#31978"
+msgid "Controller Layout for On Screen Keyboard (OSK)"
+msgstr "Kontroller-kiosztás a képernyőn megjelenő billentyűzethez (OSK)"
+
+msgctxt "#31979"
+msgid "Controller Layout for Browser"
+msgstr "Kontroller-kiosztás a böngészőhöz"
+
+msgctxt "#31980"
+msgid "Left Click"
+msgstr "Bal kattintás"
+
+msgctxt "#31981"
+msgid "Right Click"
+msgstr "Jobb kattintás"
+
+msgctxt "#31982"
+msgid "Go to left tab in browser"
+msgstr "A böngészőben a bal oldali lapra lép"
+
+msgctxt "#31983"
+msgid "Go to right tab in browser"
+msgstr "A böngészőben a jobb oldali lapra lép"
+
+msgctxt "#31984"
+msgid "New Tab"
+msgstr "Új lap"
+
+msgctxt "#31985"
+msgid "Shift + Tab"
+msgstr "Shift + Tab"
+
+msgctxt "#31986"
+msgid "Tab"
+msgstr "Tab"
+
+msgctxt "#31987"
+msgid "Dpad Up/Down = Zoom in/out[CR]Dpad Left = Website Back[CR]Dpad Right = Website Forward"
+msgstr "Dpad fel/le = Nagyítás/kicsinyítés[CR]Dpad bal = Előző lap a böngészőben[CR]Dpad jobb = Következő oldal a böngészőben"
+
+msgctxt "#31988"
+msgid "Controller Mouse will be disabled when On-Screen Keyboard (OSK) is ON and when OSK is OFF, Controller Mouse will restore its previous state."
+msgstr "A kontroller egeret letiltja rendszer, ha a képernyőn megjelenő billentyűzet (OSK) be van kapcsolva. Visszaállítja a kontroller egér előző állapotát, ha az OSK kikapcsolásra kerül."
+
+msgctxt "#31989"
+msgid "How to customize your home menu."
+msgstr "Útmutató a kezdőmenü testreszabásához."
+
+msgctxt "#31990"
+msgid "How to install additional repositories."
+msgstr "Útmutató további tárak telepítéséhez."
+
+msgctxt "#31991"
+msgid "File"
+msgstr "Fájl"
+
+msgctxt "#31992"
+msgid "Tab/Scroll Website"
+msgstr "Léptetés/görgetés a honlapon"
+

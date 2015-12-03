@@ -1,0 +1,1251 @@
+# Kodi Media Center language file
+# Addon Name: Confluence
+# Addon id: skin.confluence
+# Addon Provider: Jezz_X, Team Kodi
+msgid ""
+msgstr ""
+"Project-Id-Version: XBMC Main\n"
+"Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: French (http://www.transifex.com/projects/p/xbmc-main/language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgctxt "#31000"
+msgid "Change Your"
+msgstr "Changement des"
+
+msgctxt "#31003"
+msgid "Power Options"
+msgstr "Options d'alimentation"
+
+msgctxt "#31004"
+msgid "Working..."
+msgstr "En cours…"
+
+msgctxt "#31005"
+msgid "Hide Information"
+msgstr "Masquer les informations"
+
+msgctxt "#31006"
+msgid "View Options"
+msgstr "Options d'affichage"
+
+msgctxt "#31008"
+msgid "Full screen"
+msgstr "Plein écran"
+
+msgctxt "#31009"
+msgid "Total Duration"
+msgstr "Durée totale"
+
+msgctxt "#31022"
+msgid "Music - Files"
+msgstr "Musique - Fichiers"
+
+msgctxt "#31023"
+msgid "Playing"
+msgstr "Lecture"
+
+msgctxt "#31024"
+msgid "Page"
+msgstr "Page"
+
+msgctxt "#31025"
+msgid "Items"
+msgstr "Objets"
+
+msgctxt "#31026"
+msgid "Misc Options"
+msgstr "Options diverses"
+
+msgctxt "#31027"
+msgid "Location"
+msgstr "Emplacement"
+
+msgctxt "#31028"
+msgid "Poster Wrap"
+msgstr "Galerie d'affiches"
+
+msgctxt "#31029"
+msgid "Fanart"
+msgstr "Fanart"
+
+msgctxt "#31031"
+msgid "Pic Thumbs"
+msgstr "Vignettes"
+
+msgctxt "#31032"
+msgid "Image Wrap"
+msgstr "Galerie d'images"
+
+msgctxt "#31033"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#31039"
+msgid "Actions"
+msgstr "Actions"
+
+msgctxt "#31040"
+msgid "Now Playing"
+msgstr "Lecture en cours"
+
+msgctxt "#31042"
+msgid "PLAYING"
+msgstr "LECTURE"
+
+msgctxt "#31043"
+msgid "PAUSED"
+msgstr "PAUSE"
+
+msgctxt "#31044"
+msgid "FAST FORWARD"
+msgstr "AVANCE RAPIDE"
+
+msgctxt "#31045"
+msgid "REWIND"
+msgstr "RETOUR RAPIDE"
+
+msgctxt "#31046"
+msgid "SEEKING"
+msgstr "RECHERCHE"
+
+msgctxt "#31048"
+msgid "Visualisation Presets"
+msgstr "Préréglages de visualisation"
+
+msgctxt "#31049"
+msgid "End Time"
+msgstr "Échéance"
+
+msgctxt "#31050"
+msgid "Sort: Ascending"
+msgstr "Tri : ascendant"
+
+msgctxt "#31051"
+msgid "Sort: Descending"
+msgstr "Tri : descendant"
+
+msgctxt "#31055"
+msgid "Open playlist"
+msgstr "Ouvrir une playliste"
+
+msgctxt "#31056"
+msgid "Save playlist"
+msgstr "Sauvegarder la playliste"
+
+msgctxt "#31057"
+msgid "Close playlist"
+msgstr "Fermer la playliste"
+
+msgctxt "#31058"
+msgid "System music files"
+msgstr "Fichiers musique du système"
+
+msgctxt "#31059"
+msgid "Current playlist"
+msgstr "Playliste actuelle"
+
+msgctxt "#31060"
+msgid "This file is stacked, select the part you want to play from."
+msgstr "Ce fichier est empilé, sélectionnez le point à partir duquel vous souhaitez lire."
+
+msgctxt "#31061"
+msgid "Current Selected"
+msgstr "Sélection actuelle"
+
+msgctxt "#31101"
+msgid "Home screen options"
+msgstr "Options de l'écran d'accueil"
+
+msgctxt "#31102"
+msgid "Background"
+msgstr "Arrière-plan"
+
+msgctxt "#31103"
+msgid "Show \"Paused\" in picture slide show"
+msgstr "Afficher « Pause » dans le diaporama d'images"
+
+msgctxt "#31104"
+msgid "Play Trailers in a window [COLOR=grey3](Video Information Dialogue Only)[/COLOR]"
+msgstr "Lire les bandes annonces dans une fenêtre [COLOR=grey3](Écran d'information sur la vidéo uniquement)[/COLOR]"
+
+msgctxt "#31106"
+msgid "Miscellaneous options"
+msgstr "Options diverses"
+
+msgctxt "#31107"
+msgid "Hide Flagging read from video filenames [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+msgstr "Masquer l'indicateur de fichiers vidéo déjà vus [COLOR=grey3](Blu-ray, HD-DVD)[/COLOR]"
+
+msgctxt "#31108"
+msgid "Hide Main Menu Buttons"
+msgstr "Masquer les boutons du menu principal"
+
+msgctxt "#31109"
+msgid "Enable Custom Background"
+msgstr "Activer l'arrière-plan personnalisé"
+
+msgctxt "#31110"
+msgid "Background path:"
+msgstr "Chemin de l'arrière-plan :"
+
+msgctxt "#31111"
+msgid "Hide"
+msgstr "Masquer"
+
+msgctxt "#31112"
+msgid "Options"
+msgstr "Options"
+
+msgctxt "#31116"
+msgid "Show Recently added Albums"
+msgstr "Afficher les albums récemment ajoutés"
+
+msgctxt "#31117"
+msgid "Show Recently added Videos"
+msgstr "Afficher les vidéos récemment ajoutées"
+
+msgctxt "#31118"
+msgid "Home Page Programs Sub-menu"
+msgstr "Page d'accueil du sous-menu Programmes"
+
+msgctxt "#31119"
+msgid "Hide Background Fanart"
+msgstr "Masquer le Fanart d’arrière-plan"
+
+msgctxt "#31124"
+msgid "Show Background \"Now Playing\" Video"
+msgstr "Afficher la vidéo en cours de lecture en arrière-plan"
+
+msgctxt "#31125"
+msgid "Show Background \"Now Playing\" Visualisation"
+msgstr "Afficher la visualisation en cours de lecture en arrière-plan"
+
+msgctxt "#31126"
+msgid "Play TV theme songs in video library (TvTunes add-on)"
+msgstr "Jouer les génériques TV dans la vidéothèque (extension TvTunes)"
+
+msgctxt "#31127"
+msgid "TvTunes"
+msgstr "TvTunes"
+
+msgctxt "#31128"
+msgid "Lyrics"
+msgstr "Paroles"
+
+msgctxt "#31129"
+msgid "Hide Fanart in full screen visualisation"
+msgstr "Cacher Fanart en mode plein écran"
+
+msgctxt "#31132"
+msgid "Lyrics Add-on"
+msgstr "Extension gérant les paroles"
+
+msgctxt "#31134"
+msgid "Home Page Videos Sub-menu"
+msgstr "Page d'accueil du sous-menu Vidéos"
+
+msgctxt "#31135"
+msgid "Home Page Music Sub-menu"
+msgstr "Page d'accueil du sous-menu Musique"
+
+msgctxt "#31136"
+msgid "Home Page Pictures Sub-menu"
+msgstr "Page d'accueil du sous-menu Images"
+
+msgctxt "#31140"
+msgid "Music OSD"
+msgstr "Menu à l'écran Musique"
+
+msgctxt "#31141"
+msgid "Video OSD"
+msgstr "Menu à l'écran Vidéo"
+
+msgctxt "#31142"
+msgid "Settings level"
+msgstr "Niveau de paramètres"
+
+msgctxt "#31200"
+msgid "Shortcuts"
+msgstr "Raccourcis"
+
+msgctxt "#31203"
+msgid "Choose Your Song"
+msgstr "Choisissez votre chanson"
+
+msgctxt "#31205"
+msgid "Lyrics Source"
+msgstr "Source pour les paroles"
+
+msgctxt "#31206"
+msgid "Found"
+msgstr "Trouvé"
+
+msgctxt "#31207"
+msgid "Find More Items"
+msgstr "Trouver plus d'éléments"
+
+msgctxt "#31208"
+msgid "Upcoming Episodes"
+msgstr "Prochains épisodes"
+
+msgctxt "#31300"
+msgid "Current Temp"
+msgstr "Température actuelle"
+
+msgctxt "#31301"
+msgid "Last Updated"
+msgstr "Dernière mise à jour"
+
+msgctxt "#31303"
+msgid "Data provider"
+msgstr "Fournisseur de données"
+
+msgctxt "#31307"
+msgid "Hide Fanart"
+msgstr "Sans Fanart"
+
+msgctxt "#31308"
+msgid "Movie Details"
+msgstr "Détails du film"
+
+msgctxt "#31309"
+msgid "Memory Used:"
+msgstr "Mémoire utilisée :"
+
+msgctxt "#31310"
+msgid "Track Number"
+msgstr "Numéro de la piste"
+
+msgctxt "#31311"
+msgid "Fanart image[CR][CR]Unavailable[CR][CR] Click button to set"
+msgstr "Image Fanart[CR][CR]Indisponible[CR][CR] Cliquer sur le bouton pour définir"
+
+msgctxt "#31312"
+msgid "Current Scraper"
+msgstr "Scraper actuel"
+
+msgctxt "#31313"
+msgid "Choose a Scraper"
+msgstr "Choisissez un Scraper"
+
+msgctxt "#31314"
+msgid "Content Scanning Options"
+msgstr "Options de scan de contenu"
+
+msgctxt "#31317"
+msgid "Set Fanart Path"
+msgstr "Définir le chemin du Fanart"
+
+msgctxt "#31319"
+msgid "Selected Profile"
+msgstr "Profil sélectionné"
+
+msgctxt "#31320"
+msgid "Last Logged In"
+msgstr "Dernière connexion"
+
+msgctxt "#31321"
+msgid "Karaoke Song Selector"
+msgstr "Sélecteur chanson karaoké"
+
+msgctxt "#31322"
+msgid "Aired"
+msgstr "Diffusé"
+
+msgctxt "#31325"
+msgid "Playlist Options"
+msgstr "Options de playliste"
+
+msgctxt "#31326"
+msgid "Created"
+msgstr "Créé"
+
+msgctxt "#31327"
+msgid "Resolution"
+msgstr "Résolution"
+
+msgctxt "#31328"
+msgid "Recently Added"
+msgstr "Récemment ajouté"
+
+msgctxt "#31329"
+msgid "[B]Timer set![/B] [COLOR=grey2] - System auto shutdown in[/COLOR]"
+msgstr "[B]Minuterie réglée ![/B] [COLOR=grey2] - Arrêt automatique du système dans[/COLOR]"
+
+msgctxt "#31330"
+msgid "Click button to play[CR][CR]Movie trailer"
+msgstr "Cliquer sur le bouton pour lire[CR][CR]la bande-annonce du film"
+
+msgctxt "#31331"
+msgid "Album Details"
+msgstr "Détails de l'album"
+
+msgctxt "#31351"
+msgid "Pause"
+msgstr "Pause"
+
+msgctxt "#31352"
+msgid "Stop"
+msgstr "Stop"
+
+msgctxt "#31353"
+msgid "Fast Forward"
+msgstr "Avance rapide"
+
+msgctxt "#31354"
+msgid "Rewind"
+msgstr "Retour rapide"
+
+msgctxt "#31355"
+msgid "Movie menu"
+msgstr "Menu Film"
+
+msgctxt "#31356"
+msgid "Download Subtitles"
+msgstr "Télécharger les sous-titres"
+
+msgctxt "#31360"
+msgid "Watch as 2D"
+msgstr "Voir en 2D"
+
+msgctxt "#31361"
+msgid "Change mode"
+msgstr "Changer de mode"
+
+msgctxt "#31362"
+msgid "Enabled"
+msgstr "Activé"
+
+msgctxt "#31390"
+msgid "Skin default"
+msgstr "Par défaut"
+
+msgctxt "#31391"
+msgid "Skin default with no Caps"
+msgstr "Par défaut sans majuscule"
+
+msgctxt "#31392"
+msgid "Arial based"
+msgstr "Basé sur Arial"
+
+msgctxt "#31400"
+msgid "[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES APPARENCE[/B][CR][CR]Changer le thème · Définir la langue et la région · Changer les options de liste de fichiers[CR]Paramétrer l'économiseur d'écran"
+
+msgctxt "#31401"
+msgid "[B]CONFIGURE VIDEO SETTINGS[/B][CR][CR]Manage your video library · Set video playback options · Change video listing options[CR]Set subtitle fonts"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES VIDÉO[/B][CR][CR]Gérer votre médiathèque vidéo · Définir les options de lecture · Changer les options des listes de vidéos[CR]Définir la police des sous-titres"
+
+msgctxt "#31402"
+msgid "[B]CONFIGURE MUSIC SETTINGS[/B][CR][CR]Manage your music library · Set music playback options · Change music listing options[CR]Setup song submission · Set karaoke options"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES MUSIQUE[/B][CR][CR]Gérer votre médiathèque musique · Définir les options de lecture · Changer les options des listes de musique[CR]Paramétrer les soumissions de chansons · Définir les options karaoké"
+
+msgctxt "#31403"
+msgid "[B]CONFIGURE PICTURE SETTINGS[/B][CR][CR]Set picture listing options · Configure slideshows"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES IMAGE[/B][CR][CR]Définir les options de lecture · Configurer les diaporamas"
+
+msgctxt "#31404"
+msgid "[B]CONFIGURE WEATHER SETTINGS[/B][CR][CR]Set three cities to collect weather information"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES MÉTÉO[/B][CR][CR]Choisir trois villes pour lesquelles recueillir les informations météorologiques"
+
+msgctxt "#31406"
+msgid "[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES SYSTÈME[/B][CR][CR]Configurer et calibrer les écrans · Configurer les sorties audio · Configurer les périphériques de contrôle[CR]Définir les options de gestion d'énergie · Activer le débogage · Configurer la sécurité"
+
+msgctxt "#31408"
+msgid "[B]CONFIGURE ADD-ONS[/B][CR][CR]Manage your installed Add-ons · Browse for and install Add-ons from xbmc.org[CR]Modify Add-on settings"
+msgstr "[B]CONFIGURATION DES EXTENSIONS[/B][CR][CR]Gérer les extensions installées · Recherche et installation d'extensions depuis xbmc.org[CR]Modifier les paramètres des extensions"
+
+msgctxt "#31409"
+msgid "[B]CONFIGURE TV SETTINGS[/B][CR][CR]Change full screen info · Manage EPG data settings"
+msgstr "[B]CONFIGURER RÉGLAGES TV[/B][CR][CR]Changer les informations de plein écran · Gérer les données du guide des programmes"
+
+msgctxt "#31410"
+msgid "[B]CONFIGURE SERVICE SETTINGS[/B][CR][CR]Setup control of Kodi via UPnP and HTTP · Configure file sharing[CR]Enable Zeroconf · Configure AirPlay"
+msgstr "[B]CONFIGURATION DES PARAMÈTRES DE SERVICE[/B][CR][CR]Configurer le contrôle de Kodi en UPnP et HTTP · Configurer le partage de fichiers[CR]Activer Zeroconf · Configurer AirPlay"
+
+msgctxt "#31411"
+msgid "First run help...."
+msgstr "Aide au démarrage"
+
+msgctxt "#31412"
+msgid "This tab signifies that there is a menu off to the side of this window that contains extra options for this section.  To access the menu, navigate to the left with your remote control or keyboard or place your mouse pointer over the tab. [CR][CR]Click \"Ok\" to close this dialogue. It will not appear again."
+msgstr "Cet onglet signale un menu en côté de fenêtre contenant des options supplémentaires pour cette section.  Pour accéder à ce menu, appuyez sur la flèche de gauche sur votre télécommande ou votre clavier ou placez votre souris au dessus de l'onglet. [CR][CR]Cliquez sur \"Ok\" pour fermer cette fenêtre. Elle n’apparaîtra plus."
+
+msgctxt "#31413"
+msgid "Local subtitle available"
+msgstr "Sous-titres locaux disponibles"
+
+msgctxt "#31420"
+msgid "Login"
+msgstr "Connexion"
+
+msgctxt "#31421"
+msgid "Select your Kodi user Profile[CR]to login and continue"
+msgstr "Sélectionnez le profil d'utilisateur[CR]auquel vous connecter et continuer"
+
+msgctxt "#31422"
+msgid "Show or hide the login screen at startup."
+msgstr "Montrer ou cacher l'écran de connexion au démarrage."
+
+msgctxt "#31423"
+msgid "Select the profile that will be used at startup when the login screen is disabled."
+msgstr "Sélectionner le profil utilisé au démarrage lorsque l'écran de connexion est désactivée."
+
+msgctxt "#31501"
+msgid "Scheduled Time"
+msgstr "Heure prévue"
+
+msgctxt "#31502"
+msgid "Live TV"
+msgstr "TV Direct"
+
+msgctxt "#31503"
+msgid "Add Group"
+msgstr "Ajouter un groupe"
+
+msgctxt "#31504"
+msgid "Rename Group"
+msgstr "Renommer le groupe"
+
+msgctxt "#31505"
+msgid "Delete Group"
+msgstr "Supprimer le groupe"
+
+msgctxt "#31506"
+msgid "Available[CR]Groups"
+msgstr "Groupes[CR]disponibles"
+
+msgctxt "#31509"
+msgid "Channel Group"
+msgstr "Groupe des chaînes"
+
+msgctxt "#31510"
+msgid "Timer Set"
+msgstr "Réglage de la minuterie"
+
+msgctxt "#31511"
+msgid "Channel Options"
+msgstr "Options des chaînes"
+
+#START Alienware skin
+#Power menu
+
+msgctxt "#31600"
+msgid "WELCOME TO ALPHA UI"
+msgstr "BIENVENUE DANS ALPHA UI"
+
+msgctxt "#31601"
+msgid "SHUT DOWN CONSOLE"
+msgstr "FERMER LA CONSOLE"
+
+msgctxt "#31602"
+msgid "RESTART CONSOLE"
+msgstr "REDÉMARRER LA CONSOLE"
+
+msgctxt "#31622"
+msgid "RESTART SYSTEM"
+msgstr "REDÉMARRER LE SYSTÈME"
+
+msgctxt "#31623"
+msgid "SHUT DOWN SYSTEM"
+msgstr "ÉTEINDRE LE SYSTÈME"
+
+msgctxt "#31603"
+msgid "SLEEP"
+msgstr "VEILLE"
+
+# Home menu
+msgctxt "#31604"
+msgid "Power"
+msgstr "Alimentation"
+
+msgctxt "#31605"
+msgid "Launch[CR]Steam"
+msgstr "Lancer[CR]Steam"
+
+msgctxt "#31606"
+msgid "Settings"
+msgstr "Paramètres"
+
+msgctxt "#31607"
+msgid "GO TO DESKTOP"
+msgstr "ALLER AU BUREAU"
+
+msgctxt "#31608"
+msgid "HELP"
+msgstr "AIDE"
+
+msgctxt "#31609"
+msgid "Launch System Menu at anytime by pressing LT + LB + RT + RB + Guide button."
+msgstr "Lancez le menu système à tout moment en pressant LT + LB + RT + RB + Bouton guide."
+
+# Settings screen - Backgrounds
+msgctxt "#31660"
+msgid "Backgrounds"
+msgstr "Arrières-plans"
+
+# Settings screen - Console
+msgctxt "#31685"
+msgid "Customization"
+msgstr "Personnalisation"
+
+msgctxt "#31686"
+msgid "AlienFX"
+msgstr "AlienFX"
+
+msgctxt "#31687"
+msgid "Updates"
+msgstr "Mises à jour"
+
+msgctxt "#31688"
+msgid "Boot Options"
+msgstr "Options de démarrage"
+
+# Confirm Dialog
+msgctxt "#31781"
+msgid "Yes"
+msgstr "Oui"
+
+msgctxt "#31782"
+msgid "No"
+msgstr "Non"
+
+msgctxt "#31783"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "#31784"
+msgid "Restart"
+msgstr "Redémarrer"
+
+msgctxt "#31785"
+msgid "OK"
+msgstr "OK"
+
+# Help
+msgctxt "#31800"
+msgid "Hotkeys"
+msgstr "Raccourcis clavier"
+
+msgctxt "#31810"
+msgid "Systems Menu"
+msgstr "Menu systèmes"
+
+msgctxt "#31811"
+msgid "Shifting Focus"
+msgstr "Déplacer le focus"
+
+msgctxt "#31812"
+msgid "Full Screen"
+msgstr "Plein écran"
+
+msgctxt "#31813"
+msgid "Controller Mouse"
+msgstr "Contrôleur souris"
+
+msgctxt "#31814"
+msgid "Guide"
+msgstr "Guide"
+
+msgctxt "#31815"
+msgid "Dpad Left"
+msgstr "Dpad gauche"
+
+msgctxt "#31816"
+msgid "Dpad Right"
+msgstr "Dpad droit"
+
+msgctxt "#31817"
+msgid "Dpad Up"
+msgstr "Dpad haut"
+
+msgctxt "#31818"
+msgid "L3"
+msgstr "L3"
+
+msgctxt "#31820"
+msgid "Hotkey Combination LT + LB + RT + RB + Guide button"
+msgstr "Combinaison du raccourci LT + LB + RT + RB + Bouton guide"
+
+msgctxt "#31821"
+msgid "Pressing LT + LB + RT + RB on the controller plus the Guide button will launch the Systems Menu."
+msgstr "Appuyer sur LT + LB + RT + RB sur le contrôleur plus sur le bouton guide ouvrira le menu systèmes."
+
+msgctxt "#31822"
+msgid "Hotkey Combination LT + LB + RT + RB + Left or Right"
+msgstr "Combinaison du raccourci LT + LB + RT + RB + Gauche ou Droite"
+
+msgctxt "#31823"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt + Tab (Shift Right) or Shift + Alt + Tab (Shift Left)."
+msgstr "Modifie le focus de fenêtre à l'aide du Dpad gauche ou Dpad droit. Il est également possible d'accéder à cette fonction par le clavier via Alt + Tab (Maj droit) ou Maj+ Alt + Tab (Maj gauche)."
+
+msgctxt "#31824"
+msgid "Hotkey Combination LT + LB + RT + RB + Dpad Up"
+msgstr "Combinaison du raccourci LT + LB + RT + RB + Dpad haut"
+
+msgctxt "#31825"
+msgid "This hot key will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hot key."
+msgstr "Ce raccourci tentera de faire passer l'application que vous utilisez actuellement en plein écran. C'est la même chose que Alt+Enter et F11 sur un clavier. Ce raccourci ne fonctionnera pas sur toutes les applications."
+
+msgctxt "#31826"
+msgid "Hotkey Combination LT + LB + RT + RB + L3"
+msgstr "Combinaison du raccourci LT + LB + RT + RB + L3"
+
+msgctxt "#31827"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "Cette combinaison du raccourci plus une pression sur L3 active le pilote de souris. Presser de nouveau la combinaison du raccourci désactive le pilote."
+
+msgctxt "#31828"
+msgid "System software update failed. Shutdown console in order to begin software update."
+msgstr "Échec de la mise à jour du logiciel système. Fermez la console afin de commencer la mise à jour du logiciel."
+
+msgctxt "#31829"
+msgid "New update available - shut down console to begin download"
+msgstr "Nouvelle mise à jour disponible - fermez la console pour commencer le téléchargement"
+
+msgctxt "#31830"
+msgid "Close Application"
+msgstr "Fermer l'application"
+
+msgctxt "#31831"
+msgid "This hot key will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hot key."
+msgstr "Ce raccourci tentera de fermer l'application que vous utilisez actuellement. C'est la même chose que Alt+F4 et Alt+Q sur un clavier. Ce raccourci ne fonctionnera pas sur toutes les applications."
+
+msgctxt "#31832"
+msgid "Disable Hotkey"
+msgstr "Désactiver le raccourci"
+
+msgctxt "#31833"
+msgid "Pressing LT + LB + RT + RB on the controller plus the Start button will enable/disable the hotkeys"
+msgstr "Vous pouvez activer/désactiver les raccourcis en appuyant sur LT + LB + RT + RB en même temps que le bouton Start sur la manette."
+
+# Miscellaneous
+msgctxt "#31840"
+msgid "Connect mouse to enable desktop mode"
+msgstr "Connectez la souris pour activer le mode bureau"
+
+msgctxt "#31841"
+msgid "INITIALIZING STEAM"
+msgstr "INITIALISATION DE STEAM"
+
+# New items for HiveMind
+
+msgctxt "#31842"
+msgid "GAMES"
+msgstr "JEUX"
+
+msgctxt "#31843"
+msgid "Device Video"
+msgstr "Vidéo du périphérique"
+
+msgctxt "#31844"
+msgid "Device Audio"
+msgstr "Audio du périphérique"
+
+msgctxt "#31845"
+msgid "Bluetooth"
+msgstr "Bluetooth"
+
+msgctxt "#31846"
+msgid "Layouts"
+msgstr "Disposition"
+
+msgctxt "#31847"
+msgid "Hotkeys"
+msgstr "Raccourcis clavier"
+
+msgctxt "#31848"
+msgid "Videos"
+msgstr "Vidéos"
+
+msgctxt "#31849"
+msgid "Wikis"
+msgstr "Wikis"
+
+msgctxt "#31850"
+msgid "Device Settings"
+msgstr "Paramètres du périphérique"
+
+msgctxt "#31851"
+msgid "Kodi Settings"
+msgstr "Paramètres Kodi"
+
+msgctxt "#31852"
+msgid "Controller Layout for Menus"
+msgstr "Disposition du contrôleur pour Menus"
+
+msgctxt "#31853"
+msgid "Controller Layout for Keyboard"
+msgstr "Disposition du contrôleur pour Clavier"
+
+msgctxt "#31854"
+msgid "Controller Layout for Video Playback"
+msgstr "Disposition du contrôleur pour Lecture vidéo"
+
+msgctxt "#31855"
+msgid "Quick Start Guide"
+msgstr "Guide de démarrage rapide"
+
+msgctxt "#31856"
+msgid "Basic Controls"
+msgstr "Touches basiques"
+
+msgctxt "#31857"
+msgid "Adding music to the library"
+msgstr "Ajouter de la musique à la bibliothèque"
+
+msgctxt "#31858"
+msgid "Adding video to the library"
+msgstr "Ajouter des vidéos à la bibliothèque"
+
+msgctxt "#31859"
+msgid "Add-ons Manager"
+msgstr "Gestionnaire de plug-ins"
+
+msgctxt "#31860"
+msgid "Confluence"
+msgstr "Confluence"
+
+msgctxt "#31861"
+msgid "HiveMind"
+msgstr "HiveMind"
+
+msgctxt "#31862"
+msgid "Home Page Games Sub-menu"
+msgstr "Sous-menu des jeux de la page d’accueil"
+
+msgctxt "#31863"
+msgid "File Manager"
+msgstr "Gestionnaire de fichiers"
+
+msgctxt "#31864"
+msgid "Controller Layout for Music Playback"
+msgstr "Disposition du contrôleur pour Lecture de musique"
+
+msgctxt "#31865"
+msgid "Controller Layout for Slideshows"
+msgstr "Disposition du contrôleur pour Diaporama"
+
+msgctxt "#31866"
+msgid "The menu layout is used to perform basic navigation in the menu and interface. These are the default controls."
+msgstr "La disposition de menu est utilisée pour effectuer une navigation basique dans le menu et l'interface. Ce sont les contrôles par défaut."
+
+msgctxt "#31867"
+msgid "The keyboard layout is used whenever the onscreen keyboard appears."
+msgstr "La disposition de clavier est utilisée dès que le clavier sur écran apparaît."
+
+msgctxt "#31868"
+msgid "The video playback layout is used when you are watching a video, tv show, or movie."
+msgstr "La disposition de lecture vidéo est utilisée lorsque vous visualisez une vidéo, une émission télévisée ou un film."
+
+msgctxt "#31869"
+msgid "The music playback layout is used when you are listening to music or radio."
+msgstr "La disposition de lecture de musique est utilisée lorsque vous écoutez de la musique ou la radio."
+
+msgctxt "#31870"
+msgid "The slideshow layout is used when you view picture slideshows. "
+msgstr "La disposition de diaporama est utilisée lorsque vous visualisez des diaporamas d'images. "
+
+msgctxt "#31871"
+msgid "How to setup your HiveMind Interface."
+msgstr "Comment configurer votre interface HiveMind."
+
+msgctxt "#31872"
+msgid "How to use Add-ons in the HiveMind Interface."
+msgstr "Comment utiliser des add-on dans l'interface HiveMind."
+
+msgctxt "#31873"
+msgid "How to use the advance settings in the HiveMind Interface."
+msgstr "Comment utiliser les paramètres avancés dans l'interface HiveMind."
+
+msgctxt "#31874"
+msgid "How to use the Controller Hot Keys."
+msgstr "Comment utiliser les raccourcis de contrôleur."
+
+msgctxt "#31875"
+msgid "Welcome to The HiveMind!"
+msgstr "Bienvenue dans HiveMind !"
+
+msgctxt "#31876"
+msgid "The HiveMind is a powerful combination of the flexibility of Kodi Media Center, and customizations from Alienware. To find out more, select the quick start guide, or the \"?\" on the main menu. [CR][CR]This message will not appear again."
+msgstr "HiveMind est une association puissante de l’adaptabilité de Kodi Media Center et des options de personnalisation de Alienware. Pour en savoir plus, sélectionnez le guide de démarrage ou cliquez sur « ? » dans le menu principal. [CR][CR]Ce message n’apparaîtra plus à l’avenir."
+
+msgctxt "#31877"
+msgid "Select"
+msgstr "Sélectionnez"
+
+msgctxt "#31878"
+msgid "Context Menu"
+msgstr "Menu contextuel"
+
+msgctxt "#31879"
+msgid "Previous Menu"
+msgstr "Menu précédent"
+
+msgctxt "#31880"
+msgid "Queue"
+msgstr "File"
+
+msgctxt "#31881"
+msgid "Shutdown Menu"
+msgstr "Menu de fermeture"
+
+msgctxt "#31882"
+msgid "Back"
+msgstr "Retour"
+
+msgctxt "#31883"
+msgid "Full Screen Toggle"
+msgstr "Basculement plein écran"
+
+msgctxt "#31884"
+msgid "Home"
+msgstr "Accueil"
+
+msgctxt "#31885"
+msgid "Playlist"
+msgstr "Liste de lecture"
+
+msgctxt "#31886"
+msgid "Favorites Menu"
+msgstr "Menus favoris"
+
+msgctxt "#31887"
+msgid "Navigation"
+msgstr "Navigation"
+
+msgctxt "#31888"
+msgid "Controller Layout for Global"
+msgstr "Disposition du contrôleur pour global"
+
+msgctxt "#31889"
+msgid "Controller Layout for Fullscreen Video"
+msgstr "Disposition du contrôleur pour les vidéos en plein écran"
+
+msgctxt "#31890"
+msgid "Pause"
+msgstr "Pause"
+
+msgctxt "#31891"
+msgid "OnScreen Display"
+msgstr "Affichage sur écran"
+
+msgctxt "#31892"
+msgid "Small Step Back"
+msgstr "Léger retour arrière"
+
+msgctxt "#31893"
+msgid "Aspect Ratio"
+msgstr "Proportions"
+
+msgctxt "#31894"
+msgid "Fast Rewind"
+msgstr "Retour arrière rapide"
+
+msgctxt "#31895"
+msgid "Stop"
+msgstr "Stop"
+
+msgctxt "#31896"
+msgid "Full Screen"
+msgstr "Plein écran"
+
+msgctxt "#31897"
+msgid "ShowSubtitles"
+msgstr "Afficher les sous-titres"
+
+msgctxt "#31898"
+msgid "Fast Forward"
+msgstr "Avance rapide"
+
+msgctxt "#31899"
+msgid "Audio Next Language"
+msgstr "Langage audio suivant"
+
+msgctxt "#31900"
+msgid "Scrub Video"
+msgstr "Balayer la vidéo"
+
+msgctxt "#31900"
+msgid "Scrub Video"
+msgstr "Balayer la vidéo"
+
+msgctxt "#31610"
+msgid "Backspace"
+msgstr "Retour arrière"
+
+msgctxt "#31611"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "#31612"
+msgid "Cursor Left"
+msgstr "Curseur gauche"
+
+msgctxt "#31613"
+msgid "Shift"
+msgstr "Maj."
+
+msgctxt "#31614"
+msgid "Space"
+msgstr "Espace"
+
+msgctxt "#31615"
+msgid "Enter"
+msgstr "Entrée"
+
+msgctxt "#31616"
+msgid "Cursor Right"
+msgstr "Curseur droit"
+
+msgctxt "#31617"
+msgid "Symbols"
+msgstr "Symboles"
+
+msgctxt "#31618"
+msgid "Preset List"
+msgstr "Liste des preset"
+
+msgctxt "#31619"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "#31620"
+msgid "Skip"
+msgstr "Passer"
+
+msgctxt "#31621"
+msgid "Zoom Normal"
+msgstr "Zoom normal"
+
+msgctxt "#31624"
+msgid "Zoom Out"
+msgstr "Zoom arrière"
+
+msgctxt "#31625"
+msgid "Zoom In"
+msgstr "Zoom avant"
+
+msgctxt "#31626"
+msgid "Rotate"
+msgstr "Rotation"
+
+msgctxt "#31627"
+msgid "Navigate/Zoom"
+msgstr "Naviguer/ zoomer"
+
+#END Alienware skin
+
+msgctxt "#31901"
+msgid "36 Hour Forecast"
+msgstr "Prévisions sur 36 heures"
+
+msgctxt "#31902"
+msgid "Hourly Forecast"
+msgstr "Prévisions heure par heure"
+
+msgctxt "#31903"
+msgid "Weekend Forecast"
+msgstr "Prévisions pour le weekend"
+
+msgctxt "#31904"
+msgid "10 Day Forecast"
+msgstr "Prévisions sur 10 jours"
+
+msgctxt "#31905"
+msgid "Forecast"
+msgstr "Prévisions"
+
+msgctxt "#31908"
+msgid "Chance of Precipitation"
+msgstr "Risque de pluie"
+
+msgctxt "#31909"
+msgid "Fetching forecast info..."
+msgstr "Récupération des prévisions météo…"
+
+msgctxt "#31910"
+msgid "Map & Alerts"
+msgstr "Carte & alertes"
+
+msgctxt "#31950"
+msgid "WEATHER"
+msgstr "MÉTÉO"
+
+msgctxt "#31951"
+msgid "PICTURES"
+msgstr "IMAGES"
+
+msgctxt "#31952"
+msgid "TV"
+msgstr "TV"
+
+msgctxt "#31953"
+msgid "VIDEOS"
+msgstr "VIDÉOS"
+
+msgctxt "#31954"
+msgid "MOVIES"
+msgstr "FILMS"
+
+msgctxt "#31955"
+msgid "TV SHOWS"
+msgstr "SÉRIES TV"
+
+msgctxt "#31956"
+msgid "MUSIC"
+msgstr "MUSIQUE"
+
+msgctxt "#31957"
+msgid "PROGRAMS"
+msgstr "PROGRAMMES"
+
+msgctxt "#31958"
+msgid "PLAY DISC"
+msgstr "LIRE LE DISQUE"
+
+msgctxt "#31959"
+msgid "SYSTEM"
+msgstr "SYSTÈME"
+
+msgctxt "#31960"
+msgid "RADIO"
+msgstr "RADIO"
+
+msgctxt "#31961"
+msgid "Launch Console Keyboard"
+msgstr "Lancer le clavier de la console"
+
+msgctxt "#31962"
+msgid "Pressing  LT+LB+RT+RB on the controller plus the Share button will open and close On Screen Keyboard."
+msgstr "Pour ouvrir et fermer le clavier virtuel, appuyez simultanément sur la combinaison de touches LT+LB+RT+RB sur le contrôleur et sur le bouton Share."
+
+msgctxt "#31963"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the PS button will launch the System Menu."
+msgstr "Pour lancer le menu Système, appuyez simultanément sur la combinaison de touches L1+R1+L2+R2 sur le contrôleur et sur le bouton PS."
+
+msgctxt "#31964"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "Appuyer simultanément sur la combinaison de raccourcis clavier et sur la touche L3 permet d'activer le pilote de la souris. Appuyer à nouveau sur la combinaison de raccourcis clavier permet de le désactiver."
+
+msgctxt "#31965"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "Pour basculer d'une partie de la fenêtre à l'autre, utilisez Dpad Gauche ou Dpad Droite. Cette fonction est également accessible via le clavier, par les combinaisons de touches Alt+Tab (basculer vers la droite) et Maj+Alt+Tab (basculer vers la gauche)"
+
+msgctxt "#31966"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "Ce raccourci clavier tente d'afficher l'application actuellement utilisée en mode plein écran. Vous pouvez également utiliser la combinaison de touches Alt+Entrée et la touche F11 sur un clavier pour effectuer cette opération. Toutes les applications ne répondent pas à ce raccourci clavier."
+
+msgctxt "#31967"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "Ce raccourci clavier tente de fermer l'application actuellement utilisée. Vous pouvez également utiliser les combinaisons de touches Alt+F4 et Alt+Q sur un clavier pour effectuer cette opération. Toutes les applications ne répondent pas à ce raccourci clavier."
+
+msgctxt "#31968"
+msgid "Pressing L1+R1+L2+R2 on the controller plus the Option button will enable/disable the hotkeys."
+msgstr "Appuyer simultanément sur la combinaison de touches L1+R1+L2+R2 sur le contrôleur et sur le bouton Option permet d'activer et de désactiver les raccourcis clavier."
+
+msgctxt "#31969"
+msgid "Pressing  L1+R1+L2+R2 on the controller plus the Share button will open and close On Screen Keyboard."
+msgstr "Appuyer simultanément sur la combinaison de touches L1+R1+L2+R2 sur le contrôleur et sur le bouton Share permet d'ouvrir et de fermer le clavier virtuel."
+
+msgctxt "#31970"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Steam button will launch the System Menu."
+msgstr "Appuyer simultanément sur la combinaison de touches LT+RB+LB+RB sur le contrôleur et sur le bouton Steam permet de lancer le menu Système."
+
+msgctxt "#31971"
+msgid "Hotkey Combination plus L3 pressed down, turns on the mouse driver. Pressing the Hotkey Combination again turns off the driver."
+msgstr "Appuyer simultanément sur la combinaison de raccourcis clavier et sur la touche L3 permet d'activer le pilote de la souris. Appuyer à nouveau sur la combinaison de raccourcis clavier permet de le désactiver."
+
+msgctxt "#31972"
+msgid "Shift window focus using Dpad Left or Dpad Right. This function can also be accessed via keyboard with Alt+Tab (Shift Right) Shift+Alt+Tab (Shift Left)"
+msgstr "Pour basculer d'une partie de la fenêtre à l'autre, utilisez Dpad Gauche ou Dpad Droite. Cette fonction est également accessible via le clavier, par les combinaisons de touches Alt+Tab (basculer vers la droite) et Maj+Alt+Tab (basculer vers la gauche)"
+
+msgctxt "#31973"
+msgid "This hotkey will attempt to show the application you are currently using in Full Screen. It is the same as Alt+Enter and F11 on a keyboard. Not all applications will respond to this hotkey."
+msgstr "Ce raccourci clavier tente d'afficher l'application actuellement utilisée en mode plein écran. Vous pouvez également utiliser la combinaison de touches Alt+Entrée et la touche F11 sur un clavier pour effectuer cette opération. Toutes les applications ne répondent pas à ce raccourci clavier."
+
+msgctxt "#31974"
+msgid "This hotkey will attempt to close the application you are currently using. It is the same as Alt+F4 and Alt+Q on a keyboard. Not all applications will respond to this hotkey."
+msgstr "Ce raccourci clavier tente de fermer l'application actuellement utilisée. Vous pouvez également utiliser les combinaisons de touches Alt+F4 et Alt+Q sur un clavier pour effectuer cette opération. Toutes les applications ne répondent pas à ce raccourci clavier."
+
+msgctxt "#31975"
+msgid "Pressing LT+RB+LB+RB on the controller plus the Start button will enable/disable the hotkeys."
+msgstr "Appuyer simultanément sur la combinaison de touches LT+RB+LB+RB sur le contrôleur et sur le bouton Démarrer permet d'activer et de désactiver les raccourcis clavier."
+
+msgctxt "#31976"
+msgid "Pressing  LT+RB+LB+RB on the controller plus the back button will open and close On Screen Keyboard."
+msgstr "Appuyer simultanément sur la combinaison de touches LT+RB+LB+RB sur le contrôleur et sur le bouton Précédent permet d'ouvrir et de fermer le clavier virtuel."
+
+msgctxt "#31977"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "#31978"
+msgid "Controller Layout for On Screen Keyboard (OSK)"
+msgstr "Disposition du contrôleur pour clavier virtuel (OSK)"
+
+msgctxt "#31979"
+msgid "Controller Layout for Browser"
+msgstr "Disposition du contrôleur pour navigateur"
+
+msgctxt "#31980"
+msgid "Left Click"
+msgstr "Clic gauche"
+
+msgctxt "#31981"
+msgid "Right Click"
+msgstr "Clic droit"
+
+msgctxt "#31982"
+msgid "Go to left tab in browser"
+msgstr "Accéder à l'onglet gauche dans le navigateur"
+
+msgctxt "#31983"
+msgid "Go to right tab in browser"
+msgstr "Accéder à l'onglet droit dans le navigateur"
+
+msgctxt "#31984"
+msgid "New Tab"
+msgstr "Nouvel onglet"
+
+msgctxt "#31985"
+msgid "Shift + Tab"
+msgstr "Maj + Tab"
+
+msgctxt "#31986"
+msgid "Tab"
+msgstr "Tab"
+
+msgctxt "#31987"
+msgid "Dpad Up/Down = Zoom in/out[CR]Dpad Left = Website Back[CR]Dpad Right = Website Forward"
+msgstr "Dpad Haut/Bas = Zoom avant/arrière[CR]Dpad Gauche = Revenir au sein du site Web[CR]Dpad Droite = Avancer au sein du site Web"
+
+msgctxt "#31988"
+msgid "Controller Mouse will be disabled when On-Screen Keyboard (OSK) is ON and when OSK is OFF, Controller Mouse will restore its previous state."
+msgstr "La souris du contrôleur est désactivée lorsque le clavier virtuel (OSK) est sur ON et réactivée à son état précédent lorsque le clavier virtuel est sur OFF."
+
+msgctxt "#31989"
+msgid "How to customize your home menu."
+msgstr "Personnalisation de votre menu d'accueil."
+
+msgctxt "#31990"
+msgid "How to install additional repositories."
+msgstr "Installation de référentiels supplémentaires."
+
+msgctxt "#31991"
+msgid "File"
+msgstr "Fichier"
+
+msgctxt "#31992"
+msgid "Tab/Scroll Website"
+msgstr "Faire défiler le site Web avec la souris ou la touche Tab"
+
