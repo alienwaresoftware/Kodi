@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.helix.Alienware.development" name="Alienware Helix Development Repo" version="1.1" provider-name="Alienware">
+<addon id="repository.helix.Alienware.development" name="Alienware Helix Development Repo" version="1.1.1" provider-name="Alienware">
         <extension point="xbmc.addon.repository" name="Alienware's Helix Development Addons">
                 <info compressed="false">http://raw.github.com/alienwaresoftware/Kodi/master/Development/addons.xml</info>
                 <checksum>http://raw.github.com/alienwaresoftware/Kodi/master/Development/addons.xml.md5</checksum>
