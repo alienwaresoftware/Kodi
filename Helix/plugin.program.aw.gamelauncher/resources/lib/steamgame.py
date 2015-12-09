@@ -154,8 +154,8 @@ class SteamGame(object):
                         #try:
                         gameDict = parse_acf(filePath)
 
-                        if (gameDict['appstate']['bytestodownload'] != '0' and gameDict['appstate']['bytestodownload'] == gameDict['appstate']['bytesdownloaded']):
-
+                        #if (gameDict['appstate']['bytestodownload'] != '0' and gameDict['appstate']['bytestodownload'] == gameDict['appstate']['bytesdownloaded']):
+                        if(True):
                             orgGame = None
                             gameId = gameDict['appstate']['appid']
                             for game in orgGames:

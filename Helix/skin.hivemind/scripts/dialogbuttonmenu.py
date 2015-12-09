@@ -1,5 +1,6 @@
-import xbmc
+﻿import xbmc
 import xbmcgui
+import os;
 
 def setWindowSetting(key, value):
     win = xbmcgui.Window(10111)
@@ -16,3 +17,9 @@ try:
             setWindowSetting("IsAlphaConsoleAcount","False")     
 except:
     setWindowSetting("IsAlphaConsoleAcount","False")  
+
+try:
+  if os.environ.get( "USERNAME" ) == "Alpha Console":
+      setWindowSetting("IsAlphaConsoleAcount","True")
+except:
+  pass;

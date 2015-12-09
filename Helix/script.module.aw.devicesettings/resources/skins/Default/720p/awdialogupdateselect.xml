@@ -16,6 +16,7 @@
         <top>0</top>
         <width>610</width>
         <height>630</height>
+        <textcolor>white</textcolor>
         <texture border="40">alienware/DialogBack.png</texture>
         <visible>![Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)]</visible>
       </control>
@@ -25,6 +26,7 @@
         <top>0</top>
         <width>610</width>
         <height>630</height>
+        <textcolor>white</textcolor>
         <texture border="40">alienware/DialogBack2.png</texture>
         <visible>Window.IsVisible(FullscreenVideo) | Window.IsVisible(Visualisation)</visible>
       </control>
@@ -34,6 +36,7 @@
         <top>16</top>
         <width>530</width>
         <height>40</height>
+        <textcolor>white</textcolor>
         <texture>alienware/dialogheader.png</texture>
       </control>
       <control type="label" id="101">
@@ -43,9 +46,10 @@
         <width>530</width>
         <height>30</height>
         <font>font13_title</font>
+        <textcolor>white</textcolor>
         <align>center</align>
         <aligny>center</aligny>
-        <textcolor>selected</textcolor>
+        <!--<textcolor>selected</textcolor>-->
         <shadowcolor>black</shadowcolor>
       </control>
     </control>
@@ -62,6 +66,7 @@
       <texturenofocus>alienware/DialogCloseButton.png</texturenofocus>
       <onleft>10</onleft>
       <onright>10</onright>
+      <textcolor>white</textcolor>
       <onup>10</onup>
       <ondown>10</ondown>
       <visible>system.getbool(input.enablemouse)</visible>
@@ -87,6 +92,7 @@
           <height>40</height>
           <onup>107</onup>
           <ondown>105</ondown>
+          <textcolor>white</textcolor>
           <align>center</align>
           <aligny>center</aligny>
           <texturenofocus border="5">alienware/button-nofocus.png</texturenofocus>
@@ -118,8 +124,10 @@
           <font>font13_title</font>
           <align>center</align>
           <aligny>center</aligny>
-          <textcolor>selected</textcolor>
-          <shadowcolor>black</shadowcolor>
+          <!--<textcolor>selected</textcolor>-->
+          <textcolor>white</textcolor>
+          <!--<shadowcolor>black</shadowcolor>-->
+          <shadowcolor>white</shadowcolor>
           <scroll>true</scroll>
           <label>$ADDON[script.module.aw.devicesettings 33069]</label>
         </control>
