@@ -47,7 +47,7 @@ if (__name__ == "__main__"):
 
         steamExePath = getSteamExePath();                    
 
-        result = AlphaUIUtils.LaunchApplication(unicode(steamExePath), unicode(os.path.dirname(steamExePath)),unicode("steam://open/bigpicture"), True, False, False)
+        result = AlphaUIUtils.LaunchApplication(unicode(steamExePath), unicode(os.path.dirname(steamExePath)),unicode("steam -tenfoot -steamos"), True, False, False)
 
         if not result:
             customizationAddon = xbmcaddon.Addon(id='service.aw.customizations')
